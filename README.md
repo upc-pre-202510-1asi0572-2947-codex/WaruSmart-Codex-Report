@@ -1,3 +1,8 @@
+<tr>
+  <div align='center'>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"width="150" height="150">
+    </div>
+</tr>
 # WaruSmart-Codex-Report
 Report of WaruSmart from startup Codex, we are giving information about all lifecycle of this solution. Educational prupouse only.
 
