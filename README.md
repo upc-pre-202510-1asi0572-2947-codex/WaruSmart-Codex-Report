@@ -12,7 +12,7 @@ Report of WaruSmart from startup Codex, we are giving information about all life
 
 <h5 style="text-align: center"> Ingeniería de Software </h5>
 
-<h5 style="text-align: center"> Desarrollo de Soluciones IOT - Codigo del curso </h5>
+<h5 style="text-align: center"> Desarrollo de Soluciones IOT - 1ASI0572 </h5>
 
 <h5 style="text-align: center"> NRC: 2947 </h5>
 
