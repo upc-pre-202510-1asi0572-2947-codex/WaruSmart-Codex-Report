@@ -1,16 +1,14 @@
-<tr>
-  <div align='center'>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"width="150" height="150">
-    </div>
-</tr>
 # WaruSmart-Codex-Report
 Report of WaruSmart from startup Codex, we are giving information about all lifecycle of this solution. Educational prupouse only.
 
 <h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
-<h5 style="text-align: center;"> AGREGAR IMAGEN DEL LOGO DE LA UPC </h5>
-
+<tr>
+  <div align='left'>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"width="150" height="150">
+    </div>
+</tr>
 
 <h5 style="text-align: center"> Ingeniería de Software </h5>
 
