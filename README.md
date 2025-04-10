@@ -24,7 +24,7 @@ Report of WaruSmart from startup Codex, we are giving information about all life
 |:-------:|:----------:|
 |------|----|
 |More Rondon, Christopher Sebastian|U202212199|
-|------|----|
+|Velasquez Pizarro, Jair|U202218114|
 
 <h5 style="text-align: center"> Ciclo 2025-01 </h5>
 
