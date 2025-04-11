@@ -5,7 +5,7 @@ Report of WaruSmart from startup Codex, we are giving information about all life
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <tr>
-  <div align='left'>
+  <div align='center'>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"width="150" height="150">
     </div>
 </tr>
