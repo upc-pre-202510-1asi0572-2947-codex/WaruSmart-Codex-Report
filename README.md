@@ -113,6 +113,23 @@ OPORTUNIDADES Y AMENAZAS DE LA COMPETENCIA: Para
 
 ### 2.2 **Entrevistas**
 ####     2.2.1   Diseño de entrevistas.
+A continuacion se mostrara las preguntas que se le realizaron a los entrevistados en busca de obtener la mejor informacion posible para nuestra solucion
+
+<h4>PREGUNTAS GENERALES:</h4>
+<p>1. Presentese con su nombre, lugar de residencia y edad </p>
+<p>2. ¿Suele hacer uso de la tecnología en el día a día? </p>
+<p>3. ¿Tiene dificultades al usar aparatos digitales?</p>
+
+<h4>PREGUNTAS PARA AGRICULTORES INDIVIDUALES:</h4>
+<p>4.¿De que manera lleva el registros de los riegos a sus cultivos?</p>
+<p>5.¿En alguna ocasion ha tenido problemas con el registro del riego a sus cultivos?. Si es asi, ¿que suele hacer en esas situaciones?</p>
+<p>6.¿Alguna vez ha experimentado problemas para regar sus plantaciones?. Si es asi, ¿que suele hacer en esas situaciones?</p>
+<p>7.¿Estaria interesado en un sistema que le ayude en el riego de las plantas? ¿Por qué?</p>
+<p>8.¿Cree que esta clase de herramientas podrían facilitar el trabajo a otros trabajadores?</p>
+
+<h4>PREGUNTAS PARA ONGS O ENTIDADES PUBLICAS:</h4>
+<p>4. </p>
+
 ####     2.2.2   Registro de entrevistas.
 ####     2.2.3   Análisis de entrevistas.
 ### 2.3 **Needfinding.**
