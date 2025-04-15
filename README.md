@@ -83,7 +83,34 @@ para cada integrante del equipo:
 ## Capítulo II: Requirements Elicitation & Analysis.
 ### 2.1 **Competidores.**
 ####     2.1.1   Análisis competitivo.
+
+| |WaruSmart|Agrobit|Netafirm|Irritec|
+|------|----|------|----|------|
+|PERFIL|||||
+|Overview|---|---|---|---|
+|Ventaja competitiva ¿Qué valor ofrece a los clientes?|---|---|---|---|
+|PERFIL DE MARKETING|||||
+|M4ercado Objetivo|---|---|---|---|
+|Estrategias de Marketing|---|---|---|---|
+|PERFIL DE PRODUCTO|||||
+|Productos & Servicios|---|---|---|---|
+|Precios & Costos|---|---|---|---|
+|Canales de distribución (Web y/o Móvil)|---|---|---|---|
+|ANALISIS SWOT|||||
+|Fortalezas|---|---|---|---|
+|Debilidades|---|---|---|---|
+|Oportunidades|---|---|---|---|
+|Amenazas|---|---|---|---|
+
+
 ####     2.1.2   Estrategias y tácticas frente a competidores.
+
+AFRONTAR LAS FORTALEZAS: Para
+
+APROVECHAR LAS DEBILIDADES: Para
+
+OPORTUNIDADES Y AMENAZAS DE LA COMPETENCIA: Para
+
 ### 2.2 **Entrevistas**
 ####     2.2.1   Diseño de entrevistas.
 ####     2.2.2   Registro de entrevistas.
