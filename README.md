@@ -274,14 +274,22 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 <p>3. ¿Tiene dificultades al usar aparatos digitales?</p>
 
 <h4>PREGUNTAS PARA AGRICULTORES INDIVIDUALES:</h4>
-<p>4.¿De que manera lleva el registros de los riegos a sus cultivos?</p>
-<p>5.¿En alguna ocasion ha tenido problemas con el registro del riego a sus cultivos?. Si es asi, ¿que suele hacer en esas situaciones?</p>
-<p>6.¿Alguna vez ha experimentado problemas para regar sus plantaciones?. Si es asi, ¿que suele hacer en esas situaciones?</p>
-<p>7.¿Estaria interesado en un sistema que le ayude en el riego de las plantas? ¿Por qué?</p>
-<p>8.¿Cree que esta clase de herramientas podrían facilitar el trabajo a otros trabajadores?</p>
+<p>4. ¿De que manera lleva el registros de los riegos a sus cultivos?</p>
+<p>5. ¿Que datos considera mas relevantes para el cuidado de sus cultivo?</p>
+<p>6. ¿En alguna ocasion ha tenido problemas con el registro del riego a sus cultivos?. Si es asi, ¿le ha provocado perdidas economica o de tiempo?</p>
+<p>7. ¿Alguna vez ha experimentado problemas para regar sus plantaciones?. Si es asi, ¿que suele hacer en esas situaciones?</p>
+<p>8. (Comentar la propuesta) ¿Estaria interesado en este sistema para ayudarle con el riego? ¿Por qué?</p>
+<p>9. ¿Cuanto estaria dispuesto a pagar por el servicio?</p>
+<p>10. ¿Cree que esta clase de herramientas podrían facilitar el trabajo a otros agricultores?</p>
 
-<h4>PREGUNTAS PARA ONGS O ENTIDADES PUBLICAS:</h4>
-<p>4. </p>
+<h4>PREGUNTAS PARA MIEMBROS DE COOPERATIVAS AGRARIAS:</h4>
+<p>4. ¿Como registran las necesidades de los cultivos de la cooperativa?</p>
+<p>5. ¿Los miembros suelen tener problemas para la gestion de sus cultivos?</p>
+<p>6. ¿De que manera se organizan para conseguir los materiales necesarios con los que cuidar los cultivos?</p>
+<p>7. ¿Han tenido perdidas por las dificultades de organizar tantos cultivos?</p>
+<p>8. ¿Suelen usar herramientas para facilitar el cuidado de cultivos?. Si es asi, ¿cuales?</p>
+<p>9. (Comentar la propuesta) ¿Cree que este sistema ayudaria a facilitar su trabajo?</p>
+<p>10. ¿Cuanto estarian dispuestos a pagar por el sistema?</p>
 
 #### 2.2.2   Registro de entrevistas.
 
