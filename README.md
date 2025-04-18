@@ -27,7 +27,7 @@ Report of WaruSmart from startup Codex, we are giving information about all life
 
 |               Nombre               |  Código  |
 | :--------------------------------: | :--------: |
-|               ------               |    ----    |
+|  Anderson Walter Macedo Calsina  | U20201C179  |
 |  Cabrera Camizan, Jeferson Smith  | U20211C211 |
 | More Rondon, Christopher Sebastian | U202212199 |
 |  Quispe Condori, Fernando Daniel  | U20221C628 |
@@ -79,7 +79,7 @@ WaruSmart es una startup peruana creada por estudiantes de la Universidad Peruan
 | Perfil                                                                                                                   | Foto |
 | ------------------------------------------------------------------------------------------------------------------------ | ---- |
 | Nombre: Fernando Daniel Quispe Condori<br />Carrera: Ingeniería de Software<br />Código: U20221C628<br />Descripción: |      |
-| Nombre:Carrera:<br />Código: Descripción:                                                                              |      |
+| Nombre: Anderson Walter Macedo Calsina<br />Carrera: Ingeniería de Software<br />Código: U20201C179<br />Descripción: Soy Anderson Walter Macedo Calsina, tengo 22 años y actualmente estoy estudiando Ingeniería de Software en la UPC. Me gusta colaborar con mis compañeros y contribuir en proyectos conjuntos. Estoy dispuesto a contribuir a mi equipo en el desarrollo del proyecto con los conocimientos que he ido adquiriendo. |      |
 | Nombre:Carrera:<br />Código: Descripción:                                                                              |      |
 | Nombre:Carrera:<br />Código: Descripción:                                                                              |      |
 | Nombre:Carrera:<br />Código: Descripción:                                                                              |      |
