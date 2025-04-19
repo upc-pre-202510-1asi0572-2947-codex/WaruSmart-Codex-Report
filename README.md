@@ -239,20 +239,20 @@ A continuación se presenta el Lean UX Canvas realizado para la problemática:
 |                                                         | WaruSmart | Agrobit | Netafirm | Irritec |
 | ------------------------------------------------------- | --------- | ------- | -------- | ------- |
 | PERFIL                                                  |           |         |          |         |
-| Overview                                                | ---       | ---     | ---      | ---     |
-| Ventaja competitiva ¿Qué valor ofrece a los clientes? | ---       | ---     | ---      | ---     |
+| Overview                                                | Solución digital peruana enfocada en la gestión eficiente del riego para agricultores individuales y cooperativas agrarias.	| ---	| ---	| --- |
+| Ventaja competitiva ¿Qué valor ofrece a los clientes? | Solución accesible y adaptada a pequeños y medianos agricultores peruanos, con enfoque en facilidad de uso. | ---     | ---      | ---     |
 | PERFIL DE MARKETING                                     |           |         |          |         |
-| M4ercado Objetivo                                       | ---       | ---     | ---      | ---     |
-| Estrategias de Marketing                                | ---       | ---     | ---      | ---     |
+| M4ercado Objetivo                                       | Agricultores individuales y cooperativas agrarias en Perú.	| ---     | ---      | ---     |
+| Estrategias de Marketing                                | Implementación de pilotos gratuitos en parcelas de agricultores locales (modelo freemium) para demostrar los beneficios del sistema. Los casos de éxito se usarán como referencia en nuevas campañas. | ---     | ---      | ---     |
 | PERFIL DE PRODUCTO                                      |           |         |          |         |
-| Productos & Servicios                                   | ---       | ---     | ---      | ---     |
-| Precios & Costos                                        | ---       | ---     | ---      | ---     |
-| Canales de distribución (Web y/o Móvil)               | ---       | ---     | ---      | ---     |
+| Productos & Servicios                                   | Kits IoT para riego, plataforma web y móvil para monitoreo y control, alertas y análisis de datos.	| ---     | ---      | ---     |
+| Precios & Costos                                        | Modelo de suscripción escalonado con kits IoT accesibles para pequeños y medianos agricultores. | ---     | ---      | ---     |
+| Canales de distribución (Web y/o Móvil)               | Plataforma web y aplicación móvil para Android e iOS.	| ---     | ---      | ---     |
 | ANALISIS SWOT                                           |           |         |          |         |
-| Fortalezas                                              | ---       | ---     | ---      | ---     |
-| Debilidades                                             | ---       | ---     | ---      | ---     |
-| Oportunidades                                           | ---       | ---     | ---      | ---     |
-| Amenazas                                                | ---       | ---     | ---      | ---     |
+| Fortalezas                                              | Adaptación al contexto local, facilidad de uso, soporte técnico cercano.	| ---     | ---      | ---     |
+| Debilidades                                             | Limitada experiencia en el mercado, recursos limitados para expansión.	| ---     | ---      | ---     |
+| Oportunidades                                           | Creciente demanda de soluciones tecnológicas en la agricultura peruana, apoyo gubernamental. | ---     | ---      | ---     |
+| Amenazas                                                | Competencia de grandes empresas, resistencia al cambio por parte de agricultores tradicionales.	| ---     | ---      | ---     |
 
 #### 2.1.2   Estrategias y tácticas frente a competidores.
 
