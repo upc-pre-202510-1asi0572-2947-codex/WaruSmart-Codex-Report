@@ -80,7 +80,7 @@ WaruSmart es una startup peruana creada por estudiantes de la Universidad Peruan
 | ------------------------------------------------------------------------------------------------------------------------ | ---- |
 | Nombre: Fernando Daniel Quispe Condori<br />Carrera: Ingeniería de Software<br />Código: U20221C628<br />Descripción: |      |
 | Nombre: Anderson Walter Macedo Calsina<br />Carrera: Ingeniería de Software<br />Código: U20201C179<br />Descripción: Soy Anderson Walter Macedo Calsina, tengo 22 años y actualmente estoy estudiando Ingeniería de Software en la UPC. Me gusta colaborar con mis compañeros y contribuir en proyectos conjuntos. Estoy dispuesto a contribuir a mi equipo en el desarrollo del proyecto con los conocimientos que he ido adquiriendo. |      |
-| Nombre:Carrera:<br />Código: Descripción:                                                                              |      |
+| Nombre: Christopher Sebastian More Rondon<br />Carrera Ingeniería de Software:<br />Código: U202212199<br />Descripción: Soy estudiante del septimo ciclo de Ingenieria de Software, actualmente tengo 20 años. Soy un estudiante que colabora constantemente en el desarrollo de los projectos, asi como dar soluciones creativas a los problemas que surgan durante la creacion de estos. Siempre me esfuerzo por entregar un buen trabajo. |      |
 | Nombre:Carrera:<br />Código: Descripción:                                                                              |      |
 | Nombre:Carrera:<br />Código: Descripción:                                                                              |      |
 | Nombre:Carrera:<br />Código: Descripción:                                                                              |      |
@@ -299,13 +299,64 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 
 #### 2.3.1   User Personas.
 
+**SEGMENTO AGRICULTORES:**
+<div></div>
+<img src="Assets/needfinding/user_persona_1.png">
+
+**SEGMENTO COOPERATIVAS:**
+<div></div>
+<img src="Assets/needfinding/user_persona_2.png">
+
 #### 2.3.2   User Task Matrix.
+
+| Tareas                                                         | Agricultores Importancia | Agricultores Frecuencia | Cooperativas Importancia | Cooperativas Frecuencia |
+|----------------------------------------------------------------|:------------------------:|:-----------------------:|:------------------------:|:-----------------------:|
+| Realizar el riego de los cultivos                              |           Alta           | Alta                    | Alta                     | Alta                    |
+| Escuchar o indagar recomendaciones                             |           Alta           | Media                   | Alta                     | Media                   |
+| Verificar humedad del cultivo                                  |           Alta           | Media                   | Alta                     | Alta                    |
+| Conocimiento de problemas en los cultivos                      |           Alta           | Alta                    | Alta                     | Alta                    |
+| Determinar etapa del desarrollo del cultivo                    |           Alta           | Alta                    | Media                    | Media                   |
+| Revisión de calidad en la cosecha                              |           Alta           | Media                   | Alta                     | Alta                    |
+| Revisar el registro de los cultivos                            |           Alta           | Alta                    | Media                    | Media                   |
 
 #### 2.3.3   User Journey Mapping.
 
+**SEGMENTO AGRICULTORES:**
+<div></div>
+<img src="Assets/needfinding/journey_map_1.png">
+
+**SEGMENTO COOPERATIVAS:**
+<div></div>
+<img src="Assets/needfinding/journey_map_2.png">
+
 #### 2.3.4   Empathy Mapping.
 
-#### 2.3.5   Ubiquitous Language.
+**SEGMENTO AGRICULTORES:**
+<div></div>
+<img src="Assets/needfinding/empathy_map_1.png">
+
+**SEGMENTO COOPERATIVAS:**
+<div></div>
+<img src="Assets/needfinding/empathy_map_2.png">
+
+
+#### 2.3.5   As-Is Scenario Mapping.
+
+**SEGMENTO AGRICULTORES:**
+
+|           | Monitoreo de cultivo     | Riego de cultivo       | Cosecha               | Control de calidad              |
+|-----------|:------------------------:|:----------------------:|:---------------------:|:-------------------------------:|
+| DOING     | Monitorea visualmente usando sus conocimientos | Riega a una hora determinada usando diversas tecnicas | Realiza la cosecha en la fecha determinada | Verifica los cultivos fallidos |
+| THINKING  | Se ven bien, espero no estar olvidando algun detalle | Espero no estar regando de más algun cultivo | La cosecha parece tener problemas | Mi margen de ganancias no sera demasiado grande |
+| FEELING   | Me preovupa estar ignorando algo | Me pone ansioso no saber con certeza si el riego es correcto | Me disgusta ver que varios cultivos no se encuentren bien | Me molesta no haber ganado más dinero con mi trabajo |
+
+**SEGMENTO COOPERATIVAS:**
+
+|           | ""     | ""       | ""               | ""              |
+|-----------|:------------------------:|:----------------------:|:---------------------:|:-------------------------------:|
+| DOING     |                     |                  |                |                           |
+| THINKING  |                     |                  |                |                           |
+| FEELING   |                     |                  |                |                           |
 
 ### 2.4 **Ubiquitous Language.**
 
