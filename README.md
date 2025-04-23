@@ -256,11 +256,22 @@ A continuación se presenta el Lean UX Canvas realizado para la problemática:
 
 #### 2.1.2   Estrategias y tácticas frente a competidores.
 
-AFRONTAR LAS FORTALEZAS: Para
+**AFRONTAR LAS FORTALEZAS (de la competencia):**  
+- *Diferenciación por enfoque local:* Mientras Netafim e Irritec operan a nivel global, WaruSmart puede destacarse por su conocimiento profundo del contexto agrícola peruano, ofreciendo soluciones adaptadas a las realidades locales.  
+- *Atención personalizada:* Brindar soporte técnico cercano y capacitaciones prácticas ayuda a compensar la experiencia tecnológica de competidores como Agrobit.  
 
-APROVECHAR LAS DEBILIDADES: Para
+**APROVECHAR LAS DEBILIDADES (de la competencia):**  
+- *Accesibilidad económica:* Frente a los altos costos de implementación de tecnologías avanzadas como las de Netafim e Irritec, WaruSmart puede posicionarse como una opción más asequible para pequeños y medianos agricultores.  
+- *Facilidad de uso:* La simplicidad en el diseño de la plataforma permite a WaruSmart destacarse frente a herramientas más complejas como las de Agrobit, facilitando la adopción en zonas rurales con menos experiencia tecnológica.  
 
-OPORTUNIDADES Y AMENAZAS DE LA COMPETENCIA: Para
+**OPORTUNIDADES Y AMENAZAS DE LA COMPETENCIA:**  
+- *Oportunidades:*  
+  - Establecer alianzas con cooperativas agrícolas y entidades gubernamentales para fortalecer su red de apoyo y validación.  
+  - Innovar continuamente en nuevas funcionalidades adaptadas al contexto peruano, como monitoreo offline, alertas por SMS, o integración con fuentes de datos locales (clima, suelos, etc.).  
+
+- *Amenazas:*  
+  - Entrada de nuevos competidores con soluciones tecnológicas más sofisticadas o con mayores recursos financieros.  
+  - Cambios en políticas gubernamentales que puedan afectar la inversión en innovación agrícola o restringir el uso de ciertas tecnologías.
 
 ### 2.2 **Entrevistas**
 
