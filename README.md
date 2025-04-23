@@ -359,15 +359,15 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 |-----------|:------------------------:|:----------------------:|:---------------------:|:-------------------------------:|
 | DOING     | Monitorea visualmente usando sus conocimientos | Riega a una hora determinada usando diversas tecnicas | Realiza la cosecha en la fecha determinada | Verifica los cultivos fallidos |
 | THINKING  | Se ven bien, espero no estar olvidando algun detalle | Espero no estar regando de más algun cultivo | La cosecha parece tener problemas | Mi margen de ganancias no sera demasiado grande |
-| FEELING   | Me preovupa estar ignorando algo | Me pone ansioso no saber con certeza si el riego es correcto | Me disgusta ver que varios cultivos no se encuentren bien | Me molesta no haber ganado más dinero con mi trabajo |
+| FEELING   | Me preocupa estar ignorando algo | Me pone ansioso no saber con certeza si el riego es correcto | Me disgusta ver que varios cultivos no se encuentren bien | Me molesta no haber ganado más dinero con mi trabajo |
 
 **SEGMENTO COOPERATIVAS:**
 
-|           | ""     | ""       | ""               | ""              |
-|-----------|:------------------------:|:----------------------:|:---------------------:|:-------------------------------:|
-| DOING     |                     |                  |                |                           |
-| THINKING  |                     |                  |                |                           |
-| FEELING   |                     |                  |                |                           |
+|           | División de gastos    | Riego de cultivos      | Cosecha               | Reparto de ganancias              |
+|-----------|:------------------------:|:----------------------:|:---------------------:|:---------------------------------:|
+| DOING     | Cada agricultor compra segun lo que creen que van a necesitar en sus cultivos | Riegan con diversas tecnicas a la hora calculada | Realiza la cosecha en la fecha determinada | Reparten las ganancias de la venta de sus productos |
+| THINKING  | Espero que hallamos calculado bien para no gastar demasiado dinero de más | Podremos regar los cultivos con las tecnicas que hemos aprendido | Parece que algunas cosechas tienen problemas | Al dividir no hemos ganado tanto dinero como esperaba |
+| FEELING   | Me preocupa no saber que tan bien hemos calculado lo que vamos a necesitar | Me genera duda saber si habrá una mejor manera de regar | Me disgusta ver cultivos con problemas | Me molesta ver que pudimos ganar más dinero con un mejor cuidado para la cosecha|
 
 ### 2.4 **Ubiquitous Language.**
 
