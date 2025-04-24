@@ -371,6 +371,28 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 
 ### 2.4 **Ubiquitous Language.**
 
+* **Irrigation System (Sistema de Riego)**: Conjunto de dispositivos y tecnologías que permiten distribuir agua a los cultivos de forma controlada y eficiente.
+
+* **Water Consumption (Consumo de Agua)**: Cantidad de agua utilizada en los procesos de riego de los cultivos, relacionada con el uso eficiente del recurso hídrico.
+
+* **Soil Moisture (Humedad del Suelo)**: Nivel de humedad presente en el suelo, fundamental para determinar el momento adecuado para regar.
+
+* **Smart Irrigation (Riego Inteligente)**: Técnica que emplea sensores y controladores automáticos para optimizar el uso del agua según condiciones específicas del suelo y clima.
+
+* **IoT Sensor (Sensor IoT)**: Dispositivo conectado que recopila datos como temperatura, humedad y otras variables ambientales en tiempo real para apoyar decisiones agrícolas.
+
+* **Climate Data (Datos Climáticos)**: Información sobre el estado del clima, como la temperatura o precipitaciones, utilizada para ajustar el riego según las condiciones ambientales.
+
+* **Water Efficiency (Eficiencia del Agua)**: Relación entre la cantidad de agua utilizada y los beneficios obtenidos en el cultivo; se busca maximizarla para evitar el desperdicio del recurso.
+
+* **Agricultural Cooperative (Cooperativa Agraria)**: Grupo de agricultores que se organiza para mejorar su producción, compartir recursos y facilitar la adopción de nuevas tecnologías.
+
+* **Irrigation Management (Gestión de Riego)**: Conjunto de decisiones y acciones que permiten planificar, monitorear y controlar el riego en los campos agrícolas para mejorar su eficiencia.
+
+* **Automated Control System (Sistema de Control Automatizado)**: Sistema que permite programar y controlar de manera automática el funcionamiento del riego, mejorando la precisión y reduciendo la intervención manual.
+
+* **Water Scarcity (Escasez de Agua)**: Situación en la que la disponibilidad de agua es insuficiente para satisfacer la demanda agrícola, afectando directamente la productividad.
+
 ## Capítulo III: Requirements Specification.
 
 ### 3.1 **To-Be Scenario Mapping.**
