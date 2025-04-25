@@ -664,9 +664,11 @@ Dado que</strong> que el agricultor tiene varias zonas de cultivo registradas
 
 ### 4.2.1. Bounded IAM Context
 
-El dominio de **Identity and Access Management (IAM)** define y gestiona las funciones relacionadas con la autenticación, autorización y control de acceso de los usuarios en la plataforma Warusmart. Este contexto permite registrar y administrar usuarios, asignar roles, establecer permisos y garantizar que las acciones dentro del sistema sean realizadas únicamente por entidades autorizadas. IAM asegura la integridad y la seguridad de la plataforma al implementar mecanismos robustos de acceso, controlando desde el inicio de sesión hasta la administración de políticas de seguridad.
+En este apartado se describe el diseño del bounded context correspondiente a **IAM (Identity and Access Management)**, que es una parte esencial del sistema Warusmart. Este contexto se encarga de todo lo relacionado con la gestión de identidades y accesos de los usuarios que interactúan con la plataforma.
 
-Este dominio también facilita la integración con servicios externos de autenticación y soporta múltiples niveles de acceso según el perfil del usuario, como administradores, agricultores, técnicos de riego, entre otros, permitiendo un acceso contextualizado y seguro a las funcionalidades de cada módulo de Warusmart.
+El bounded context (IAM) nos permite registrar y administrar usuarios, así como definir qué puede hacer cada uno dentro del sistema mediante roles y permisos. Gracias a este módulo, garantizamos que cada persona solo acceda a las funcionalidades que le corresponden, lo cual es fundamental para mantener la seguridad, la integridad de los datos y la correcta operación del sistema.
+
+Este contexto también facilita futuras integraciones con servicios externos de autenticación y maneja perfiles como administradores, técnicos y agricultores, quienes tienen diferentes niveles de acceso.
 
 ---
 
@@ -674,10 +676,12 @@ Este dominio también facilita la integración con servicios externos de autenti
 
 #### Clase: `User`
 
-| Nombre       | User |
-|--------------|------|
-| Relaciones   | Role, Session |
-| Descripción  | Representa a un usuario registrado con credenciales de acceso, datos personales y su rol asignado. |
+Esta clase representa a cada usuario que accede al sistema. Contiene sus credenciales y el rol que determina qué funcionalidades puede usar dentro de la plataforma.
+
+| Nombre     | User |
+|------------|------|
+| Relaciones | Role, Session |
+| Descripción | Representa a un usuario registrado con credenciales de acceso, datos personales y su rol asignado. |
 
 ##### Atributos
 
@@ -692,33 +696,36 @@ Este dominio también facilita la integración con servicios externos de autenti
 
 ##### Métodos
 
-- `getUserDetails()`
-- `updatePassword()`
-- `deactivateUser()`
-- `assignRole()`
+- `getUserDetails()` – Devuelve la información del usuario.
+- `updatePassword()` – Permite actualizar la contraseña.
+- `deactivateUser()` – Desactiva la cuenta de usuario.
+- `assignRole()` – Asigna un nuevo rol al usuario.
 
 ---
 
 #### Clase: `Role`
 
-| Nombre       | Role |
-|--------------|------|
-| Relaciones   | Permission |
-| Descripción  | Representa un rol del sistema con un conjunto de permisos asignados. |
+Esta clase define los distintos roles posibles dentro del sistema, como "Administrador" o "Agricultor", y contiene los permisos asociados a cada uno.
+
+| Nombre     | Role |
+|------------|------|
+| Relaciones | Permission |
+| Descripción | Representa un rol del sistema con un conjunto de permisos asignados. |
 
 ##### Atributos
 
-| Nombre       | Tipo de Dato        | Visibilidad |
-|--------------|---------------------|-------------|
-| Id           | int                 | private     |
-| Name         | string              | private     |
-| Permissions  | List<Permission>    | private     |
+| Nombre      | Tipo de Dato     | Visibilidad |
+|-------------|------------------|-------------|
+| Id          | int              | private     |
+| Name        | string           | private     |
+| Permissions | List<Permission> | private     |
 
 ##### Métodos
 
-- `addPermission()`
-- `removePermission()`
-- `getPermissions()`
+- `addPermission()` – Agrega un permiso al rol.
+- `removePermission()` – Elimina un permiso del rol.
+- `getPermissions()` – Devuelve la lista de permisos asociados.
+
 
 
 #### 4.2.1.1 Domain Layer
