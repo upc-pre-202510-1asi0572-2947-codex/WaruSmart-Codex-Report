@@ -662,9 +662,9 @@ Dado que</strong> que el agricultor tiene varias zonas de cultivo registradas
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.1. Bounded IAM Context
+### 4.2.1. Bounded Context: IAM (Identity and Access Management)
 
-En este apartado se describe el diseño del bounded context correspondiente a **IAM (Identity and Access Management)**, que es una parte esencial del sistema Warusmart. Este contexto se encarga de todo lo relacionado con la gestión de identidades y accesos de los usuarios que interactúan con la plataforma.
+En este apartado se describe el diseño del bounded context correspondiente al **IAM (Identity and Access Management)**, que es una parte esencial del sistema Warusmart. Este contexto se encarga de todo lo relacionado con la gestión de identidades y accesos de los usuarios que interactúan con la plataforma.
 
 El bounded context (IAM) nos permite registrar y administrar usuarios, así como definir qué puede hacer cada uno dentro del sistema mediante roles y permisos. Gracias a este módulo, garantizamos que cada persona solo acceda a las funcionalidades que le corresponden, lo cual es fundamental para mantener la seguridad, la integridad de los datos y la correcta operación del sistema.
 
@@ -745,6 +745,94 @@ Esta clase define los distintos roles posibles dentro del sistema, como "Adminis
 ##### 4.2.1.6.2 Bounded Context Database Design Diagrams
 
 ### 4.2.2 Bounded Context: Subscriptions and Payments
+
+Este contexto está enfocado en la gestión de las **suscripciones** de los usuarios y todo lo relacionado con los **pagos** dentro de la plataforma Warusmart. Se encarga de controlar los planes de servicio que puede adquirir un usuario, el historial de pagos, los estados de cada suscripción y su vigencia.
+
+El dominio de Subscriptions and Payments permite actualizar los datos de pago, verificar si una cuenta tiene una suscripción activa y llevar un control claro sobre los niveles de servicio contratados. Este módulo es clave para garantizar el funcionamiento basado en modelos de negocio escalables y segmentados por características de los usuarios (por ejemplo, cuentas gratuitas, básicas o premium).
+
+También permite automatizar la renovación de suscripciones, cancelar servicios si se detectan pagos vencidos y dar seguimiento a las fechas de pago de manera transparente tanto para usuarios como para administradores.
+
+---
+
+### Diccionario de Clases
+
+#### Clase: `Subscription`
+
+Esta clase representa la suscripción activa de una cuenta. Guarda información como el tipo de plan, estado y fechas importantes.
+
+| Nombre     | Subscription |
+|------------|--------------|
+| Relaciones | SubscriptionTier, SubscriptionStatus |
+| Descripción | Representa una suscripción con detalles sobre el plan, el estado y la fecha de pago. |
+
+##### Atributos
+
+| Nombre             | Tipo de Dato         | Visibilidad |
+|--------------------|----------------------|-------------|
+| Id                 | int                  | private     |
+| Tier               | SubscriptionTier     | private     |
+| PaymentDate        | Date                 | private     |
+| SubscriptionStatus | SubscriptionStatus   | private     |
+| LastPaidPeriod     | Date                 | private     |
+
+##### Métodos
+
+- `getSubscriptionDetails()` – Devuelve la información actual de la suscripción.
+- `updatePaymentDate()` – Actualiza la fecha del último pago.
+- `changeTier()` – Cambia el tipo de plan (ej. de Básico a Premium).
+- `updateStatus()` – Actualiza el estado de la suscripción.
+- `cancelSubscription()` – Cancela la suscripción activa.
+
+---
+
+#### Clase: `SubscriptionTier`
+
+Define los distintos niveles de suscripción disponibles en la plataforma (por ejemplo: Básico, Avanzado, Premium).
+
+| Nombre     | SubscriptionTier |
+|------------|------------------|
+| Relaciones | - |
+| Descripción | Representa el plan al que está suscrito un usuario, con sus beneficios y costo asociados. |
+
+##### Atributos
+
+| Nombre   | Tipo de Dato | Visibilidad |
+|----------|--------------|-------------|
+| Id       | int          | private     |
+| Name     | string       | private     |
+| Price    | float        | private     |
+| Features | string[]     | private     |
+
+##### Métodos
+
+- `getTierDetails()` – Devuelve información del plan.
+- `updateFeatures()` – Actualiza la lista de beneficios incluidos.
+- `updatePrice()` – Modifica el precio del plan.
+
+---
+
+#### Clase: `SubscriptionStatus`
+
+Define los estados posibles de una suscripción (activa, suspendida, cancelada, vencida).
+
+| Nombre     | SubscriptionStatus |
+|------------|--------------------|
+| Relaciones | - |
+| Descripción | Indica el estado actual de una suscripción. Es usado para controlar el acceso a funcionalidades. |
+
+##### Atributos
+
+| Nombre   | Tipo de Dato | Visibilidad |
+|----------|--------------|-------------|
+| Id       | int          | private     |
+| Name     | string       | private     |
+
+##### Métodos
+
+- `isActive()` – Devuelve `true` si la suscripción está activa.
+- `markAsCancelled()` – Marca la suscripción como cancelada.
+- `markAsSuspended()` – Marca la suscripción como suspendida.
+
 
 #### 4.2.2.1 Domain Layer
 
