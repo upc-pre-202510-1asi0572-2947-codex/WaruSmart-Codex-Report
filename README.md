@@ -39,10 +39,19 @@ Report of WaruSmart from startup Codex, we are giving information about all life
 
 ### Registro de Informes
 
-| Versión | Fecha       | Autor                              | Descripción                                            | Estado     |
-| -------- | ----------- | ---------------------------------- | ------------------------------------------------------- | ---------- |
-| 1.0      | 10/04/2025  | More Rondon, Christopher Sebastian | Creación del documento de trabajo en formato markdown. | Completado |
-| 1.0      | 15/04/(2025 | Quispe Condori, Fernando Daniel    | Redacción del perfil de la solución y startup         | --         |
+| Versión | Fecha     | Autor(es)                                                                                      | Descripción de modificación                                                                 |
+|---------|-----------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| 0.1     | 04/04/25  | Anderson Walter Macedo Calsina                                                                 | Redacción del Perfil Inicial                                                               |
+| 0.2     | 06/04/25  | Cabrera Camizan, Jeferson Smith                                                                | Proceso Lean UX, Mapeo de Eventos, Recolección de Testimonios, Contextos Delimitados       |
+| 0.3     | 09/04/25  | More Rondon, Christopher Sebastian                                                              | Modelo C4, Encuesta Inicial                                                                |
+| 0.4     | 10/04/25  | Quispe Condori, Fernando Daniel                                                                 | Perfil de Startup, Perfil de Solución, Entrevistas, Mapeo de Impacto, Cartografía de Contexto |
+| 0.5     | 11/04/25  | Velasquez Pizarro, Jair                                                                         | Precisión del Context Mapping, Reconocimiento de Ámbitos Delimitados                      |
+| 0.6     | 12/04/25  | Pingus Rodriguez, Carlos Daniel                                                                 | Ajustes en el Impact Mapping, Primeros Casos de Uso                                        |
+| 0.7     | 14/04/25  | Herrera Castillo, Victor Raul                                                                   | Ajuste de Hipótesis UX, Preparación de Cuestionarios                                       |
+| 0.8     | 17/04/25  | Anderson Walter Macedo Calsina, More Rondon, Christopher Sebastian                              | Correcciones al Modelo C4, Creación de Perfiles de Usuario                                 |
+| 0.9     | 20/04/25  | Quispe Condori, Fernando Daniel, Velasquez Pizarro, Jair                                        | Escenario As-Is, Elaboración de Mapas de Empatía                                           |
+| 1.0     | 22/04/25  | Anderson Walter Macedo Calsina, Cabrera Camizan, Jeferson Smith, More Rondon, Christopher Sebastian, Quispe Condori, Fernando Daniel, Velasquez Pizarro, Jair, Pingus Rodriguez, Carlos Daniel, Herrera Castillo, Victor Raul | Versión final de TB1: Portada, Historial de Cambios, Introducción, Necesidades, Detalles Técnicos, Propuesta de Solución |
+
 
 ### Project Report Collaboration Insights
 
