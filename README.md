@@ -1,16 +1,11 @@
 # <div align="center">WaruSmart-Codex-Report</div>
 
 <div align="center">
-  <p>Report of WaruSmart from startup Codex, we are giving information about all lifecycle of this solution. Educational purpose only.</p>
-  
----
-
-  <h1>Informe del Trabajo Final</h1>
   <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150" height="150">
 
-  <h5>Ingeniería de Software</h5>
+  <h5>Ingeniería de Software - 7mo ciclo</h5>
   <h5>Desarrollo de Soluciones IOT - 1ASI0572</h5>
   <h5>NRC: 2947</h5>
   <h5>Docente: Angel Augusto Velasquez Nuñez</h5>
@@ -75,7 +70,8 @@ para cada integrante del equipo:
 | ---------- | ---------------- |
 | ---        | ---              |
 
-# Tabla de Contenidos
+# Contenido
+## Tabla de Contenidos
 ---
 ## Capítulo I: Introducción
 
@@ -134,15 +130,16 @@ para cada integrante del equipo:
     - [4.1.3.2 Context Level Diagrams](#4132-context-level-diagrams)
     - [4.1.3.3 Container Level Diagrams](#4133-container-level-diagrams)
     - [4.1.3.4 Deployment Diagrams](#4134-deployment-diagrams)
-- [4.2 Tactical-Level DDD: <Bounded Context Name>](#42-tactical-level-ddd)
-  - [4.2.1 Domain Layer](#421-domain-layer)
-  - [4.2.2 Interface Layer](#422-interface-layer)
-  - [4.2.3 Application Layer](#423-application-layer)
-  - [4.2.4 Infrastructure Layer](#424-infrastructure-layer)
-  - [4.2.5 Component Level Diagrams](#425-component-level-diagrams)
-  - [4.2.6 Code Level Diagrams](#426-code-level-diagrams)
-  - [4.2.7 Class Diagrams](#427-class-diagrams)
-  - [4.2.8 Database Design Diagram](#428-database-design-diagram)
+- [4.2 Tactical-Level DDD](#42-tactical-level-ddd)
+  - [4.2.1 Bounded Context: IAM](#)
+    - [4.2.1.1 Domain Layer](#421-domain-layer)
+    - [4.2.1.2 Interface Layer](#422-interface-layer)
+    - [4.2.1.3 Application Layer](#423-application-layer)
+    - [4.2.1.4 Infrastructure Layer](#424-infrastructure-layer)
+    - [4.2.1.5 Component Level Diagrams](#425-component-level-diagrams)
+    - [4.2.1.6 Code Level Diagrams](#426-code-level-diagrams)
+      - [4.2.1.6.1 Class Diagrams](#427-class-diagrams)
+      - [4.2.1.6.2 Database Design Diagram](#428-database-design-diagram)
 
 ---
 
@@ -220,15 +217,15 @@ para cada integrante del equipo:
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | ---                           | ---                    |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | ---                           | ---                    |
 
-## Capítulo I: Introducción.
+# Capítulo I: Introducción.
 
-### 1.1 **Startup Profile.**
+## 1.1 **Startup Profile.**
 
-#### 1.1.1   Descripción del startup
+### 1.1.1   Descripción del startup
 
 WaruSmart es una startup peruana creada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC) que desarrolla soluciones IoT para optimizar el riego en el sector agrícola mediante sensores de humedad, temperatura, clima, entre otros. Permitiendo a los agricultores gestionar el riego de forma automática o manual, visualizar datos en tiempo real a través de una app móvil y web, recibir alertas por condiciones críticas y acceder a un historial de datos por parcela, con un modelo de negocio basado en la venta de kits IoT y suscripciones para funciones avanzadas.
 
-#### 1.1.2   Perfiles de integrantes del equipo
+### 1.1.2   Perfiles de integrantes del equipo
 
 | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Foto                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -240,19 +237,19 @@ WaruSmart es una startup peruana creada por estudiantes de la Universidad Peruan
 | Nombre:Carrera:<br />Código: Descripción:                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                   |
 | Nombre:Victor Raul Herrera Castillo<br />Carrera: Ingeneria de Software<br />Código: U20201E188<br />Descripción: Soy un estudiante de la carrera de ingeniería de software, apasionado por la tecnología y sus oportunidades en el ámbito de la ciencia, me gusta leer y enseñar a otras personas los conocimientos que aprendí durante el desarrollo de mi carrera.|<a href="https://ibb.co/55MPLJC"><img src="https://res.cloudinary.com/djia8bsvr/image/upload/v1712333792/Name_pacjmt.jpg" alt="Foto-Victor" border="0"></a>|
 
-### 1.2 **Solution Profile.**
+## 1.2 **Solution Profile.**
 
-#### 1.2.1   Antecedentes y problemática
+### 1.2.1   Antecedentes y problemática
 
-###### Antecedentes
+##### Antecedentes
 
 En el contexto actual peruano, la agricultura enfrenta desafíos significativos debido al cambio climático, la escasez de agua y la necesidad de aumentar la productividad para satisfacer la creciente demanda de alimentos. Según la FAO, el sector agrícola consume aproximadamente el 70% del agua dulce disponible a nivel mundial, lo que resalta la importancia de optimizar el uso de este recurso. En Perú, donde la agricultura es una actividad económica clave, muchos agricultores aún dependen de métodos tradicionales de riego que no son eficientes y generan desperdicio de agua. Además, el acceso limitado a tecnologías avanzadas dificulta la adopción de prácticas de agricultura inteligente, especialmente en comunidades rurales.
 
-###### Problemática
+##### Problemática
 
 La problemática principal radica en la falta de herramientas accesibles y efectivas para gestionar el riego de manera eficiente en los campos de cultivo. Esto genera un uso excesivo de agua, costos elevados y una menor productividad agrícola. **Los agricultores necesitan soluciones tecnológicas que les permitan monitorear en tiempo real las condiciones del suelo y el clima, automatizar el riego y recibir alertas ante situaciones críticas.** Sin embargo, las opciones disponibles en el mercado suelen ser costosas o complejas, lo que limita su adopción por parte de pequeños y medianos agricultores. Esta brecha tecnológica afecta no solo la sostenibilidad del sector agrícola, sino también la seguridad alimentaria y el desarrollo económico de las comunidades rurales.
 
-###### Aplicación de las 5 W’s y 2 H’s
+##### Aplicación de las 5 W’s y 2 H’s
 
 -**Who**: Los actores clave involucrados son los agricultores individuales, ONGs y entidades públicas que promueven la agricultura sostenible. Estos grupos han sido identificados en estudios del Ministerio de Agricultura de Perú y del Instituto Nacional de Innovación Agraria como pilares fundamentales para la adopción de tecnologías que impulsen la transformación digital y la eficiencia en el manejo de recursos hídricos. https://www.gob.pe/institucion/midagri/noticias/815784-midagri-inicia-la-transformacion-digital-de-la-agricultura-familiar
 
@@ -268,7 +265,7 @@ La problemática principal radica en la falta de herramientas accesibles y efect
 
 -**How Much**: El enfoque de monetización se basa en la venta de kits IoT y la oferta de suscripciones accesibles para acceder a funciones avanzadas del sistema. Modelos de negocio analizados en reportes de financiamiento agrícola y tendencias de inversiones en AgTech confirman que esta estructura permite un equilibrio entre financiación inicial y sostenibilidad económica a través de ingresos recurrentes.
 
-#### 1.2.2 Lean UX Process
+### 1.2.2 Lean UX Process
 
 #### 1.2.2.1 Lean UX Problem Statements
 
@@ -367,18 +364,18 @@ Lean UX Canvas:
 - Valoran interfaces simples, alertas en tiempo real y herramientas de análisis que faciliten la toma de decisiones.
 - Requieren soporte técnico y capacitaciones que faciliten la transición hacia tecnologías IoT.
 
-#### ONG y/o Entidades Públicas
+#### Cooperativas Agrarias
 
 - Agrupan organizaciones enfocadas en promover la agricultura sostenible y la optimización de recursos hídricos.
 - Interesadas en impulsar políticas públicas y proyectos de impacto social que favorezcan el desarrollo agrario.
 - Buscan soluciones que permitan un monitoreo centralizado y análisis de datos para implementar estrategias de mejora en comunidades rurales.
 - Actúan como facilitadoras en la difusión y adopción de innovaciones tecnológicas en el sector agrícola.
 
-## Capítulo II: Requirements Elicitation & Analysis.
+# Capítulo II: Requirements Elicitation & Analysis.
 
-### 2.1 **Competidores.**
+## 2.1 **Competidores.**
 
-#### 2.1.1   Análisis competitivo.
+### 2.1.1   Análisis competitivo.
 
 |                                                         | WaruSmart                                                                                                                                                                                                                                   | Agrobit                                                                                                                                                                              | Netafirm                                                                                                                                                                                                                                                                | Irritec                                                                                                                                                                                                 |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -398,7 +395,7 @@ Lean UX Canvas:
 | Oportunidades                                           | Creciente demanda de soluciones tecnológicas en la agricultura peruana, apoyo gubernamental.                                                                                                                                               | Expansión en mercados emergentes y creciente interés en la digitalización del sector agrícola.                                                                                   | Aumento de la conciencia sobre la eficiencia hídrica y la necesidad de soluciones sostenibles en la agricultura.                                                                                                                                                       | Creciente demanda de sistemas de riego eficientes y sostenibles en diversas regiones del mundo.                                                                                                         |
 | Amenazas                                                | Competencia de grandes empresas, resistencia al cambio por parte de agricultores tradicionales.                                                                                                                                             | Competencia de plataformas similares y posibles barreras de entrada en nuevos mercados.                                                                                              | Competencia creciente en el mercado de tecnologías de riego y cambios en las regulaciones ambientales.                                                                                                                                                                 | Fluctuaciones en los precios de los insumos y competencia de nuevas tecnologías emergentes.                                                                                                            |
 
-#### 2.1.2   Estrategias y tácticas frente a competidores.
+### 2.1.2   Estrategias y tácticas frente a competidores.
 
 **AFRONTAR LAS FORTALEZAS (de la competencia):**
 
@@ -421,9 +418,9 @@ Lean UX Canvas:
   - Entrada de nuevos competidores con soluciones tecnológicas más sofisticadas o con mayores recursos financieros.
   - Cambios en políticas gubernamentales que puedan afectar la inversión en innovación agrícola o restringir el uso de ciertas tecnologías.
 
-### 2.2 **Entrevistas**
+## 2.2 **Entrevistas**
 
-#### 2.2.1   Diseño de entrevistas.
+### 2.2.1   Diseño de entrevistas.
 
 A continuacion se mostrara las preguntas que se le realizaron a los entrevistados en busca de obtener la mejor informacion posible para nuestra solucion
 
@@ -450,13 +447,15 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 <p>9. (Comentar la propuesta) ¿Cree que este sistema ayudaria a facilitar su trabajo?</p>
 <p>10. ¿Cuanto estarian dispuestos a pagar por el sistema?</p>
 
-#### 2.2.2   Registro de entrevistas.
+### 2.2.2   Registro de entrevistas.
 
-#### 2.2.3   Análisis de entrevistas.
+### 2.2.3   Análisis de entrevistas.
 
-### 2.3 **Needfinding.**
+## 2.3 **Needfinding.**
 
-#### 2.3.1   User Personas.
+### 2.3.1   User Personas.
+
+Representacion ficticia de un usuario perteneciente a cada segmento objetivo, la cual nos muestra informacion sobre el contexto en el que vive, junto con sus necesidades
 
 **SEGMENTO AGRICULTORES:**
 
@@ -468,7 +467,9 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 <div></div>
 <img src="Assets/needfinding/user_persona_2.png">
 
-#### 2.3.2   User Task Matrix.
+### 2.3.2   User Task Matrix.
+
+Lista de actividades realizadas por el usuario para cumplir con su objetivo, junto a la importancia y frecuencia de dicha actividad. Para este cuadro, se coloca al usuario en el contexto del cuidado de sus cultivos
 
 | Tareas                                      | Agricultores Importancia | Agricultores Frecuencia | Cooperativas Importancia | Cooperativas Frecuencia |
 | ------------------------------------------- | :----------------------: | :---------------------: | :----------------------: | :---------------------: |
@@ -480,7 +481,9 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 | Revisión de calidad en la cosecha          |           Alta           |          Media          |           Alta           |          Alta          |
 | Revisar el registro de los cultivos         |           Alta           |          Alta          |          Media          |          Media          |
 
-#### 2.3.3   User Journey Mapping.
+### 2.3.3   User Journey Mapping.
+
+Grafico que muestra el viaje del usuario para solucionar su problematica
 
 **SEGMENTO AGRICULTORES:**
 
@@ -492,7 +495,9 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 <div></div>
 <img src="Assets/needfinding/journey_map_2.png">
 
-#### 2.3.4   Empathy Mapping.
+### 2.3.4   Empathy Mapping.
+
+Grafivo realizado para visualizar la problematica del usuario junto con que piensa al respecto
 
 **SEGMENTO AGRICULTORES:**
 
@@ -504,7 +509,9 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 <div></div>
 <img src="Assets/needfinding/empathy_map_2.png">
 
-#### 2.3.5   As-Is Scenario Mapping.
+### 2.3.5   As-Is Scenario Mapping.
+
+Tabla que muestra las principales actividades del usuario, junto con el como reacciona a estas antes de contar con nuestra solucion
 
 **SEGMENTO AGRICULTORES:**
 
@@ -522,7 +529,7 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 | THINKING |  Espero que hallamos calculado bien para no gastar demasiado dinero de más  | Podremos regar los cultivos con las tecnicas que hemos aprendido | Parece que algunas cosechas tienen problemas |               Al dividir no hemos ganado tanto dinero como esperaba               |
 | FEELING  |  Me preocupa no saber que tan bien hemos calculado lo que vamos a necesitar  |     Me genera duda saber si habrá una mejor manera de regar     |    Me disgusta ver cultivos con problemas    | Me molesta ver que pudimos ganar más dinero con un mejor cuidado para la cosecha |
 
-### 2.4 **Ubiquitous Language.**
+## 2.4 **Ubiquitous Language.**
 
 * **Irrigation System (Sistema de Riego)**: Conjunto de dispositivos y tecnologías que permiten distribuir agua a los cultivos de forma controlada y eficiente.
 * **Water Consumption (Consumo de Agua)**: Cantidad de agua utilizada en los procesos de riego de los cultivos, relacionada con el uso eficiente del recurso hídrico.
@@ -536,9 +543,11 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 * **Automated Control System (Sistema de Control Automatizado)**: Sistema que permite programar y controlar de manera automática el funcionamiento del riego, mejorando la precisión y reduciendo la intervención manual.
 * **Water Scarcity (Escasez de Agua)**: Situación en la que la disponibilidad de agua es insuficiente para satisfacer la demanda agrícola, afectando directamente la productividad.
 
-## Capítulo III: Requirements Specification.
+# Capítulo III: Requirements Specification.
 
-### 3.1 **To-Be Scenario Mapping.**
+## 3.1 **To-Be Scenario Mapping.**
+
+Tabla que muestra las principales actividades del usuario, junto con el como reacciona a estas luego de utilizar nuestra solucion
 
 **SEGMENTO AGRICULTORES:**
 
@@ -559,7 +568,7 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 | THINKING |  Ahora podemos estimar mejor lo necesario  | Riegos más eficientes = menos desperdicio | Se nota el efecto de mejor planificación |               La ganancia está mejor distribuida y optimizada               |
 | FEELING  |  Me siento seguro con la planificación  |     Me da tranquilidad saber que es óptimo     |    Me siento satisfecho con la cosecha    | Me alegra ver que todos ganamos más |
 
-### 3.2 **User Stories.**
+## 3.2 **User Stories.**
 
 <table>
   <colgroup>
@@ -623,8 +632,122 @@ Dado que</strong> que el agricultor tiene varias zonas de cultivo registradas
   <tr>
 <table>
 
-### 3.3 **Impact Mapping.**
+## 3.3 **Impact Mapping.**
 
-### 3.4 **Product Backlog.**
+## 3.4 **Product Backlog.**
 
-## Capítulo IV: Solution Software Design
+# Capítulo IV: Solution Software Design
+
+## 4.1 StrategicLevel Domain-Driven Design
+
+### 4.1.1 EventStorming
+
+#### 4.1.1.1 Candidate Contex Discovery
+
+#### 4.1.1.2 Domain Message Flows Modeling
+
+#### 4.1.1.3 Bounded Context Canvases
+
+### 4.1.2 Context Mapping
+
+### 4.1.3 Software Architecture
+
+#### 4.1.3.1 Software Architecture System Landscape Diagram
+
+#### 4.1.3.2 Software Architecture Context Level Diagrams
+
+#### 4.1.3.2 Software Architecture Container Level Diagrams
+
+#### 4.1.3.2 Software Architecture Deployment Diagrams
+
+## 4.2 Tactical-Level Domain-Driven Design
+
+### 4.2.1 Bounded Context: IAM
+
+#### 4.2.1.1 Domain Layer
+
+#### 4.2.1.2 Interface Layer
+
+#### 4.2.1.3 Application Layer
+
+#### 4.2.1.4 Infraestructure Layer
+
+#### 4.2.1.5 Bounded Context Softwre Architecture Component Level Diagrams
+
+#### 4.2.1.6 Bounded Context Softwre Architecture Code Level Diagrams
+
+##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
+
+##### 4.2.1.6.2 Bounded Context Database Design Diagrams
+
+### 4.2.2 Bounded Context: Subscriptions and Payments
+
+#### 4.2.2.1 Domain Layer
+
+#### 4.2.2.2 Interface Layer
+
+#### 4.2.2.3 Application Layer
+
+#### 4.2.2.4 Infraestructure Layer
+
+#### 4.2.2.5 Bounded Context Softwre Architecture Component Level Diagrams
+
+#### 4.2.2.6 Bounded Context Softwre Architecture Code Level Diagrams
+
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+
+##### 4.2.2.6.2 Bounded Context Database Design Diagrams
+
+### 4.2.3 Bounded Context: Crops Management (Notification)
+
+#### 4.2.3.1 Domain Layer
+
+#### 4.2.3.2 Interface Layer
+
+#### 4.2.3.3 Application Layer
+
+#### 4.2.3.4 Infraestructure Layer
+
+#### 4.2.3.5 Bounded Context Softwre Architecture Component Level Diagrams
+
+#### 4.2.3.6 Bounded Context Softwre Architecture Code Level Diagrams
+
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+
+##### 4.2.3.6.2 Bounded Context Database Design Diagrams
+
+### 4.2.4 Bounded Context: Irrigation Management
+
+#### 4.2.4.1 Domain Layer
+
+#### 4.2.4.2 Interface Layer
+
+#### 4.2.4.3 Application Layer
+
+#### 4.2.4.4 Infraestructure Layer
+
+#### 4.2.4.5 Bounded Context Softwre Architecture Component Level Diagrams
+
+#### 4.2.4.6 Bounded Context Softwre Architecture Code Level Diagrams
+
+##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+##### 4.2.4.6.2 Bounded Context Database Design Diagrams
+
+### 4.2.5 Bounded Context: Crops Reports Management
+
+#### 4.2.5.1 Domain Layer
+
+#### 4.2.5.2 Interface Layer
+
+#### 4.2.5.3 Application Layer
+
+#### 4.2.5.4 Infraestructure Layer
+
+#### 4.2.5.5 Bounded Context Softwre Architecture Component Level Diagrams
+
+#### 4.2.5.6 Bounded Context Softwre Architecture Code Level Diagrams
+
+##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+
+##### 4.2.5.6.2 Bounded Context Database Design Diagrams
