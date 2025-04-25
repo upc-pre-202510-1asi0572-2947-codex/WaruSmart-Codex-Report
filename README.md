@@ -32,6 +32,7 @@ Report of WaruSmart from startup Codex, we are giving information about all life
 | More Rondon, Christopher Sebastian | U202212199 |
 |  Quispe Condori, Fernando Daniel  | U20221C628 |
 |      Velasquez Pizarro, Jair      | U202218114 |
+| Pingus Rodriguez, Carlos Daniel   | U202113280 |
 
 <h5 style="text-align: center"> Ciclo 2025-01 </h5>
 
@@ -59,7 +60,7 @@ para cada integrante del equipo:
 1. **Capítulo I: Introducción.**
 2. ...
 
-### Studen Outcome
+### Student Outcome
 
 | **Criterio específico**                                                                  | **Acciones realizadas** | **Conclusiones** |
 | ----------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------- |
@@ -82,7 +83,7 @@ WaruSmart es una startup peruana creada por estudiantes de la Universidad Peruan
 | Nombre: Anderson Walter Macedo Calsina<br />Carrera: Ingeniería de Software<br />Código: U20201C179<br />Descripción: Soy Anderson Walter Macedo Calsina, tengo 22 años y actualmente estoy estudiando Ingeniería de Software en la UPC. Me gusta colaborar con mis compañeros y contribuir en proyectos conjuntos. Estoy dispuesto a contribuir a mi equipo en el desarrollo del proyecto con los conocimientos que he ido adquiriendo.                    |                                                   |
 | Nombre: Christopher Sebastian More Rondon<br />Carrera Ingeniería de Software:<br />Código: U202212199<br />Descripción: Soy estudiante del septimo ciclo de Ingenieria de Software, actualmente tengo 20 años. Soy un estudiante que colabora constantemente en el desarrollo de los projectos, asi como dar soluciones creativas a los problemas que surgan durante la creacion de estos. Siempre me esfuerzo por entregar un buen trabajo.                 |                                                   |
 | Nombre:Jair Velasquez Pizarro <br /> Carrera: Ingeniería de Software <br />Código: U202218114  <br />Descripción: Estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software. Manejo los lenguajes de TypeScript, Java, JavaScript a nivel intermedio, cuento con experiencia en desarrollo FullStack como tambien habilidades de trabajo en equipo para colaborar de forma efectiva.                                                                                                                                                                                                                                                                                     |                                                   |
-| Nombre: Carlos Daniel Pingus Rodriguez<brr />Carrera: Ingenierría de Software<br />Código: U202113280<br /> Descripción: Soy estudiante de la carrera de ingeniería de Software. Me gusta la tecnología y como esta misma ha cambiado significativamente en mi tiempo de vida. Me considero alguien responsable y comprometido con los proyectos; Trato de estar a la par con mis compañeros y compartir con ellos mis conocimientos en ciertos temas específicos.  |  [Carlos Pingus](https://res.cloudinary.com/dydklnicb/image/upload/v1745581562/foto_carlos.jpg)    |
+| Nombre: Carlos Daniel Pingus Rodriguez<brr />Carrera: Ingenierría de Software<br />Código: U202113280<br /> Descripción: Soy estudiante de la carrera de ingeniería de Software. Me gusta la tecnología y como esta misma ha cambiado significativamente en mi tiempo de vida. Me considero alguien responsable y comprometido con los proyectos; Trato de estar a la par con mis compañeros y compartir con ellos mis conocimientos en ciertos temas específicos.  |  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745581562/foto_carlos.jpg">    |
 | Nombre:Carrera:<br />Código: Descripción:                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                   |
 | Nombre:<br />Carrera: <br />Código: <br />Descripción:                                                                                                                                                                                                                                                                                                                                                                                                        |                                                   |
 
