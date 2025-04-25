@@ -660,9 +660,66 @@ Dado que</strong> que el agricultor tiene varias zonas de cultivo registradas
 
 #### 4.1.3.2 Software Architecture Deployment Diagrams
 
-## 4.2 Tactical-Level Domain-Driven Design
+## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.1 Bounded Context: IAM
+### 4.2.1. Bounded IAM Context
+
+El dominio de **Identity and Access Management (IAM)** define y gestiona las funciones relacionadas con la autenticación, autorización y control de acceso de los usuarios en la plataforma Warusmart. Este contexto permite registrar y administrar usuarios, asignar roles, establecer permisos y garantizar que las acciones dentro del sistema sean realizadas únicamente por entidades autorizadas. IAM asegura la integridad y la seguridad de la plataforma al implementar mecanismos robustos de acceso, controlando desde el inicio de sesión hasta la administración de políticas de seguridad.
+
+Este dominio también facilita la integración con servicios externos de autenticación y soporta múltiples niveles de acceso según el perfil del usuario, como administradores, agricultores, técnicos de riego, entre otros, permitiendo un acceso contextualizado y seguro a las funcionalidades de cada módulo de Warusmart.
+
+---
+
+### Diccionario de Clases
+
+#### Clase: `User`
+
+| Nombre       | User |
+|--------------|------|
+| Relaciones   | Role, Session |
+| Descripción  | Representa a un usuario registrado con credenciales de acceso, datos personales y su rol asignado. |
+
+##### Atributos
+
+| Nombre     | Tipo de Dato | Visibilidad |
+|------------|--------------|-------------|
+| Id         | int          | private     |
+| Username   | string       | private     |
+| Password   | string       | private     |
+| FullName   | string       | private     |
+| Role       | Role         | private     |
+| IsActive   | boolean      | private     |
+
+##### Métodos
+
+- `getUserDetails()`
+- `updatePassword()`
+- `deactivateUser()`
+- `assignRole()`
+
+---
+
+#### Clase: `Role`
+
+| Nombre       | Role |
+|--------------|------|
+| Relaciones   | Permission |
+| Descripción  | Representa un rol del sistema con un conjunto de permisos asignados. |
+
+##### Atributos
+
+| Nombre       | Tipo de Dato        | Visibilidad |
+|--------------|---------------------|-------------|
+| Id           | int                 | private     |
+| Name         | string              | private     |
+| Permissions  | List<Permission>    | private     |
+
+##### Métodos
+
+- `addPermission()`
+- `removePermission()`
+- `getPermissions()`
+
 
 #### 4.2.1.1 Domain Layer
 
