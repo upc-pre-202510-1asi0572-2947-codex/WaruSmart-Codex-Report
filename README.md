@@ -1,41 +1,36 @@
-# WaruSmart-Codex-Report
+# <div align="center">WaruSmart-Codex-Report</div>
 
-Report of WaruSmart from startup Codex, we are giving information about all lifecycle of this solution. Educational prupouse only.
+<div align="center">
+  <p>Report of WaruSmart from startup Codex, we are giving information about all lifecycle of this solution. Educational purpose only.</p>
 
-<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
-<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
+  <h1>Informe del Trabajo Final</h1>
+  <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
-<tr>
-  <div align='center'>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"width="150" height="150">
-    </div>
-</tr>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150" height="150">
 
-<h5 style="text-align: center"> Ingeniería de Software </h5>
+  <h5>Ingeniería de Software</h5>
+  <h5>Desarrollo de Soluciones IOT - 1ASI0572</h5>
+  <h5>NRC: 2947</h5>
+  <h5>Docente: Angel Augusto Velasquez Nuñez</h5>
+  <h5>Startup: Codex</h5>
+  <h5>Producto: WaruSmart</h5>
+</div>
 
-<h5 style="text-align: center"> Desarrollo de Soluciones IOT - 1ASI0572 </h5>
+## Team Members:
 
-<h5 style="text-align: center"> NRC: 2947 </h5>
-
-<h5 style="text-align: center"> Docente: Angel Augusto Velasquez Nuñez </h5>
-
-<h5 style="text-align: center"> Startup: Codex </h5>
-
-<h5 style="text-align: center"> Producto: WaruSmart </h5>
-
-## Team members:
-
-|               Nombre               |  Código  |
+|               Nombre               |   Código   |
 | :--------------------------------: | :--------: |
-|   Anderson Walter Macedo Calsina   | U20201C179 |
-|  Cabrera Camizan, Jeferson Smith  | U20211C211 |
+| Anderson Walter Macedo Calsina     | U20201C179 |
+| Cabrera Camizan, Jeferson Smith    | U20211C211 |
 | More Rondon, Christopher Sebastian | U202212199 |
-|  Quispe Condori, Fernando Daniel  | U20221C628 |
-|      Velasquez Pizarro, Jair      | U202218114 |
-| Pingus Rodriguez, Carlos Daniel   | U202113280 |
-| Herrera Castillo, Victor Raul     | U20201E188 |
+| Quispe Condori, Fernando Daniel    | U20221C628 |
+| Velasquez Pizarro, Jair            | U202218114 |
+| Pingus Rodriguez, Carlos Daniel    | U202113280 |
+| Herrera Castillo, Victor Raul      | U20201E188 |
 
-<h5 style="text-align: center"> Ciclo 2025-01 </h5>
+<div align="center">
+  <h5>Ciclo 2025-01</h5>
+</div>
 
 ### Registro de Informes
 
