@@ -386,6 +386,25 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 
 ### 3.1 **To-Be Scenario Mapping.**
 
+**SEGMENTO AGRICULTORES:**
+
+|          |                 Monitoreo de cultivo                 |                       Riego de cultivo                       |                          Cosecha                          |                  Control de calidad                  |
+| -------- | :--------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: | :---------------------------------------------------: |
+| DOING    |    Utiliza una app para ver el estado del cultivo    |    Activa el sistema de riego automático según sensor    |        Cosecha siguiendo recomendaciones del sistema        |            Usa la app para registrar calidad y fallas            |
+| THINKING | Puedo ver todo el estado desde mi celular |        Sé que se está usando el agua de forma eficiente        |             Este año se ve mejor la producción             |    Estoy mejorando mi rentabilidad    |
+| FEELING  |           Me siento tranquilo al ver datos confiables           | Me da confianza el sistema automático de riego | Me alegra ver más cultivos en buen estado | Estoy orgulloso del resultado obtenido |
+
+<br>
+<br>
+
+**SEGMENTO COOPERATIVAS:**
+
+|          |                              División de gastos                              |                        Riego de cultivos                        |                   Cosecha                   |                               Reparto de ganancias                               |
+| -------- | :---------------------------------------------------------------------------: | :--------------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------------: |
+| DOING    | Usan sistema de planificación compartido |         Gestionan riego con sensores y cronogramas         |  Siguen cronograma y predicción de clima  |                Utilizan plataforma para calcular y dividir ganancias                |
+| THINKING |  Ahora podemos estimar mejor lo necesario  | Riegos más eficientes = menos desperdicio | Se nota el efecto de mejor planificación |               La ganancia está mejor distribuida y optimizada               |
+| FEELING  |  Me siento seguro con la planificación  |     Me da tranquilidad saber que es óptimo     |    Me siento satisfecho con la cosecha    | Me alegra ver que todos ganamos más |
+
 ### 3.2 **User Stories.**
 
 ### 3.3 **Impact Mapping.**
