@@ -2,7 +2,7 @@
 
 <div align="center">
   <p>Report of WaruSmart from startup Codex, we are giving information about all lifecycle of this solution. Educational purpose only.</p>
-
+---
   <h1>Informe del Trabajo Final</h1>
   <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
@@ -16,21 +16,34 @@
   <h5>Producto: WaruSmart</h5>
 </div>
 
-## Team Members:
+## <div align="center">Team Members</div>
 
-|               Nombre               |   Código   |
-| :--------------------------------: | :--------: |
-| Anderson Walter Macedo Calsina     | U20201C179 |
-| Cabrera Camizan, Jeferson Smith    | U20211C211 |
-| More Rondon, Christopher Sebastian | U202212199 |
-| Quispe Condori, Fernando Daniel    | U20221C628 |
-| Velasquez Pizarro, Jair            | U202218114 |
-| Pingus Rodriguez, Carlos Daniel    | U202113280 |
-| Herrera Castillo, Victor Raul      | U20201E188 |
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Anderson Walter Macedo Calsina</td><td>U20201C179</td></tr>
+    <tr><td>Cabrera Camizan, Jeferson Smith</td><td>U20211C211</td></tr>
+    <tr><td>More Rondon, Christopher Sebastian</td><td>U202212199</td></tr>
+    <tr><td>Quispe Condori, Fernando Daniel</td><td>U20221C628</td></tr>
+    <tr><td>Velasquez Pizarro, Jair</td><td>U202218114</td></tr>
+    <tr><td>Pingus Rodriguez, Carlos Daniel</td><td>U202113280</td></tr>
+    <tr><td>Herrera Castillo, Victor Raul</td><td>U20201E188</td></tr>
+  </tbody>
+</table>
+
+</div>
 
 <div align="center">
   <h5>Ciclo 2025-01</h5>
 </div>
+
 
 ### Registro de Informes
 
