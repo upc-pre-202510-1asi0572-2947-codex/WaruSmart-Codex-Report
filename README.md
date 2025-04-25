@@ -32,6 +32,7 @@ Report of WaruSmart from startup Codex, we are giving information about all life
 | More Rondon, Christopher Sebastian | U202212199 |
 |  Quispe Condori, Fernando Daniel  | U20221C628 |
 |      Velasquez Pizarro, Jair      | U202218114 |
+| Pingus Rodriguez, Carlos Daniel   | U202113280 |
 
 <h5 style="text-align: center"> Ciclo 2025-01 </h5>
 
@@ -59,7 +60,7 @@ para cada integrante del equipo:
 1. **Capítulo I: Introducción.**
 2. ...
 
-### Studen Outcome
+### Student Outcome
 
 | **Criterio específico**                                                                  | **Acciones realizadas** | **Conclusiones** |
 | ----------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------- |
