@@ -33,6 +33,7 @@ Report of WaruSmart from startup Codex, we are giving information about all life
 |  Quispe Condori, Fernando Daniel  | U20221C628 |
 |      Velasquez Pizarro, Jair      | U202218114 |
 | Pingus Rodriguez, Carlos Daniel   | U202113280 |
+| Herrera Castillo, Victor Raul     | U20201E188 |
 
 <h5 style="text-align: center"> Ciclo 2025-01 </h5>
 
