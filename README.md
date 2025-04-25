@@ -407,6 +407,68 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 
 ### 3.2 **User Stories.**
 
+<table>
+  <colgroup>
+    <col style="width: 20px">
+    <col style="width: 40px">
+    <col style="width: 100px">
+    <col style="width: 300px">
+    <col style="width: 20px">
+  </colgroup>
+  <tr>
+   <td>
+Epic / Story ID
+   </td>
+   <td>Título
+   </td>
+   <td>Descripción
+   </td>
+   <td>Criterio de aceptación
+   </td>
+   <td>Epic 
+<p>
+ID
+   </td>
+  </tr>
+  <tr>
+   <td colspan="5" ><strong>Epic 1: Panel de Monitoreo agrícola \
+Como</strong> agricultor o miembro de una cooperativa \
+<strong>Quiero</strong> acceder a un panel de control centralizado desde mi aplicación web o móvil \
+<strong>Para </strong>monitorear en tiempo real el estado de mis cultivos, el riego y recibir alertas importantes
+   </td>
+  </tr>
+  <tr>
+   <td>E1-US101
+   </td>
+   <td>Visualización de condiciones del cultivo en tiempo real
+<p>
+ 
+   </td>
+   <td><strong>Como</strong> agricultor <strong>quiero </strong>ver los datos en tiempo real sobre humedad del suelo, temperatura, y clima en el panel de control <strong>para </strong>tomar decisiones informadas sobre el riego y cuidado de mis cultivos
+   </td>
+   <td><strong>Escenario 1: Visualización general \
+Dado que</strong> que el agricultor ha iniciado sesión en la aplicación
+<p>
+<strong>Y</strong> tiene sensores IoT instalados en su campo \
+<strong>Cuando</strong> accede al panel de monitoreo
+<p>
+<strong>Entonces</strong> puede ver una vista general de los valores actuales de humedad, temperatura, y pronóstico del clima \
+<br><br>
+<strong>Escenario 2: Datos por zona de cultivo \
+Dado que</strong> que el agricultor tiene varias zonas de cultivo registradas
+<p>
+<strong>Y</strong> se dirige en la barra de navegación \
+<strong>Cuando</strong> selecciona una zona específica en el panel
+<p>
+<strong>Entonces</strong> se muestran los datos de sensores correspondientes solo a esa zona
+<p>
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+<table>
+
 ### 3.3 **Impact Mapping.**
 
 ### 3.4 **Product Backlog.**
