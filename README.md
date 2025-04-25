@@ -66,6 +66,7 @@ para cada integrante del equipo:
 | ---        | ---              |
 
 # Tabla de Contenidos
+---
 ## Capítulo I: Introducción
 
 - [1.1 Startup Profile](#11-startup-profile)
