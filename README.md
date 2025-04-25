@@ -2,7 +2,9 @@
 
 <div align="center">
   <p>Report of WaruSmart from startup Codex, we are giving information about all lifecycle of this solution. Educational purpose only.</p>
+  
 ---
+
   <h1>Informe del Trabajo Final</h1>
   <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
@@ -41,7 +43,7 @@
 </div>
 
 <div align="center">
-  <h5>Ciclo 2025-01</h5>
+  <h5>Ciclo 2025-10</h5>
 </div>
 
 
