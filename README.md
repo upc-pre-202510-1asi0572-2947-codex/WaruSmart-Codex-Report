@@ -60,7 +60,7 @@
 
 ### Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Codex-Report/tree/develop
 
 TB1
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma
@@ -68,12 +68,17 @@ para cada integrante del equipo:
 
 | Integrante | Tareas Asignadas |
 | ---------- | ---------------- |
-| ---        | ---              |
+| Anderson Walter Macedo Calcina | --- |
+| Cabrera Camizan, Jeferson Smith | --- |
+| More Rondon, Christopher Sebastian | Needfinding, diseño de entrevistas, estructura del informe |
+| Quispe Condori, Fernando Daniel | --- |
+| Velasquez Pizarro, Jair | --- |
+| Pingus Rodriguez, Carlos Daniel | --- |
+| Herrera Castillo, Victor Raul | --- |
 
 # Contenido
 ## Tabla de Contenidos
----
-## Capítulo I: Introducción
+### Capítulo I: Introducción
 
 - [1.1 Startup Profile](#11-startup-profile)
   - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
@@ -87,9 +92,7 @@ para cada integrante del equipo:
     - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
 - [1.3 Segmentos Objetivo](#13-segmentos-objetivo)
 
----
-
-## Capítulo II: Requirements Elicitation & Analysis
+### Capítulo II: Requirements Elicitation & Analysis
 
 - [2.1 Competidores](#21-competidores)
   - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
@@ -106,18 +109,14 @@ para cada integrante del equipo:
   - [2.3.5 As-Is Scenario Mapping](#235-as-is-scenario-mapping)
 - [2.4 Ubiquitous Language](#24-ubiquitous-language)
 
----
-
-## Capítulo III: Requirements Specification
+### Capítulo III: Requirements Specification
 
 - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
 - [3.2 User Stories](#32-user-stories)
 - [3.3 Impact Mapping](#33-impact-mapping)
 - [3.4 Product Backlog](#34-product-backlog)
 
----
-
-## Capítulo IV: Solution Software Design
+### Capítulo IV: Solution Software Design
 
 - [4.1 Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
   - [4.1.1 EventStorming](#411-eventstorming)
@@ -131,19 +130,53 @@ para cada integrante del equipo:
     - [4.1.3.3 Container Level Diagrams](#4133-container-level-diagrams)
     - [4.1.3.4 Deployment Diagrams](#4134-deployment-diagrams)
 - [4.2 Tactical-Level DDD](#42-tactical-level-ddd)
-  - [4.2.1 Bounded Context: IAM](#)
-    - [4.2.1.1 Domain Layer](#421-domain-layer)
-    - [4.2.1.2 Interface Layer](#422-interface-layer)
-    - [4.2.1.3 Application Layer](#423-application-layer)
-    - [4.2.1.4 Infrastructure Layer](#424-infrastructure-layer)
-    - [4.2.1.5 Component Level Diagrams](#425-component-level-diagrams)
-    - [4.2.1.6 Code Level Diagrams](#426-code-level-diagrams)
-      - [4.2.1.6.1 Class Diagrams](#427-class-diagrams)
-      - [4.2.1.6.2 Database Design Diagram](#428-database-design-diagram)
-
----
-
-## Capítulo V: Solution UI/UX Design
+  - [4.2.1 Bounded Context: IAM](#421-bounded-context-iam)
+    - [4.2.1.1 Domain Layer](#4211-domain-layer)
+    - [4.2.1.2 Interface Layer](#4212-interface-layer)
+    - [4.2.1.3 Application Layer](#4213-application-layer)
+    - [4.2.1.4 Infrastructure Layer](#4214-infrastructure-layer)
+    - [4.2.1.5 Component Level Diagrams](#4215-component-level-diagrams)
+    - [4.2.1.6 Code Level Diagrams](#4216-code-level-diagrams)
+      - [4.2.1.6.1 Class Diagrams](#42161-class-diagrams)
+      - [4.2.1.6.2 Database Design Diagram](#42162-database-design-diagram)
+  - [4.2.2 Bounded Context: Subscription & Payments](#422-bounded-context-subscription-&-payments)
+    - [4.2.2.1 Domain Layer](#4221-domain-layer)
+    - [4.2.2.2 Interface Layer](#4222-interface-layer)
+    - [4.2.2.3 Application Layer](#4223-application-layer)
+    - [4.2.2.4 Infrastructure Layer](#4224-infrastructure-layer)
+    - [4.2.2.5 Component Level Diagrams](#4225-component-level-diagrams)
+    - [4.2.2.6 Code Level Diagrams](#4226-code-level-diagrams)
+      - [4.2.2.6.1 Class Diagrams](#42261-class-diagrams)
+      - [4.2.2.6.2 Database Design Diagram](#42262-database-design-diagram)
+  - [4.2.3 Bounded Context: Crops Management (Notification)](#423-bounded-contex-crops-management-(notifications))
+    - [4.2.3.1 Domain Layer](#4231-domain-layer)
+    - [4.2.3.2 Interface Layer](#4232-interface-layer)
+    - [4.2.3.3 Application Layer](#4233-application-layer)
+    - [4.2.3.4 Infrastructure Layer](#4234-infrastructure-layer)
+    - [4.2.3.5 Component Level Diagrams](#4235-component-level-diagrams)
+    - [4.2.3.6 Code Level Diagrams](#4236-code-level-diagrams)
+      - [4.2.3.6.1 Class Diagrams](#42361-class-diagrams)
+      - [4.2.3.6.2 Database Design Diagram](#42362-database-design-diagram)
+  - [4.2.4 Bounded Context: Irrigation Management](#424-bounded-contex-irrigation-management)
+    - [4.2.4.1 Domain Layer](#4241-domain-layer)
+    - [4.2.4.2 Interface Layer](#4242-interface-layer)
+    - [4.2.4.3 Application Layer](#4243-application-layer)
+    - [4.2.4.4 Infrastructure Layer](#4244-infrastructure-layer)
+    - [4.2.4.5 Component Level Diagrams](#4245-component-level-diagrams)
+    - [4.2.4.6 Code Level Diagrams](#4246-code-level-diagrams)
+      - [4.2.4.6.1 Class Diagrams](#42461-class-diagrams)
+      - [4.2.4.6.2 Database Design Diagram](#42462-database-design-diagram)
+  - [4.2.5 Bounded Context: Crop Reports Management](#425-bounded-contex-crop-reports-management)
+    - [4.2.5.1 Domain Layer](#4251-domain-layer)
+    - [4.2.5.2 Interface Layer](#4252-interface-layer)
+    - [4.2.5.3 Application Layer](#4253-application-layer)
+    - [4.2.5.4 Infrastructure Layer](#4254-infrastructure-layer)
+    - [4.2.5.5 Component Level Diagrams](#4255-component-level-diagrams)
+    - [4.2.5.6 Code Level Diagrams](#4256-code-level-diagrams)
+      - [4.2.5.6.1 Class Diagrams](#42561-class-diagrams)
+      - [4.2.5.6.2 Database Design Diagram](#42562-database-design-diagram)
+  
+### Capítulo V: Solution UI/UX Design
 
 - [5.1 Style Guidelines](#51-style-guidelines)
   - [5.1.1 General Style Guidelines](#511-general-style-guidelines)
@@ -164,9 +197,7 @@ para cada integrante del equipo:
   - [5.4.4 User Flow Diagrams](#544-user-flow-diagrams)
 - [5.5 Applications Prototyping](#55-applications-prototyping)
 
----
-
-## Capítulo VI: Product Implementation, Validation & Deployment
+### Capítulo VI: Product Implementation, Validation & Deployment
 
 - [6.1 Software Configuration Management](#61-software-configuration-management)
   - [6.1.1 Environment Setup](#611-environment-setup)
@@ -189,28 +220,16 @@ para cada integrante del equipo:
   - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
 - [6.4 Video About-the-Product](#64-video-about-the-product)
 
----
-
-## Conclusiones
-
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
----
+- [Video about the team](#video-about-the-team)
 
-## Video About-the-Team
+- [Bibliografía](#bibliografia)
 
-- [Video presentación del equipo](#video-presentación-del-equipo)
-
----
-
-## Bibliografía
-
----
-
-## Anexos
+- [Anexos](#anexos)
 
 
-### Student Outcome
+## Student Outcome
 
 | **Criterio específico**                                                                  | **Acciones realizadas** | **Conclusiones** |
 | ----------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------- |
@@ -229,9 +248,9 @@ WaruSmart es una startup peruana creada por estudiantes de la Universidad Peruan
 
 | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Foto                                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| Nombre: Fernando Daniel Quispe Condori<br />Carrera: Ingeniería de Software<br />Código: U20221C628<br />Descripción: Soy Fernando Daniel Quispe Condori, tengo 20 años y curso la carrera de Ingeniería de Software. Cuento con las habilidades técnicas para apoyar a mi equipo en el desarrollo de nuestra solución IoT en el contexto actual, así mismo cuento cono habilidades para la gestión de equipos y colaborar efectivamente como un equipo. | ![Fernando_Quispe](Assets\team\fernando-quispe.jpg) |
+| Nombre: Fernando Daniel Quispe Condori<br />Carrera: Ingeniería de Software<br />Código: U20221C628<br />Descripción: Soy Fernando Daniel Quispe Condori, tengo 20 años y curso la carrera de Ingeniería de Software. Cuento con las habilidades técnicas para apoyar a mi equipo en el desarrollo de nuestra solución IoT en el contexto actual, así mismo cuento cono habilidades para la gestión de equipos y colaborar efectivamente como un equipo. | ![Fernando_Quispe](Assets/team/fernando-quispe.jpg) |
 | Nombre: Anderson Walter Macedo Calsina<br />Carrera: Ingeniería de Software<br />Código: U20201C179<br />Descripción: Soy Anderson Walter Macedo Calsina, tengo 22 años y actualmente estoy estudiando Ingeniería de Software en la UPC. Me gusta colaborar con mis compañeros y contribuir en proyectos conjuntos. Estoy dispuesto a contribuir a mi equipo en el desarrollo del proyecto con los conocimientos que he ido adquiriendo.                    |                                                   |
-| Nombre: Christopher Sebastian More Rondon<br />Carrera Ingeniería de Software:<br />Código: U202212199<br />Descripción: Soy estudiante del septimo ciclo de Ingenieria de Software, actualmente tengo 20 años. Soy un estudiante que colabora constantemente en el desarrollo de los projectos, asi como dar soluciones creativas a los problemas que surgan durante la creacion de estos. Siempre me esfuerzo por entregar un buen trabajo.                 |                                                   |
+| Nombre: Christopher Sebastian More Rondon<br />Carrera Ingeniería de Software:<br />Código: U202212199<br />Descripción: Soy estudiante del septimo ciclo de Ingenieria de Software, actualmente tengo 20 años. Soy un estudiante que colabora constantemente en el desarrollo de los projectos, asi como dar soluciones creativas a los problemas que surgan durante la creacion de estos. Siempre me esfuerzo por entregar un buen trabajo.                 | ![Christopher More](Assets/team/christopher-more.jpg) |
 | Nombre:Jair Velasquez Pizarro <br /> Carrera: Ingeniería de Software <br />Código: U202218114  <br />Descripción: Estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software. Manejo los lenguajes de TypeScript, Java, JavaScript a nivel intermedio, cuento con experiencia en desarrollo FullStack como tambien habilidades de trabajo en equipo para colaborar de forma efectiva.                                                                                                                                                                                                                                                                                     |                                                   |
 | Nombre: Carlos Daniel Pingus Rodriguez<brr />Carrera: Ingenierría de Software<br />Código: U202113280<br /> Descripción: Soy estudiante de la carrera de ingeniería de Software. Me gusta la tecnología y como esta misma ha cambiado significativamente en mi tiempo de vida. Me considero alguien responsable y comprometido con los proyectos; Trato de estar a la par con mis compañeros y compartir con ellos mis conocimientos en ciertos temas específicos.  |  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745581562/foto_carlos.jpg">    |
 | Nombre:Carrera:<br />Código: Descripción:                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                   |
@@ -251,7 +270,7 @@ La problemática principal radica en la falta de herramientas accesibles y efect
 
 ##### Aplicación de las 5 W’s y 2 H’s
 
--**Who**: Los actores clave involucrados son los agricultores individuales, ONGs y entidades públicas que promueven la agricultura sostenible. Estos grupos han sido identificados en estudios del Ministerio de Agricultura de Perú y del Instituto Nacional de Innovación Agraria como pilares fundamentales para la adopción de tecnologías que impulsen la transformación digital y la eficiencia en el manejo de recursos hídricos. https://www.gob.pe/institucion/midagri/noticias/815784-midagri-inicia-la-transformacion-digital-de-la-agricultura-familiar
+-**Who**: Los actores clave involucrados son los agricultores individuales, y los pertenecientes a cooperativas agrarias. Estos grupos han sido identificados en estudios del Ministerio de Agricultura de Perú y del Instituto Nacional de Innovación Agraria como pilares fundamentales para la adopción de tecnologías que impulsen la transformación digital y la eficiencia en el manejo de recursos hídricos. https://www.gob.pe/institucion/midagri/noticias/815784-midagri-inicia-la-transformacion-digital-de-la-agricultura-familiar
 
 -**What**: La propuesta se centra en la optimización del riego a través de una solución IoT accesible y eficiente. Investigaciones publicadas por la FAO y estudios sobre agricultura inteligente en América Latina resaltan la capacidad de estas tecnologías para transformar prácticas tradicionales en métodos de riego más precisos, contribuyendo a una gestión sostenible y a una mayor productividad. https://www.fao.org/family-farming/detail/es/c/1612596/
 
@@ -300,7 +319,7 @@ Para abordar esta pregunta, necesitamos centrarnos en las siguientes directrices
 ##### **User Assumptions**
 
 **¿Quién es el usuario?**
-El usuario de WaruSmart es un agricultor que busca modernizar y optimizar el riego de sus cultivos. Este segmento abarca tanto a agricultores tradicionales que desean incursionar en la digitalización, como a productores profesionales(cooperativas, ONG's, entre otros) que quieren maximizar la eficiencia del uso del agua.
+El usuario de WaruSmart es un agricultor que busca modernizar y optimizar el riego de sus cultivos. Este segmento abarca tanto a agricultores tradicionales que desean incursionar en la digitalización, como a productores profesionales(cooperativas, entre otros) que quieren maximizar la eficiencia del uso del agua.
 
 **¿Qué problema tiene nuestro producto que resolver?**
 El principal reto es la gestión manual del riego, que propicia ineficiencias y errores en la asignación de recursos hídricos. WaruSmart aborda este problema ofreciendo automatización, monitoreo en tiempo real y alertas predictivas para asegurar un riego óptimo y evitar la pérdida de agua en base a sensores de calidad del aire, temperatura y calidad del suelo.
@@ -366,7 +385,7 @@ Lean UX Canvas:
 
 #### Cooperativas Agrarias
 
-- Agrupan organizaciones enfocadas en promover la agricultura sostenible y la optimización de recursos hídricos.
+- Agrupaciones de agricultores que comparten conocimientos, gastos y ganancias.
 - Interesadas en impulsar políticas públicas y proyectos de impacto social que favorezcan el desarrollo agrario.
 - Buscan soluciones que permitan un monitoreo centralizado y análisis de datos para implementar estrategias de mejora en comunidades rurales.
 - Actúan como facilitadoras en la difusión y adopción de innovaciones tecnológicas en el sector agrícola.
@@ -874,3 +893,13 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 ##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
 
 ##### 4.2.5.6.2 Bounded Context Database Design Diagrams
+
+# Conclusiones
+
+## Conclusiones y recomendaciones
+
+## Video About-the-Team
+
+# Bibliografía
+
+# Anexos
