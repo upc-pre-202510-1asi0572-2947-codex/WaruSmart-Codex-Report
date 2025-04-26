@@ -825,12 +825,124 @@ Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
 ## 4.1 StrategicLevel Domain-Driven Design
 
 ### 4.1.1 EventStorming
+EventStorming es una técnica colaborativa e iterativa de modelado que permite explorar en profundidad una problemática compleja y de gran escala, facilitando la identificación de la mayor cantidad de detalles y desafíos posibles.
+
+![Image](https://res.cloudinary.com/drkelnilg/image/upload/v1745652955/imagen_2025-04-26_023555063_odbatw.png "Bounden Contexts")
+
+**Enlace del miro:** https://miro.com/app/board/uXjVI9vdzpc=/
 
 #### 4.1.1.1 Candidate Contex Discovery
+**Step 1: Unstructured Exploration**
+
+En la primera etapa del EventStorming, se realiza una sesión de exploración libre donde se buscan todos los eventos relevantes del dominio del negocio. Es importante expresar estos eventos como acciones que ya sucedieron, describiendo hechos que ocurrieron dentro del sistema o proceso.
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745653109/imagen_2025-04-26_023829144_clrqmp.png "Unstructured Exploration")
+
+Realizamos una lluvia de ideas para identificar todos los eventos, datos y acciones relevantes que el sistema IoT para la gestión de riego en cultivos debería manejar utilizando sensores de humedad, temperatura y aplicaciones web. Se incluyeron eventos relacionados con la activación de sensores ambientales y el monitoreo de condiciones del suelo, como la detección de niveles críticos de humedad y cambios de temperatura, para garantizar el adecuado control del riego. También se consideraron acciones del sistema, como el envío de alertas a los agricultores, la generación de recomendaciones de riego y la configuración de zonas de irrigación.
+
+**Step 2: Timelines**
+
+En este segundo paso, se revisan los eventos de dominio generados y se organizan en el orden en que ocurren dentro del dominio. Primero, se debe construir un happy path, es decir, un escenario en el que todo funciona correctamente y el proceso comercial es exitoso. Una vez que se ha completado este camino ideal, se pueden agregar escenarios alternativos que contemplen variaciones, fallos, o situaciones excepcionales.
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745653325/imagen_2025-04-26_024204586_atrn9i.png "Timelines")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745653338/imagen_2025-04-26_024218423_jluuq0.png "Timelines")
+
+Hemos organizado la información generada en la fase de exploración no estructurada mediante flujos de eventos específicos, identificando así cómo debería reaccionar el sistema ante distintas situaciones relacionadas con el monitoreo ambiental y la gestión del riego agrícola. Cada flujo visualiza un conjunto de eventos y acciones correlacionadas, desde la activación de sensores de humedad y temperatura hasta la generación de recomendaciones de riego y el envío de alertas a los agricultores. Se detallan diferentes escenarios como la detección de niveles críticos de humedad, cambios inusuales en la temperatura o interrupciones en los sensores. Además, se incluye la actualización de datos en distintas plataformas (nube, aplicaciones móviles y web) y la generación de reportes diarios sobre las condiciones ambientales y las actividades de riego.
+
+**Step 3: Paint Points**
+
+Después de organizar los eventos en una línea de tiempo, aprovechamos esta vista general para identificar puntos de interés a lo largo del proceso. Estos puntos de interés pueden incluir cuellos de botella, pasos manuales que podrían ser automatizados
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745653522/imagen_2025-04-26_024521737_cacqab.png "Paint Points")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745653536/imagen_2025-04-26_024535775_yy2gi8.png "Paint Points")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745653547/imagen_2025-04-26_024547412_s0oyxi.png "Paint Points")
+
+Hemos identificado y documentado los puntos críticos y decisiones clave en cada flujo de eventos. Estos flujos se detallan con preguntas esenciales que deben ser resueltas para garantizar el correcto funcionamiento del sistema, como la manera de detectar un nivel crítico de humedad, la validación de cambios anómalos de temperatura o la confirmación de una condición ambiental normal. Además, se analiza cómo se registran y actualizan los datos en la nube, y cómo se generan alertas y recomendaciones en caso de condiciones desfavorables para el cultivo.
+
+**Step 4: Pivotal Points**
+
+En esta etapa, se identifican los puntos de pivote, que son eventos o acciones que pueden cambiar el rumbo del proceso. Estos puntos son cruciales para entender cómo el sistema puede adaptarse a diferentes situaciones y cómo se pueden tomar decisiones en función de los datos recopilados.
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745653767/imagen_2025-04-26_024926114_uasjco.png "Pivotal Points")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745653787/imagen_2025-04-26_024946366_jg4kyp.png "Pivotal Points")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745653800/imagen_2025-04-26_024959774_bwrlpz.png "Pivotal Points")
+
+Hemos identificado los puntos críticos (pivotal points) que son esenciales para la correcta operación y toma de decisiones del sistema IoT de gestión de riego agrícola. Estos puntos representan momentos donde se requiere validar decisiones importantes para asegurar que el sistema actúe de manera adecuada frente a las condiciones ambientales detectadas. Por ejemplo, se definieron puntos de verificación como la detección de niveles críticos de humedad, la confirmación de variaciones anómalas de temperatura, la actualización de datos en la nube y la generación automática de recomendaciones de riego o alertas a los agricultores.
+
+**Step 5: Commands**
+
+En esta etapa, se definen los comandos que el sistema debe ejecutar en respuesta a los eventos y puntos de pivote identificados. Estos comandos son acciones específicas que el sistema debe llevar a cabo para garantizar un funcionamiento eficiente y efectivo.
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654093/imagen_2025-04-26_025452427_pktjqq.png "Commands")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654050/imagen_2025-04-26_025409445_btxntk.png "Commands")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654063/imagen_2025-04-26_025422647_ob79tc.png "Commands")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654081/imagen_2025-04-26_025441065_t2sqdr.png "Commands")
+
+Estructuramos las funcionalidades y acciones clave del sistema IoT para la gestión de riego agrícola, identificando los actores involucrados y sus interacciones con el sistema. Se definieron procesos específicos para la activación de sensores de humedad y temperatura, la recolección de datos ambientales, su visualización en paneles de control y su almacenamiento en la base de datos en la nube. Asimismo, se detallaron los flujos para la creación y modificación de zonas de riego, la programación de sistemas de irrigación, la generación de alertas en caso de condiciones críticas y la emisión de recomendaciones automáticas de riego.
+
+**Step 6: Policies**
+
+En esta etapa, se definen las políticas que rigen el comportamiento del sistema y cómo se deben manejar diferentes situaciones. Estas políticas son reglas o directrices que guían la toma de decisiones dentro del sistema.
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654414/imagen_2025-04-26_030013904_clyrbd.png "Policies")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654304/imagen_2025-04-26_025823941_ju4tj9.png "Policies")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654320/imagen_2025-04-26_025839659_pgpand.png "Policies")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654371/imagen_2025-04-26_025930296_aefomp.png "Policies")
+
+
+Definimos y organizamos las políticas de activación de sensores, recolección y envío de datos ambientales, generación de alertas y administración de usuarios y suscripciones. Se establecieron los eventos que disparan acciones automáticas como la activación de sensores de humedad y temperatura, la detección de condiciones críticas en los cultivos, la generación de recomendaciones de riego y el envío de notificaciones a los agricultores. También se estructuraron las políticas para gestionar fallos de sensores, sincronización de datos con plataformas en la nube y actualizaciones de programación de riego en función de las condiciones detectadas.
+
+**Step 7: Read Models**
+
+En esta etapa, se definen los modelos de lectura que el sistema utilizará para presentar la información a los usuarios. Estos modelos son representaciones de los datos que se mostrarán en las interfaces de usuario y deben ser diseñados para facilitar la comprensión y el análisis de la información.
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654694/imagen_2025-04-26_030440434_ymqj8d.png "Read Models")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654699/imagen_2025-04-26_030458571_ocu4ur.png "Read Models")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654736/imagen_2025-04-26_030535541_dee5a3.png "Read Models")
+
+Identificamos los modelos de lectura (Read Models) necesarios para presentar la información recolectada a partir de los eventos y comandos ya establecidos. Cada Read Model fue definido en función de las necesidades de consulta específicas del sistema, permitiendo estructurar vistas claras y actualizadas de datos críticos como las condiciones ambientales, el estado de los cultivos, las programaciones de riego y las alertas generadas. Estos modelos incluyen aspectos como la visualización histórica de humedad y temperatura, el registro de recomendaciones de riego, la lista de sensores activos o desconectados, y el seguimiento de reportes diarios sincronizados con la nube. Además, se estructuraron modelos para la gestión de usuarios y suscripciones, detallando qué información debe mostrarse y cómo debe actualizarse en función de los cambios en el sistema.
+
+**Step 8: External Systems**
+
+En esta etapa, se identifican los sistemas externos con los que el sistema debe interactuar. Estos sistemas pueden incluir bases de datos, servicios web, aplicaciones móviles y otros componentes que son necesarios para el funcionamiento del sistema.
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654906/imagen_2025-04-26_030812443_tsvirm.png "External Systems")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654917/imagen_2025-04-26_030828644_mz7qly.png "External Systems")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745654921/imagen_2025-04-26_030840432_k4hozz.png "External Systems")
+
+Incorporamos eventos relacionados con la activación de sensores y el inicio de la recolección de datos ambientales, representados dentro del flujo general. Además, se añadieron interacciones específicas con diferentes sistemas externos, como plataformas IoT para la gestión de sensores de humedad y temperatura, servicios de almacenamiento en la nube, gateways de notificaciones y pasarelas de pago para la administración de suscripciones. Se destacaron políticas automáticas para la recolección y envío de datos, así como la generación de alertas ante condiciones críticas.
+
+**Step 9: Aggregates**
+
+En esta etapa, se definen los agregados que representan las entidades principales del sistema. Estos agregados son grupos de entidades y objetos de valor que están relacionados entre sí y que deben ser tratados como una unidad coherente.
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655247/imagen_2025-04-26_031405592_b4ytqs.png "Aggregates")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655267/imagen_2025-04-26_031426575_yfahjp.png "Aggregates")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655327/imagen_2025-04-26_031458054_thycab.png "Aggregates")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655294/imagen_2025-04-26_031446744_tk3kz2.png "Aggregates")
+
+Cada diagrama inicia con la activación de los sensores y la recolección de datos ambientales correspondientes (humedad y temperatura), procediendo a la detección de condiciones normales o críticas en los cultivos. Si se detecta una anomalía, se sigue una política de recolección de datos y de generación de alertas, que conlleva la emisión de recomendaciones de riego o notificaciones de alerta hacia los agricultores a través de distintas plataformas (web, aplicación móvil). Además, se introdujo el flujo de inicio de sesión y gestión de cuentas para configurar el sistema y asociar usuarios a sus cultivos, facilitando la personalización de configuraciones de sensores, zonas de riego y el control de notificaciones. Cada flujo de eventos y comandos está agrupado bajo agregados específicos, que encapsulan de manera consistente la evolución de los datos ambientales, las programaciones de riego, las alertas y la administración de usuarios, permitiendo mantener la integridad y coherencia del sistema en cada una de sus interacciones principales.
+
+**Step 10: Bounded Contexts**
+
+Finalmente, se identifican los contextos delimitados (bounded contexts) que representan áreas específicas del dominio donde se aplican ciertas reglas y políticas. Estos contextos ayudan a organizar el sistema en módulos más manejables y comprensibles.
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745652955/imagen_2025-04-26_023555063_odbatw.png "Bounded Contexts")
+
+Identificamos y agrupamos los eventos del sistema Warusmart en distintos Bounded Contexts para delimitar áreas funcionales específicas dentro del dominio agrícola. Identification and Authentication Management se encarga de la autenticación, el inicio de sesión, la asignación de roles y la gestión de cuentas de usuarios, asegurando el acceso seguro y la asociación entre agricultores y cultivos. Subscriptions and Payments administra todo el ciclo de vida de las suscripciones, desde la activación hasta la renovación o cancelación, incluyendo la interacción con plataformas de pago externas como PayPal. Crops Management (Notif) abarca el registro y actualización de cultivos, la asignación de sensores a zonas agrícolas, y la emisión de alertas y notificaciones ante condiciones ambientales críticas. Irrigation Management gestiona la configuración de zonas de riego, la programación y ejecución (manual o automática) del sistema de irrigación, y el seguimiento del historial de riego. Finalmente, Data Analytics Management se enfoca en el procesamiento de datos provenientes de los sensores, la visualización de información histórica, la generación de recomendaciones de riego, el envío de reportes y la sincronización de datos en la nube. Esta estructuración por contextos permite mantener una arquitectura modular, escalable y alineada con los principios de diseño orientado al dominio, facilitando el desarrollo y mantenimiento del sistema.
+
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
 #### 4.1.1.3 Bounded Context Canvases
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655714/imagen_2025-04-26_032134504_on17gs.png "Bounded Contexts Canvases")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655735/imagen_2025-04-26_032156831_llint2.png "Bounded Contexts Canvases")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655739/imagen_2025-04-26_032218127_zkpvp1.png "Bounded Contexts Canvases")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655784/imagen_2025-04-26_032246309_vqevhg.png "Bounded Contexts Canvases")
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655819/imagen_2025-04-26_032305580_wunor9.png "Bounded Contexts Canvases")
+
+**Enlace del miro:** https://miro.com/app/board/uXjVI9vdzpc=/
 
 ### 4.1.2 Context Mapping
 
