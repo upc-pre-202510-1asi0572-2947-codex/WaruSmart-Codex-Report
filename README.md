@@ -117,6 +117,61 @@ para cada integrante del equipo:
 - [3.4 Product Backlog](#34-product-backlog)
 
 ### Capítulo IV: Solution Software Design
+- [`<div align="center">`WaruSmart-Codex-Report `</div>`](#div-aligncenterwarusmart-codex-report-div)
+  - [`<div align="center">`Team Members `</div>`](#div-aligncenterteam-members-div)
+    - [Registro de Informes](#registro-de-informes)
+    - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+    - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+    - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+    - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción.](#capítulo-i-introducción-1)
+  - [1.1 **Startup Profile.**](#11-startup-profile)
+    - [1.1.1   Descripción del startup](#111---descripción-del-startup)
+    - [1.1.2   Perfiles de integrantes del equipo](#112---perfiles-de-integrantes-del-equipo)
+  - [1.2 **Solution Profile.**](#12-solution-profile)
+    - [1.2.1   Antecedentes y problemática](#121---antecedentes-y-problemática)
+        - [Antecedentes](#antecedentes)
+        - [Problemática](#problemática)
+        - [Aplicación de las 5 W’s y 2 H’s](#aplicación-de-las-5-ws-y-2-hs)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [**Business Assumptions:**](#business-assumptions)
+        - [**User Assumptions**](#user-assumptions)
+        - [**Feature Assumptions**](#feature-assumptions)
+      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [Lean UX Hypothesis Statements](#lean-ux-hypothesis-statements)
+      - [1.2.2.4 Lean UX Canvas.](#1224-lean-ux-canvas)
+    - [1.3 **Segmentos Objetivos.**](#13-segmentos-objetivos)
+      - [Agricultores Individuales](#agricultores-individuales)
+      - [Cooperativas Agrarias](#cooperativas-agrarias)
+- [Capítulo II: Requirements Elicitation \& Analysis.](#capítulo-ii-requirements-elicitation--analysis-1)
+  - [2.1 **Competidores.**](#21-competidores)
+    - [2.1.1   Análisis competitivo.](#211---análisis-competitivo)
+    - [2.1.2   Estrategias y tácticas frente a competidores.](#212---estrategias-y-tácticas-frente-a-competidores)
+  - [2.2 **Entrevistas**](#22-entrevistas)
+    - [2.2.1   Diseño de entrevistas.](#221---diseño-de-entrevistas)
+    - [2.2.2   Registro de entrevistas.](#222---registro-de-entrevistas)
+    - [2.2.3   Análisis de entrevistas.](#223---análisis-de-entrevistas)
+  - [2.3 **Needfinding.**](#23-needfinding)
+    - [2.3.1   User Personas.](#231---user-personas)
+    - [2.3.2   User Task Matrix.](#232---user-task-matrix)
+    - [2.3.3   User Journey Mapping.](#233---user-journey-mapping)
+    - [2.3.4   Empathy Mapping.](#234---empathy-mapping)
+    - [2.3.5   As-Is Scenario Mapping.](#235---as-is-scenario-mapping)
+  - [2.4 **Ubiquitous Language.**](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification.](#capítulo-iii-requirements-specification-1)
+  - [3.1 **To-Be Scenario Mapping.**](#31-to-be-scenario-mapping)
+  - [3.2 **User Stories.**](#32-user-stories)
+  - [3.3 **Impact Mapping.**](#33-impact-mapping)
+  - [3.4 **Product Backlog.**](#34-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design-1)
   - [4.1 StrategicLevel Domain-Driven Design](#41-strategiclevel-domain-driven-design)
     - [4.1.1 EventStorming](#411-eventstorming)
       - [4.1.1.1 Candidate Contex Discovery](#4111-candidate-contex-discovery)
@@ -166,6 +221,16 @@ para cada integrante del equipo:
         - [4.2.2.6.1 Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
         - [4.2.2.6.2 Bounded Context Database Design Diagrams](#42262-bounded-context-database-design-diagrams)
     - [4.2.3 Bounded Context: Crops Management (Notification)](#423-bounded-context-crops-management-notification)
+    - [Diccionario de Clases](#diccionario-de-clases-2)
+      - [Clase: `Plot`](#clase-plot)
+        - [Atributos](#atributos-5)
+        - [Métodos](#métodos-5)
+      - [Clase: `Sensor`](#clase-sensor)
+        - [Atributos](#atributos-6)
+        - [Métodos](#métodos-6)
+      - [Clase: `UserNotification`](#clase-usernotification)
+        - [Atributos](#atributos-7)
+        - [Métodos](#métodos-7)
       - [4.2.3.1 Domain Layer](#4231-domain-layer)
       - [4.2.3.2 Interface Layer](#4232-interface-layer)
       - [4.2.3.3 Application Layer](#4233-application-layer)
@@ -175,6 +240,8 @@ para cada integrante del equipo:
         - [4.2.3.6.1 Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2 Bounded Context Database Design Diagrams](#42362-bounded-context-database-design-diagrams)
     - [4.2.4 Bounded Context: Irrigation Management](#424-bounded-context-irrigation-management)
+    - [Diccionario de Clases](#diccionario-de-clases-3)
+      - [Clase: `IrrigationSchedule`](#clase-irrigationschedule)
       - [4.2.4.1 Domain Layer](#4241-domain-layer)
       - [4.2.4.2 Interface Layer](#4242-interface-layer)
       - [4.2.4.3 Application Layer](#4243-application-layer)
@@ -1241,6 +1308,96 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 ##### 4.2.2.6.2 Bounded Context Database Design Diagrams
 
 ### 4.2.3 Bounded Context: Crops Management (Notification)
+Este contexto gestiona parcelas de cultivo, sensores asociados y notificaciones proactivas a los usuarios (ej.: fallas de sensores, cambios en el estado del cultivo o condiciones ambientales críticas). Garantiza que los agricultores reciban alertas oportunas para tomar decisiones.
+
+---
+
+### Diccionario de Clases
+
+#### Clase: `Plot`
+
+Esta clase representa una parcela de cultivo y sus notificaciones relacionadas.
+
+| Nombre      | Plot                                                                         |
+| ----------- | ------------------------------------------------------------------------------------ |
+| Relaciones  | Sensor, CropType, UserNotification                                                |
+| Descripción | Contiene información de la parcela,su ubicación y el cultivo que alberga,así como también métodos para activar alertas. |
+
+##### Atributos
+
+| Nombre             | Tipo de Dato       | Visibilidad |
+| ------------------ | ------------------ | ----------- |
+| Id                 | int                | private     |
+| Name               | string             | private     |
+| Location           | string             | private     |
+| Size               | float              | private     |
+| CropType           | CropType           | private     |
+| Alerts             | List<AlertType>    | private     |
+| AssignSensor       | List<Sensor>       | private     |
+
+##### Métodos
+
+- `checkForAlerts()` – Evalúa sensores/umbrales y genera notificaciones.
+- `getPlotType()` – Devuelve metadata de la parcela.
+- `assignSensor()` – Asigna un sensor a una parcela.
+- `updateCropType` - Actualiza el tipo de cultivo.
+- `notifyUser()` – Dispara alertas a usuarios vinculados (via IAM).
+
+---
+
+#### Clase: `Sensor`
+
+Gestiona los límites en los cuales enviará alertas al usuario.
+
+| Nombre      | Sensor                                                                               |
+| ----------- | ------------------------------------------------------------------------------------- |
+| Relaciones  | Plot, UserNotification       |
+| Descripción | Indicará el estado de la parcela a través del hardware. |
+
+##### Atributos
+
+| Nombre | Tipo de Dato | Visibilidad |
+| ------ | ------------ | ----------- |
+| id         | int     | private     |
+| AlertThreshold     | float          | private     | 
+| LastCalibration     | Date          | private     | 
+| Status     | SensorStatus          | private     | 
+
+^Valor que disparará alertas, ej: humedad<20%
+
+##### Métodos
+
+- `AlertCondition()` – Compara lecturas con umbrales y retorna `true` si hay riesgo.
+- `calibrate()` - Se realiza la calibración y se guarda la fecha.
+- `getSensorId()` - Muestra el ID del sensor.
+- `getSensorData()` - Devuelve las últimas lecturas.
+- `updateStatus()` - Cambia el estado (activo/inactivo/fallando).
+
+---
+
+#### Clase: `UserNotification`
+
+Gestiona los límites en los cuales enviará alertas al usuario.
+
+| Nombre      | Sensor                                                  |
+| ----------- | ------------------------------------------------------- |
+| Relaciones  | Plot, User(IAM)                                  |
+| Descripción | Registra notificaciones enviadas y su estado (leído/no leído). |
+
+##### Atributos
+
+| Nombre | Tipo de Dato    | Visibilidad |
+| ------ | --------------- | ----------- |
+| Id     | int             | private     |
+| Message   | string          | private     |
+| AlertType | AlertType | private     |
+| IsRead    | bool      | private     |
+| CreatedAt    | DateTime      | private     |
+
+##### Métodos
+
+- `send()` – Publica la alerta en la app/web (integra con IAM).
+- `markAsRead()` – Actualiza el estado.
 
 #### 4.2.3.1 Domain Layer
 
@@ -1259,6 +1416,20 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 ##### 4.2.3.6.2 Bounded Context Database Design Diagrams
 
 ### 4.2.4 Bounded Context: Irrigation Management
+Este contexto gestiona el riego automático y manual basado en datos de sensores y umbrales definidos. Controla válvulas de riego, programación y alertas por condiciones críticas (ej. sequía o exceso de agua).
+
+---
+
+### Diccionario de Clases
+
+#### Clase: `IrrigationSchedule`
+
+Programa riegos recurrentes o puntuales para una parcela.
+
+| Nombre      | IrrigationSchedule             |
+| ----------- | ------------------------------------------------------------- |
+| Relaciones  | Plot, IrrigationMode                                          |
+| Descripción | Define cuándo y cómo se activa el riego. |
 
 #### 4.2.4.1 Domain Layer
 
