@@ -623,6 +623,13 @@ Tabla que muestra las principales actividades del usuario, junto con el como rea
 |E5-US505|Servicio de integracion con dispositivos IoT|<p>**Como** developer</p><p>**Quiero** crear un servicio que reciba datos desde dispositivos IoT vía MQTT y los procese</p><p>**Para** integrarlos con el sistema general y persistir su información</p>|<p>**Escenario 1: Recepción de datos MQTT exitos**a</p><p>**Dado que** un dispositivo IoT publica datos en un topic MQTT configurado</p><p>**Cuando** el servicio MQTT los recibe</p><p>**Entonces** procesa y guarda los datos correctamente en la base de datos</p><p></p><p>**Escenario 2: Error en el procesamiento de datos del dispositivo**</p><p>**Dado que** los datos recibidos por MQTT tienen formato inválido</p><p>**Cuando** el servicio intenta procesarlos</p><p>**Entonces** registra el error y envía una notificación al sistema de monitoreo</p><p></p>|5|
 
 ## 3.3 **Impact Mapping.**
+**Segmento agricultor**
+
+<img src="./assets/chapter-III/WaruSmart-impact-mapping-agricultor.png" alt="Impact map del segmento agricultor">
+
+**Segmento cooperativa**
+
+<img src="./assets/chapter-III/Segmento Cooperativa.png" alt="Impact map del segmento cooperativa">
 
 ## 3.4 **Product Backlog.**
 
