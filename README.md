@@ -470,7 +470,23 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 
 **Segmento1**
 
+| Nombre de entrevistado  | Moises Luque  |
+|-----------------|-----------------|
+| Edad   | 47  |
+| Departamento   | Aucallama, Huaral |
+| IMG | El entrevistado llevaba el registro de riegos en un cuaderno, aunque a veces olvidaba anotarlo, lo que le generaba errores y pequeñas perdidas. Considera importantes datos como la cantidad de agua, el clima y el estado del suelo. Ha tenido dificultades por falta de agua o algunas fallas , lo que lo obligaba a regar manualmente. Le interesa una solución que organice la información y brinde alertas, y estaría dispuesto a pagar una cuota mensual accesible. Cree que esta herramienta sería útil para otros agricultores que aún trabajan de forma manual. |
+| Duracion de entrevista: 0:00 - 3:35 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EXuW4XXkLIhItSs9_jN5i7MBJRmzug7Giqo9J9O6CYVrsA?e=wWy2zc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
 **Segmento 2**
+
+Entrevista 1:
+
+| Nombre de entrevistado  | Alexis Patazca |
+|-----------------|-----------------|
+| Edad   | 26 |
+| Departamento   | Tuman, Chiclayo |
+| IMG | El entrevistado se encarga de gestionar los recursos y coordinar con los miembros de la cooperativa, y nos cuenta que ellos registran las necesidades de los cultivos de forma manual y no cuentan con una plataforma centralizada, lo que genera descoordinación en el riego y manejo de insumos. Han tenido pérdidas por errores en la gestión, y aunque usan herramientas básicas como apps del clima, no tienen un sistema integral. Se muestra positivo frente a la integracion de una solución tecnológica que centralice la información, optimice el riego y reduzca pérdidas, y estarían dispuestos a pagar una cuota mensual razonable por su implementación. |
+| Duracion de entrevista: 0:00 - 6:31 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/Eew00ixSHLFDvgsPnLMhqOcBbEDKzovC0kNLTlTFV6ShiA?e=hQq3b1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 Entrevista 2:
 
