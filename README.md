@@ -183,6 +183,7 @@ para cada integrante del equipo:
       - [4.1.3.1 Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
       - [4.1.3.2 Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
       - [4.1.3.2 Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
+    - [Incluimos también los siguientes Components:](#incluimos-también-los-siguientes-components)
       - [4.1.3.2 Software Architecture Deployment Diagrams](#4132-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
     - [4.2.1. Bounded Context: IAM (Identity and Access Management)](#421-bounded-context-iam-identity-and-access-management)
@@ -1091,16 +1092,19 @@ Es importante resaltar que durante este proceso el equipo aplicó los patrones d
 ### 4.1.3 Software Architecture
 Para la definición de nuestra arquitectura de software hicimos uso del Diagrama C4 model y la herramienta Structurizr.
 #### 4.1.3.1 Software Architecture System Landscape Diagram
+
+#### 4.1.3.2 Software Architecture Context Level Diagrams
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContext_f7hfik.png">
 </p>
 
-#### 4.1.3.2 Software Architecture Context Level Diagrams
+#### 4.1.3.2 Software Architecture Container Level Diagrams
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContainers_d6yoda.png">
 </p>
 
-#### 4.1.3.2 Software Architecture Container Level Diagrams
+### Incluimos también los siguientes Components:
+
 **Crop Management Diagram**
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsManagementComponents_iyktxz.png">
