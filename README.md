@@ -1133,10 +1133,114 @@ Esta clase define los distintos roles posibles dentro del sistema, como "Adminis
 #### 4.2.1.1 Domain Layer
 
 #### 4.2.1.2 Interface Layer
+### Bounded Context: IAM
 
+En esta sección, se describe la capa de interfaz correspondiente al dominio de **Identity and Access Management (IAM)**, la cual expone los controladores necesarios para gestionar las interacciones de los usuarios con el sistema.
+
+Los controladores de IAM son responsables de manejar las solicitudes de creación de usuarios, autenticación, asignación de roles, actualización de contraseñas y desactivación de cuentas. Aseguran que solo usuarios autorizados puedan realizar operaciones sensibles y que la plataforma mantenga la integridad de las identidades y permisos.
+
+El controlador principal en este contexto es el **UserController**.
+
+---
+
+### UserController
+
+| Método | Descripción |
+|--------|-------------|
+| `getUserDetails(userId: int): UserDto` | Obtiene los detalles de un usuario específico. |
+| `createUser(userData: UserDto): void` | Crea un nuevo usuario en el sistema, asignándole un rol inicial. |
+| `updatePassword(userId: int, newPassword: string): void` | Actualiza la contraseña de un usuario. |
+| `assignRole(userId: int, roleId: int): void` | Asigna o actualiza el rol de un usuario. |
+| `deactivateUser(userId: int): void` | Desactiva una cuenta de usuario, bloqueando su acceso al sistema. |
+
+---
 #### 4.2.1.3 Application Layer
+En esta sección, se presenta la **Capa de Aplicación (Application Layer)** dentro del contexto de **Identity and Access Management (IAM)** de la plataforma Warusmart.
 
+Esta capa sirve como intermediaria entre la lógica de negocio que gestiona identidades y accesos y la infraestructura de servicios, permitiendo controlar la creación de usuarios, la actualización de contraseñas, la asignación de roles y la desactivación de usuarios de manera segura y organizada.
+
+Los **Command Handlers** son responsables de ejecutar acciones de escritura, como registrar nuevos usuarios o modificar su información de acceso. También se incluyen **Event Handlers** para reaccionar ante eventos importantes del sistema, como la desactivación de cuentas.
+
+---
+
+### Command Handlers
+
+#### UserCreationCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `userService: UserService` |
+| Método Principal | `handle(command: CreateUserCommand): User` |
+| Descripción | Recibe el comando para crear un nuevo usuario en la plataforma, asignándole un rol inicial, y delega la operación al servicio de usuarios. |
+
+---
+
+#### PasswordUpdateCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `userService: UserService` |
+| Método Principal | `handle(command: UpdatePasswordCommand): void` |
+| Descripción | Recibe el comando para actualizar la contraseña de un usuario existente, gestionando el proceso de manera segura. |
+
+---
+
+#### RoleAssignmentCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `userService: UserService` |
+| Método Principal | `handle(command: AssignRoleCommand): void` |
+| Descripción | Gestiona la asignación o actualización de un rol a un usuario determinado. |
+
+---
+
+### Event Handlers
+
+#### UserDeactivatedEventHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `userService: UserService` |
+| Método Principal | `handle(event: UserDeactivatedEvent): void` |
+| Descripción | Maneja el evento de desactivación de un usuario, realizando las actualizaciones necesarias en el sistema y restringiendo su acceso. |
+
+---
 #### 4.2.1.4 Infraestructure Layer
+En esta sección, se presenta la **Capa de Infraestructura (Infrastructure Layer)** dentro del contexto de **Identity and Access Management (IAM)** de la plataforma Warusmart.
+
+Esta capa es responsable de implementar los componentes técnicos necesarios para almacenar, consultar y administrar la información relacionada con los usuarios y sus roles en el sistema. Permite conectar la Capa de Dominio con las bases de datos o servicios de persistencia, garantizando que los datos de identidad y acceso estén correctamente gestionados.
+
+Los principales repositorios en este contexto son:
+
+- `UserRepository`, encargado de manejar las operaciones de almacenamiento y recuperación de usuarios.
+- `RoleRepository`, encargado de gestionar los roles asignados a los usuarios.
+
+---
+
+### Repositorios
+
+#### UserRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(userId: int): User` | Recupera la información de un usuario específico mediante su identificador. |
+| `findAll(): List<User>` | Obtiene la lista de todos los usuarios registrados en el sistema. |
+| `save(user: User): void` | Guarda un nuevo usuario o actualiza la información de un usuario existente. |
+| `deleteById(userId: int): void` | Elimina un usuario del sistema utilizando su identificador único. |
+
+---
+
+#### RoleRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(roleId: int): Role` | Recupera los detalles de un rol específico. |
+| `findAll(): List<Role>` | Obtiene la lista de todos los roles definidos en el sistema. |
+| `save(role: Role): void` | Guarda un nuevo rol o actualiza uno existente en la base de datos. |
+| `deleteById(roleId: int): void` | Elimina un rol de la base de datos utilizando su identificador único. |
+
+---
 
 #### 4.2.1.5 Bounded Context Softwre Architecture Component Level Diagrams
 
@@ -1238,11 +1342,167 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 #### 4.2.2.1 Domain Layer
 
 #### 4.2.2.2 Interface Layer
+### Bounded Context: Subscriptions and Payments
+
+En esta sección, se presenta la capa de interfaz correspondiente al dominio de **Subscriptions and Payments**, encargada de gestionar las operaciones relacionadas con los planes de suscripción, sus cambios de estado, y el control de los pagos realizados por los usuarios.
+
+Los controladores de este contexto permiten visualizar el estado actual de una suscripción, realizar upgrades o downgrades entre planes, cancelar suscripciones, y procesar o validar pagos de acuerdo con las reglas definidas en la plataforma.
+
+Los principales controladores en este contexto son el **SubscriptionController** y el **PaymentController**.
+
+---
+
+### SubscriptionController
+
+| Método | Descripción |
+|--------|-------------|
+| `getSubscriptionDetails(subscriptionId: int): SubscriptionDto` | Obtiene los detalles de una suscripción específica. |
+| `upgradeSubscription(accountId: int, newTier: SubscriptionTier): void` | Mejora el nivel de suscripción de una cuenta a un plan superior. |
+| `downgradeSubscription(accountId: int, lowerTier: SubscriptionTier): void` | Reduce el nivel de suscripción de una cuenta a un plan inferior. |
+| `cancelSubscription(subscriptionId: int): void` | Cancela una suscripción activa, revocando su acceso a servicios premium. |
+
+---
+
+### PaymentController
+
+| Método | Descripción |
+|--------|-------------|
+| `getPaymentHistory(accountId: int): List<PaymentDto>` | Obtiene el historial de pagos realizados por una cuenta. |
+| `processPayment(accountId: int, paymentData: PaymentDto): void` | Procesa un nuevo pago para una suscripción activa. |
+| `validatePayment(paymentId: int): boolean` | Valida el estado de un pago recibido y actualiza la suscripción correspondiente. |
+| `cancelPayment(paymentId: int): void` | Cancela un pago pendiente o no procesado correctamente. |
+
+---
 
 #### 4.2.2.3 Application Layer
+En esta sección, se presenta la **Capa de Aplicación (Application Layer)** dentro del contexto de **Subscriptions and Payments** de la plataforma Warusmart.
 
+Esta capa administra las acciones relacionadas con la gestión de suscripciones y pagos de los usuarios, garantizando que los cambios de plan, renovaciones, cancelaciones y el registro de pagos se manejen de manera ordenada y coherente con las reglas del negocio.
+
+Los **Command Handlers** permiten realizar operaciones como crear suscripciones, actualizar planes de servicio o procesar pagos, mientras que los **Event Handlers** reaccionan a eventos de éxito o fallo de pagos para mantener la consistencia del estado del sistema.
+
+---
+
+### Command Handlers
+
+#### SubscriptionCreationCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `subscriptionService: SubscriptionService` |
+| Método Principal | `handle(command: CreateSubscriptionCommand): Subscription` |
+| Descripción | Maneja la creación de una nueva suscripción para una cuenta, configurando el plan inicial y la fecha de activación. |
+
+---
+
+#### SubscriptionUpgradeCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `subscriptionService: SubscriptionService` |
+| Método Principal | `handle(command: UpgradeSubscriptionCommand): Subscription` |
+| Descripción | Gestiona el proceso de mejorar el nivel de suscripción de una cuenta a un plan superior. |
+
+---
+
+#### SubscriptionCancellationCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `subscriptionService: SubscriptionService` |
+| Método Principal | `handle(command: CancelSubscriptionCommand): void` |
+| Descripción | Maneja la cancelación de una suscripción activa, revocando el acceso a servicios premium si corresponde. |
+
+---
+
+#### PaymentProcessingCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `paymentService: PaymentService` |
+| Método Principal | `handle(command: ProcessPaymentCommand): Payment` |
+| Descripción | Procesa un nuevo pago realizado por un usuario, registrándolo en el sistema y actualizando el estado de la suscripción si es exitoso. |
+
+---
+
+### Event Handlers
+
+#### SubscriptionCreatedEventHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `subscriptionService: SubscriptionService` |
+| Método Principal | `handle(event: SubscriptionCreatedEvent): void` |
+| Descripción | Responde al evento de creación de una suscripción inicializando parámetros como fechas de renovación y estado activo. |
+
+---
+
+#### PaymentSucceededEventHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `paymentService: PaymentService` |
+| Método Principal | `handle(event: PaymentSucceededEvent): void` |
+| Descripción | Maneja el evento de pago exitoso, actualizando la suscripción del usuario y registrando la transacción correctamente. |
+
+---
+
+#### PaymentFailedEventHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `paymentService: PaymentService` |
+| Método Principal | `handle(event: PaymentFailedEvent): void` |
+| Descripción | Maneja el evento de fallo de pago, notificando al usuario y poniendo la suscripción en estado pendiente o suspendido si es necesario. |
+
+---
 #### 4.2.2.4 Infraestructure Layer
+En esta sección, se presenta la **Capa de Infraestructura (Infrastructure Layer)** dentro del contexto de **Subscriptions and Payments** de la plataforma Warusmart.
 
+Esta capa es responsable de implementar los repositorios que gestionan la persistencia de datos de cuentas, suscripciones y pagos. Facilita la conexión entre la lógica de dominio y las bases de datos utilizadas por la plataforma, asegurando la correcta gestión de la información relacionada a los servicios contratados por los usuarios.
+
+Los principales repositorios en este contexto son:
+
+- `AccountRepository`, encargado de manejar la información de las cuentas de usuario.
+- `SubscriptionRepository`, encargado de gestionar las suscripciones vinculadas a las cuentas.
+- `PaymentRepository`, encargado de registrar y validar los pagos realizados por los usuarios.
+
+---
+
+### Repositorios
+
+#### AccountRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(accountId: int): Account` | Recupera la información de una cuenta específica utilizando su identificador. |
+| `findAll(): List<Account>` | Obtiene la lista de todas las cuentas registradas en el sistema. |
+| `save(account: Account): void` | Guarda o actualiza una cuenta en la base de datos. |
+| `deleteById(accountId: int): void` | Elimina una cuenta de la base de datos usando su identificador. |
+
+---
+
+#### SubscriptionRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(subscriptionId: int): Subscription` | Recupera la información de una suscripción específica. |
+| `findAll(): List<Subscription>` | Obtiene todas las suscripciones almacenadas. |
+| `save(subscription: Subscription): void` | Guarda una nueva suscripción o actualiza una existente. |
+| `deleteById(subscriptionId: int): void` | Elimina una suscripción usando su identificador. |
+
+---
+
+#### PaymentRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(paymentId: int): Payment` | Recupera un registro de pago específico utilizando su identificador. |
+| `findAll(): List<Payment>` | Obtiene la lista de todos los pagos registrados. |
+| `save(payment: Payment): void` | Guarda un nuevo registro de pago o actualiza uno existente. |
+| `deleteById(paymentId: int): void` | Elimina un registro de pago utilizando su identificador único. |
+
+---
 #### 4.2.2.5 Bounded Context Softwre Architecture Component Level Diagrams
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674154/WaruSmartSubscriptionsPaymentsComponents_d1wzj6.png">
@@ -1348,11 +1608,115 @@ Gestiona los límites en los cuales enviará alertas al usuario.
 #### 4.2.3.1 Domain Layer
 
 #### 4.2.3.2 Interface Layer
+### Bounded Context: Crops Management
+
+En esta sección, se presenta la capa de interfaz correspondiente al dominio de **Crops Management**, responsable de gestionar todas las interacciones de los usuarios relacionadas con el registro, actualización y visualización de cultivos en la plataforma.
+
+El controlador de este contexto facilita la creación de nuevos cultivos, la actualización de información relevante (como el área cultivada o el estado del cultivo) y la reasignación de cultivos a diferentes parcelas en caso de ser necesario.
+
+El principal controlador en este contexto es el **CropController**.
+
+---
+
+### CropController
+
+| Método | Descripción |
+|--------|-------------|
+| `getCropDetails(cropId: int): CropDto` | Obtiene los detalles de un cultivo específico registrado en la plataforma. |
+| `registerCrop(cropData: CropDto): void` | Registra un nuevo cultivo asociado a un usuario y a un campo agrícola. |
+| `updateCropStatus(cropId: int, newStatus: string): void` | Actualiza el estado de un cultivo (por ejemplo: sembrado, en desarrollo, cosechado). |
+| `updateCropArea(cropId: int, newArea: float): void` | Modifica el área cultivada asociada a un cultivo. |
+| `reassignCropField(cropId: int, newFieldId: int): void` | Reasigna un cultivo a un campo agrícola diferente. |
+
+---
 
 #### 4.2.3.3 Application Layer
+En esta sección, se presenta la **Capa de Aplicación (Application Layer)** dentro del contexto de **Crops Management** de la plataforma Warusmart.
 
+Esta capa es responsable de orquestar las operaciones relacionadas con el registro, actualización y gestión de cultivos. Actúa como intermediaria entre la lógica de negocio agrícola y la infraestructura del sistema, controlando la creación de nuevos cultivos, actualizaciones de estado y reasignaciones de campos.
+
+Los **Command Handlers** permiten ejecutar acciones de escritura sobre los registros de cultivos, mientras que los **Event Handlers** permiten reaccionar ante cambios significativos en los datos de los cultivos.
+
+---
+
+### Command Handlers
+
+#### CropRegistrationCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `cropService: CropService` |
+| Método Principal | `handle(command: RegisterCropCommand): Crop` |
+| Descripción | Recibe el comando para registrar un nuevo cultivo asociado a un usuario y a un campo agrícola específico. |
+
+---
+
+#### CropStatusUpdateCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `cropService: CropService` |
+| Método Principal | `handle(command: UpdateCropStatusCommand): void` |
+| Descripción | Permite actualizar el estado de un cultivo (por ejemplo: de sembrado a en crecimiento o a cosechado). |
+
+---
+
+#### CropFieldReassignmentCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `cropService: CropService` |
+| Método Principal | `handle(command: ReassignCropFieldCommand): void` |
+| Descripción | Gestiona la reasignación de un cultivo a un nuevo campo agrícola dentro de la plataforma. |
+
+---
+
+### Event Handlers
+
+#### CropStatusChangedEventHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `cropService: CropService` |
+| Método Principal | `handle(event: CropStatusChangedEvent): void` |
+| Descripción | Maneja eventos de cambio de estado de un cultivo para actualizar registros históricos y notificar cambios a los usuarios si es necesario. |
+
+---
 #### 4.2.3.4 Infraestructure Layer
+En esta sección, se presenta la **Capa de Infraestructura (Infrastructure Layer)** dentro del contexto de **Crops Management** de la plataforma Warusmart.
 
+Esta capa proporciona los componentes técnicos necesarios para la persistencia y consulta de la información relacionada con los cultivos y los campos agrícolas. Permite que la lógica de dominio interactúe con bases de datos o sistemas externos de manera eficiente y segura.
+
+Los principales repositorios en este contexto son:
+
+- `CropRepository`, encargado de gestionar los registros de cultivos.
+- `FieldRepository`, encargado de manejar la información de los campos o parcelas agrícolas.
+
+---
+
+### Repositorios
+
+#### CropRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(cropId: int): Crop` | Recupera la información de un cultivo específico utilizando su identificador. |
+| `findAll(): List<Crop>` | Obtiene la lista de todos los cultivos registrados en la plataforma. |
+| `save(crop: Crop): void` | Guarda un nuevo cultivo o actualiza un cultivo existente en la base de datos. |
+| `deleteById(cropId: int): void` | Elimina un cultivo utilizando su identificador único. |
+
+---
+
+#### FieldRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(fieldId: int): Field` | Recupera los datos de una parcela o campo agrícola específico. |
+| `findAll(): List<Field>` | Obtiene la lista de todos los campos agrícolas registrados en la plataforma. |
+| `save(field: Field): void` | Guarda o actualiza la información de un campo agrícola. |
+| `deleteById(fieldId: int): void` | Elimina un campo agrícola de la base de datos utilizando su identificador. |
+
+---
 #### 4.2.3.5 Bounded Context Softwre Architecture Component Level Diagrams
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsManagementComponents_iyktxz.png">
@@ -1384,9 +1748,126 @@ Programa riegos recurrentes o puntuales para una parcela.
 
 #### 4.2.4.2 Interface Layer
 
-#### 4.2.4.3 Application Layer
+### Bounded Context: Irrigation Management
 
+En esta sección, se describe la capa de interfaz correspondiente al dominio de **Irrigation Management**, encargada de permitir a los usuarios gestionar la planificación, programación y registro de actividades de riego para sus cultivos.
+
+El controlador de este contexto facilita operaciones como la creación de planes de riego, la programación de sesiones de riego específicas y el registro de eventos reales de riego, optimizando así el uso de recursos hídricos y mejorando el rendimiento de los cultivos.
+
+El principal controlador en este contexto es el **IrrigationController**.
+
+---
+
+### IrrigationController
+
+| Método | Descripción |
+|--------|-------------|
+| `getIrrigationPlanDetails(planId: int): IrrigationPlanDto` | Obtiene los detalles de un plan de riego específico. |
+| `createIrrigationPlan(planData: IrrigationPlanDto): void` | Crea un nuevo plan de riego asociado a un cultivo o campo. |
+| `scheduleIrrigation(planId: int, scheduleData: IrrigationScheduleDto): void` | Programa una nueva sesión de riego dentro de un plan existente. |
+| `recordIrrigationEvent(scheduleId: int, eventData: IrrigationEventDto): void` | Registra un evento de riego realizado (automático o manual). |
+| `rescheduleIrrigation(scheduleId: int, newScheduledDate: Date): void` | Reprograma una sesión de riego ya agendada. |
+
+---
+#### 4.2.4.3 Application Layer
+En esta sección, se presenta la **Capa de Aplicación (Application Layer)** dentro del contexto de **Irrigation Management** de la plataforma Warusmart.
+
+Esta capa gestiona las operaciones relacionadas con la planificación, programación y ejecución de riegos agrícolas. Actúa como intermediaria entre la lógica de negocio del manejo del agua y la infraestructura, asegurando que las acciones de riego se programen, registren y validen correctamente.
+
+Los **Command Handlers** permiten ejecutar acciones de escritura sobre planes y eventos de riego, mientras que los **Event Handlers** permiten reaccionar a cambios en las condiciones programadas o eventos de ejecución reales.
+
+---
+
+### Command Handlers
+
+#### IrrigationPlanCreationCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `irrigationService: IrrigationService` |
+| Método Principal | `handle(command: CreateIrrigationPlanCommand): IrrigationPlan` |
+| Descripción | Recibe el comando para crear un nuevo plan de riego asociado a un cultivo o campo agrícola. |
+
+---
+
+#### IrrigationSchedulingCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `irrigationService: IrrigationService` |
+| Método Principal | `handle(command: ScheduleIrrigationCommand): IrrigationSchedule` |
+| Descripción | Programa una nueva sesión de riego para un plan existente, estableciendo fecha y duración. |
+
+---
+
+#### IrrigationEventRecordingCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `irrigationService: IrrigationService` |
+| Método Principal | `handle(command: RecordIrrigationEventCommand): IrrigationEvent` |
+| Descripción | Registra la realización de un evento de riego, indicando tiempos y volumen de agua utilizado. |
+
+---
+
+### Event Handlers
+
+#### IrrigationScheduleChangedEventHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `irrigationService: IrrigationService` |
+| Método Principal | `handle(event: IrrigationScheduleChangedEvent): void` |
+| Descripción | Maneja los cambios en las programaciones de riego (por ejemplo, reprogramaciones por condiciones climáticas o disponibilidad de agua). |
+
+---
 #### 4.2.4.4 Infraestructure Layer
+En esta sección, se presenta la **Capa de Infraestructura (Infrastructure Layer)** dentro del contexto de **Irrigation Management** de la plataforma Warusmart.
+
+Esta capa es responsable de implementar los repositorios que gestionan la persistencia de los planes de riego, las programaciones de sesiones de riego y los eventos de riego realizados. Facilita la conexión entre la lógica de dominio del riego agrícola y la base de datos.
+
+Los principales repositorios en este contexto son:
+
+- `IrrigationPlanRepository`, encargado de almacenar y recuperar los planes de riego creados.
+- `IrrigationScheduleRepository`, encargado de gestionar las programaciones de sesiones de riego.
+- `IrrigationEventRepository`, encargado de registrar los eventos de riego ejecutados.
+
+---
+
+### Repositorios
+
+#### IrrigationPlanRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(planId: int): IrrigationPlan` | Recupera la información de un plan de riego específico. |
+| `findAll(): List<IrrigationPlan>` | Obtiene la lista de todos los planes de riego registrados en el sistema. |
+| `save(plan: IrrigationPlan): void` | Guarda un nuevo plan de riego o actualiza uno existente. |
+| `deleteById(planId: int): void` | Elimina un plan de riego utilizando su identificador único. |
+
+---
+
+#### IrrigationScheduleRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(scheduleId: int): IrrigationSchedule` | Recupera la programación de una sesión de riego específica. |
+| `findAll(): List<IrrigationSchedule>` | Obtiene todas las programaciones de sesiones de riego registradas. |
+| `save(schedule: IrrigationSchedule): void` | Guarda o actualiza una programación de riego. |
+| `deleteById(scheduleId: int): void` | Elimina una programación de riego mediante su identificador. |
+
+---
+
+#### IrrigationEventRepository
+
+| Método | Descripción |
+|--------|-------------|
+| `findById(eventId: int): IrrigationEvent` | Recupera un evento de riego realizado. |
+| `findAll(): List<IrrigationEvent>` | Obtiene todos los eventos de riego registrados. |
+| `save(event: IrrigationEvent): void` | Guarda un nuevo evento de riego o actualiza uno existente. |
+| `deleteById(eventId: int): void` | Elimina un evento de riego utilizando su identificador único. |
+
+---
 
 #### 4.2.4.5 Bounded Context Softwre Architecture Component Level Diagrams
 <p>
@@ -1404,12 +1885,94 @@ Programa riegos recurrentes o puntuales para una parcela.
 #### 4.2.5.1 Domain Layer
 
 #### 4.2.5.2 Interface Layer
+### Bounded Context: Crops Reports Management
 
+En esta sección, se presenta la capa de interfaz correspondiente al dominio de **Crops Reports Management**, encargada de gestionar la generación, actualización y consulta de reportes agrícolas en la plataforma.
+
+El controlador de este contexto permite a los usuarios generar reportes individuales de cultivos, consultar históricos de rendimiento agrícola y actualizar estimaciones de producción o notas de observaciones, facilitando así el análisis de desempeño y la toma de decisiones estratégicas.
+
+El principal controlador en este contexto es el **CropReportController**.
+
+---
+
+### CropReportController
+
+| Método | Descripción |
+|--------|-------------|
+| `getCropReportDetails(reportId: int): CropReportDto` | Obtiene los detalles de un reporte agrícola específico. |
+| `generateCropReport(cropId: int, reportData: CropReportDto): void` | Genera un nuevo reporte asociado a un cultivo registrado. |
+| `updateYieldEstimate(reportId: int, newYield: float): void` | Actualiza la estimación de rendimiento de un cultivo en un reporte existente. |
+| `addObservationToReport(reportId: int, observation: string): void` | Agrega una nueva observación o comentario a un reporte agrícola. |
+| `generateHistoricalReport(fieldId: int, historicalData: HistoricalReportDto): void` | Crea un reporte histórico agrícola basado en múltiples campañas o temporadas de un campo. |
+
+---
 #### 4.2.5.3 Application Layer
+En esta sección, se presenta la **Capa de Aplicación (Application Layer)** dentro del contexto de **Crops Reports Management** de la plataforma Warusmart.
 
+Esta capa intermedia gestiona las operaciones necesarias para generar, actualizar y consultar reportes agrícolas tanto a nivel de cultivo individual como de campo histórico. Coordina la generación de informes automáticos o manuales y asegura que la información registrada esté actualizada para apoyar el análisis agrícola.
+
+Los **Command Handlers** permiten ejecutar acciones como crear reportes de cultivos o actualizar estimaciones de rendimiento, mientras que los **Event Handlers** reaccionan a cambios significativos en los cultivos que puedan requerir actualizaciones en los reportes.
+
+---
+
+### Command Handlers
+
+#### CropReportGenerationCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `cropReportService: CropReportService` |
+| Método Principal | `handle(command: GenerateCropReportCommand): CropReport` |
+| Descripción | Recibe el comando para generar un nuevo reporte de cultivo con datos actualizados sobre área, estado y rendimiento. |
+
+---
+
+#### HistoricalReportGenerationCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `cropReportService: CropReportService` |
+| Método Principal | `handle(command: GenerateHistoricalReportCommand): HistoricalReport` |
+| Descripción | Genera un reporte histórico de productividad agrícola para un campo en un año o temporada específicos. |
+
+---
+
+#### YieldEstimateUpdateCommandHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `cropReportService: CropReportService` |
+| Método Principal | `handle(command: UpdateYieldEstimateCommand): void` |
+| Descripción | Actualiza la estimación de producción (rendimiento) dentro de un reporte agrícola existente. |
+
+---
+
+### Event Handlers
+
+#### CropStatusUpdatedEventHandler
+
+| Elemento | Descripción |
+|----------|-------------|
+| Dependencia | `cropReportService: CropReportService` |
+| Método Principal | `handle(event: CropStatusUpdatedEvent): void` |
+| Descripción | Maneja eventos de cambio de estado en cultivos, actualizando automáticamente la información relevante en los reportes vinculados. |
+
+---
 #### 4.2.5.4 Infraestructure Layer
+En esta sección, se presenta la **Capa de Infraestructura (Infrastructure Layer)** dentro del contexto de **Crops Reports Management** de la plataforma Warusmart.
 
-#### 4.2.5.5 Bounded Context Softwre Architecture Component Level Diagrams
+Esta capa se encarga de implementar los repositorios necesarios para la persistencia y consulta de reportes agrícolas tanto a nivel de cultivos individuales como a nivel histórico de campos agrícolas. Facilita la conexión entre la lógica de negocio de reportes y la base de datos del sistema.
+
+Los principales repositorios en este contexto son:
+
+- `CropReportRepository`, encargado de manejar los reportes individuales de cultivos.
+- `HistoricalReportRepository`, encargado de gestionar los reportes históricos de producción agrícola.
+
+---
+
+### Repositorios
+
+
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsReportsManagementComponents_uxvryf.png">
 </p>
