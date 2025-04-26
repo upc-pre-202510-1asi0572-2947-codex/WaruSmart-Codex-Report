@@ -544,21 +544,17 @@ Grafivo realizado para visualizar la problematica del usuario junto con que pien
 
 Tabla que muestra las principales actividades del usuario, junto con el como reacciona a estas antes de contar con nuestra solucion
 
+[Link al Miro para visualizar los diagramas As-Is Scenario Mapping](https://miro.com/app/board/uXjVI9w10sk=/?share_link_id=975896572769)
+
 **SEGMENTO AGRICULTORES:**
 
-|          |                 Monitoreo de cultivo                 |                       Riego de cultivo                       |                          Cosecha                          |                  Control de calidad                  |
-| -------- | :--------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: | :---------------------------------------------------: |
-| DOING    |    Monitorea visualmente usando sus conocimientos    |    Riega a una hora determinada usando diversas tecnicas    |        Realiza la cosecha en la fecha determinada        |            Verifica los cultivos fallidos            |
-| THINKING | Se ven bien, espero no estar olvidando algun detalle |        Espero no estar regando de más algun cultivo        |             La cosecha parece tener problemas             |    Mi margen de ganancias no sera demasiado grande    |
-| FEELING  |           Me preocupa estar ignorando algo           | Me pone ansioso no saber con certeza si el riego es correcto | Me disgusta ver que varios cultivos no se encuentren bien | Me molesta no haber ganado más dinero con mi trabajo |
+<img src="Assets/needfinding/As-Is-agricultor.PNG">
+Herramienta: Miro
 
 **SEGMENTO COOPERATIVAS:**
 
-|          |                              División de gastos                              |                        Riego de cultivos                        |                   Cosecha                   |                               Reparto de ganancias                               |
-| -------- | :---------------------------------------------------------------------------: | :--------------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------------: |
-| DOING    | Cada agricultor compra segun lo que creen que van a necesitar en sus cultivos |         Riegan con diversas tecnicas a la hora calculada         |  Realiza la cosecha en la fecha determinada  |                Reparten las ganancias de la venta de sus productos                |
-| THINKING |  Espero que hallamos calculado bien para no gastar demasiado dinero de más  | Podremos regar los cultivos con las tecnicas que hemos aprendido | Parece que algunas cosechas tienen problemas |               Al dividir no hemos ganado tanto dinero como esperaba               |
-| FEELING  |  Me preocupa no saber que tan bien hemos calculado lo que vamos a necesitar  |     Me genera duda saber si habrá una mejor manera de regar     |    Me disgusta ver cultivos con problemas    | Me molesta ver que pudimos ganar más dinero con un mejor cuidado para la cosecha |
+<img src="Assets/needfinding/As-Is-cooperativa.PNG">
+Herramienta: Miro
 
 ## 2.4 **Ubiquitous Language.**
 
@@ -580,24 +576,20 @@ Tabla que muestra las principales actividades del usuario, junto con el como rea
 
 Tabla que muestra las principales actividades del usuario, junto con el como reacciona a estas luego de utilizar nuestra solucion
 
+[Link al Miro para visualizar los diagramas As-Is Scenario Mapping](https://miro.com/app/board/uXjVI9w10sk=/?share_link_id=975896572769)
+
 **SEGMENTO AGRICULTORES:**
 
-|          |                 Monitoreo de cultivo                 |                       Riego de cultivo                       |                          Cosecha                          |                  Control de calidad                  |
-| -------- | :--------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: | :---------------------------------------------------: |
-| DOING    |    Utiliza una app para ver el estado del cultivo    |    Activa el sistema de riego automático según sensor    |        Cosecha siguiendo recomendaciones del sistema        |            Usa la app para registrar calidad y fallas            |
-| THINKING | Puedo ver todo el estado desde mi celular |        Sé que se está usando el agua de forma eficiente        |             Este año se ve mejor la producción             |    Estoy mejorando mi rentabilidad    |
-| FEELING  |           Me siento tranquilo al ver datos confiables           | Me da confianza el sistema automático de riego | Me alegra ver más cultivos en buen estado | Estoy orgulloso del resultado obtenido |
+<img src="Assets/needfinding/To-Be-agricultor.PNG">
+Herramienta: Miro
 
 <br>
 <br>
 
 **SEGMENTO COOPERATIVAS:**
 
-|          |                              División de gastos                              |                        Riego de cultivos                        |                   Cosecha                   |                               Reparto de ganancias                               |
-| -------- | :---------------------------------------------------------------------------: | :--------------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------------: |
-| DOING    | Usan sistema de planificación compartido |         Gestionan riego con sensores y cronogramas         |  Siguen cronograma y predicción de clima  |                Utilizan plataforma para calcular y dividir ganancias                |
-| THINKING |  Ahora podemos estimar mejor lo necesario  | Riegos más eficientes = menos desperdicio | Se nota el efecto de mejor planificación |               La ganancia está mejor distribuida y optimizada               |
-| FEELING  |  Me siento seguro con la planificación  |     Me da tranquilidad saber que es óptimo     |    Me siento satisfecho con la cosecha    | Me alegra ver que todos ganamos más |
+<img src="Assets/needfinding/To-Be-cooperativa.PNG">
+Herramienta: Miro
 
 ## 3.2 **User Stories.**
 
