@@ -1996,10 +1996,32 @@ El dominio facilita la creación automática o manual de reportes por cultivo, c
 
 # Conclusiones
 
-## Conclusiones y recomendaciones
+## Conclusiones
+
+- A partir del análisis realizado, se logró estructurar de manera inicial la solución **Warusmart**, orientada a la gestión inteligente del riego mediante tecnologías IoT y plataformas web. La aplicación de técnicas como **Event Storming** y **Domain-Driven Design** permitió identificar los principales eventos, actores, comandos y políticas que formarán la base del sistema, asegurando una visión coherente de su funcionamiento.
+
+- La delimitación de Bounded Contexts y la elaboración de un Context Mapping permitieron organizar adecuadamente las distintas áreas funcionales del sistema, favoreciendo la modularidad, la escalabilidad futura y la claridad de responsabilidades. Este trabajo preliminar proporciona un marco sólido para el diseño posterior de la infraestructura técnica y el desarrollo de los microservicios correspondientes.
+
+## Recomendaciones
+
+- Se recomienda continuar con la validación y refinamiento de los eventos y bounded contexts establecidos, realizando sesiones de revisión y ajustes conforme se vayan detallando nuevas funcionalidades, para asegurar que la evolución del sistema mantenga la cohesión del modelo conceptual inicial.
+
+- Es importante planificar desde esta etapa el diseño de mecanismos robustos de monitoreo y manejo de errores tanto en sensores como en la plataforma, de manera que se garantice la fiabilidad del sistema frente a fallos de hardware o inconsistencias de datos que puedan surgir durante su implementación en entornos reales.
+
+
+
 
 ## Video About-the-Team
 
 # Bibliografía
 
 # Anexos
+
+## Videos de Exposición
+
+| Enlace                                     | Entregable |
+|--------------------------------------------|------------|
+|  https://goo.su/8Zz305 | TB1        |
+| | TP         |
+|  | TB2        |
+|  | TF          |
