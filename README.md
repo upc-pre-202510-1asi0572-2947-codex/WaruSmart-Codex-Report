@@ -681,7 +681,7 @@ Herramienta: Miro
 
 **Segmento agricultor**
 
-<img src="./assets/chapter-III/WaruSmart-impact-mapping-agricultor.png" alt="Impact map del segmento agricultor">
+<img src="./Assets/chapter-III/WaruSmart-impact-mapping-agricultor.png" alt="Impact map del segmento agricultor">
 
 **Segmento cooperativa**
 
@@ -689,7 +689,7 @@ Herramienta: Miro
 
 ## 3.4 **Product Backlog.**
 
-<img src="./assets/chapter-III/Product-backlog.PNG" alt="Product backlog de la aplicación WebMaster">
+<img src="./Assets/chapter-III/Product-backlog.PNG" alt="Product backlog de la aplicación WebMaster">
 
 Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
 
