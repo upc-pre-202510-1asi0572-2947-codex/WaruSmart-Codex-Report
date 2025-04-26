@@ -70,7 +70,7 @@ para cada integrante del equipo:
 | Cabrera Camizan, Jeferson Smith    | EventStorming, Candidate Context Discovery, Bounded Context Canvases yContext Mapping |
 | More Rondon, Christopher Sebastian | Needfinding, diseño de entrevistas, estructura del informe                           |
 | Quispe Condori, Fernando Daniel    | Solutio Profile - Bounded context canvases - Diagram Flow MeSSAGES                    |
-| Velasquez Pizarro, Jair            | ---                                                                                   |
+| Velasquez Pizarro, Jair            | User Stories - Impact Mapping - Product Backlog                                                                                   |
 | Pingus Rodriguez, Carlos Daniel    | Definición de Bounded Contexts                                                       |
 | Herrera Castillo, Victor Raul      | Diagramas C4                                                                          |
 
