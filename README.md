@@ -117,8 +117,8 @@ para cada integrante del equipo:
 - [3.4 Product Backlog](#34-product-backlog)
 
 ### Capítulo IV: Solution Software Design
-- [`<div align="center">`WaruSmart-Codex-Report `</div>`](#div-aligncenterwarusmart-codex-report-div)
-  - [`<div align="center">`Team Members `</div>`](#div-aligncenterteam-members-div)
+- [WaruSmart-Codex-Report](#warusmart-codex-report)
+  - [Team Members](#team-members)
     - [Registro de Informes](#registro-de-informes)
     - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
@@ -1089,12 +1089,57 @@ Es importante resaltar que durante este proceso el equipo aplicó los patrones d
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745658385/imagen_2025-04-26_040623655_cytcps.png "Bounded Contexts Canvases")
 
 ### 4.1.3 Software Architecture
-
+Para la definición de nuestra arquitectura de software hicimos uso del Diagrama C4 model y la herramienta Structurizr.
 #### 4.1.3.1 Software Architecture System Landscape Diagram
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContext_f7hfik.png">
+</p>
 
 #### 4.1.3.2 Software Architecture Context Level Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContainers_d6yoda.png">
+</p>
 
 #### 4.1.3.2 Software Architecture Container Level Diagrams
+**Crop Management Diagram**
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsManagementComponents_iyktxz.png">
+</p>
+
+**Crops Reports Management Diagram**
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsReportsManagementComponents_uxvryf.png">
+</p>
+
+**Edge Application Diagram**
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartEdgeApplicationComponents_a9lpt9.png">
+</p>
+
+**Embedded Application Diagram**
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartEmbeddedApplicationComponents_vmyxue.png">
+</p>
+
+**IAM Diagram**
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIAMComponents_grbjpl.png">
+</p>
+
+**Irrigation Management Diagram**
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIrrigationManagementComponents_nbo4c1.png">
+</p>
+
+**Mobile Application Diagram**
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674157/WaruSmartMobileApplicationComponents_mmtqhm.png">
+</p>
+
+**Subscriptions & Payments Diagram**
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674154/WaruSmartSubscriptionsPaymentsComponents_d1wzj6.png">
+</p>
 
 #### 4.1.3.2 Software Architecture Deployment Diagrams
 
