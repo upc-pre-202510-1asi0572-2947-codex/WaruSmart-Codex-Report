@@ -233,8 +233,8 @@ para cada integrante del equipo:
 
 | **Criterio específico**                                                                  | **Acciones realizadas** | **Conclusiones** |
 | ----------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | ---                           | ---                    |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | ---                           | ---                    |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | Anderson Walter Macedo Calsina:<br>**TB1:** Para esta entrega, se coordinó como equipo los puntos a trabajar de forma colaborativa y cumplí con las actividades como el análisis de los competidores, el registro de entrevistas y las estrategias y tácticas a seguir. | ---                    |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Anderson Walter Macedo Calsina:<br>**TB1:** En esta entrega realice el analisis de otras empresas con sus soluciones tecnologicas, comparandolas y afrontando las fortalezas y aprovehando las debilidad, ademas se identificaron las oportunidades y amenazas para la organizacion. | ---                    |
 
 # Capítulo I: Introducción.
 
