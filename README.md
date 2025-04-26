@@ -1122,7 +1122,113 @@ Esta clase define los distintos roles posibles dentro del sistema, como "Adminis
 - `getPermissions()` – Devuelve la lista de permisos asociados.
 
 #### 4.2.1.1 Domain Layer
+Dentro del dominio de **Identity and Access Management (IAM)**, se encuentran entidades clave que permiten gestionar las identidades y el acceso de los usuarios dentro de nuestra plataforma Warusmart. Estas entidades desempeñan un papel fundamental en los procesos de autenticación, asignación de roles y autorización de acciones, garantizando que el acceso a las diferentes funcionalidades de la plataforma esté debidamente controlado y segmentado.
 
+El dominio IAM facilita operaciones esenciales como la creación y administración de usuarios, el cambio de contraseñas, la asignación de nuevos roles y la actualización de información personal de los usuarios. Asimismo, asegura que el sistema mantenga actualizados los datos de identidad y control de acceso, mejorando la seguridad general y la trazabilidad de las operaciones dentro de Warusmart.
+
+---
+
+### Aggregate Root
+
+#### Aggregate: `User`
+
+| Nombre  | User |
+|---------|------|
+| Descripción | Representa la raíz del agregado de identidad. Centraliza la gestión de la información del usuario y sus credenciales. |
+
+##### Atributos
+
+- `id: String`
+- `username: String`
+- `password: String`
+- `fullName: String`
+- `role: Role`
+- `isActive: Boolean`
+
+##### Métodos
+
+- `getUserDetails()`
+- `updatePassword()`
+- `assignRole()`
+- `deactivateUser()`
+
+---
+
+### Entities
+
+#### Entidad: `Role`
+
+| Nombre  | Role |
+|---------|------|
+| Descripción | Define los diferentes roles que un usuario puede tener en el sistema, cada uno asociado a un conjunto específico de permisos. |
+
+##### Atributos
+
+- `id: String`
+- `name: String`
+- `permissions: List<Permission>`
+
+##### Métodos
+
+- `addPermission()`
+- `removePermission()`
+- `getPermissions()`
+
+---
+
+### Value Objects
+
+#### Value Object: `Permission`
+
+| Nombre  | Permission |
+|---------|------------|
+| Descripción | Representa un permiso específico que define una acción permitida dentro del sistema. |
+
+##### Atributos
+
+- `id: String`
+- `name: String`
+- `description: String`
+
+##### Métodos
+
+- `getPermissionDetails()`
+
+---
+
+### Domain Services
+
+#### Servicio de Dominio: `UserManagementService`
+
+| Nombre  | UserManagementService |
+|---------|------------------------|
+| Descripción | Servicio que orquesta operaciones de alto nivel sobre usuarios, roles y permisos dentro del sistema IAM. |
+
+##### Métodos
+
+- `registerUser(username: String, password: String, fullName: String, role: Role): User`
+- `updateUserPassword(userId: String, newPassword: String): void`
+- `assignUserRole(userId: String, role: Role): void`
+- `deactivateUser(userId: String): void`
+
+---
+
+### Repositories
+
+#### Repositorio: `UserRepository`
+
+| Nombre  | UserRepository |
+|---------|----------------|
+| Descripción | Define la abstracción de persistencia para las operaciones sobre usuarios. |
+
+##### Métodos
+
+- `getById(userId: String): User`
+- `create(user: User): void`
+- `update(user: User): void`
+- `delete(userId: String): void`
+
+---
 #### 4.2.1.2 Interface Layer
 
 #### 4.2.1.3 Application Layer
@@ -1229,6 +1335,154 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 - `markAsSuspended()` – Marca la suscripción como suspendida.
 
 #### 4.2.2.1 Domain Layer
+Dentro del dominio de **Subscriptions and Payments**, se encuentran entidades y servicios clave que permiten gestionar las suscripciones de los usuarios a los diferentes planes de la plataforma Warusmart, así como realizar el seguimiento de los pagos y cambios de estado de las mismas.
+
+Este dominio es fundamental para administrar correctamente la activación, actualización, suspensión o cancelación de las suscripciones, asegurando que los usuarios tengan acceso a los servicios contratados de acuerdo a su nivel de plan (por ejemplo: Free, Basic, Premium). Además, se encarga de mantener actualizados los registros de pagos y garantizar que las políticas de suscripción se apliquen de manera automática y segura.
+
+---
+
+### Aggregate Root
+
+#### Aggregate: `Subscription`
+
+| Nombre  | Subscription |
+|---------|--------------|
+| Descripción | Representa la raíz del agregado que maneja la suscripción de un usuario, incluyendo el plan, el estado y las fechas relevantes. |
+
+##### Atributos
+
+- `id: String`
+- `accountId: String`
+- `tier: SubscriptionTier`
+- `status: SubscriptionStatus`
+- `startDate: Date`
+- `endDate: Date`
+
+##### Métodos
+
+- `getSubscriptionDetails()`
+- `updateTier()`
+- `updateStatus()`
+- `updateEndDate()`
+- `cancelSubscription()`
+
+---
+
+### Entities
+
+#### Entidad: `Account`
+
+| Nombre  | Account |
+|---------|---------|
+| Descripción | Representa la cuenta de negocio asociada a una suscripción, incluyendo la información del negocio y su representante. |
+
+##### Atributos
+
+- `id: String`
+- `businessName: String`
+- `businessEmail: String`
+- `representativeName: String`
+- `representativeEmail: String`
+- `createdAt: Date`
+- `updatedAt: Date`
+
+##### Métodos
+
+- `getAccountDetails()`
+- `updateBusinessName()`
+- `updateBusinessEmail()`
+- `updateRepresentative()`
+- `cancelAccount()`
+
+---
+
+### Value Objects
+
+#### Value Object: `SubscriptionTier`
+
+| Nombre  | SubscriptionTier |
+|---------|------------------|
+| Descripción | Define los diferentes niveles o tipos de suscripción disponibles en la plataforma (por ejemplo: Free, Basic, Premium). |
+
+##### Atributos
+
+- `FREE`
+- `BASIC`
+- `PREMIUM`
+
+##### Métodos
+
+- `getTierDetails()`
+
+---
+
+#### Value Object: `SubscriptionStatus`
+
+| Nombre  | SubscriptionStatus |
+|---------|--------------------|
+| Descripción | Define el estado actual de una suscripción (por ejemplo: Activa, Cancelada, Expirada). |
+
+##### Atributos
+
+- `ACTIVE`
+- `CANCELLED`
+- `EXPIRED`
+
+##### Métodos
+
+- `getStatusInfo()`
+
+---
+
+### Domain Services
+
+#### Servicio de Dominio: `AccountManagementService`
+
+| Nombre  | AccountManagementService |
+|---------|---------------------------|
+| Descripción | Servicio encargado de manejar las operaciones complejas de gestión de cuentas y suscripciones, como actualizaciones de plan y cancelaciones. |
+
+##### Métodos
+
+- `upgradeSubscription(accountId: String, tier: SubscriptionTier): void`
+- `downgradeSubscription(accountId: String, tier: SubscriptionTier): void`
+- `cancelSubscription(accountId: String): void`
+- `updateBusinessInfo(accountId: String, businessName: String, businessEmail: String): void`
+- `updateRepresentativeInfo(accountId: String, representativeName: String, representativeEmail: String): void`
+
+---
+
+### Repositories
+
+#### Repositorio: `SubscriptionRepository`
+
+| Nombre  | SubscriptionRepository |
+|---------|-------------------------|
+| Descripción | Define la abstracción de persistencia para las operaciones sobre las suscripciones. |
+
+##### Métodos
+
+- `getById(subscriptionId: String): Subscription`
+- `create(subscription: Subscription): void`
+- `update(subscription: Subscription): void`
+- `delete(subscriptionId: String): void`
+
+---
+
+#### Repositorio: `AccountRepository`
+
+| Nombre  | AccountRepository |
+|---------|-------------------|
+| Descripción | Define la abstracción de persistencia para las operaciones sobre cuentas de negocio. |
+
+##### Métodos
+
+- `getById(accountId: String): Account`
+- `create(account: Account): void`
+- `update(account: Account): void`
+- `delete(accountId: String): void`
+
+---
 
 #### 4.2.2.2 Interface Layer
 
@@ -1250,6 +1504,132 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 ### 4.2.3 Bounded Context: Crops Management (Notification)
 
 #### 4.2.3.1 Domain Layer
+Dentro del dominio de **Crops Management**, se encuentran entidades y servicios clave que permiten gestionar los cultivos registrados por los usuarios dentro de la plataforma Warusmart. Este módulo es esencial para organizar toda la información agrícola, permitiendo llevar un control eficiente de qué cultivos están sembrados, en qué parcelas, con qué fechas de siembra y en qué estado de desarrollo se encuentran.
+
+El dominio facilita procesos como el registro de nuevos cultivos, la actualización del área cultivada, el cambio de estado del cultivo (por ejemplo: sembrado, creciendo, cosechado) y la reasignación de campos. También soporta la clasificación de los cultivos por tipo, lo que permite a los usuarios planificar mejor sus actividades agrícolas y analizar su productividad a lo largo del tiempo.
+
+---
+
+### Aggregate Root
+
+#### Aggregate: `Crop`
+
+| Nombre  | Crop |
+|---------|------|
+| Descripción | Representa la raíz del agregado que gestiona toda la información de un cultivo específico en la plataforma. |
+
+##### Atributos
+
+- `id: String`
+- `name: String`
+- `cropType: CropType`
+- `plantingDate: Date`
+- `areaInHectares: Float`
+- `status: String`
+- `field: Field`
+- `owner: User`
+
+##### Métodos
+
+- `getCropDetails()`
+- `updateStatus()`
+- `updateArea()`
+- `reassignField()`
+
+---
+
+### Entities
+
+#### Entidad: `Field`
+
+| Nombre  | Field |
+|---------|-------|
+| Descripción | Representa una parcela de terreno disponible para el cultivo, incluyendo datos como su ubicación y tamaño. |
+
+##### Atributos
+
+- `id: String`
+- `name: String`
+- `sizeInHectares: Float`
+- `location: String`
+- `owner: User`
+
+##### Métodos
+
+- `getFieldDetails()`
+- `updateLocation()`
+- `addCrop()`
+
+---
+
+### Value Objects
+
+#### Value Object: `CropType`
+
+| Nombre  | CropType |
+|---------|----------|
+| Descripción | Define el tipo de cultivo (por ejemplo: maíz, papa, quinoa), incluyendo información relevante para su seguimiento. |
+
+##### Atributos
+
+- `id: String`
+- `name: String`
+- `season: String`
+
+##### Métodos
+
+- `getCropTypeInfo()`
+- `updateSeason()`
+
+---
+
+### Domain Services
+
+#### Servicio de Dominio: `CropManagementService`
+
+| Nombre  | CropManagementService |
+|---------|------------------------|
+| Descripción | Servicio que orquesta las operaciones complejas sobre cultivos, como actualizar el estado o reasignar cultivos a otros campos. |
+
+##### Métodos
+
+- `registerCrop(name: String, cropType: CropType, plantingDate: Date, area: Float, field: Field, owner: User): Crop`
+- `updateCropStatus(cropId: String, newStatus: String): void`
+- `reassignCropField(cropId: String, newField: Field): void`
+
+---
+
+### Repositories
+
+#### Repositorio: `CropRepository`
+
+| Nombre  | CropRepository |
+|---------|----------------|
+| Descripción | Define la abstracción de persistencia para las operaciones sobre cultivos. |
+
+##### Métodos
+
+- `getById(cropId: String): Crop`
+- `create(crop: Crop): void`
+- `update(crop: Crop): void`
+- `delete(cropId: String): void`
+
+---
+
+#### Repositorio: `FieldRepository`
+
+| Nombre  | FieldRepository |
+|---------|-----------------|
+| Descripción | Define la abstracción de persistencia para las operaciones sobre parcelas o campos agrícolas. |
+
+##### Métodos
+
+- `getById(fieldId: String): Field`
+- `create(field: Field): void`
+- `update(field: Field): void`
+- `delete(fieldId: String): void`
+
+---
 
 #### 4.2.3.2 Interface Layer
 
@@ -1274,7 +1654,137 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 ### 4.2.4 Bounded Context: Irrigation Management
 
 #### 4.2.4.1 Domain Layer
+Dentro del dominio de **Irrigation Management**, se encuentran entidades y servicios clave que permiten planificar, programar y registrar las actividades de riego agrícola en la plataforma Warusmart. Este contexto tiene como objetivo optimizar el uso del agua, asegurar el cumplimiento de planes de riego, y mejorar la productividad de los cultivos.
 
+El dominio facilita operaciones como la creación de planes de riego personalizados según el cultivo o campo, la programación automática de sesiones de riego, la reasignación de riegos según cambios en el clima o las condiciones del terreno, y el registro de eventos reales de riego (manuales o automatizados). Además, puede integrarse con sensores de humedad para activar o ajustar los riegos dinámicamente.
+
+---
+
+### Aggregate Root
+
+#### Aggregate: `IrrigationPlan`
+
+| Nombre  | IrrigationPlan |
+|---------|----------------|
+| Descripción | Representa el plan general de riego asociado a un cultivo o campo, especificando la cantidad de agua, frecuencia y duración de riego. |
+
+##### Atributos
+
+- `id: String`
+- `field: Field`
+- `crop: Crop`
+- `waterAmount: Float`
+- `frequency: String`
+- `startDate: Date`
+- `endDate: Date`
+
+##### Métodos
+
+- `getPlanDetails()`
+- `updateFrequency()`
+- `adjustWaterAmount()`
+- `changeCropOrField()`
+
+---
+
+### Entities
+
+#### Entidad: `IrrigationSchedule`
+
+| Nombre  | IrrigationSchedule |
+|---------|--------------------|
+| Descripción | Representa cada sesión programada de riego dentro de un plan, incluyendo fecha y duración esperada. |
+
+##### Atributos
+
+- `id: String`
+- `irrigationPlan: IrrigationPlan`
+- `scheduledDate: Date`
+- `durationInMinutes: Int`
+
+##### Métodos
+
+- `getScheduleDetails()`
+- `reschedule()`
+- `cancelSchedule()`
+
+---
+
+#### Entidad: `IrrigationEvent`
+
+| Nombre  | IrrigationEvent |
+|---------|-----------------|
+| Descripción | Representa el registro de un evento de riego realizado, ya sea programado o manual, indicando volumen de agua aplicado y tiempos reales. |
+
+##### Atributos
+
+- `id: String`
+- `irrigationSchedule: IrrigationSchedule`
+- `realStartDate: Date`
+- `realEndDate: Date`
+- `volumeApplied: Float`
+
+##### Métodos
+
+- `getEventDetails()`
+- `validateIrrigation()`
+
+---
+
+### Value Objects
+
+(No se consideran value objects específicos en este contexto, ya que las entidades principales cubren los elementos necesarios.)
+
+---
+
+### Domain Services
+
+#### Servicio de Dominio: `IrrigationManagementService`
+
+| Nombre  | IrrigationManagementService |
+|---------|------------------------------|
+| Descripción | Servicio que coordina operaciones complejas sobre la gestión de riegos, incluyendo ajustes de programación y validación de eventos. |
+
+##### Métodos
+
+- `createIrrigationPlan(field: Field, crop: Crop, waterAmount: Float, frequency: String, startDate: Date, endDate: Date): IrrigationPlan`
+- `scheduleIrrigation(irrigationPlanId: String, scheduledDate: Date, duration: Int): IrrigationSchedule`
+- `recordIrrigationEvent(scheduleId: String, realStartDate: Date, realEndDate: Date, volumeApplied: Float): IrrigationEvent`
+- `rescheduleIrrigation(scheduleId: String, newDate: Date): void`
+
+---
+
+### Repositories
+
+#### Repositorio: `IrrigationPlanRepository`
+
+| Nombre  | IrrigationPlanRepository |
+|---------|---------------------------|
+| Descripción | Define la abstracción de persistencia para las operaciones sobre planes de riego. |
+
+##### Métodos
+
+- `getById(irrigationPlanId: String): IrrigationPlan`
+- `create(irrigationPlan: IrrigationPlan): void`
+- `update(irrigationPlan: IrrigationPlan): void`
+- `delete(irrigationPlanId: String): void`
+
+---
+
+#### Repositorio: `IrrigationEventRepository`
+
+| Nombre  | IrrigationEventRepository |
+|---------|----------------------------|
+| Descripción | Define la abstracción de persistencia para los registros de eventos de riego realizados. |
+
+##### Métodos
+
+- `getById(eventId: String): IrrigationEvent`
+- `create(event: IrrigationEvent): void`
+- `update(event: IrrigationEvent): void`
+- `delete(eventId: String): void`
+
+---
 #### 4.2.4.2 Interface Layer
 
 #### 4.2.4.3 Application Layer
@@ -1296,9 +1806,175 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 </p>
 
 ### 4.2.5 Bounded Context: Crops Reports Management
+## Diccionario de Clases
+
+### Clase: `CropReport`
+
+Representa un reporte generado para un cultivo, que contiene información relevante sobre su estado, área cultivada, producción estimada y observaciones registradas.
+
+| Nombre     | CropReport |
+|------------|------------|
+| Relaciones | Crop |
+| Descripción | Reporte agrícola individual asociado a un cultivo específico, utilizado para el monitoreo y análisis de resultados. |
+
+##### Atributos
+
+| Nombre          | Tipo de Dato | Visibilidad |
+|-----------------|--------------|-------------|
+| Id              | int          | private     |
+| Crop            | Crop         | private     |
+| ReportDate      | Date         | private     |
+| AreaReported    | float        | private     |
+| StatusReported  | string       | private     |
+| YieldEstimate   | float        | private     |
+| Observations    | string       | private     |
+
+##### Métodos
+
+- `getReportDetails()`
+- `updateYieldEstimate()`
+- `addObservation()`
+
+---
+
+### Clase: `HistoricalReport`
+
+Representa un reporte de tipo histórico, que agrupa resultados agrícolas de un campo a lo largo de una temporada o año agrícola completo.
+
+| Nombre     | HistoricalReport |
+|------------|------------------|
+| Relaciones | Field |
+| Descripción | Reporte agregado que resume el comportamiento productivo de un campo en un periodo determinado. |
+
+##### Atributos
+
+| Nombre         | Tipo de Dato | Visibilidad |
+|----------------|--------------|-------------|
+| Id             | int          | private     |
+| Field          | Field        | private     |
+| Year           | int          | private     |
+| TotalArea      | float        | private     |
+| TotalYield     | float        | private     |
+| SummaryNotes   | string       | private     |
+
+##### Métodos
+
+- `getHistoricalDetails()`
+- `updateSummaryNotes()`
+
+---
 
 #### 4.2.5.1 Domain Layer
+Dentro del dominio de **Crops Reports Management**, se encuentran las entidades y servicios que permiten generar, administrar y consultar reportes detallados sobre el estado, rendimiento y evolución de los cultivos en la plataforma Warusmart. Este contexto es fundamental para proporcionar a los usuarios información valiosa basada en los datos de sus cultivos y ayudarlos a tomar decisiones estratégicas.
 
+El dominio facilita la creación automática o manual de reportes por cultivo, campo o periodo de tiempo, permitiendo visualizar indicadores como área sembrada, fecha de siembra, estado actual del cultivo, volumen de producción estimado o real, y comparaciones entre campañas agrícolas. También soporta historiales de reportes para análisis a largo plazo.
+
+---
+
+### Aggregate Root
+
+#### Aggregate: `CropReport`
+
+| Nombre  | CropReport |
+|---------|------------|
+| Descripción | Representa el reporte generado para un cultivo o conjunto de cultivos, incluyendo métricas agrícolas relevantes. |
+
+##### Atributos
+
+- `id: String`
+- `crop: Crop`
+- `reportDate: Date`
+- `areaReported: Float`
+- `statusReported: String`
+- `yieldEstimate: Float`
+- `observations: String`
+
+##### Métodos
+
+- `getReportDetails()`
+- `updateYieldEstimate()`
+- `addObservation()`
+
+---
+
+### Entities
+
+#### Entidad: `HistoricalReport`
+
+| Nombre  | HistoricalReport |
+|---------|------------------|
+| Descripción | Representa un reporte histórico agregado que permite comparar datos de cultivos a lo largo de distintas temporadas o campañas. |
+
+##### Atributos
+
+- `id: String`
+- `field: Field`
+- `year: Int`
+- `totalArea: Float`
+- `totalYield: Float`
+- `summaryNotes: String`
+
+##### Métodos
+
+- `getHistoricalDetails()`
+- `updateSummaryNotes()`
+
+---
+
+### Value Objects
+
+(No se consideran value objects específicos en este contexto, ya que los reportes son entidades completas.)
+
+---
+
+### Domain Services
+
+#### Servicio de Dominio: `CropReportService`
+
+| Nombre  | CropReportService |
+|---------|-------------------|
+| Descripción | Servicio que maneja la generación de reportes agrícolas, tanto individuales como históricos, basados en los cultivos y campos registrados. |
+
+##### Métodos
+
+- `generateCropReport(cropId: String, reportDate: Date, area: Float, status: String, yieldEstimate: Float): CropReport`
+- `generateHistoricalReport(fieldId: String, year: Int, totalArea: Float, totalYield: Float, summaryNotes: String): HistoricalReport`
+- `updateCropYield(cropReportId: String, newYieldEstimate: Float): void`
+- `addObservationToReport(cropReportId: String, observation: String): void`
+
+---
+
+### Repositories
+
+#### Repositorio: `CropReportRepository`
+
+| Nombre  | CropReportRepository |
+|---------|-----------------------|
+| Descripción | Define la abstracción de persistencia para los reportes de cultivos generados. |
+
+##### Métodos
+
+- `getById(reportId: String): CropReport`
+- `create(report: CropReport): void`
+- `update(report: CropReport): void`
+- `delete(reportId: String): void`
+
+---
+
+#### Repositorio: `HistoricalReportRepository`
+
+| Nombre  | HistoricalReportRepository |
+|---------|-----------------------------|
+| Descripción | Define la abstracción de persistencia para los reportes históricos agrícolas. |
+
+##### Métodos
+
+- `getById(historicalReportId: String): HistoricalReport`
+- `create(historicalReport: HistoricalReport): void`
+- `update(historicalReport: HistoricalReport): void`
+- `delete(historicalReportId: String): void`
+
+---
 #### 4.2.5.2 Interface Layer
 
 #### 4.2.5.3 Application Layer
