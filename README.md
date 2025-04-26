@@ -626,6 +626,173 @@ Tabla que muestra las principales actividades del usuario, junto con el como rea
 
 ## 3.4 **Product Backlog.**
 
+<img src="./assets/chapter-III/Product-backlog.PNG" alt="Product backlog de la aplicación WebMaster">
+
+Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>User story ID</th>
+      <th>Título</th>
+      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+      <th>Sprint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>E1-US101</td>
+      <td>Navegación entre secciones</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E1-US103</td>
+      <td>Visualizar beneficios segmentados</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E1-US102</td>
+      <td>Conocer cómo funciona la solución</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E1-US105</td>
+      <td>Sección contactarse</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E1-US104</td>
+      <td>Sección testimonios de usuarios</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E5-US501</td>
+      <td>Exponer API REST para obtener datos de sensores</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E5-US502</td>
+      <td>Servicio de almacenamiento de registros de sensores</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E2-US201</td>
+      <td>Visualización de temperatura y humedad del suelo</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E2-US202</td>
+      <td>Visualización de humedad ambiental y temperatura del aire</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E2-US204</td>
+      <td>Alertas por condiciones anómalas</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E2-US205</td>
+      <td>Registro histórico de condiciones ambientales</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E2-US203</td>
+      <td>Vista general del estado del cultivo</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E3-US303</td>
+      <td>Control manual del riego desde la plataforma</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E3-US301</td>
+      <td>Activación automática del riego por baja humedad del suelo</td>
+      <td>8</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E3-US302</td>
+      <td>Configuración manual de umbrales para riego automático</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E3-US305</td>
+      <td>Notificaciones de riego iniciado o detenido</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E3-US304</td>
+      <td>Visualización del estado actual del sistema de riego</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E5-US504</td>
+      <td>Middleware para autenticación y autorización de APIs</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E5-US505</td>
+      <td>Servicio de integración con dispositivos IoT</td>
+      <td>8</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E4-US401</td>
+      <td>Visualización de reportes de consumo de agua</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>E4-US402</td>
+      <td>Visualización de alertas generadas en un período</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>E5-US503</td>
+      <td>Endpoint para reportes consolidados</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+        <tr>
+      <td>E4-US403</td>
+      <td>Reporte de productividad por cultivo</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+        <tr>
+      <td>E4-US405</td>
+      <td>Visualización de tendencias y recomendaciones</td>
+      <td>8</td>
+      <td>4</td>
+    </tr>
+        <tr>
+      <td>E4-US404</td>
+      <td>Exportación de reportes en formatos descargables</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+
 # Capítulo IV: Solution Software Design
 
 ## 4.1 StrategicLevel Domain-Driven Design
