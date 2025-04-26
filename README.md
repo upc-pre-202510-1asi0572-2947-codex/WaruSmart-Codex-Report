@@ -197,7 +197,7 @@ para cada integrante del equipo:
       - [4.2.1.2 Interface Layer](#4212-interface-layer)
       - [4.2.1.3 Application Layer](#4213-application-layer)
       - [4.2.1.4 Infraestructure Layer](#4214-infraestructure-layer)
-      - [4.2.1.5 Bounded Context Softwre Architecture Component Level Diagrams](#4215-bounded-context-softwre-architecture-component-level-diagrams)
+      - [4.2.1.5 Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.1.6 Bounded Context Softwre Architecture Code Level Diagrams](#4216-bounded-context-softwre-architecture-code-level-diagrams)
         - [4.2.1.6.1 Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
         - [4.2.1.6.2 Bounded Context Database Design Diagrams](#42162-bounded-context-database-design-diagrams)
@@ -221,16 +221,6 @@ para cada integrante del equipo:
         - [4.2.2.6.1 Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
         - [4.2.2.6.2 Bounded Context Database Design Diagrams](#42262-bounded-context-database-design-diagrams)
     - [4.2.3 Bounded Context: Crops Management (Notification)](#423-bounded-context-crops-management-notification)
-    - [Diccionario de Clases](#diccionario-de-clases-2)
-      - [Clase: `Plot`](#clase-plot)
-        - [Atributos](#atributos-5)
-        - [Métodos](#métodos-5)
-      - [Clase: `Sensor`](#clase-sensor)
-        - [Atributos](#atributos-6)
-        - [Métodos](#métodos-6)
-      - [Clase: `UserNotification`](#clase-usernotification)
-        - [Atributos](#atributos-7)
-        - [Métodos](#métodos-7)
       - [4.2.3.1 Domain Layer](#4231-domain-layer)
       - [4.2.3.2 Interface Layer](#4232-interface-layer)
       - [4.2.3.3 Application Layer](#4233-application-layer)
@@ -240,14 +230,12 @@ para cada integrante del equipo:
         - [4.2.3.6.1 Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2 Bounded Context Database Design Diagrams](#42362-bounded-context-database-design-diagrams)
     - [4.2.4 Bounded Context: Irrigation Management](#424-bounded-context-irrigation-management)
-    - [Diccionario de Clases](#diccionario-de-clases-3)
-      - [Clase: `IrrigationSchedule`](#clase-irrigationschedule)
       - [4.2.4.1 Domain Layer](#4241-domain-layer)
       - [4.2.4.2 Interface Layer](#4242-interface-layer)
       - [4.2.4.3 Application Layer](#4243-application-layer)
       - [4.2.4.4 Infraestructure Layer](#4244-infraestructure-layer)
       - [4.2.4.5 Bounded Context Softwre Architecture Component Level Diagrams](#4245-bounded-context-softwre-architecture-component-level-diagrams)
-      - [4.2.4.6 Bounded Context Softwre Architecture Code Level Diagrams](#4246-bounded-context-softwre-architecture-code-level-diagrams)
+      - [4.2.4.6 Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.4.6.1 Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
         - [4.2.4.6.2 Bounded Context Database Design Diagrams](#42462-bounded-context-database-design-diagrams)
     - [4.2.5 Bounded Context: Crops Reports Management](#425-bounded-context-crops-reports-management)
@@ -255,8 +243,8 @@ para cada integrante del equipo:
       - [4.2.5.2 Interface Layer](#4252-interface-layer)
       - [4.2.5.3 Application Layer](#4253-application-layer)
       - [4.2.5.4 Infraestructure Layer](#4254-infraestructure-layer)
-      - [4.2.5.5 Bounded Context Softwre Architecture Component Level Diagrams](#4255-bounded-context-softwre-architecture-component-level-diagrams)
-      - [4.2.5.6 Bounded Context Softwre Architecture Code Level Diagrams](#4256-bounded-context-softwre-architecture-code-level-diagrams)
+      - [4.2.5.5 Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.5.6 Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.5.6.1 Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
         - [4.2.5.6.2 Bounded Context Database Design Diagrams](#42562-bounded-context-database-design-diagrams)
 - [Conclusiones](#conclusiones)
@@ -1090,6 +1078,9 @@ Es importante resaltar que durante este proceso el equipo aplicó los patrones d
 ### 4.1.3 Software Architecture
 Para la definición de nuestra arquitectura de software hicimos uso del Diagrama C4 model y la herramienta Structurizr.
 #### 4.1.3.1 Software Architecture System Landscape Diagram
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677239/WaruSmartSystemLandscape_mibmgm.jpg">
+</p>
 
 #### 4.1.3.2 Software Architecture Context Level Diagrams
 <p>
@@ -1177,8 +1168,10 @@ Esta clase define los distintos roles posibles dentro del sistema, como "Adminis
 
 #### 4.2.1.4 Infraestructure Layer
 
-#### 4.2.1.5 Bounded Context Softwre Architecture Component Level Diagrams
-
+#### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIAMComponents_grbjpl.png">
+</p>
 #### 4.2.1.6 Bounded Context Softwre Architecture Code Level Diagrams
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
@@ -1286,6 +1279,7 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674154/WaruSmartSubscriptionsPaymentsComponents_d1wzj6.png">
 </p>
+
 #### 4.2.2.6 Bounded Context Softwre Architecture Code Level Diagrams
 
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
@@ -1293,96 +1287,6 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 ##### 4.2.2.6.2 Bounded Context Database Design Diagrams
 
 ### 4.2.3 Bounded Context: Crops Management (Notification)
-Este contexto gestiona parcelas de cultivo, sensores asociados y notificaciones proactivas a los usuarios (ej.: fallas de sensores, cambios en el estado del cultivo o condiciones ambientales críticas). Garantiza que los agricultores reciban alertas oportunas para tomar decisiones.
-
----
-
-### Diccionario de Clases
-
-#### Clase: `Plot`
-
-Esta clase representa una parcela de cultivo y sus notificaciones relacionadas.
-
-| Nombre      | Plot                                                                         |
-| ----------- | ------------------------------------------------------------------------------------ |
-| Relaciones  | Sensor, CropType, UserNotification                                                |
-| Descripción | Contiene información de la parcela,su ubicación y el cultivo que alberga,así como también métodos para activar alertas. |
-
-##### Atributos
-
-| Nombre             | Tipo de Dato       | Visibilidad |
-| ------------------ | ------------------ | ----------- |
-| Id                 | int                | private     |
-| Name               | string             | private     |
-| Location           | string             | private     |
-| Size               | float              | private     |
-| CropType           | CropType           | private     |
-| Alerts             | List<AlertType>    | private     |
-| AssignSensor       | List<Sensor>       | private     |
-
-##### Métodos
-
-- `checkForAlerts()` – Evalúa sensores/umbrales y genera notificaciones.
-- `getPlotType()` – Devuelve metadata de la parcela.
-- `assignSensor()` – Asigna un sensor a una parcela.
-- `updateCropType` - Actualiza el tipo de cultivo.
-- `notifyUser()` – Dispara alertas a usuarios vinculados (via IAM).
-
----
-
-#### Clase: `Sensor`
-
-Gestiona los límites en los cuales enviará alertas al usuario.
-
-| Nombre      | Sensor                                                                               |
-| ----------- | ------------------------------------------------------------------------------------- |
-| Relaciones  | Plot, UserNotification       |
-| Descripción | Indicará el estado de la parcela a través del hardware. |
-
-##### Atributos
-
-| Nombre | Tipo de Dato | Visibilidad |
-| ------ | ------------ | ----------- |
-| id         | int     | private     |
-| AlertThreshold     | float          | private     | 
-| LastCalibration     | Date          | private     | 
-| Status     | SensorStatus          | private     | 
-
-^Valor que disparará alertas, ej: humedad<20%
-
-##### Métodos
-
-- `AlertCondition()` – Compara lecturas con umbrales y retorna `true` si hay riesgo.
-- `calibrate()` - Se realiza la calibración y se guarda la fecha.
-- `getSensorId()` - Muestra el ID del sensor.
-- `getSensorData()` - Devuelve las últimas lecturas.
-- `updateStatus()` - Cambia el estado (activo/inactivo/fallando).
-
----
-
-#### Clase: `UserNotification`
-
-Gestiona los límites en los cuales enviará alertas al usuario.
-
-| Nombre      | Sensor                                                  |
-| ----------- | ------------------------------------------------------- |
-| Relaciones  | Plot, User(IAM)                                  |
-| Descripción | Registra notificaciones enviadas y su estado (leído/no leído). |
-
-##### Atributos
-
-| Nombre | Tipo de Dato    | Visibilidad |
-| ------ | --------------- | ----------- |
-| Id     | int             | private     |
-| Message   | string          | private     |
-| AlertType | AlertType | private     |
-| IsRead    | bool      | private     |
-| CreatedAt    | DateTime      | private     |
-
-##### Métodos
-
-- `send()` – Publica la alerta en la app/web (integra con IAM).
-- `markAsRead()` – Actualiza el estado.
 
 #### 4.2.3.1 Domain Layer
 
@@ -1402,22 +1306,11 @@ Gestiona los límites en los cuales enviará alertas al usuario.
 ##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
 
 ##### 4.2.3.6.2 Bounded Context Database Design Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropManagement_vgvwwo.jpg">
+</p>
 
 ### 4.2.4 Bounded Context: Irrigation Management
-Este contexto gestiona el riego automático y manual basado en datos de sensores y umbrales definidos. Controla válvulas de riego, programación y alertas por condiciones críticas (ej. sequía o exceso de agua).
-
----
-
-### Diccionario de Clases
-
-#### Clase: `IrrigationSchedule`
-
-Programa riegos recurrentes o puntuales para una parcela.
-
-| Nombre      | IrrigationSchedule             |
-| ----------- | ------------------------------------------------------------- |
-| Relaciones  | Plot, IrrigationMode                                          |
-| Descripción | Define cuándo y cómo se activa el riego. |
 
 #### 4.2.4.1 Domain Layer
 
@@ -1432,11 +1325,14 @@ Programa riegos recurrentes o puntuales para una parcela.
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIrrigationManagementComponents_nbo4c1.png">
 </p>
 
-#### 4.2.4.6 Bounded Context Softwre Architecture Code Level Diagrams
+#### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
 
 ##### 4.2.4.6.2 Bounded Context Database Design Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/IrrigationManagement_h8cwzv.jpg">
+</p>
 
 ### 4.2.5 Bounded Context: Crops Reports Management
 
@@ -1448,16 +1344,19 @@ Programa riegos recurrentes o puntuales para una parcela.
 
 #### 4.2.5.4 Infraestructure Layer
 
-#### 4.2.5.5 Bounded Context Softwre Architecture Component Level Diagrams
+#### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsReportsManagementComponents_uxvryf.png">
 </p>
 
-#### 4.2.5.6 Bounded Context Softwre Architecture Code Level Diagrams
+#### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
 
 ##### 4.2.5.6.2 Bounded Context Database Design Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropsReportsManagement_feeifk.jpg">
+</p>
 
 # Conclusiones
 
