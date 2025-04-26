@@ -84,14 +84,10 @@ para cada integrante del equipo:
     - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de Contenidos](#tabla-de-contenidos)
-    - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
     - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
     - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
   - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción.](#capítulo-i-introducción-1)
+- [Capítulo I: Introducción.](#capítulo-i-introducción)
   - [1.1 **Startup Profile.**](#11-startup-profile)
     - [1.1.1   Descripción del startup](#111---descripción-del-startup)
     - [1.1.2   Perfiles de integrantes del equipo](#112---perfiles-de-integrantes-del-equipo)
@@ -112,7 +108,7 @@ para cada integrante del equipo:
     - [1.3 **Segmentos Objetivos.**](#13-segmentos-objetivos)
       - [Agricultores Individuales](#agricultores-individuales)
       - [Cooperativas Agrarias](#cooperativas-agrarias)
-- [Capítulo II: Requirements Elicitation \& Analysis.](#capítulo-ii-requirements-elicitation--analysis-1)
+- [Capítulo II: Requirements Elicitation \& Analysis.](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1 **Competidores.**](#21-competidores)
     - [2.1.1   Análisis competitivo.](#211---análisis-competitivo)
     - [2.1.2   Estrategias y tácticas frente a competidores.](#212---estrategias-y-tácticas-frente-a-competidores)
@@ -127,12 +123,12 @@ para cada integrante del equipo:
     - [2.3.4   Empathy Mapping.](#234---empathy-mapping)
     - [2.3.5   As-Is Scenario Mapping.](#235---as-is-scenario-mapping)
   - [2.4 **Ubiquitous Language.**](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification.](#capítulo-iii-requirements-specification-1)
+- [Capítulo III: Requirements Specification.](#capítulo-iii-requirements-specification)
   - [3.1 **To-Be Scenario Mapping.**](#31-to-be-scenario-mapping)
   - [3.2 **User Stories.**](#32-user-stories)
   - [3.3 **Impact Mapping.**](#33-impact-mapping)
   - [3.4 **Product Backlog.**](#34-product-backlog)
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design-1)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
   - [4.1 StrategicLevel Domain-Driven Design](#41-strategiclevel-domain-driven-design)
     - [4.1.1 EventStorming](#411-eventstorming)
       - [4.1.1.1 Candidate Contex Discovery](#4111-candidate-contex-discovery)
@@ -1054,6 +1050,9 @@ Para la definición de nuestra arquitectura de software hicimos uso del Diagrama
 </p>
 
 #### 4.1.3.2 Software Architecture Deployment Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677992/WaruSmartDeploymentDiagram_gzv9nt.jpg">
+</p>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
