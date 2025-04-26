@@ -468,6 +468,18 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 
 ### 2.2.2   Registro de entrevistas.
 
+**Segmento1**
+
+**Segmento 2**
+
+Entrevista 2:
+
+![Interview2](Assets/interviews/screenshot_fabrizio_mori.png)
+
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212199_upc_edu_pe/EQJ9VAEAlDRKtV-VMyun3isBah1thfQJ_2VMx9JMb9Ac4g?e=ScuGHq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+Resumen: El entrevistado manifesta que se encuentra dispuesto a utilizar soluciones tecnologicas, sin embargo tambien expresa su dificultad para usarlas, necesitando de una interfaz intuitiva
+
 ### 2.2.3   Análisis de entrevistas.
 
 ## 2.3 **Needfinding.**
