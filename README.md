@@ -117,62 +117,6 @@ para cada integrante del equipo:
 - [3.4 Product Backlog](#34-product-backlog)
 
 ### Capítulo IV: Solution Software Design
-
-- [`<div align="center">`WaruSmart-Codex-Report `</div>`](#div-aligncenterwarusmart-codex-reportdiv)
-  - [`<div align="center">`Team Members `</div>`](#div-aligncenterteam-membersdiv)
-    - [Registro de Informes](#registro-de-informes)
-    - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-  - [Tabla de Contenidos](#tabla-de-contenidos)
-    - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-    - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-    - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
-  - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción.](#capítulo-i-introducción-1)
-  - [1.1 **Startup Profile.**](#11-startup-profile)
-    - [1.1.1   Descripción del startup](#111---descripción-del-startup)
-    - [1.1.2   Perfiles de integrantes del equipo](#112---perfiles-de-integrantes-del-equipo)
-  - [1.2 **Solution Profile.**](#12-solution-profile)
-    - [1.2.1   Antecedentes y problemática](#121---antecedentes-y-problemática)
-      - [Antecedentes](#antecedentes)
-      - [Problemática](#problemática)
-      - [Aplicación de las 5 W’s y 2 H’s](#aplicación-de-las-5-ws-y-2-hs)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [**Business Assumptions:**](#business-assumptions)
-        - [**User Assumptions**](#user-assumptions)
-        - [**Feature Assumptions**](#feature-assumptions)
-      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [Lean UX Hypothesis Statements](#lean-ux-hypothesis-statements)
-      - [1.2.2.4 Lean UX Canvas.](#1224-lean-ux-canvas)
-    - [1.3 **Segmentos Objetivos.**](#13-segmentos-objetivos)
-      - [Agricultores Individuales](#agricultores-individuales)
-      - [Cooperativas Agrarias](#cooperativas-agrarias)
-- [Capítulo II: Requirements Elicitation \& Analysis.](#capítulo-ii-requirements-elicitation--analysis-1)
-  - [2.1 **Competidores.**](#21-competidores)
-    - [2.1.1   Análisis competitivo.](#211---análisis-competitivo)
-    - [2.1.2   Estrategias y tácticas frente a competidores.](#212---estrategias-y-tácticas-frente-a-competidores)
-  - [2.2 **Entrevistas**](#22-entrevistas)
-    - [2.2.1   Diseño de entrevistas.](#221---diseño-de-entrevistas)
-    - [2.2.2   Registro de entrevistas.](#222---registro-de-entrevistas)
-    - [2.2.3   Análisis de entrevistas.](#223---análisis-de-entrevistas)
-  - [2.3 **Needfinding.**](#23-needfinding)
-    - [2.3.1   User Personas.](#231---user-personas)
-    - [2.3.2   User Task Matrix.](#232---user-task-matrix)
-    - [2.3.3   User Journey Mapping.](#233---user-journey-mapping)
-    - [2.3.4   Empathy Mapping.](#234---empathy-mapping)
-    - [2.3.5   As-Is Scenario Mapping.](#235---as-is-scenario-mapping)
-  - [2.4 **Ubiquitous Language.**](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification.](#capítulo-iii-requirements-specification-1)
-  - [3.1 **To-Be Scenario Mapping.**](#31-to-be-scenario-mapping)
-  - [3.2 **User Stories.**](#32-user-stories)
-  - [3.3 **Impact Mapping.**](#33-impact-mapping)
-  - [3.4 **Product Backlog.**](#34-product-backlog)
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design-1)
   - [4.1 StrategicLevel Domain-Driven Design](#41-strategiclevel-domain-driven-design)
     - [4.1.1 EventStorming](#411-eventstorming)
       - [4.1.1.1 Candidate Contex Discovery](#4111-candidate-contex-discovery)
@@ -309,8 +253,30 @@ para cada integrante del equipo:
 
 | **Criterio específico**                                                                  | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | **Conclusiones** |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | Anderson Walter Macedo Calsina:`<br>`**TB1:** Para esta entrega, se coordinó como equipo los puntos a trabajar de forma colaborativa y cumplí con las actividades como el análisis de los competidores, el registro de entrevistas y las estrategias y tácticas a seguir.`<br>` Carlos Daniel Pingus Rodriguez:`<br>`**TB1:** En esta primera entrega coordiné con mi equipo los principales puntos a desarrollar para avanzar de la manera más evidente posible tomando en cuenta las fotalezas y debilidades de mis compañeros.<br />Fernando Daniel Quispe Condori:<br />TB1: En esta entrega el hecho de reunirnos colaborativamente, asignarnos tareas e ir revisando el avance que teníamos me permitió alcanzar el objetivo específico. | ---                    |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Anderson Walter Macedo Calsina:`<br>`**TB1:** En esta entrega realice el analisis de otras empresas con sus soluciones tecnologicas, comparandolas y afrontando las fortalezas y aprovehando las debilidad, ademas se identificaron las oportunidades y amenazas para la organizacion. `<br>` Carlos Daniel Pingus Rodrirguez:`<br>`**TB1:** Para entregar el TB1 realicé el análisis de los bounded context junto con mi equipo para delimitar nuestro alcance en cuanto al proyecto.<br />Fernando Daniel Quispe Condori:<br />TB1: En esta entrega pude planificar y cumplir con las tareas asignadas y de la misma manera trabajar colaborativamente con mi equipo para lograr nuestro objetivo alcanzado.                                         | ---                    |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | 
+Anderson Walter Macedo Calsina:<br>
+**TB1:** Para esta entrega, se coordinó como equipo los puntos a trabajar de forma colaborativa y cumplí con las actividades como el análisis de los competidores, el registro de entrevistas y las estrategias y tácticas a seguir.<br> 
+Carlos Daniel Pingus Rodriguez:<br>
+**TB1:** En esta primera entrega coordiné con mi equipo los principales puntos a desarrollar para avanzar de la manera más evidente posible tomando en cuenta las fotalezas y debilidades de mis compañeros.<br />
+Fernando Daniel Quispe Condori:<br />
+**TB1:** En esta entrega el hecho de reunirnos colaborativamente, asignarnos tareas e ir revisando el avance que teníamos me permitió alcanzar el objetivo específico.<br />
+Christopher Sebastian More Rondon <br>
+**TB1:** Para está entrega coordiné con mi equipo la división de las tareas, encargándome yo de realizar el Needfinding y el diseño de las preguntas de entrevista. Así como de monitorear la estructura del informe. <br/>
+Jair Velasquez Pizarro <br>
+**TB1:** En esta primera entrega coordine con mi equipo para las asignaciones de tareas, donde se me encargo el Capitulo de Requirements para el diseño de historias de usuarios. <br/>
+| ---                    |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | 
+Anderson Walter Macedo Calsina:<br>
+**TB1:** En esta entrega realice el analisis de otras empresas con sus soluciones tecnologicas, comparandolas y afrontando las fortalezas y aprovehando las debilidad, ademas se identificaron las oportunidades y amenazas para la organizacion. <br> 
+Carlos Daniel Pingus Rodrirguez:<br>
+**TB1:** Para entregar el TB1 realicé el análisis de los bounded context junto con mi equipo para delimitar nuestro alcance en cuanto al proyecto.<br />
+Fernando Daniel Quispe Condori:<br />
+**TB1:** En esta entrega pude planificar y cumplir con las tareas asignadas y de la misma manera trabajar colaborativamente con mi equipo para lograr nuestro objetivo alcanzado. 
+Christopher Sebastian More Rondon<br>
+**TB1:** En está entrega ayude a mi equipo a identificar las necesidades de los usuarios, con lo cual conseguimos identificar las funcionalidades de nuestra solución. <br/>
+Jair Velasquez Pizarro <br>
+**TB1:** En esta primera entrega me reuni con mi equipo para poder identificar las necesidades de nuestros segmentos objetivos para poder encontrar las funcionalidad que necesita nuestra solucion <br/>
+| ---                    |
 
 # Capítulo I: Introducción.
 
@@ -327,7 +293,7 @@ WaruSmart es una startup peruana creada por estudiantes de la Universidad Peruan
 | Nombre: Fernando Daniel Quispe Condori<br />Carrera: Ingeniería de Software<br />Código: U20221C628<br />Descripción: Soy Fernando Daniel Quispe Condori, tengo 20 años y curso la carrera de Ingeniería de Software. Cuento con las habilidades técnicas para apoyar a mi equipo en el desarrollo de nuestra solución IoT en el contexto actual, así mismo cuento cono habilidades para la gestión de equipos y colaborar efectivamente como un equipo.              | ![Fernando_Quispe](Assets/team/fernando-quispe.jpg)                                                                                                                                          |
 | Nombre: Anderson Walter Macedo Calsina<br />Carrera: Ingeniería de Software<br />Código: U20201C179<br />Descripción: Soy Anderson Walter Macedo Calsina, tengo 22 años y actualmente estoy estudiando Ingeniería de Software en la UPC. Me gusta colaborar con mis compañeros y contribuir en proyectos conjuntos. Estoy dispuesto a contribuir a mi equipo en el desarrollo del proyecto con los conocimientos que he ido adquiriendo.                                 | ![Anderson_Macedo](Assets/team/anderson-macedo.jpg)                                                                                                                                          |
 | Nombre: Christopher Sebastian More Rondon<br />Carrera Ingeniería de Software:<br />Código: U202212199<br />Descripción: Soy estudiante del septimo ciclo de Ingenieria de Software, actualmente tengo 20 años. Soy un estudiante que colabora constantemente en el desarrollo de los projectos, asi como dar soluciones creativas a los problemas que surgan durante la creacion de estos. Siempre me esfuerzo por entregar un buen trabajo.                              | ![Christopher More](Assets/team/christopher-more.jpg)                                                                                                                                        |
-| Nombre:Jair Velasquez Pizarro<br /> Carrera: Ingeniería de Software <br />Código: U202218114  <br />Descripción: Estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software. Manejo los lenguajes de TypeScript, Java, JavaScript a nivel intermedio, cuento con experiencia en desarrollo FullStack como tambien habilidades de trabajo en equipo para colaborar de forma efectiva.                                                                         |                                                                                                                                                                                            |
+| Nombre:Jair Velasquez Pizarro<br /> Carrera: Ingeniería de Software <br />Código: U202218114  <br />Descripción: Estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software. Manejo los lenguajes de TypeScript, Java, JavaScript a nivel intermedio, cuento con experiencia en desarrollo FullStack como tambien habilidades de trabajo en equipo para colaborar de forma efectiva.|   ![Jair Velasquez](Assets/team/jair-velasquez.jpeg)                                                                                                                                                                                           |
 | Nombre: Carlos Daniel Pingus Rodriguez `<brr />`Carrera: Ingenierría de Software<br />Código: U202113280<br /> Descripción: Soy estudiante de la carrera de ingeniería de Software. Me gusta la tecnología y como esta misma ha cambiado significativamente en mi tiempo de vida. Me considero alguien responsable y comprometido con los proyectos; Trato de estar a la par con mis compañeros y compartir con ellos mis conocimientos en ciertos temas específicos. | `<img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745581562/foto_carlos.jpg">`                                                                                              |
 | Nombre:Jeferson Smith Cabrera Camizan<br />Carrera: Ingeneria de Software<br />Código: U20211C211<br />Descripción: Estudiante universitario de la carrera de ingeniería de software. Me gusta trabajar en conjunto para el desarrollo del proyecto. cuento con conocimientos en lenguajes html, css, js, c++ y Agile Project Managment.                                                                                                                                  | `<a href="https://ibb.co/55MPLJC"><img src="https://res.cloudinary.com/drkelnilg/image/upload/v1745628789/imagen_2025-04-25_195308443_hzznhf.png" alt="Foto-Jeferson" border="0">``</a>` |
 | Nombre:Victor Raul Herrera Castillo<br />Carrera: Ingeneria de Software<br />Código: U20201E188<br />Descripción: Soy un estudiante de la carrera de ingeniería de software, apasionado por la tecnología y sus oportunidades en el ámbito de la ciencia, me gusta leer y enseñar a otras personas los conocimientos que aprendí durante el desarrollo de mi carrera.                                                                                                 | `<a href="https://ibb.co/55MPLJC"><img src="https://res.cloudinary.com/djia8bsvr/image/upload/v1712333792/Name_pacjmt.jpg" alt="Foto-Victor" border="0">``</a>`                          |
