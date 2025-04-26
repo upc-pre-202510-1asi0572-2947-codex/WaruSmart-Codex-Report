@@ -183,7 +183,6 @@ para cada integrante del equipo:
       - [4.1.3.1 Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
       - [4.1.3.2 Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
       - [4.1.3.2 Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
-    - [Incluimos también los siguientes Components:](#incluimos-también-los-siguientes-components)
       - [4.1.3.2 Software Architecture Deployment Diagrams](#4132-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
     - [4.2.1. Bounded Context: IAM (Identity and Access Management)](#421-bounded-context-iam-identity-and-access-management)
@@ -1102,48 +1101,6 @@ Para la definición de nuestra arquitectura de software hicimos uso del Diagrama
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContainers_d6yoda.png">
 </p>
 
-### Incluimos también los siguientes Components:
-
-**Crop Management Diagram**
-<p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsManagementComponents_iyktxz.png">
-</p>
-
-**Crops Reports Management Diagram**
-<p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsReportsManagementComponents_uxvryf.png">
-</p>
-
-**Edge Application Diagram**
-<p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartEdgeApplicationComponents_a9lpt9.png">
-</p>
-
-**Embedded Application Diagram**
-<p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartEmbeddedApplicationComponents_vmyxue.png">
-</p>
-
-**IAM Diagram**
-<p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIAMComponents_grbjpl.png">
-</p>
-
-**Irrigation Management Diagram**
-<p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIrrigationManagementComponents_nbo4c1.png">
-</p>
-
-**Mobile Application Diagram**
-<p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674157/WaruSmartMobileApplicationComponents_mmtqhm.png">
-</p>
-
-**Subscriptions & Payments Diagram**
-<p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674154/WaruSmartSubscriptionsPaymentsComponents_d1wzj6.png">
-</p>
-
 #### 4.1.3.2 Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
@@ -1326,7 +1283,9 @@ Define los estados posibles de una suscripción (activa, suspendida, cancelada, 
 #### 4.2.2.4 Infraestructure Layer
 
 #### 4.2.2.5 Bounded Context Softwre Architecture Component Level Diagrams
-
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674154/WaruSmartSubscriptionsPaymentsComponents_d1wzj6.png">
+</p>
 #### 4.2.2.6 Bounded Context Softwre Architecture Code Level Diagrams
 
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
@@ -1434,6 +1393,9 @@ Gestiona los límites en los cuales enviará alertas al usuario.
 #### 4.2.3.4 Infraestructure Layer
 
 #### 4.2.3.5 Bounded Context Softwre Architecture Component Level Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsManagementComponents_iyktxz.png">
+</p>
 
 #### 4.2.3.6 Bounded Context Softwre Architecture Code Level Diagrams
 
@@ -1466,6 +1428,9 @@ Programa riegos recurrentes o puntuales para una parcela.
 #### 4.2.4.4 Infraestructure Layer
 
 #### 4.2.4.5 Bounded Context Softwre Architecture Component Level Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIrrigationManagementComponents_nbo4c1.png">
+</p>
 
 #### 4.2.4.6 Bounded Context Softwre Architecture Code Level Diagrams
 
@@ -1484,6 +1449,9 @@ Programa riegos recurrentes o puntuales para una parcela.
 #### 4.2.5.4 Infraestructure Layer
 
 #### 4.2.5.5 Bounded Context Softwre Architecture Component Level Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsReportsManagementComponents_uxvryf.png">
+</p>
 
 #### 4.2.5.6 Bounded Context Softwre Architecture Code Level Diagrams
 
