@@ -946,6 +946,52 @@ Identificamos y agrupamos los eventos del sistema Warusmart en distintos Bounded
 
 ### 4.1.2 Context Mapping
 
+Durante esta etapa, el equipo llevó a cabo un análisis reflexivo y colaborativo para evidenciar las relaciones estructurales entre los Bounded Contexts identificados en Warusmart:
+
+- **Identification and Authentication Management**
+- **Subscriptions and Payments**
+- **Crops Management (Notif)**
+- **Irrigation Management**
+- **Data Analytics Management**
+
+A partir de los eventos, comandos, políticas y agregados definidos en cada contexto, se construyeron varios context maps candidatos que permitieron visualizar cómo interactúan y dependen entre sí estas áreas funcionales.
+
+## Análisis de Alternativas de Diseño
+
+- **¿Qué pasaría si movemos la funcionalidad de generación de recomendaciones de riego de Data Analytics Management a Irrigation Management?**  
+  Se evaluó que esta decisión podría simplificar la reacción inmediata del riego, pero aumentaría el acoplamiento y dificultaría mantener reglas de análisis independientes.
+
+- **¿Qué pasaría si descomponemos Crops Management (Notif) y movemos las alertas de sensores a un contexto aparte llamado Alert Management?**  
+  Se analizó la posibilidad, pero se descartó debido al incremento de complejidad en la integración entre sensores, cultivos y zonas de riego.
+
+- **¿Qué pasaría si partimos Data Analytics Management en dos bounded contexts: uno para la generación de gráficos históricos y otro para la emisión de recomendaciones?**  
+  Esta fragmentación fue desestimada en esta fase inicial, priorizando la cohesión de los análisis de datos en un solo contexto para reducir la complejidad operativa.
+
+- **¿Qué pasaría si tomamos la gestión de sincronización en la nube de Data Analytics Management y la usamos como un servicio compartido entre Crops Management y Data Analytics?**  
+  Se identificó que esto podría optimizar recursos en el futuro, pero para esta versión inicial se decidió mantener la sincronización dentro de Data Analytics para evitar una dependencia técnica innecesaria.
+
+- **¿Qué pasaría si duplicamos la lógica de asignación de sensores en Crops Management para permitir la lectura directa desde Data Analytics Management?**  
+  Esta opción fue rechazada, ya que aumentaría la redundancia y podría provocar inconsistencias en el mapeo de sensores y zonas de cultivo.
+
+- **¿Qué pasaría si creamos un shared service para el modelo de usuario que comparten Identification and Authentication Management y Subscriptions and Payments?**  
+  Se concluyó que, en lugar de crear un shared service separado, se aplicaría el patrón Shared Kernel, compartiendo de manera controlada la entidad Usuario entre estos contextos.
+
+- **¿Qué pasaría si aislamos la gestión de zonas de riego de Irrigation Management y la movemos a Crops Management?**  
+  Se consideró que esta opción podría reducir la flexibilidad de configuración de riego, por lo que se mantuvo la gestión de zonas dentro del contexto de riego.
+
+Tras la discusión de todas estas alternativas, se llegó a la mejor aproximación para el contexto de Warusmart, respetando tanto los límites funcionales del negocio como la necesidad de escalabilidad y bajo acoplamiento entre componentes.
+
+Es importante resaltar que durante este proceso el equipo aplicó los patrones de relaciones entre Bounded Contexts establecidos en Domain-Driven Design, tales como:
+
+- **Anti-Corruption Layer** entre *Subscriptions and Payments* y *Identification and Authentication Management*, para proteger las reglas de autenticación frente a las integraciones con pasarelas de pago.
+- **Shared Kernel** entre *Identification and Authentication Management* y los demás contextos, para compartir el modelo de Usuario de forma segura.
+- **Customer/Supplier** entre *Crops Management (Notif)* y *Irrigation Management*, donde Irrigation depende de la definición de zonas agrícolas configuradas en Crops.
+- **Conformist** entre *Data Analytics Management* y los demás contextos, adaptándose a los eventos de cultivo, riego y suscripción sin modificar su lógica de negocio.
+
+
+![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745658385/imagen_2025-04-26_040623655_cytcps.png "Bounded Contexts Canvases")
+
+
 ### 4.1.3 Software Architecture
 
 #### 4.1.3.1 Software Architecture System Landscape Diagram
