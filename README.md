@@ -2062,3 +2062,9 @@ Los principales repositorios en este contexto son:
  |                       | TP         |
  |                       | TB2        |
  |                       | TF         |
+
+### Repositorio del Frontend
+https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform
+
+### Repositorio del Backend
+https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-web-services-backend
