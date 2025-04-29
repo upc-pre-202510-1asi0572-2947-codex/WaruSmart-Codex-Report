@@ -705,12 +705,12 @@ Representacion ficticia de un usuario perteneciente a cada segmento objetivo, la
 **SEGMENTO AGRICULTORES:**
 
 <div></div>
-<img src="Assets/needfinding/user_persona_1.png">
+<img src="Assets/needfinding/user_persona_1_2.png">
 
 **SEGMENTO COOPERATIVAS:**
 
 <div></div>
-<img src="Assets/needfinding/user_persona_2.png">
+<img src="Assets/needfinding/user_persona_2_2.png">
 
 ### 2.3.2   User Task Matrix.
 
@@ -733,12 +733,12 @@ Grafico que muestra el viaje del usuario para solucionar su problematica
 **SEGMENTO AGRICULTORES:**
 
 <div></div>
-<img src="Assets/needfinding/journey_map_1.png">
+<img src="Assets/needfinding/journey_map_1_2.png">
 
 **SEGMENTO COOPERATIVAS:**
 
 <div></div>
-<img src="Assets/needfinding/journey_map_2.png">
+<img src="Assets/needfinding/journey_map_2_2.png">
 
 ### 2.3.4   Empathy Mapping.
 
@@ -747,12 +747,12 @@ Grafivo realizado para visualizar la problematica del usuario junto con que pien
 **SEGMENTO AGRICULTORES:**
 
 <div></div>
-<img src="Assets/needfinding/empathy_map_1.png">
+<img src="Assets/needfinding/empathy_map_1_2.png">
 
 **SEGMENTO COOPERATIVAS:**
 
 <div></div>
-<img src="Assets/needfinding/empathy_map_2.png">
+<img src="Assets/needfinding/empathy_map_2_2.png">
 
 ### 2.3.5   As-Is Scenario Mapping.
 
