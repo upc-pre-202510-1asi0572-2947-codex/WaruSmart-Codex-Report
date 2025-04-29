@@ -700,15 +700,20 @@ Resumen: El entrevistado manifesta que se encuentra dispuesto a utilizar solucio
 
 ### 2.3.1   User Personas.
 
-Representacion ficticia de un usuario perteneciente a cada segmento objetivo, la cual nos muestra informacion sobre el contexto en el que vive, junto con sus necesidades
+Representacion ficticia de un usuario perteneciente a cada segmento objetivo, la cual nos muestra informacion sobre el contexto en el que vive.
 
 **SEGMENTO AGRICULTORES:**
 
+Podemos identificar que es un trabajador que ama su trabajo, por lo que desea encontrar su eficacia mediante diversas
+herramientas. A pesar de no tener mucho conocimiento en aparatos digitales, está dispuesto a usarlos para la agricultura.
 <div></div>
 <img src="Assets/needfinding/user_persona_1_2.png">
 
+
 **SEGMENTO COOPERATIVAS:**
 
+Podemos observar como el usuario desea apoyar a los miembros de su cooperativa, por lo que busca convencer a todos de que
+una herramienta tecnológica puede ayudarlos a ser más eficases.
 <div></div>
 <img src="Assets/needfinding/user_persona_2_2.png">
 
@@ -726,23 +731,30 @@ Lista de actividades realizadas por el usuario para cumplir con su objetivo, jun
 | Revisión de calidad en la cosecha          |           Alta           |          Media          |           Alta           |          Alta          |
 | Revisar el registro de los cultivos         |           Alta           |          Alta          |          Media          |          Media          |
 
+Podemos identificar que ambos segmentos objetivos tienen necesidades similares para las tareas. También podemos notar que el agricultor independiente suele darle más importancia
+al registro del cultivo, esto debido a que es un único trabajador.
+
 ### 2.3.3   User Journey Mapping.
 
-Grafico que muestra el viaje del usuario para solucionar su problematica
+Grafico que muestra el viaje del usuario para solucionar su problematica, lo cual nos sirve para identificar el como cambia su estado de ánimo durante este proceso,
+así como también muestra las necesidades que van surgiendo.
 
 **SEGMENTO AGRICULTORES:**
 
+Podemos identificar como el usuario va alregandose m{as conforme conoce más sobre nuestra solución, sin embargo, también muestra que necesita 
+de una landing page que lo mantenga bien informado sobre las funciones,
 <div></div>
 <img src="Assets/needfinding/journey_map_1_2.png">
 
 **SEGMENTO COOPERATIVAS:**
 
+Si bien el usuario agradece el usar la herramienta, también es necesario que nuestra solución sea fácil de usar para efitar frustraciones por parte del usuario
 <div></div>
 <img src="Assets/needfinding/journey_map_2_2.png">
 
 ### 2.3.4   Empathy Mapping.
 
-Grafivo realizado para visualizar la problematica del usuario junto con que piensa al respecto
+Grafico realizado para visualizar la problematica del usuario junto con lo que piensa al respecto
 
 **SEGMENTO AGRICULTORES:**
 
