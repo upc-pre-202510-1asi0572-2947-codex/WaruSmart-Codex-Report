@@ -2741,6 +2741,62 @@ Los principales repositorios en este contexto son:
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropsReportsManagement_feeifk.jpg">
  </p>
 
+# Capítulo V: Solution UI/UX Design
+
+## 5.1 Style Guidelines
+
+### 5.1.1 General Style Guidelines
+
+### 5.1.2 Web, Mobile and IoT Guidelines
+
+## 5.2 Information Architecture
+
+WatuSmart está pensada para ser utilizada por usuarios con poca experiencia con aparatos digitales, debido a esto, la información debe ser mostrada de forma intuitiva, asegurándose de 
+que visualmente, el usuario pueda saber que es lo que se encuentra visualizando.
+
+### 5.2.1 Organization Systems
+
+En WaruSmart, los distintos cultivos monitoreados se organizaran de forma secuencial, según las fase de desarrollo, esto con el objetivo de que el usuario pueda localizar con facilidad 
+los cultivos a recolectar. Cuando desee ver información sobre los últimos riegos, estos se mostrarán en orden cronológico a partir del más reciente.
+
+Las distintas opciones de la aplicación se verán organizadas se forma secuencial según la fase de desarrollo a la que está relacionada
+
+Finalmente, al visualizar la información de un cultivo en específico, esta se ordenará de forma jerarquica, priorizando las características según la importancia.
+
+### 5.2.2 Labeling Systems
+
+Las distintas secciones de la aplicación cuentan con un título encargado de explicar al usuario que se encuentra viendo.
+
+Dentro de cada sección, cada apartado cuenta con un subtítulo propio el cual explica lo que el usuario está visualizando, estos subtítulos no deben ser iguales a los títulos de la sección.
+
+Al visualizar los últimos riegos, cada uno mostrará la fecha y hora en que se realizó.
+
+### 5.2.3 SEO &amp; Meta Tags
+
+
+
+### 5.2.4 Searching Systems
+
+### 5.2.5 Navigation Systems
+
+## 5.3 Landing Page UI Design
+
+### 5.3.1 Wireframe
+
+### 5.3.2 Mock-up
+
+## 5.4 Applications UX/UI Design
+
+### 5.4.1 Wireframes
+  
+### 5.4.2 Wireflow Diagrams
+  
+### 5.4.3 Mock-ups
+  
+### 5.4.4 User Flow Diagrams
+
+## 5.5 Applications Prototyping
+
 ## Conclusiones
  
  - A partir del análisis realizado, se logró estructurar de manera inicial la solución **Warusmart**, orientada a la gestión inteligente del riego mediante tecnologías IoT y plataformas web. La aplicación de técnicas como **Event Storming** y **Domain-Driven Design** permitió identificar los principales eventos, actores, comandos y políticas que formarán la base del sistema, asegurando una visión coherente de su funcionamiento.
