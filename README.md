@@ -2773,11 +2773,80 @@ Al visualizar los últimos riegos, cada uno mostrará la fecha y hora en que se 
 
 ### 5.2.3 SEO &amp; Meta Tags
 
+**Title**
 
+```html
+    <title>WaruSmartLandingPage</title>
+```
+
+**Charset**
+
+```html
+    <meta charset="UTF-8">
+```
+
+**Description**
+
+```html
+    <meta name="description" content="WaruSmart is an IOT solution for crop irrigation"/>
+```
+
+**Keywords**
+
+```html
+    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
+```
+**Copyright and Author**
+
+```html
+    <meta name="author" content="Codex"/>
+    <meta name="copyright" content="Copyright Codex team" />
+```
+
+**ASO**
+
+```html
+    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
+```
+
+**APP Title**
+
+```html
+    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
+```
+
+**APP keywords**
+
+```html
+    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
+```
+
+**APP Subtitle**
+
+```html
+    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
+```
+
+**APP Description**
+
+```html
+    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
+```
 
 ### 5.2.4 Searching Systems
 
+El sistema de búsqueda será usado principalmente para ubicar riegos y cultivos.
+
+Para encontrar un riego en específico, el usuario puede buscar por día en el que se realizaron, esto será apoyado por la información de la fecha y hora mostradas.
+
+En la busqueda de un cultivo, el usuario puede filtrarlos según la etapa de desarrollo, así como buscar según la fecha en que fueron plantados. En ambos casos, los 
+resultados se mostrarán ordenados según la fehca en que fueron plantados, empezando por el más antiguo
+
 ### 5.2.5 Navigation Systems
+
+En Warusmart, los usuarios pueden navegar a travez de una barra superior, la cual contiene botones que los redirigen a las distintas secciones de la aplicación. Dentro de estas, el usuario puede elegir volver 
+al menú principal, como también puede usar la misma barra para viajar a otras secciones. En las secciones que lo permiten, también se podrá usar una barra de búsqueda
+para fioltrar los resultados obtenidos.
 
 ## 5.3 Landing Page UI Design
 
