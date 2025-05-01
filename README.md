@@ -2771,7 +2771,7 @@ Dentro de cada sección, cada apartado cuenta con un subtítulo propio el cual e
 
 Al visualizar los últimos riegos, cada uno mostrará la fecha y hora en que se realizó.
 
-### 5.2.3 SEO &amp; Meta Tags
+### 5.2.3 SEO and Meta Tags
 
 **Title**
 
@@ -2805,33 +2805,11 @@ Al visualizar los últimos riegos, cada uno mostrará la fecha y hora en que se 
 
 **ASO**
 
-```html
-    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
-```
+APP Title: WaruSmart<br>
+APP keywords: Agricultura, cultivos, riego, cuidado, IOT<br>
+App Subtitle: Help for your crops management<br>
+App Description: Mobile application for WaruSmart, viusalize your crops data in your phone. (WaruSmart IOT service needed)<br>
 
-**APP Title**
-
-```html
-    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
-```
-
-**APP keywords**
-
-```html
-    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
-```
-
-**APP Subtitle**
-
-```html
-    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
-```
-
-**APP Description**
-
-```html
-    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
-```
 
 ### 5.2.4 Searching Systems
 
