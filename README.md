@@ -1158,10 +1158,24 @@ Escenario 5: Configuración o actualización de reglas de riego automático.
 #### 4.1.1.3 Bounded Context Canvases
 
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655714/imagen_2025-04-26_032134504_on17gs.png "Bounded Contexts Canvases")
+
+Este canvas define el contexto de IAM (Identity and Access Management) como responsable de la gestión segura de usuarios en el sistema, incluyendo registro, autenticación y actualización de perfiles. Delimita claramente sus comunicaciones entrantes (registro, autenticación, vinculación) y salientes (actualización y eliminación de cuentas), que impactan en sistemas como la gestión de suscripciones. Además, establece un lenguaje ubicuo para evitar ambigüedades y resalta decisiones clave como la política de autenticación.
+
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655735/imagen_2025-04-26_032156831_llint2.png "Bounded Contexts Canvases")
+
+Aqui se define el contexto de Suscriptions and Payments como responsable de gestionar el acceso de los usuarios a los productos de la solución y procesar los pagos correspondientes. Establece claramente sus comunicaciones entrantes (inicio de suscripción, cambios y actualizaciones de planes) y salientes (suspensión, cambio o actualización de planes), que afectan a módulos clave como la gestión de cultivos, riego y análisis de datos.
+
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655739/imagen_2025-04-26_032218127_zkpvp1.png "Bounded Contexts Canvases")
+
+Crops Management actua como el núcleo que permite a los usuarios gestionar sus cultivos a lo largo de todo el ciclo productivo, garantizando un seguimiento detallado y organizado. Establece interacciones entrantes desde los propios agricultores para registrar, actualizar o crear áreas de cultivo, y salidas que configuran la conectividad con sensores IoT, asignan sensores a cultivos o notifican eventos importantes.
+
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655784/imagen_2025-04-26_032246309_vqevhg.png "Bounded Contexts Canvases")
+
+Irrigation Management es esencial para la gestión automatizada de riego en los cultivos, permitiendo a los usuarios controlar y supervisar los sistemas IoT que regulan la irrigación según condiciones específicas. Establece comunicaciones entrantes desde sensores IoT y la gestión de cultivos para configurar, activar o adaptar el riego, y salidas que informan a otros módulos sobre el estado crítico de datos o eventos relevantes como suspensión y reanudación del riego.
+
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655819/imagen_2025-04-26_032305580_wunor9.png "Bounded Contexts Canvases")
+
+Aqui se define el contexto de Data Analytics Management como el encargado de procesar y transformar los datos provenientes de los módulos de riego y gestión de cultivos para generar información útil y reportes precisos para los usuarios. Gestiona comunicaciones entrantes que reflejan eventos como la visualización de paneles de datos y la generación de reportes diarios, y comunicaciones salientes que entregan reportes e indicadores de bajo rendimiento a los agricultores.
 
 **Enlace del miro:** https://miro.com/app/board/uXjVI9vdzpc=/
 
