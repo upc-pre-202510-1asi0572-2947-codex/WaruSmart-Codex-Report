@@ -2745,9 +2745,71 @@ Los principales repositorios en este contexto son:
 
 ## 5.1 Style Guidelines
 
+Esta sección establece las pautas visuales y funcionales necesarias para garantizar que todos los entregables del proyecto mantengan coherencia estética y comunicativa. Este repositorio incluye activos visuales, fuentes, paletas de colores y principios de diseño compartidos, con el objetivo de conservar una imagen consistente en las plataformas.
+
 ### 5.1.1 General Style Guidelines
 
+**Brand Overview:**  
+Nuestra startup, Codex, surge como una respuesta a los desafíos de la agricultura moderna en el Perú, centrando sus esfuerzos en la transformación digital del riego agrícola mediante tecnologías IoT accesibles. Codex busca impactar positivamente en la vida de los agricultores al brindarles herramientas inteligentes y automatizadas para optimizar el uso del agua, reducir desperdicios y mejorar la productividad de los cultivos.
+
+Con esta visión en mente, desarrollamos WaruSmart, una solución tecnológica que combina sensores IoT, análisis predictivo y una interfaz intuitiva para facilitar el control y monitoreo del riego agrícola en tiempo real. Nuestra propuesta se orienta tanto a pequeños agricultores como a cooperativas y ONG del sector agrícola.
+
+**Misión**  
+Ofrecer soluciones tecnológicas accesibles y eficientes para automatizar el riego agrícola, promoviendo una agricultura sostenible, moderna y de fácil adopción para todos los agricultores peruanos.
+
+**Visión**  
+Ser reconocidos como la plataforma líder en soluciones de riego inteligente en el Perú, destacando por nuestra innovación, impacto social y contribución a la seguridad alimentaria mediante el uso responsable del agua y tecnologías de precisión.
+
+**Logotipo de la startup (Codex):**  
+![Logo Codex](/Assets/Style-Guidelines/logotipo-codex.png)
+
+**Logotipo del producto (WaruSmart):**  
+![Logo WaruSmart](/Assets/Style-Guidelines/logotipo-warusmart.png)
+
+**Brand Name**  
+El nombre WaruSmart surge de la combinación entre la palabra "waru waru" —una técnica ancestral andina de cultivo— y el concepto de "smart", evocando modernidad y tecnología. Esta fusión refleja nuestra intención de integrar prácticas tradicionales con innovación digital, ofreciendo a los agricultores una herramienta confiable, eficiente y culturalmente cercana. WaruSmart representa el puente entre el conocimiento ancestral y la agricultura del futuro.
+
+**Colors**  
+Los colores elegidos para WaruSmart se inspiran en la psicología del color, buscando transmitir familiaridad, sostenibilidad y conexión con la agricultura. El verde representa crecimiento, naturaleza y frescura, mientras que los tonos marrones evocan la tierra y el trabajo agrícola. Estos colores refuerzan la identidad visual de la plataforma y facilitan la navegación al ser agradables a la vista.
+
+En los wireframes, se emplean tonos de gris que permiten una visualización preliminar clara y estructurada del diseño.
+
+![Paleta de colores](/Assets/Style-Guidelines/colores.png)
+
+**Typography**  
+La tipografía juega un rol fundamental en la experiencia de usuario. Para WaruSmart, se eligió la fuente Poppins, ya que ofrece una estética moderna y minimalista. Se utilizan estilos Medium, Regular, SemiBold y Bold, asegurando jerarquías visuales claras y legibilidad en distintos dispositivos.
+
+Esta elección garantiza coherencia en todos los niveles de la aplicación, desde títulos hasta mensajes de alerta, manteniendo una imagen profesional y amigable.
+
+![Tipografía](/Assets/Style-Guidelines/tipografia.png)
+
+**Spacing**  
+El espaciado uniforme y bien definido es esencial para una experiencia de usuario fluida y ordenada. En WaruSmart, se establece una guía de márgenes y paddings coherente, que se adapta responsivamente a diferentes tamaños de pantalla (desktop, tablet y mobile).
+
+Esta estrategia mejora la legibilidad, evita sobrecarga visual y facilita la interacción, permitiendo que los usuarios se concentren en la información relevante sin distracciones.
+
+**Tone and Language**  
+El tono de comunicación de WaruSmart se caracteriza por ser formal pero cercano, sereno, claro y respetuoso. Nuestro lenguaje busca generar confianza y profesionalismo sin recurrir a tecnicismos excesivos, facilitando así la comprensión por parte de usuarios con distintos niveles de familiaridad tecnológica.
+
 ### 5.1.2 Web, Mobile and IoT Guidelines
+
+**Web Interface Guidelines**  
+La interfaz web de WaruSmart ha sido diseñada bajo un enfoque minimalista, claro y centrado en el usuario. El objetivo es facilitar la adopción del sistema por parte de agricultores con distintos niveles de experiencia tecnológica, priorizando la comprensión intuitiva de las funciones clave del sistema.
+
+* **Imágenes:** Se emplean imágenes contextuales que refuercen la función de cada sección, como ilustraciones agrícolas o iconografía que represente sensores y cultivos. Se prioriza la calidad visual y la coherencia con la identidad visual de la marca. El logotipo y la imagen de perfil del usuario se mantendrán visibles en la barra de navegación.
+* **Botones:** Los botones siguen convenciones universales para evitar confusiones. Íconos como el tacho de basura (eliminar), el ícono de lápiz (editar) o una "X" (cerrar) permiten mantener la consistencia externa con lo que el usuario ya conoce.
+* **Pop-ups:** Las ventanas emergentes (pop-ups) aparecen para confirmar acciones importantes, como programar o detener el riego. Se presentan con colores destacados, y siempre incluyen tres opciones: "Aceptar", "Cancelar" y "Cerrar" (ícono “X”), adaptándose automáticamente a la resolución del dispositivo.
+
+**Mobile Interface Guidelines**  
+La versión mobile mantiene la misma identidad visual y experiencia que la interfaz web, adaptándose a las restricciones de espacio y tamaño de pantalla.
+
+* **Imágenes:** Se optimizan para dispositivos móviles, manteniendo su propósito informativo y estético sin interferir en la usabilidad. Se prioriza la carga rápida y el uso eficiente del espacio.
+* **Botones:** Se redimensionan para facilitar su manipulación táctil, con zonas de interacción suficientemente amplias. Se mantiene el mismo set de íconos para asegurar coherencia visual entre plataformas.
+* **Pop-ups:** Se adaptan al tamaño del dispositivo, evitando bloquear contenido importante. Su aparición se limita a momentos clave y su diseño asegura legibilidad y claridad en la interacción.
+
+**IoT Interface Guidelines**  
+En el caso de WaruSmart, el dispositivo IoT está actualmente en fase de diseño conceptual. Dado que el sistema está enfocado en la automatización del riego mediante sensores de humedad y variables ambientales, toda la interacción del usuario se realiza a través de las interfaces web y mobile. El dispositivo solo incorpora un botón físico de encendido y apagado, pensado para facilitar su activación manual en el campo sin necesidad de conexión digital.
+
 
 ## 5.2 Information Architecture
 
