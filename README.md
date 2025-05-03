@@ -2761,10 +2761,10 @@ Ofrecer soluciones tecnológicas accesibles y eficientes para automatizar el rie
 Ser reconocidos como la plataforma líder en soluciones de riego inteligente en el Perú, destacando por nuestra innovación, impacto social y contribución a la seguridad alimentaria mediante el uso responsable del agua y tecnologías de precisión.
 
 **Logotipo de la startup (Codex):**  
-![Logo Codex](/Assets/Style-Guidelines/logotipo-codex.png)
+<img src="/Assets/Style-Guidelines/logotipo-codex.png" alt="Logo Codex" width="200"/>
 
 **Logotipo del producto (WaruSmart):**  
-![Logo WaruSmart](/Assets/Style-Guidelines/logotipo-warusmart.png)
+<img src="/Assets/Style-Guidelines/logotipo-warusmart.png" alt="Logo WaruSmart" width="200"/>
 
 **Brand Name**  
 El nombre WaruSmart surge de la combinación entre la palabra "waru waru" —una técnica ancestral andina de cultivo— y el concepto de "smart", evocando modernidad y tecnología. Esta fusión refleja nuestra intención de integrar prácticas tradicionales con innovación digital, ofreciendo a los agricultores una herramienta confiable, eficiente y culturalmente cercana. WaruSmart representa el puente entre el conocimiento ancestral y la agricultura del futuro.
