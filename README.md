@@ -668,12 +668,27 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 
 **Segmento1**
 
-| Nombre de entrevistado                                                          | Moises Luque                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Edad                                                                            | 47                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Departamento                                                                    | Aucallama, Huaral                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ![Entrevista WaruSmart Moises](Assets/interviews/Entrevista-WaruSmart-Moises.png) | El entrevistado llevaba el registro de riegos en un cuaderno, aunque a veces olvidaba anotarlo, lo que le generaba errores y pequeñas perdidas. Considera importantes datos como la cantidad de agua, el clima y el estado del suelo. Ha tenido dificultades por falta de agua o algunas fallas , lo que lo obligaba a regar manualmente. Le interesa una solución que organice la información y brinde alertas, y estaría dispuesto a pagar una cuota mensual accesible. Cree que esta herramienta sería útil para otros agricultores que aún trabajan de forma manual. |
-| Duracion de entrevista: 0:00 - 3:35                                             | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EXuW4XXkLIhItSs9_jN5i7MBJRmzug7Giqo9J9O6CYVrsA?e=wWy2zc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                                                                                                                                                                                                                          |
+Entrevista 1:
+
+| Nombre de entrevistado                                                            | Moises Luque                                                                      |
+| ----------------------------------------------------------------------------------| --------------------------------------------------------------------------------- |
+| Edad                                                                              | 47                                                                                |
+| Departamento                                                                      | Aucallama, Huaral                                                                 |
+| ![Entrevista WaruSmart Moises](Assets/interviews/Entrevista-WaruSmart-Moises.png) | Moisés Luque, agricultor de 47 años residente en Aucallama, comenta que utiliza su celular a diario, aunque en ocasiones tiene dificultades para manejarlo. Para llevar el registro de los riegos de sus cultivos, solía anotar las fechas y horas en un cuaderno, aunque reconoce que no siempre era constante con este hábito. Considera que los datos más importantes para el cuidado de sus cultivos son la cantidad de agua, el clima, el tipo de cultivo y el estado de la tierra. Ha tenido problemas en el pasado por no registrar adecuadamente los riegos, lo que le llevaba a regar de más o de menos, afectando el cultivo. También ha enfrentado dificultades técnicas, como la falta de agua o fallas en el sistema de riego, obligándolo a regar manualmente con ayuda, lo cual era más lento y menos eficiente. Al conocer la propuesta de WaruSmart, expresó interés, especialmente porque le permitiría organizar mejor los datos y recibir alertas sobre cuándo y cuánto regar. Afirmó que estaría dispuesto a pagar por el servicio si el precio es accesible y el sistema funciona bien, sugiriendo incluso una cuota mensual mínima. Finalmente, cree que esta herramienta también sería de gran ayuda para otros agricultores, ya que muchos aún trabajan de manera manual y tienen dificultades con el uso de tecnología. |
+| Duracion de entrevista: 0:00 - 3:35                                               | https://bit.ly/4lZPgjy |
+
+Entrevista 2:
+
+| Nombre de entrevistado                                                            | Walter Cayrampoma                                                                 |
+| ----------------------------------------------------------------------------------| --------------------------------------------------------------------------------- |
+| Edad                                                                              | 43                                                                                |
+| Departamento                                                                      | Moche, La Libertad                                                                |
+| ![Entrevista WaruSmart Walter](Assets/interviews/Entrevista-WaruSmart-Walter.png) | Walter Cayrampoma, agricultor de 43 años natural de Moche, La Libertad, trabaja en el rubro agrícola desde hace varios años. Menciona que usa con frecuencia su celular, sobre todo para comunicarse y ver videos en YouTube sobre agricultura. Aunque al principio tuvo dificultades con la tecnología, actualmente se siente cómodo usándola, aunque a veces aún recurre a sus hijos para resolver dudas. Lleva el registro de riegos en un cuaderno, anotando datos como el momento del riego, el área trabajada y el consumo de agua. Considera que los datos más importantes para el cuidado de sus cultivos son el clima, el tipo de suelo, la frecuencia de riego y la presencia de plagas. Ha tenido problemas con el registro del riego, como olvidar regar ciertas partes o hacerlo dos veces, lo que genera desperdicio de agua o plantas mal cuidadas. También ha enfrentado dificultades técnicas, como baja presión de agua o fallas en la bomba. Al conocer la propuesta de WaruSmart, le pareció interesante porque le permitiría tener un mejor control, ahorrar agua y tiempo. Indicó que estaría dispuesto a pagar por el servicio si realmente le conviene, y cree que esta herramienta también podría facilitar el trabajo de otros agricultores que no llevan un control exacto. |
+| Duracion de entrevista: 0:00 - 2:59                                               | https://bit.ly/3Yo8dCc   |
+
+Entrevista 3:
+
+
 
 **Segmento 2**
 
@@ -683,10 +698,20 @@ Entrevista 1:
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Edad                                                                            | 26                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Departamento                                                                    | Tuman, Chiclayo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ![Entrevista WaruSmart Alexis](Assets/interviews/Entrevista-WaruSmart-Alexis.png) | El entrevistado se encarga de gestionar los recursos y coordinar con los miembros de la cooperativa, y nos cuenta que ellos registran las necesidades de los cultivos de forma manual y no cuentan con una plataforma centralizada, lo que genera descoordinación en el riego y manejo de insumos. Han tenido pérdidas por errores en la gestión, y aunque usan herramientas básicas como apps del clima, no tienen un sistema integral. Se muestra positivo frente a la integracion de una solución tecnológica que centralice la información, optimice el riego y reduzca pérdidas, y estarían dispuestos a pagar una cuota mensual razonable por su implementación. |
-| Duracion de entrevista: 0:00 - 6:31                                             | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/Eew00ixSHLFDvgsPnLMhqOcBbEDKzovC0kNLTlTFV6ShiA?e=hQq3b1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                                                                                                                                                                                                                                                                                                                           |
+| ![Entrevista WaruSmart Alexis](Assets/interviews/Entrevista-WaruSmart-Alexis.png) | Alexis Patazca, de 26 años, trabaja en zonas agrícolas de Tumán, Chiclayo. Usa tecnología diariamente sin dificultad. Representa a una cooperativa agraria donde aún predomina la gestión manual por falta de conocimientos tecnológicos entre otros miembros. La cooperativa no tiene una plataforma centralizada, lo que genera errores de coordinación y pérdidas. Él se encarga de ciertas gestiones y comenta que organizan la compra de materiales de forma periódica con proveedores comunes, cada miembro tiene un rol específico. Utilizan algunas apps para el clima, pero no cuentan con un sistema integral. Al conocer la propuesta de WaruSmart, se mostró interesado, destacando que ayudaría a reducir pérdidas, optimizar el riego y centralizar la información. Considera que los miembros de la cooperativa también estarían interesados si se les capacita adecuadamente. Sobre el precio, sugiere que podría contemplarse una cuota mensual entre 100 y 300 soles, dependiendo de la organización y roles internos. |
+| Duracion de entrevista: 0:00 - 6:31                                             | https://bit.ly/4jQwGZc      |
 
 Entrevista 2:
+
+| Nombre de entrevistado                                                            | Adela Vilca                                                                       |
+| ----------------------------------------------------------------------------------| --------------------------------------------------------------------------------- |
+| Edad                                                                              | 52                                                                                |
+| Departamento                                                                      | Juli, Puno                                                                        |
+| ![Entrevista WaruSmart Adela](Assets/interviews/Entrevista-WaruSmart-Adela.png)   | Adela Vilca, una mujer de 52 años que vive en Juli, Puno, es miembro de una cooperativa agraria. Usa tecnología de forma básica, principalmente el celular para comunicarse por WhatsApp y ver videos de agricultura, aunque presenta dificultades con algunas aplicaciones y suele recibir ayuda de sus hijos. En su cooperativa registran las necesidades de los cultivos en cuadernos y las discuten en reuniones. Mencionó que los miembros enfrentan problemas en la gestión, sobre todo cuando hay fenómenos climáticos como lluvias o sequías, ya que no siempre saben qué necesita cada cultivo. Para organizar la compra de materiales, se reúnen y hacen listas para comprar en grupo. Han tenido pérdidas por desorganización o retrasos en el cuidado de los cultivos. Usan herramientas básicas como bombas manuales y mangueras, pero no cuentan con tecnología avanzada. Al conocer la propuesta de WaruSmart, Adela expresó que le parecería útil, especialmente si el sistema brinda alertas para regar. Estaría dispuesta a pagar entre 50 y 100 soles, siempre que realmente les facilite el trabajo. |
+| Duracion de entrevista: 0:00 - 4:41                                               | https://bit.ly/3Yo8dCc   |
+
+
+Entrevista 3:
 
 ![Interview2](Assets/interviews/screenshot_fabrizio_mori.png)
 
@@ -700,17 +725,22 @@ Resumen: El entrevistado manifesta que se encuentra dispuesto a utilizar solucio
 
 ### 2.3.1   User Personas.
 
-Representacion ficticia de un usuario perteneciente a cada segmento objetivo, la cual nos muestra informacion sobre el contexto en el que vive, junto con sus necesidades
+Representacion ficticia de un usuario perteneciente a cada segmento objetivo, la cual nos muestra informacion sobre el contexto en el que vive.
 
 **SEGMENTO AGRICULTORES:**
 
+Podemos identificar que es un trabajador que ama su trabajo, por lo que desea encontrar su eficacia mediante diversas
+herramientas. A pesar de no tener mucho conocimiento en aparatos digitales, está dispuesto a usarlos para la agricultura.
 <div></div>
-<img src="Assets/needfinding/user_persona_1.png">
+<img src="Assets/needfinding/user_persona_1_2.png">
+
 
 **SEGMENTO COOPERATIVAS:**
 
+Podemos observar como el usuario desea apoyar a los miembros de su cooperativa, por lo que busca convencer a todos de que
+una herramienta tecnológica puede ayudarlos a ser más eficases.
 <div></div>
-<img src="Assets/needfinding/user_persona_2.png">
+<img src="Assets/needfinding/user_persona_2_2.png">
 
 ### 2.3.2   User Task Matrix.
 
@@ -726,49 +756,60 @@ Lista de actividades realizadas por el usuario para cumplir con su objetivo, jun
 | Revisión de calidad en la cosecha          |           Alta           |          Media          |           Alta           |          Alta          |
 | Revisar el registro de los cultivos         |           Alta           |          Alta          |          Media          |          Media          |
 
+Podemos identificar que ambos segmentos objetivos tienen necesidades similares para las tareas. También podemos notar que el agricultor independiente suele darle más importancia
+al registro del cultivo, esto debido a que es un único trabajador.
+
 ### 2.3.3   User Journey Mapping.
 
-Grafico que muestra el viaje del usuario para solucionar su problematica
+Grafico que muestra el viaje del usuario para solucionar su problematica, lo cual nos sirve para identificar el como cambia su estado de ánimo durante este proceso,
+así como también muestra las necesidades que van surgiendo.
 
 **SEGMENTO AGRICULTORES:**
 
+Podemos identificar como el usuario va alegrandose conforme conoce más sobre nuestra solución, sin embargo, también muestra que necesita 
+de una landing page que lo mantenga bien informado sobre las funciones,
 <div></div>
-<img src="Assets/needfinding/journey_map_1.png">
+<img src="Assets/needfinding/journey_map_1_2.png">
 
 **SEGMENTO COOPERATIVAS:**
 
+Si bien el usuario agradece el usar la herramienta, también es necesario que nuestra solución sea fácil de usar para efitar frustraciones por parte del usuario
 <div></div>
-<img src="Assets/needfinding/journey_map_2.png">
+<img src="Assets/needfinding/journey_map_2_2.png">
 
 ### 2.3.4   Empathy Mapping.
 
-Grafivo realizado para visualizar la problematica del usuario junto con que piensa al respecto
+Grafico realizado para visualizar la problematica del usuario junto con lo que piensa al respecto
 
 **SEGMENTO AGRICULTORES:**
 
+El usuario se encuentra frustrado debido a que pierde dinero por las dificultades de cuidar a sus cultivos, al mismo tiempo que desea encontrar una solucion a este problema
 <div></div>
-<img src="Assets/needfinding/empathy_map_1.png">
+<img src="Assets/needfinding/empathy_map_1_2.png">
 
 **SEGMENTO COOPERATIVAS:**
 
+El usuario se encuentra frustrado por los cultivos perdios, al mismo tiempo que siente incertidumbre sobre como se  adaptaran sus companeros a esta nueva teconolgia
 <div></div>
-<img src="Assets/needfinding/empathy_map_2.png">
+<img src="Assets/needfinding/empathy_map_2_2.png">
 
 ### 2.3.5   As-Is Scenario Mapping.
 
 Tabla que muestra las principales actividades del usuario, junto con el como reacciona a estas antes de contar con nuestra solucion
 
-[Link al Miro para visualizar los diagramas As-Is Scenario Mapping](https://miro.com/app/board/uXjVI9w10sk=/?share_link_id=975896572769)
-
 **SEGMENTO AGRICULTORES:**
 
+El agricultor encuentra dificultades para cuidar sus cultivos con las tecnicas que posee, por lo que pierde varios debido a la complejidad de cuidat tantos.
 <img src="Assets/needfinding/As-Is-agricultor.PNG">
 Herramienta: Miro
 
 **SEGMENTO COOPERATIVAS:**
 
+Los miembros de la cooperativa se encuentran con dificultades en el cuidado de sus cultivos, lo que provoca que gasten mucho dinero o no ganene demasiado, y el resto de miembros tambien se vea afectado.
 <img src="Assets/needfinding/As-Is-cooperativa.PNG">
 Herramienta: Miro
+
+[Link al Miro para visualizar los diagramas As-Is Scenario Mapping](https://miro.com/app/board/uXjVI9w10sk=/?share_link_id=975896572769)
 
 ## 2.4 **Ubiquitous Language.**
 
