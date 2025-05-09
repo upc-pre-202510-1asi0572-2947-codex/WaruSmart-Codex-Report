@@ -766,7 +766,7 @@ así como también muestra las necesidades que van surgiendo.
 
 **SEGMENTO AGRICULTORES:**
 
-Podemos identificar como el usuario va alregandose m{as conforme conoce más sobre nuestra solución, sin embargo, también muestra que necesita 
+Podemos identificar como el usuario va alegrandose conforme conoce más sobre nuestra solución, sin embargo, también muestra que necesita 
 de una landing page que lo mantenga bien informado sobre las funciones,
 <div></div>
 <img src="Assets/needfinding/journey_map_1_2.png">
@@ -783,11 +783,13 @@ Grafico realizado para visualizar la problematica del usuario junto con lo que p
 
 **SEGMENTO AGRICULTORES:**
 
+El usuario se encuentra frustrado debido a que pierde dinero por las dificultades de cuidar a sus cultivos, al mismo tiempo que desea encontrar una solucion a este problema
 <div></div>
 <img src="Assets/needfinding/empathy_map_1_2.png">
 
 **SEGMENTO COOPERATIVAS:**
 
+El usuario se encuentra frustrado por los cultivos perdios, al mismo tiempo que siente incertidumbre sobre como se  adaptaran sus companeros a esta nueva teconolgia
 <div></div>
 <img src="Assets/needfinding/empathy_map_2_2.png">
 
@@ -795,17 +797,19 @@ Grafico realizado para visualizar la problematica del usuario junto con lo que p
 
 Tabla que muestra las principales actividades del usuario, junto con el como reacciona a estas antes de contar con nuestra solucion
 
-[Link al Miro para visualizar los diagramas As-Is Scenario Mapping](https://miro.com/app/board/uXjVI9w10sk=/?share_link_id=975896572769)
-
 **SEGMENTO AGRICULTORES:**
 
+El agricultor encuentra dificultades para cuidar sus cultivos con las tecnicas que posee, por lo que pierde varios debido a la complejidad de cuidat tantos.
 <img src="Assets/needfinding/As-Is-agricultor.PNG">
 Herramienta: Miro
 
 **SEGMENTO COOPERATIVAS:**
 
+Los miembros de la cooperativa se encuentran con dificultades en el cuidado de sus cultivos, lo que provoca que gasten mucho dinero o no ganene demasiado, y el resto de miembros tambien se vea afectado.
 <img src="Assets/needfinding/As-Is-cooperativa.PNG">
 Herramienta: Miro
+
+[Link al Miro para visualizar los diagramas As-Is Scenario Mapping](https://miro.com/app/board/uXjVI9w10sk=/?share_link_id=975896572769)
 
 ## 2.4 **Ubiquitous Language.**
 
