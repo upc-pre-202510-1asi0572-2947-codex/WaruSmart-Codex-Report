@@ -145,9 +145,10 @@ para cada integrante del equipo:
   - [Análisis de Alternativas de Diseño](#análisis-de-alternativas-de-diseño)
     - [4.1.3 Software Architecture](#413-software-architecture)
       - [4.1.3.1 Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-      - [4.1.3.2 Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.1 Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
       - [4.1.3.2 Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
-      - [4.1.3.2 Software Architecture Deployment Diagrams](#4132-software-architecture-deployment-diagrams)
+      - [4.1.3.3 Software Architecture Component Level Diagrams](#4133-software-architecture-component-level-diagrams)
+      - [4.1.3.4 Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
     - [4.2.1. Bounded Context: IAM (Identity and Access Management)](#421-bounded-context-iam-identity-and-access-management)
     - [Diccionario de Clases](#diccionario-de-clases)
@@ -1434,7 +1435,7 @@ El siguiente diagrama muestra la estructura global de la solución.
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747297902/systemlandscape-warusmart.png">
 </p>
 
-#### 4.1.3.2 Software Architecture Context Level Diagrams
+#### 4.1.3.1 Software Architecture Context Level Diagrams
 El sigueinte diagrama de contexto muestra las relaciones y flujos de información entre los actores (usuarios y sistemas)
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContext_f7hfik.png">
 </p>
@@ -1445,7 +1446,13 @@ El siguiente diagrama ilustra cómo los diferentes contenedores del sistema inte
   <img src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747351253/raazunegdyvsafdbbifj.png">
 </p>
 
-#### 4.1.3.2 Software Architecture Deployment Diagrams
+#### 4.1.3.3 Software Architecture Component Level Diagrams
+El siguiente diagrama ilustra cómo es nuestra API por dentro, con nuestros principales Bounded Contexts anclados a nuestra base de datos MySQL
+<p>
+  <img src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747351253/nq6axnhr9aagusfxvssz.png">
+</p>
+
+#### 4.1.3.4 Software Architecture Deployment Diagrams
 Este diagrama muestra cómo los diferentes elementos del sistema, como aplicaciones, servidores, bases de datos y dispositivos de usuario, se despliegan en nodos físicos o virtuales.
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747299819/deploymentdiagram-warusmart.png">
