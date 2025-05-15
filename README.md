@@ -88,13 +88,12 @@ para cada integrante del equipo:
 
 - [WaruSmart-Codex-Report](#warusmart-codex-report)
   - [Team Members](#team-members)
-    - [Registro de Informes](#registro-de-informes)
+    - [Registro de Informe](#registro-de-informe)
     - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de Contenidos](#tabla-de-contenidos)
     - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
     - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
-  - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción.](#capítulo-i-introducción)
   - [1.1 **Startup Profile.**](#11-startup-profile)
     - [1.1.1   Descripción del startup](#111---descripción-del-startup)
@@ -387,14 +386,37 @@ para cada integrante del equipo:
     - [5.2.4 Searching Systems](#524-searching-systems)
     - [5.2.5 Navigation Systems](#525-navigation-systems)
   - [5.3 Landing Page UI Design](#53-landing-page-ui-design)
-    - [5.3.1 Wireframe](#531-wireframe)
-    - [5.3.2 Mock-up](#532-mock-up)
+    - [5.3.1 Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2 Landing Page Mock-up](#532-landing-page-mock-up)
   - [5.4 Applications UX/UI Design](#54-applications-uxui-design)
-    - [5.4.1 Wireframes](#541-wireframes)
+    - [5.4.1 Applications Wireframes](#541-applications-wireframes)
     - [5.4.2 Wireflow Diagrams](#542-wireflow-diagrams)
     - [5.4.3 Mock-ups](#543-mock-ups)
     - [5.4.4 User Flow Diagrams](#544-user-flow-diagrams)
   - [5.5 Applications Prototyping](#55-applications-prototyping)
+- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment-1)
+  - [6.1 Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1 Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [Project Management](#project-management)
+    - [Requirements Management](#requirements-management)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Developement](#software-developement)
+    - [6.1.2 Source Code Management](#612-source-code-management)
+      - [Flujo de trabajo GitFlow](#flujo-de-trabajo-gitflow)
+    - [6.1.3 Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4 Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2 Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1 Sprint 1](#621-sprint-1)
+      - [6.2.1.1 Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2 Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3 Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4 Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5 Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6 Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7 Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [Evidencias visuales del backend:](#evidencias-visuales-del-backend)
+      - [6.2.1.8 Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9 Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
@@ -974,16 +996,19 @@ E2-US12                                                                         
 ## 3.3 **Impact Mapping.**
 
 **Segmento agricultor**
-
-<img src="./assets/chapter-III/WaruSmart-impact-mapping-agricultor.png" alt="Impact map del segmento agricultor">
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/WaruSmart-impact-mapping-agricultor_cbek9r.png">
+</p>
 
 **Segmento cooperativa**
-
-<img src="./assets/chapter-III/Segmento Cooperativa.png" alt="Impact map del segmento cooperativa">
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/Segmento_Cooperativa_flzule.png">
+</p>
 
 ## 3.4 **Product Backlog.**
-
-<img src="./assets/chapter-III/Product-backlog.PNG" alt="Product backlog de la aplicación WebMaster">
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/Product-backlog_pxpakr.png">
+</p>
 
 Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
 
