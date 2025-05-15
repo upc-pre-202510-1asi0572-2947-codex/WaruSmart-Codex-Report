@@ -3328,27 +3328,239 @@ En la siguiente captura se visualiza el Actions actualizado en nuestro repositor
 **Date** | 2025-05-01
 **Time** | 19:00PM–20:00PM
 **Location** | Virtual (Google Meet)
-**PreparedBy** | Codex Team
-**Attendees(to planning meeting)** | Codex Team
+**PreparedBy** | Fernando Daniel Quispe Condori
+**Attendees(to planning meeting)** | Victor Herrera / Anderson Macedo / Jeferson Cabrera / Christopher More / Fernando Quispe / Jair Velazquez / Carlos Pingus
 **Sprintn–0ReviewSummary** | Debido a que es el primer sprint, no hay reviews de un sprint anterior.
 **Sprintn–1RetrospectiveSummary** | Siendo el primer sprint, se mencionará la expectativa de los miembros del equipo: terminar las actividades designadas en el Sprint 1
-**SprintGoalandUserStories** | Objetivo: Diseñar e implementar la landing page, web application y API application.
-**Sprint1Velocity** | X puntos
-**SumofStoryPoints** | X
+**SprintGoalandUserStories** | Nuestro enfoque está en ofrecer a nuestros clientes los agricultores la experiencia que les permita gestionar sus cultivos de manera eficiente. Creemos que la entrega impactará a los agricultores en la gestión de su cultivo. Esto se confirmará cuando accedan a nuestros artefactos.
+**Sprint1Velocity** | 14 puntos
+**SumofStoryPoints** | 14 puntos
 
 #### 6.2.1.2 Aspect Leaders and Collaborators
 
+| Team Member (Last Name, First Name)            | GitHub Username      | Crops Management (Leader (L) / Collaborator (C)) | Analytics Management (Leader (L) / Collaborator (C)) |
+|------------------------------------------------|-----------------------|--------------------------------------------------|--------------------------------------------------------|
+| Quispe Condori, Fernando Daniel                | fdaniel13s           | L                                                | C                                                      |
+| Velasquez Pizarro, Jair                        | Purak189             | C                                                | C                                                      |
+| Cabrera Camizan, Jeferson Smith               | Jeferson11C          | C                                                | L                                                      |
+| Herrera Castillo, Victor Raul                 | VictorHerrera10      | C                                                | C                                                      |
+| Macedo Calsina, Anderson Walter               | AnderMacedo          | C                                                | C                                                      |
+| More Rondon, Christopher Sebastian            | christopherMore1     | C                                                | C                                                      |
+| Pingus Rodriguez, Carlos Daniel               | KazutoTR             | C                                                | C                                                      |
+
+En la tabla se presenta la asignación de roles dentro del equipo en función de los aspectos clave del sistema: Crops Management y Analytics Management. Cada miembro del equipo ha sido designado como líder (L) o colaborador (C) según su responsabilidad en cada área para este sprint. Esta distribución permite una organización clara del trabajo, promoviendo el liderazgo distribuido y la colaboración efectiva entre todos los integrantes para el desarrollo de las funcionalidades del sistema.
+
 #### 6.2.1.3 Sprint Backlog 1
 
+En este primer sprint el grupo se enfocó en ofrecer a nuestros clientes los agricultores una plataforma web que les permita gestionar sus cultivos de manera eficiente. Para ello, se desarrolló una landing page que presenta la solución WaruSmart y su propuesta de valor. Además, se implementó un CRUD (Crear, Leer, Actualizar y Eliminar) para los cultivos, permitiendo a los usuarios gestionar sus cultivos de forma sencilla y rápida.
+
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #:</td>
+            <td colspan="7">Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td>Title</td>
+            <td>ID</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned to</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>E1-US01</td>
+            <td>Navegación entre secciones</td>
+            <td>02</td>
+            <td>Implementar barra de navegación</td>
+            <td>Desarrollar una barra que permita navegar entre secciones de la landing (inicio, cómo funciona, beneficios, testimonios, contacto)</td>
+            <td>5</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>E1-US02</td>
+            <td>Conocer cómo funciona la solución</td>
+            <td>03</td>
+            <td>Sección "¿Cómo funciona?"</td>
+            <td>Crear una sección informativa que explique el funcionamiento del sistema (app + sensores)</td>
+            <td>4</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>E1-US03</td>
+            <td>Visualizar beneficios segmentados</td>
+            <td>04</td>
+            <td>Diseñar sección de beneficios</td>
+            <td>Mostrar beneficios diferenciados según el perfil del visitante (agricultor/cooperativa)</td>
+            <td>5</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>E1-US04</td>
+            <td>Sección testimonios de usuarios</td>
+            <td>05</td>
+            <td>Agregar testimonios reales</td>
+            <td>Diseñar una sección con al menos dos testimonios de agricultores/cooperativas con resultados medibles</td>
+            <td>3</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>E1-US05</td>
+            <td>Sección contactarse</td>
+            <td>06</td>
+            <td>Formulario de contacto</td>
+            <td>Crear sección para que el usuario pueda dejar sus datos y mensaje para ser contactado</td>
+            <td>4</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E2-US08</td>
+            <td rowspan="3">Vista general del estado del cultivo</td>
+            <td>07</td>
+            <td>Panel con resumen de estado</td>
+            <td>Desarrollar un panel con resumen de condiciones del cultivo utilizando datos de sensores</td>
+            <td>6</td>
+            <td>Jeferson Cabrera - Carlos Pingus</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>08</td>
+            <td>Visualización por campo registrado</td>
+            <td>Permitir al usuario cambiar entre campos registrados y visualizar el estado de cada uno</td>
+            <td>4</td>
+            <td>Jeferson Cabrera - Cristopher More - Anderson Macedo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>08</td>
+            <td>IoT Devices</td>
+            <td>Permitir al usuario registrar dispositivos IoT por cultivo.</td>
+            <td>4</td>
+            <td>Jeferson Cabrera - Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E5-US23</td>
+            <td rowspan="3">Creación de parcelas agrícolas</td>
+            <td>09</td>
+            <td>Registrar nueva parcela</td>
+            <td>Formulario para registrar ubicación, tamaño y características. Validación de campos obligatorios.</td>
+            <td>5</td>
+            <td>Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Editar parcela</td>
+            <td>Permitir modificar la información de una parcela ya registrada.</td>
+            <td>3</td>
+            <td>Equipo Frontend</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Eliminar parcela</td>
+            <td>Permitir eliminar una parcela desde el panel de gestión con confirmación.</td>
+            <td>2</td>
+            <td>Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="4">E5-US24</td>
+            <td rowspan="4">Agregar cultivos a una parcela</td>
+            <td>12</td>
+            <td>Asignar cultivo a parcela</td>
+            <td>Permitir al usuario agregar uno o más cultivos a una parcela desde lista disponible.</td>
+            <td>4</td>
+            <td>Carlos Pingus</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Mostrar cultivos por parcela</td>
+            <td>Listar los cultivos asociados a una parcela en su vista de detalle.</td>
+            <td>3</td>
+            <td>Jefferson Cabrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Editar cultivo</td>
+            <td>Permitir editar los detalles del cultivo asignado (variedad, fecha, etc.).</td>
+            <td>2</td>
+            <td>Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Cambiar fase fenológica</td>
+            <td>Permitir al usuario actualizar la fase fenológica del cultivo desde el panel.</td>
+            <td>3</td>
+            <td>Jefferson Cabrera</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
+
 #### 6.2.1.4 Development Evidence for Sprint Review
+
+
 
 #### 6.2.1.5 Testing Suite Evidence for Sprint Review
 
 #### 6.2.1.6 Execution Evidence for Sprint Review
 
+Para el logro de este proyecto, se realizó el despliegue tanto de la **Landing Page** como de la primera versión del **backend** y la **interfaz web**, los cuales conforman el ecosistema de WaruSmart.
+
+- 🖥️ **Landing Page**: muestra la propuesta de valor del sistema y está desplegada en GitHub Pages:  
+  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+
+- ⚙️ **Backend (Swagger - Azure App Service)**: proporciona los servicios REST de la aplicación, documentados con Swagger:  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+- 💻 **Frontend Web App**: interfaz para agricultores donde se visualiza información del sembrado, sensores IoT, recomendaciones, entre otros.  
+  ![Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/zuitbzbdhkycp0vp4aj8.jpg)
+
+---
+
 #### 6.2.1.7 Services Documentation Evidence for Sprint Review
 
+El proyecto ya cuenta con un backend funcional desplegado en Azure App Services, el cual contiene servicios REST para la gestión de cultivos, dispositivos IoT y recomendaciones, expuestos mediante Swagger:
+
+- 📘 **Documentación del backend - Swagger UI**:  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+#### Evidencias visuales del backend:
+- ![Backend 1](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)
+- ![Backend 2](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)
+- ![Backend 3](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)
+
+---
+
 #### 6.2.1.8 Software Deployment Evidence for Sprint Review
+
+Durante este sprint, se desplegaron exitosamente los principales componentes del sistema:
+
+- 🖥️ **Landing Page**:  
+  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+
+- ⚙️ **Backend API REST**:  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+Estos despliegues permiten validar la arquitectura distribuida del sistema y habilitar el consumo de servicios desde la interfaz del usuario final.
 
 #### 6.2.1.9 Team Collaboration Insights during Sprint
 
