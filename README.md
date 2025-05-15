@@ -3004,6 +3004,300 @@ para fioltrar los resultados obtenidos.
 
 ## 5.5 Applications Prototyping
 
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1 Software Configuration Management
+
+### 6.1.1 Software Development Environment Configuration
+
+### Project Management
+Para la organizacion del proyecto necesitabamos una planificación en cuanto a tareas asignadas, un punto de reunión y un repositorio donde trabajaramos en conjunto cada avance del proyecto, es por esto que elegimos las siguientes herramientas:
+
+- Centro de organización de trabajo: Github
+
+- Planificación de tareas: Trello
+
+- Reuniones con el equipo: Google Meet
+
+### Requirements Management
+Se utilizó Trello para la organización y registro de las tareas por hacer, las que están en proceso y las realizadas. De esta forma podemos tener control acerca del avance del proyecto y las actividades de cada uno de los miembros del equipo.
+
+| Link de referencia   | URL                                                         |
+|----------------------|-------------------------------------------------------------|
+| TRELLO | [https://www.trello.com/](https://www.trello.com/) |
+
+#### Product UX/UI Design
+Se utilizó Figma para el diseño de los wireframes, mockups y el prototipo de la Web App debido a que proporciona una amplia gama de opciones, además de ser la plataforma que ofrece más herramientas para colaborar en equipo.
+
+| Link de referencia   | URL                                                         |
+|----------------------|-------------------------------------------------------------|
+| FIGMA | [https://www.figma.com/](https://www.figma.com/) |
+
+#### Software Developement
+Para la implementación del proyecto se utilizaron Webstorm, VSCode y Rider como nuestros entornos de desarrollo integrados. Webstorm fue elegido por su amplia variedad de opciones para el desarrollo de aplicaciones web, mientras que VSCode facilitó la creación de documentación, especialmente a través de la vista previa. Ambos IDEs fueron esenciales para el desarrollo del proyecto. Además, se utilizó Rider como IDE debido al trabajo en el backend, ya que se empleó .NET Core para su desarrollo.
+
+| Link de referencia   | URL                                                         |
+|----------------------|-------------------------------------------------------------|
+| WebStorm             | [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/) |
+| Visual Studio Code   | [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs) |
+| Rider                | [https://www.jetbrains.com/rider/](https://www.jetbrains.com/rider/) |
+
+
+HTML(HyperText Markup Language): El lenguaje base de etiquetado para aplicaciones web sera empleado en este proyecto.
+
+| Link de referencia   | URL                                                         |
+|----------------------|-------------------------------------------------------------|
+| HTML Documentation | [https://www.w3schools.com/html/html5_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp) |
+
+CSS (Cascading Style Sheets): Viene de la mano con HTML, Cascade Style Sheets maneja el diseño de las aplicaciones web.
+
+| Link de referencia   | URL                                                         |
+|----------------------|-------------------------------------------------------------|
+| CSS Documentation | [https://www.w3schools.com/css/css_intro.asp](https://www.w3schools.com/css/css_intro.asp) |
+
+
+Javascript: El lenguaje de programación utilizado para la landing page es de Javascript, esto porque trabaja de forma excelente con HTML y CSS para hacer animaciones llamativas.
+| Link de referencia   | URL                                                         |
+|----------------------|-------------------------------------------------------------|
+| JavaScript Documentation | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
+
+
+C#: Un lenguaje de programación potente respaldado por .NET, ideal para el desarrollo backend debido a su integración estrecha con el framework y su rendimiento eficiente.
+
+| Link de referencia   | URL                                                        |
+|----------------------|------------------------------------------------------------|
+| C# Documentation     | [https://learn.microsoft.com/en-us/dotnet/csharp/](https://learn.microsoft.com/en-us/dotnet/csharp/) |
+
+
+Android Nativo: Un enfoque de desarrollo de aplicaciones móviles que utiliza Java o Kotlin para crear apps específicamente para Android, aprovechando al máximo las capacidades del sistema operativo y ofreciendo un rendimiento óptimo.
+
+| Link de referencia   | URL                                            |
+|----------------------|------------------------------------------------|
+| Android Studio       | [https://developer.android.com/studio](https://developer.android.com/studio) |
+
+
+**Software Testing**
+Para las pruebas de software, tanto de la landing page como de la aplicación web, se utilizaron las herramientas de desarrollador de los principales navegadores web: Google Chrome, Microsoft Edge y Mozilla Firefox. Estos navegadores están disponibles de forma gratuita, tanto en sus versiones de escritorio como móviles. Las versiones de escritorio pueden instalarse desde sus sitios oficiales, mientras que las versiones móviles están disponibles en las tiendas de aplicaciones correspondientes. Además, para las pruebas unitarias del backend, se empleará MOQ.
+
+| Link de referencia   | URL                                           |
+|----------------------|-----------------------------------------------|
+| Google Chrome        | [https://www.google.com.mx/chrome/](https://www.google.com.mx/chrome/) |
+| Microsoft Edge       | [https://www.microsoft.com/es-es/edge](https://www.microsoft.com/es-es/edge) |
+| Mozilla Firefox      | [https://www.mozilla.org/en-US/firefox/](https://www.mozilla.org/en-US/firefox/) |
+| Moq                  | [https://www.nuget.org/packages/Moq](https://www.nuget.org/packages/Moq) |
+
+
+**Software Deployment**
+
+Las aplicaciones serán desplegadas en diferentes plataformas según su funcionalidad. La landing page y la aplicación web se desplegarán en Netlify. Por otro lado, la API se desplegará en Azure, aprovechando su infraestructura robusta y escalable para ofrecer un rendimiento optimizado. La base de datos también será alojada en Azure, garantizando una integración fluida y un manejo eficiente de los datos.
+
+| Link de referencia | URL |
+|--------------------|-----|
+| Netlify            | [https://app.netlify.com/](https://app.netlify.com/) |
+| Azure              | [https://portal.azure.com/#home](https://portal.azure.com/#home) |
+
+**Software Documentation**
+
+Markdown es un lenguaje de marcado ligero que permite formatear texto de manera sencilla utilizando texto plano, ideal para documentar proyectos de forma clara. Structurizr es una herramienta que facilita la creación de diagramas C4 con una sintaxis similar a un lenguaje de programación, y requiere una cuenta registrada para su uso. Por último, Vertabelo es una aplicación web colaborativa que facilita el diseño e implementación de bases de datos, compatible con una amplia variedad de motores.
+
+| Link de referencia | URL |
+|--------------------|-----|
+| Markdown            | [https://markdown.es/sintaxis-markdown/](https://markdown.es/sintaxis-markdown/) |
+| Structurizr              | [https://structurizr.com/](https://structurizr.com/) |
+| Vertabelo              | [https://www.vertabelo.com/](https://www.vertabelo.com/) |
+
+### 6.1.2 Source Code Management
+
+|  |  |
+|--------------------|-----|
+| Link Landing Page            | [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage) |
+| Link Web Services              | [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) |
+| Link Front Web Application              | [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) |
+| Link Mobile Applications             | [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) |
+
+#### Flujo de trabajo GitFlow
+<img src="./Assets/chapter-vi/Gitflow.png" width="100%" alt="Ejemplo flujo de Gitflow"/>
+
+Se aplicará GitFlow utilizando el artículo de Vincent Driessen, “A successful Git branching model”. A continuación se dará una explicación de cada Branch que se utiliza en el modelo GitFlow.
+
+- MASTER: Se utilizara esta rama como la versión estable y lista para producción. Todos los cambios que se fusionan aquí ya se consideran seguros y listos para implementar.
+
+- DEVELOP: Esta rama es donde se trabajarán nuevas características y correcciones de errores. Es la rama principal de desarrollo.
+
+- FEATURE BRANCHES: Son ramas de características para trabajar en nuevas funciones. Cada característica tendrá su propia rama, para que se trabaje de manera aislada, luego se fusiona con la rama DEVELOP.
+
+- RELEASE BRANCHES: Son las ramas de lanzamiento que sirven para preparar una nueva versión del software. Se corrigen errores, pruebas finales y se prepara para fusionarse con MASTER y DEVELOP.
+
+= HOTFIX BRANCHES: Son esenciales cuando ocurren errores en la producción. Se crean directamente desde MASTER, se solucionan los problemas y se fusionan los cambios en las ramas de MASTER y DEVELOP.
+
+
+Commit Conventions Para el formato de los COMMITS se aplicará lo siguiente: <type>:<description> Donde:
+
+TYPE: Solo pueden ser 3 tipos, sea BREAKING que se relaciona con X, luego FEAT que se relaciona con Y y por último FIX que se relaciona con Z.
+
+### 6.1.3 Source Code Style Guide & Conventions
+
+**HTML:** https://www.w3schools.com/html/html5_syntax.asp
+
+**Index.html**
+
+Es la página por defecto dentro de los directorios de los servidores de cualquier sitio web que se carga siempre que se solicita un dominio y no se especifica el nombre de un archivo en específico. Y en la mayoría de los casos el propio servidor web es el que se encarga de buscar el archivo index.
+
+**Convenciones de HTML:**
+
+- Se debe declarar el tipo de documento en la primera línea: <!DOCTYPE html>
+- Se recomienda usar minúsculas en las etiquetas y estructuras: <body> <p>
+- Se recomienda cerrar todas las etiquetas y estructuras: <p>This is a paragraph.</p>
+- Se recomienda usar minúsculas en los atributos: <a href="https://www.google.com/html/">
+- Se recomienda usar comillas en los valores de atributo: <table class="striped">
+- Se debe especificar el alt, ancho y alto de las imágenes: <img src="html5.gif" alt="HTML5" style="width:128px;height:128px">
+- Se recomienda no usar espacios a la hora de usar el signo “=”: <link rel="stylesheet" href="styles.css">
+- Solo se debe usar líneas en blaco para facilitar la lectura de bloques de códigos grandes o lógicos.
+- No se debe omitir el elemento <title> ya que es vital para el motor de búsqueda, así como también se recomienda que el contenido de los <title> sea preciso y significativo: <title>HTML Style Guide and Coding Conventions</title>
+- No se recomienda omitir las etiquetas <html> y <body> ya que puede producir errores en navegadores antiguos y puede bloquear el software DOM y XML.
+- Se debe usar el atributo lang para declarar el idioma de la página web: <html lang="en-us">
+- Se debe utilizar el atributo meta para una interpretación adecuada e indexación correcta en los motores de búsqueda: <meta charset="UTF-8">
+
+**CSS:** https://google.github.io/styleguide/htmlcssguide.html
+
+**Style.css**
+
+El estilo de cascada (CSS) se puede usar para estilos de texto, por ejemplo, cambiar de color y el tamaño de los encabezados, enlaces, entre otras cosas.
+
+**Convenciones de CSS:**
+
+- Utilizar el protocolo HTTPS para imágenes y otros archivos multimedia: `@import 'https://fonts.googleapis.com/css?family=Open+Sans'` ; Todo el código debe estar en minúsculas como nombres de elementos HTML, atributos, valores de atributo, entre otros: `color : #e5e5e5;`
+- El nombre de una clase debe transmitir lo que hace de la forma más breve posible ya que de esta manera se apoya la comprensibilidad y eficiencia del código: navegación {} . autor {} Se debe separar los nombres de las clases con un guión (“-”): navegación {} . autor {}
+- Se recomienda usar propiedades abreviadas cuando sea posible: `border - top : 0 ;`
+- Se recomienda usar la notación hexadecimal de 3 caracteres en colores que lo permitan: `color : #ebc;`
+- Se recomienda ordenar las declaraciones de propiedades y características en orden alfabético
+- Se debe usar un “;” después de cada declaración: `pantalla : bloque ;`
+- Se debe usar un espacio después de los “:” de cada nombre de la propiedad: `font - weight : bold ;`
+- Se debe usar un espacio entre el último sector y la llave “{ “ que comienza el bloque de declaración:. vídeo {.....}
+- Se debe usar las comillas simples (‘ ‘) para los atributos y valores de propiedad: `familia de fuentes : ' open sans' , arial , sans - serif ;`
+
+**Gherkin**: https://cucumber.io/docs/gherkin/reference/
+
+**`<usertStoryID>`.featrue** :
+
+En este archivo de formato feature estarán las historias de usuario como características de la aplicación. Asimismo se pueden encontrar los criterios de aceptación para las diversas situaciones.
+
+**Convenciones de Gherkin**:
+
+- Se utiliza la palabra Feature para introducir una descripción de alto nivel de una función de software y agruparlos en escenarios relacionados
+- Example o Scenario sirven para plantear una situación
+- Se utiliza Given para describir el contexto inicial, When para describir un evento y Then para describir un resultado esperado y And para adicionar información. Given,When,Then y And se usan para describir un escenario
+- El carácter “|” sirve para formar una tabla datos, las cuales son útiles para pasar una lista de valores a una definición de paso.
+
+**C#:** https://learn.microsoft.com/en-us/dotnet/csharp/
+
+**Convenciones de C#:**
+
+- Los nombres de clases deben ser sustantivos y usar PascalCase.
+
+Los nombres de métodos deben ser verbos y usar PascalCase.
+- El nombre de las variables debe usar camelCase, comenzando en minúsculas.
+- Para las sentencias if, else, for, do y while se deben usar “{ }”.
+- Las constantes deben ir en mayúsculas con guiones bajos (UPPER_CASE).
+- Las propiedades deben usar PascalCase.
+- Los nombres de los espacios de nombres (namespaces) deben ser sustantivos en PascalCase.
+
+**JavaScript**: https://google.github.io/styleguide/jsguide.html. 
+
+**Convenciones de JavaScript**:
+
+- Se debe usar Camelcase para los nombres de variables y funciones.
+- Se debe usar Pascalcase para los nombres de constructores o clases.
+- Se debe usar mayúsculas y guiones bajos para los nombres de la constantes, por ejemplo UPPER_CASE_WITH_UNDERSCORES..
+- Se debe usar let y const para definir las variables, var debe evitarse.
+- Para los comentarios de una sola línea debe usar “ // ” y para bloques de comentario se debe usar  “ /* */ ”.
+Se debe incluir un punto y coma al final de cada instrucción.
+
+**.NET Core**: [https://learn.microsoft.com/en-us/dotnet/core/](https://learn.microsoft.com/en-us/dotnet/core/)
+
+**Convenciones de .NET Core**:
+
+- Se deben emplear `[Controller]`, `[Service]`, `[Repository]`, `[Component]`, `Dependency Injection` para gestionar y definir los componentes dentro de una aplicación.
+- Para el manejo de excepciones, se debe utilizar middleware de manejo global o controladores personalizados con `try-catch` y `ExceptionMiddleware`.
+- Se debe usar `IServiceScope` para gestionar las dependencias de los servicios y su ciclo de vida.
+- Para la autenticación y autorización de una aplicación, se debe usar `ASP.NET Core Identity` junto con `JWT` (JSON Web Tokens) o `OAuth`.
+- Los nombres de las clases y espacios de nombres deben ser descriptivos y reflejar claramente la funcionalidad que proporcionan los componentes.
+
+
+**Vue.js**: https://vuejs.org/v2/style-guide/
+
+**Convenciones de Vue.js**:
+- Usar PascalCase para nombrar componentes (`UserCard.vue`).
+- Usar kebab-case para usar componentes en plantillas (`<user-card />`).
+- Un componente por archivo `.vue`.
+- Estructurar los archivos `.vue` con `<template>`, `<script>`, y `<style>` en ese orden.
+- Usar `scoped` en estilos si solo deben afectar al componente.
+- Usar camelCase para las props en JS (`userName`).
+- Usar kebab-case para las props en HTML (`:user-name="..."`).
+- Usar kebab-case para nombres de eventos personalizados (`@user-clicked="..."`).
+- Ordenar las opciones del componente de forma consistente (`name`, `props`, `data`, `computed`, `methods`, etc.).
+- Definir vistas en PascalCase (`HomeView.vue`, `AboutView.vue`).
+- Importar vistas en rutas usando `() => import(...)` para lazy loading.
+- Agrupar componentes por funcionalidad en carpetas (`components/`, `views/`, etc.).
+
+**Kotlin con Android Nativo**: [https://developer.android.com/kotlin](https://developer.android.com/kotlin)
+
+**Convenciones de Kotlin con Android Nativo**:
+
+- Los nombres de las clases deben usar PascalCase, comenzando con mayúscula, y reflejar el propósito de la clase.
+- Los nombres de los métodos deben usar camelCase, comenzando con minúscula y ser verbos descriptivos de la acción realizada.
+- Las variables deben ser nombradas usando camelCase, comenzando con minúscula.
+- Se deben emplear `ViewModel`, `LiveData` y `Repository` para gestionar la arquitectura de la aplicación siguiendo el patrón MVVM.
+- Los recursos de la UI deben estar definidos correctamente en los archivos XML y referenciados utilizando `findViewById` o `ViewBinding`.
+- La gestión de la autenticación y autorización se debe realizar utilizando librerías como Firebase Authentication o implementaciones propias con OAuth.
+- Los archivos y clases deben estar organizados de forma que el código sea fácilmente mantenible y entendible, con nombres claros y funcionales.
+
+
+### 6.1.4 Software Deployment Configuration
+
+En esta seccion abordaremos el despliegue de nuestro Landing Page, Aplicacion Web y Backend API Aplication.
+
+1. Landing Page
+
+2. Aplicación Web
+
+3. Backend API Aplication
+
+Se utilizo Azure para el despliegue de la aplicacion Backend Api desarrollada en Net Core. La configuracion inicial se evidencia en la siguiente captura:
+
+<img src="./Assets/chapter-vi/backend-1.jpeg">
+
+En la siguiente imagen se evidencia las creación tanto de los recursos de la base de datos ("waru-smart-server"), aplicacion de servicio ("waru-smart") entre otros recursos indispensables para el correcto funcionamiento del servicios API.
+
+<img src="./Assets/chapter-vi/backend-2.jpeg">
+
+Por último visualizamos el API una vez deployado, en la página de documentación swagger para la visualización de los Endpoints y futuro acceso mediante la aplicación web a través de los endpoints.
+
+<img src="./Assets/chapter-vi/backend-3.jpeg">
+
+
+## 6.2 Landing Page, Services & Applications Implementation
+
+### 6.2.1 Sprint 1
+
+#### 6.2.1.1 Sprint Planning 1
+
+#### 6.2.1.2 Aspect Leaders and Collaborators
+
+#### 6.2.1.3 Sprint Backlog 1
+
+#### 6.2.1.4 Development Evidence for Sprint Review
+
+#### 6.2.1.5 Testing Suite Evidence for Sprint Review
+
+#### 6.2.1.6 Execution Evidence for Sprint Review
+
+#### 6.2.1.7 Services Documentation Evidence for Sprint Review
+
+#### 6.2.1.8 Software Deployment Evidence for Sprint Review
+
+#### 6.2.1.9 Team Collaboration Insights during Sprint
+
 ## Conclusiones
  
  - A partir del análisis realizado, se logró estructurar de manera inicial la solución **Warusmart**, orientada a la gestión inteligente del riego mediante tecnologías IoT y plataformas web. La aplicación de técnicas como **Event Storming** y **Domain-Driven Design** permitió identificar los principales eventos, actores, comandos y políticas que formarán la base del sistema, asegurando una visión coherente de su funcionamiento.
