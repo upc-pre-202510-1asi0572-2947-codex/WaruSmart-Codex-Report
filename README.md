@@ -4161,22 +4161,25 @@ Para el logro de este proyecto, se realizó el despliegue tanto de la **Landing 
   *Vista general de la interfaz web, donde se mostrarán las métricas del cultivo, dispositivos IoT y recomendaciones específicas según el tipo de planta sembrada.*
 
 #### Home
-
+El dashboard muestra un diseño limpio y funcional con métricas clave, mapa de parcelas y menú lateral, usando colores orgánicos para transmitir una imagen de agricultura tecnológica moderna.
 <p>
  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349054/frontend-home-warusmart.png">
 </p>
 
 #### Sowings list
+La interfaz muestra un listado de cultivos organizado en tarjetas, con filtros superiores y datos clave (tipo de cultivo, ubicación y estado), usando un diseño minimalista con tonos verdes que refuerzan la identidad agrícola del sistema.
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349115/frontend-sowingslist-warusmart.png">
 </p>
 
 #### Sowings Management
+La pantalla presenta un formulario detallado para gestionar cultivos, con campos organizados en secciones (datos básicos, programación de riego y sensores), combinando inputs interactivos y un diseño visual intuitivo con iconografía agrícola funcional.
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349152/frontend-sowingmanagement-warusmart.png">
 </p>
 
 #### IoT Devices Management
+La pantalla muestra un listado de dispositivos IoT en las que se informa el estado (activo/inactivo), tipo de sensor y ubicación, destacando alertas con iconos de color para una identificación rápida de problemas.
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png">
 </p>
