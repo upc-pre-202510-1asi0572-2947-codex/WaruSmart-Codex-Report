@@ -666,9 +666,12 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 
 ### 2.2.2   Registro de entrevistas.
 
-**Segmento1**
+**Segmento1: Agricultores individuales**
+
 Entrevista 1: Moisés Luque
+
 Edad: 47
+
 Departamento: Aucallama, Huaral
 
 ![Entrevista WaruSmart Moises](Assets/interviews/Entrevista-WaruSmart-Moises.png)
@@ -679,7 +682,9 @@ Resumen:
 Moisés Luque, agricultor de 47 años residente en Aucallama, comenta que utiliza su celular a diario, aunque en ocasiones tiene dificultades para manejarlo. Para llevar el registro de los riegos de sus cultivos, solía anotar las fechas y horas en un cuaderno, aunque reconoce que no siempre era constante con este hábito. Considera que los datos más importantes para el cuidado de sus cultivos son la cantidad de agua, el clima, el tipo de cultivo y el estado de la tierra. Ha tenido problemas en el pasado por no registrar adecuadamente los riegos, lo que le llevaba a regar de más o de menos, afectando el cultivo. También ha enfrentado dificultades técnicas, como la falta de agua o fallas en el sistema de riego, obligándolo a regar manualmente con ayuda, lo cual era más lento y menos eficiente. Al conocer la propuesta de WaruSmart, expresó interés, especialmente porque le permitiría organizar mejor los datos y recibir alertas sobre cuándo y cuánto regar. Afirmó que estaría dispuesto a pagar por el servicio si el precio es accesible y el sistema funciona bien, sugiriendo incluso una cuota mensual mínima. Finalmente, cree que esta herramienta también sería de gran ayuda para otros agricultores, ya que muchos aún trabajan de manera manual y tienen dificultades con el uso de tecnología.
 
 Entrevista 2: Walter Cayrampoma
+
 Edad: 43
+
 Departamento: Moche, La Libertad
 
 ![Entrevista WaruSmart Walter](Assets/interviews/Entrevista-WaruSmart-Walter.png)
@@ -694,10 +699,12 @@ Entrevista 3:
 
 
 
-**Segmento 2**
+**Segmento 2: Cooperativas Agrarias**
 
 Entrevista 1: Alexis Patazca
+
 Edad: 26
+
 Departamento: Tumán, Chiclayo
 
 ![Entrevista WaruSmart Alexis](Assets/interviews/Entrevista-WaruSmart-Alexis.png)
@@ -709,7 +716,9 @@ Resumen:
 Alexis Patazca, de 26 años, trabaja en zonas agrícolas de Tumán, Chiclayo. Usa tecnología diariamente sin dificultad. Representa a una cooperativa agraria donde aún predomina la gestión manual por falta de conocimientos tecnológicos entre otros miembros. La cooperativa no tiene una plataforma centralizada, lo que genera errores de coordinación y pérdidas. Él se encarga de ciertas gestiones y comenta que organizan la compra de materiales de forma periódica con proveedores comunes, cada miembro tiene un rol específico. Utilizan algunas apps para el clima, pero no cuentan con un sistema integral. Al conocer la propuesta de WaruSmart, se mostró interesado, destacando que ayudaría a reducir pérdidas, optimizar el riego y centralizar la información. Considera que los miembros de la cooperativa también estarían interesados si se les capacita adecuadamente. Sobre el precio, sugiere que podría contemplarse una cuota mensual entre 100 y 300 soles, dependiendo de la organización y roles internos.
 
 Entrevista 2: Adela Vilca
+
 Edad: 52
+
 Departamento: Juli, Puno
 
 ![Entrevista WaruSmart Adela](Assets/interviews/Entrevista-WaruSmart-Adela.png)
@@ -724,6 +733,7 @@ Adela Vilca, una mujer de 52 años que vive en Juli, Puno, es miembro de una coo
 
 
 Entrevista 3:  Fabrizio Mori
+
 Edad: 24 años
 
 ![Interview2](Assets/interviews/screenshot_fabrizio_mori.png)
@@ -734,6 +744,15 @@ Resumen:
 Fabrizio Mori comenta que utiliza tecnología, aunque no de forma diaria, y reconoce que algunos dispositivos le resultan complejos. En su comunidad, cada agricultor gestiona sus cultivos manualmente, lo que a veces dificulta la organización y puede llevar a pérdidas. Para adquirir materiales, cada uno calcula lo necesario y comparten los gastos. Ha enfrentado pérdidas debido a la falta de coordinación y menciona que sí usa herramientas y técnicas para facilitar el trabajo. Al conocer la propuesta de WaruSmart para detectar la humedad y condiciones del suelo y así optimizar el riego, expresó interés, indicando que sería de gran ayuda si funciona correctamente. Además, estaría dispuesto a pagar por este sistema si contribuye al cuidado eficiente de los cultivos.
 
 ### 2.2.3   Análisis de entrevistas.
+
+**Análisis del segmento de agricultores individuales**
+
+Los entrevistados de este segmento tienen experiencia directa y continua en la agricultura. El 100% menciona que, aunque usan dispositivos móviles, enfrentan dificultades tecnológicas ocasionales, especialmente con herramientas digitales complejas, evidenciando una brecha digital leve pero con predisposición a aprender y adaptarse. El registro manual de los cultivos es común, todos llevan el control de riegos en cuadernos, aunque esta práctica es inconstante y propensa a errores como riego duplicado o faltante, lo que afecta el rendimiento de sus cultivos por exceso o falta de agua y mala gestión. Respecto a la información clave para sus cultivos, mencionan principalmente la cantidad y frecuencia de riego, condiciones del clima, tipo de suelo y el cultivo. Han tenido problemas técnicos frecuentes en sus sistemas de riego, como baja presión o bombas defectuosas, lo que genera retrasos y la necesidad de regar manualmente. Frente a la propuesta de WaruSmart, el 100% ha mostrado alto interés y consideran que un sistema automatizado que detecte humedad y alerte sobre riegos sería muy útil para organizar sus cultivos, ahorrar recursos y evitar errores. El 100% está dispuesto a pagar si el costo es accesible y el sistema funciona confiablemente, sugiriendo desde cuotas mensuales simbólicas hasta evaluación previa del servicio. Finalmente, coinciden en que otros agricultores de su comunidad también se beneficiarían de esta solución, ya que muchos dependen de métodos tradicionales y comparten limitaciones tecnológicas y organizativas.
+
+**Analisis del segmento de Cooperativas Agrarias**
+
+En este segmento los entrevistados pertenecen a cooperativas agrarias en diferentes comunidades, el 100 % utiliza tecnología aunque con distintos niveles de habilidad: dos personas (66 %) manejan su celular y algunas apps sin dificultad diaria, mientras que una persona (33 %) presenta dificultades con algunas aplicaciones y depende de ayuda familiar para usarlas. La gestión del riego y los cultivos es mayormente manual y descentralizada, lo que genera problemas de coordinación y pérdidas económicas, situación reconocida por todos los entrevistados. Los tres coinciden en que la falta de una plataforma centralizada provoca errores en la compra de insumos y en el seguimiento del riego. Además, el 66 % utiliza aplicaciones básicas para consultar el clima o comunicarse, pero ninguna cuenta con un sistema integral para gestionar cultivos. Al conocer la propuesta de WaruSmart, el 100 % mostró interés, destacando beneficios como la centralización de la información, optimización del riego y reducción de pérdidas. Dos de ellos (66 %) mencionaron que la capacitación será clave para que los miembros adopten la tecnología. En cuanto a la disposición a pagar, los rangos varían desde los 50 a 300 soles mensuales según el tamaño y necesidades de cada cooperativa. En resumen, este segmento evidencia la necesidad de soluciones digitales integrales, accesibles y con soporte adecuado para mejorar la gestión agrícola cooperativa, especialmente en riego y compras, con un alto interés en adoptar tecnologías que faciliten el trabajo y reduzcan pérdidas.
+
 
 ## 2.3 **Needfinding.**
 
