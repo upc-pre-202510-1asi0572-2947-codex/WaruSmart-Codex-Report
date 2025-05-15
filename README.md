@@ -3568,6 +3568,13 @@ Para el logro de este proyecto, se realizó el despliegue tanto de la **Landing 
 - ![Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/zuitbzbdhkycp0vp4aj8.jpg)  
   *Vista general de la interfaz web, donde se muestran las métricas del cultivo, dispositivos IoT y recomendaciones específicas según el tipo de planta sembrada.*
 
+
+- **Flujo de navegación de la aplicación web**:  
+  ![Flujo de navegación](https://res.cloudinary.com/drkelnilg/image/upload/v1747352229/imagen_2025-05-15_183706453_xkkjav.png)  
+  *Diagrama de flujo que ilustra la navegación entre las diferentes secciones de la aplicación web, permitiendo al usuario interactuar con los datos de sus cultivos y dispositivos IoT.*
+  
+- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA
+
 ---
 
 
