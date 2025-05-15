@@ -3459,7 +3459,7 @@ La siguiente sección muestra los informes estadísticos que proporciona la apli
 **Foro de Consulta**
 En la sección "Foro de Consulta", los usuarios podrán publicar, ver y responder preguntas presentes en el foro. Además, tendrán la opción de filtrar las preguntas. 
 
-<img src="./Assets/cap5/appweb/Foro de Consulta.png"
+<img src="./Assets/cap5/appweb/Foro de Consulta.png">
 
 **Añadir consulta**
 En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir una pregunta al foro. 
