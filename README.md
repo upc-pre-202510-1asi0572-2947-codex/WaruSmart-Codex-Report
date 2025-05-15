@@ -3517,64 +3517,126 @@ En este primer sprint el grupo se enfocó en ofrecer a nuestros clientes los agr
 
 #### 6.2.1.4 Development Evidence for Sprint Review
 
+En esta sección se presentan los principales avances en la implementación de los productos de la solución desarrollados durante el Sprint, los cuales comprenden la *Landing Page, **Web Application, **Web Services (API)* y otros componentes relevantes. A continuación, se detalla una tabla con los commits más representativos por cada repositorio, donde se evidencia el trabajo realizado por el equipo en función a las funcionalidades priorizadas en el Sprint.
 
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|----------------------|---------------------|
+| [WaruSmart-LandingPage](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage) | main | 4a3e466 | Add: First Version Landing Page | Primera versión funcional de la landing page del proyecto WaruSmart. | 13/05/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/crops-management | 1d8c00c | feat: Updated data calls for Crops Management Bounded Context | Se actualizaron las llamadas de datos relacionadas al contexto de cultivos. | 14/05/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/iot-devices | e2047fff | feat: add general information endpoint for devices in SowingsDevicesController | Se añadió un endpoint para información general de dispositivos en el controlador de siembras. | 14/05/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/sowings-by-user | fcda7f80 | feat: REST interface to get all sowings by user added. | Se implementó la interfaz REST para obtener siembras por usuario. | 12/05/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/sowings-by-user | 73cb4d2a | feat: create a sowing with userId in domain layer. | Se permite la creación de siembras con ID de usuario en la capa de dominio. | 08/05/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/panel | d486856 | [FIX] Toolbar buttons only when signed in | Los botones de la barra de herramientas solo aparecen si el usuario ha iniciado sesión. | 10/05/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/authentication | 9f03d41c | [FIX] Spanish for create and edit | Se corrigió la traducción al español para las opciones de crear y editar. | 10/05/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/control-panel | f9671c33 | style: update control panel layout and components | Se actualizaron estilos y distribución del panel de control. | 14/05/2025 |
+|[WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform)  | feature/control-panel | c691d76e | feat: Updates and improvements to page views | Mejoras visuales y funcionales en vistas del sistema. | 14/05/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/control-panel | 6d8e67fd | feat: The call for sowing by user is updated | Se actualizó la llamada para obtener siembras por usuario desde el frontend. | 14/05/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/iot-management | f8b0bced | feat: The list of IoT devices that each sowing has has been added. | Se añadió la lista de dispositivos IoT asociados a cada siembra. | 14/05/2025 |
 
 #### 6.2.1.5 Testing Suite Evidence for Sprint Review
 
+
+
 #### 6.2.1.6 Execution Evidence for Sprint Review
 
-Para el logro de este proyecto, se realizó el despliegue tanto de la **Landing Page** como de la primera versión del **backend** y la **interfaz web**, los cuales conforman el ecosistema de WaruSmart.
+Para el logro de este proyecto, se realizó el despliegue tanto de la **Landing Page**, como de la primera versión del **backend** y la **interfaz web**, los cuales conforman el ecosistema de WaruSmart.
 
-- 🖥️ **Landing Page**: muestra la propuesta de valor del sistema y está desplegada en GitHub Pages:  
+- 🖥️ **Landing Page**: muestra la propuesta de valor del sistema y está desplegada en GitHub Pages. Desde aquí, los usuarios pueden conocer la funcionalidad de WaruSmart y su impacto en la agricultura inteligente.  
   👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
 
-- ⚙️ **Backend (Swagger - Azure App Service)**: proporciona los servicios REST de la aplicación, documentados con Swagger:  
+- ⚙️ **Backend (Swagger - Azure App Service)**: proporciona los servicios REST de la aplicación, documentados con Swagger. La API permite gestionar usuarios, cultivos, dispositivos IoT y recomendaciones.  
   👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
-- 💻 **Frontend Web App**: interfaz para agricultores donde se visualiza información del sembrado, sensores IoT, recomendaciones, entre otros.  
-  ![Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/zuitbzbdhkycp0vp4aj8.jpg)
+- 💻 **Frontend Web App**: interfaz visual diseñada para agricultores, donde se muestra el estado de las siembras, dispositivos conectados y sugerencias de cultivo. Permite acceder a los datos sincronizados desde el backend.
+
+  **Evidencia de frontend:**
+- ![Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/zuitbzbdhkycp0vp4aj8.jpg)  
+  *Vista general de la interfaz web, donde se muestran las métricas del cultivo, dispositivos IoT y recomendaciones específicas según el tipo de planta sembrada.*
 
 ---
 
+
 #### 6.2.1.7 Services Documentation Evidence for Sprint Review
 
-El proyecto ya cuenta con un backend funcional desplegado en Azure App Services, el cual contiene servicios REST para la gestión de cultivos, dispositivos IoT y recomendaciones, expuestos mediante Swagger:
+El proyecto ya cuenta con un backend funcional desplegado en Azure App Services. Este servicio gestiona las entidades principales del sistema (usuarios, cultivos, dispositivos, recomendaciones, etc.) y expone su API mediante Swagger para facilitar la documentación y pruebas.
 
 - 📘 **Documentación del backend - Swagger UI**:  
   👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
 #### Evidencias visuales del backend:
-- ![Backend 1](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)
-- ![Backend 2](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)
-- ![Backend 3](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)
+
+- ![Backend 1](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
+  *Vista general de la interfaz Swagger desplegada, mostrando todos los endpoints disponibles del backend, incluyendo operaciones CRUD para dispositivos IoT, cultivos y usuarios.*
+
+- ![Backend 2](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)  
+  *Detalle del endpoint para registrar nuevos dispositivos IoT, permitiendo su vinculación con cultivos específicos.*
+
+- ![Backend 3](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
+  *Prueba de ejecución de una operación GET en Swagger, evidenciando que la API responde correctamente con datos reales simulados.*
 
 ---
 
 #### 6.2.1.8 Software Deployment Evidence for Sprint Review
 
-Durante este sprint, se desplegaron exitosamente los principales componentes del sistema:
+Durante este sprint, se desplegaron exitosamente los principales componentes del sistema, lo que permite demostrar que se cuenta con una arquitectura modular y funcional:
 
-- 🖥️ **Landing Page**:  
+- 🖥️ **Landing Page**  
+  Esta página de presentación está alojada en GitHub Pages y representa el punto de entrada informativo del proyecto WaruSmart.  
   👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
 
-- ⚙️ **Backend API REST**:  
+- ⚙️ **Backend API REST**  
+  Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone todos los endpoints necesarios para las operaciones internas del sistema.  
   👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
-Estos despliegues permiten validar la arquitectura distribuida del sistema y habilitar el consumo de servicios desde la interfaz del usuario final.
+Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (frontend ↔ backend).
 
 #### 6.2.1.9 Team Collaboration Insights during Sprint
 
+Durante el presente sprint, se pudo evidenciar una colaboración activa entre los integrantes del equipo en los distintos módulos del sistema WaruSmart: **Landing Page**, **Frontend Web App** y **Backend API**. A continuación, se presentan los insights obtenidos a partir de los repositorios del proyecto, los cuales demuestran el compromiso y distribución de trabajo entre los miembros.
+
+**🔧 Colaboración en el desarrollo del Landing Page**
+
+- ![Insight Landing Page](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314726/sknvodjw4eddrbsmatlu.jpg)  
+  *En la imagen se puede visualizar el historial de commits del repositorio correspondiente al Landing Page, evidenciando la actividad constante de los integrantes encargados de esta sección. Las contribuciones se distribuyen en tareas de estructura HTML, estilos, despliegue en GitHub Pages y correcciones de contenido.*
+
+**💻 Colaboración en el desarrollo del Frontend Web App**
+
+- ![Insight Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/iszfypdv193fbfkhzqyy.jpg)  
+  *La imagen muestra los commits registrados en el repositorio del Frontend desarrollado con tecnologías modernas. Se puede observar una intensa actividad de push que involucra el desarrollo de componentes para la visualización de sensores, módulos de recomendaciones y conexión con el backend. Esto demuestra una alta interacción y sinergia técnica entre los integrantes del equipo de frontend.*
+
+**⚙️ Colaboración en el desarrollo del Backend API**
+
+- ![Insight Backend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/sojaqz283ma9yvpkqsml.jpg)  
+  *Se presenta el registro de actividad del repositorio del backend, desplegado en Azure. Aquí se evidencia la colaboración en la implementación de rutas API, conexión con base de datos, documentación Swagger y configuración de despliegue. La gráfica de commits refleja un flujo constante de mejoras y correcciones realizadas de forma colaborativa.*
+
+Estos insights reflejan una dinámica de trabajo distribuido por especialidades técnicas, donde los miembros del equipo se enfocaron en áreas específicas pero alineadas al objetivo común del sprint, promoviendo la integración progresiva de todos los módulos del sistema.
+
 ## Conclusiones
- 
- - A partir del análisis realizado, se logró estructurar de manera inicial la solución **Warusmart**, orientada a la gestión inteligente del riego mediante tecnologías IoT y plataformas web. La aplicación de técnicas como **Event Storming** y **Domain-Driven Design** permitió identificar los principales eventos, actores, comandos y políticas que formarán la base del sistema, asegurando una visión coherente de su funcionamiento.
- 
- - La delimitación de Bounded Contexts y la elaboración de un Context Mapping permitieron organizar adecuadamente las distintas áreas funcionales del sistema, favoreciendo la modularidad, la escalabilidad futura y la claridad de responsabilidades. Este trabajo preliminar proporciona un marco sólido para el diseño posterior de la infraestructura técnica y el desarrollo de los microservicios correspondientes.
- 
- ## Recomendaciones
- 
- - Se recomienda continuar con la validación y refinamiento de los eventos y bounded contexts establecidos, realizando sesiones de revisión y ajustes conforme se vayan detallando nuevas funcionalidades, para asegurar que la evolución del sistema mantenga la cohesión del modelo conceptual inicial.
- 
- - Es importante planificar desde esta etapa el diseño de mecanismos robustos de monitoreo y manejo de errores tanto en sensores como en la plataforma, de manera que se garantice la fiabilidad del sistema frente a fallos de hardware o inconsistencias de datos que puedan surgir durante su implementación en entornos reales.
+
+- A partir del análisis realizado, se logró estructurar de manera inicial la solución **WaruSmart**, orientada a la gestión inteligente del riego mediante tecnologías IoT y plataformas web. La aplicación de técnicas como **Event Storming** y **Domain-Driven Design** permitió identificar los principales eventos, actores, comandos y políticas que formarán la base del sistema, asegurando una visión coherente de su funcionamiento.
+
+- La delimitación de **Bounded Contexts** y la elaboración de un **Context Mapping** permitieron organizar adecuadamente las distintas áreas funcionales del sistema, favoreciendo la modularidad, la escalabilidad futura y la claridad de responsabilidades. Este trabajo preliminar proporciona un marco sólido para el diseño posterior de la infraestructura técnica y el desarrollo de los microservicios correspondientes.
+
+- Durante el Sprint 1 se logró desplegar con éxito los tres pilares principales del sistema: **Landing Page**, **Frontend Web App** y **Backend API REST**. Esta entrega temprana permite validar la arquitectura distribuida y establecer la base para la integración continua entre los componentes del sistema.
+
+- Se evidenció una participación activa y distribuida del equipo de trabajo en los diferentes repositorios, con aportes significativos tanto en el diseño visual como en la lógica de negocio y la implementación técnica, lo cual refleja un enfoque colaborativo y disciplinado.
+
+- Las decisiones técnicas tomadas en este primer sprint permiten sentar una base estable para el desarrollo incremental del sistema en futuros sprints, minimizando riesgos de re-trabajo y alineando al equipo con buenas prácticas de ingeniería de software.
+
+---
+
+## Recomendaciones
+
+- Se recomienda continuar con la validación y refinamiento de los eventos y **Bounded Contexts** establecidos, realizando sesiones de revisión iterativa conforme se vayan detallando nuevas funcionalidades. Esto permitirá mantener la alineación entre el modelo conceptual y las necesidades reales del sistema.
+
+- Es importante establecer mecanismos tempranos de integración entre frontend y backend, mediante contratos de API bien definidos y pruebas de integración automatizadas, para evitar bloqueos en etapas posteriores del desarrollo.
+
+- Dado que el sistema está orientado a la interacción con dispositivos físicos IoT, se sugiere implementar desde el siguiente sprint una arquitectura de monitoreo y manejo de errores que contemple caídas de red, fallos de hardware o pérdida de sincronización con sensores.
+
+- Documentar cada despliegue realizado, tanto en GitHub Pages como en Azure, asegurando que el equipo tenga visibilidad clara de las configuraciones empleadas y pueda reproducir el entorno en otras máquinas o entornos cloud.
+
+- Aprovechar los datos recopilados en los insights de colaboración para distribuir mejor las tareas en próximos sprints, fomentando el equilibrio de carga de trabajo y potenciando los perfiles técnicos de cada integrante.
 
 ## Video About-the-Team
 
