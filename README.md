@@ -774,6 +774,8 @@ Representacion ficticia de un usuario perteneciente a cada segmento objetivo, la
 
 Podemos identificar que es un trabajador que ama su trabajo, por lo que desea encontrar su eficacia mediante diversas
 herramientas. A pesar de no tener mucho conocimiento en aparatos digitales, está dispuesto a usarlos para la agricultura.
+
+Enlace: https://uxpressia.com/w/laUMU/p/rVOfE
 <div></div>
 <img src="Assets/needfinding/user_persona_1_2.png">
 
@@ -782,6 +784,8 @@ herramientas. A pesar de no tener mucho conocimiento en aparatos digitales, est�
 
 Podemos observar como el usuario desea apoyar a los miembros de su cooperativa, por lo que busca convencer a todos de que
 una herramienta tecnológica puede ayudarlos a ser más eficases.
+
+Enlace: https://uxpressia.com/w/laUMU/p/XGV1z
 <div></div>
 <img src="Assets/needfinding/user_persona_2_2.png">
 
@@ -811,12 +815,16 @@ así como también muestra las necesidades que van surgiendo.
 
 Podemos identificar como el usuario va alegrandose conforme conoce más sobre nuestra solución, sin embargo, también muestra que necesita 
 de una landing page que lo mantenga bien informado sobre las funciones,
+
+Enlace: https://uxpressia.com/w/laUMU/m/xWrem
 <div></div>
 <img src="Assets/needfinding/journey_map_1_2.png">
 
 **SEGMENTO COOPERATIVAS:**
 
 Si bien el usuario agradece el usar la herramienta, también es necesario que nuestra solución sea fácil de usar para efitar frustraciones por parte del usuario
+
+Enlace: https://uxpressia.com/w/laUMU/m/l3kWu
 <div></div>
 <img src="Assets/needfinding/journey_map_2_2.png">
 
@@ -827,6 +835,8 @@ Grafico realizado para visualizar la problematica del usuario junto con lo que p
 **SEGMENTO AGRICULTORES:**
 
 El usuario se encuentra frustrado debido a que pierde dinero por las dificultades de cuidar a sus cultivos, al mismo tiempo que desea encontrar una solucion a este problema
+
+Enlace: https://uxpressia.com/w/laUMU/p/29x5e
 <div></div>
 <img src="Assets/needfinding/empathy_map_1_2.png">
 
@@ -834,6 +844,8 @@ El usuario se encuentra frustrado debido a que pierde dinero por las dificultade
 
 El usuario se encuentra frustrado por los cultivos perdios, al mismo tiempo que siente incertidumbre sobre como se  adaptaran sus companeros a esta nueva teconolgia
 <div></div>
+
+Enlace: https://uxpressia.com/w/laUMU/p/Mh4C4
 <img src="Assets/needfinding/empathy_map_2_2.png">
 
 ### 2.3.5   As-Is Scenario Mapping.
