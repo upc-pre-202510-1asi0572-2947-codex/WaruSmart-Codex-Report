@@ -1638,6 +1638,9 @@ Los principales repositorios en este contexto son:
 #### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747311435/iambounded-classdiagram.png">
+</p>
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagrams
 <p>
