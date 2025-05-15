@@ -2936,7 +2936,7 @@ Los colores elegidos para WaruSmart se inspiran en la psicología del color, bus
 
 En los wireframes, se emplean tonos de gris que permiten una visualización preliminar clara y estructurada del diseño.
 
-![Paleta de colores](/Assets/Style-Guidelines/colores.png)
+<img src="./Assets/Style-Guidelines/colores.png">
 
 **Typography**  
 La tipografía juega un rol fundamental en la experiencia de usuario. Para WaruSmart, se eligió la fuente Poppins, ya que ofrece una estética moderna y minimalista. Se utilizan estilos Medium, Regular, SemiBold y Bold, asegurando jerarquías visuales claras y legibilidad en distintos dispositivos.
