@@ -3536,6 +3536,17 @@ En esta sección se presentan los principales avances en la implementación de l
 
 #### 6.2.1.5 Testing Suite Evidence for Sprint Review
 
+| Repositorio/Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
+|--------------------|------------|-----------------|-----------------------|----------------------|
+| US01/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US01.feature | Herrera.Victor-feature-Sprint1-TU01 | 300d064 | add gherkin TU01 | 10/05/2025 |
+| US02/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US02.feature | Herrera.Victor-feature-Sprint1-TU02 | 300d064 | add gherkin TU02 | 10/05/2025 |
+| US03/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US03.feature | Herrera.Victor-feature-Sprint1-TU03 | 300d064 | add gherkin TU03 | 10/05/2025 |
+| US04/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US04.feature | Herrera.Victor-feature-Sprint1-TU04 | 300d064 | add gherkin TU04 | 10/05/2025 |
+| US05/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US05.feature | Herrera.Victor-feature-Sprint1-TU05 | 300d064 | add gherkin TU05 | 10/05/2025 |
+| US23/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US23.feature | Herrera.Victor-feature-Sprint1-TU23 | 300d064 | add gherkin TU23 | 10/05/2025 |
+| US24/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US24.feature | Herrera.Victor-feature-Sprint1-TU24 | 300d064 | add gherkin TU24 | 10/05/2025 |
+
+Durante el Sprint 1, como parte del equipo de desarrollo de WaruSmart, implementamos los escenarios de prueba automatizados para múltiples Historias de Usuario utilizando el lenguaje Gherkin, asegurando así la trazabilidad entre los requerimientos funcionales y su validación técnica. Cada archivo `.feature` fue diseñado bajo el enfoque BDD (Behavior-Driven Development), siguiendo la estructura Given-When-Then para definir claramente los criterios de aceptación. Estos artefactos fueron versionados en el repositorio `WaruSmart-Testing` y vinculados a las US correspondientes, permitiendo mantener un control riguroso sobre la calidad del producto desde las etapas iniciales. La consolidación de estas pruebas refleja nuestro compromiso por garantizar que cada funcionalidad desarrollada cumpla con el comportamiento esperado por el usuario final.
 
 
 #### 6.2.1.6 Execution Evidence for Sprint Review
