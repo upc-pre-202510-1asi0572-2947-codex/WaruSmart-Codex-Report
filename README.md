@@ -971,13 +971,13 @@ Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
     <tr>
       <td>E1-US01</td>
       <td>Navegación entre secciones</td>
-      <td>2</td>
+      <td>1</td>
       <td>1</td>
     </tr>
     <tr>
       <td>E1-US03</td>
       <td>Visualizar beneficios segmentados</td>
-      <td>2</td>
+      <td>1</td>
       <td>1</td>
     </tr>
     <tr>
@@ -989,7 +989,7 @@ Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
     <tr>
       <td>E1-US05</td>
       <td>Sección contactarse</td>
-      <td>2</td>
+      <td>1</td>
       <td>1</td>
     </tr>
     <tr>
