@@ -4187,10 +4187,23 @@ La pantalla muestra un listado de dispositivos IoT en las que se informa el esta
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png">
 </p>
 
+- **Flujo de funcionamiento del landing page**:  
+  *Video del Flujo que muenstra la navegación entre las diferentes secciones del landing pageb, permitiendo al usuario interactuar e informarse de nuestros servicios*
+  
+- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp
 
-- **Flujo de navegación de la aplicación web**:  
+---
+
+- **Flujo de funcionamiento del backend**:  
+  *Video del Flujo que muestra la navegación entre las diferentes endpoints del backend*
+  
+- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQlpEXxAcClMr5cN416gP3MBrcxVrPyk4-Wlq-elpjezyw?e=pWgMiN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+---
+
+- **Flujo de funcionamiento de la aplicación web**:  
   ![Flujo de navegación](https://res.cloudinary.com/drkelnilg/image/upload/v1747352229/imagen_2025-05-15_183706453_xkkjav.png)  
-  *Diagrama de flujo que ilustra la navegación entre las diferentes secciones de la aplicación web, permitiendo al usuario interactuar con los datos de sus cultivos y dispositivos IoT.*
+  *Flujo que muestra la navegación entre las diferentes secciones de la aplicación web, permitiendo al usuario interactuar con los datos de sus cultivos y dispositivos IoT.*
   
 - link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA
 
