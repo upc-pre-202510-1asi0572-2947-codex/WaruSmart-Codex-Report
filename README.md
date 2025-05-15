@@ -1242,10 +1242,24 @@ Escenario 5: Configuración o actualización de reglas de riego automático.
 #### 4.1.1.3 Bounded Context Canvases
 
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655714/imagen_2025-04-26_032134504_on17gs.png "Bounded Contexts Canvases")
+
+Este canvas define el contexto de IAM (Identity and Access Management) como responsable de la gestión segura de usuarios en el sistema, incluyendo registro, autenticación y actualización de perfiles. Delimita claramente sus comunicaciones entrantes (registro, autenticación, vinculación) y salientes (actualización y eliminación de cuentas), que impactan en sistemas como la gestión de suscripciones. Además, establece un lenguaje ubicuo para evitar ambigüedades y resalta decisiones clave como la política de autenticación.
+
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655735/imagen_2025-04-26_032156831_llint2.png "Bounded Contexts Canvases")
+
+Aqui se define el contexto de Suscriptions and Payments como responsable de gestionar el acceso de los usuarios a los productos de la solución y procesar los pagos correspondientes. Establece claramente sus comunicaciones entrantes (inicio de suscripción, cambios y actualizaciones de planes) y salientes (suspensión, cambio o actualización de planes), que afectan a módulos clave como la gestión de cultivos, riego y análisis de datos.
+
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655739/imagen_2025-04-26_032218127_zkpvp1.png "Bounded Contexts Canvases")
+
+Crops Management actua como el núcleo que permite a los usuarios gestionar sus cultivos a lo largo de todo el ciclo productivo, garantizando un seguimiento detallado y organizado. Establece interacciones entrantes desde los propios agricultores para registrar, actualizar o crear áreas de cultivo, y salidas que configuran la conectividad con sensores IoT, asignan sensores a cultivos o notifican eventos importantes.
+
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655784/imagen_2025-04-26_032246309_vqevhg.png "Bounded Contexts Canvases")
+
+Irrigation Management es esencial para la gestión automatizada de riego en los cultivos, permitiendo a los usuarios controlar y supervisar los sistemas IoT que regulan la irrigación según condiciones específicas. Establece comunicaciones entrantes desde sensores IoT y la gestión de cultivos para configurar, activar o adaptar el riego, y salidas que informan a otros módulos sobre el estado crítico de datos o eventos relevantes como suspensión y reanudación del riego.
+
 ![Texto alternativo](https://res.cloudinary.com/drkelnilg/image/upload/v1745655819/imagen_2025-04-26_032305580_wunor9.png "Bounded Contexts Canvases")
+
+Aqui se define el contexto de Data Analytics Management como el encargado de procesar y transformar los datos provenientes de los módulos de riego y gestión de cultivos para generar información útil y reportes precisos para los usuarios. Gestiona comunicaciones entrantes que reflejan eventos como la visualización de paneles de datos y la generación de reportes diarios, y comunicaciones salientes que entregan reportes e indicadores de bajo rendimiento a los agricultores.
 
 **Enlace del miro:** https://miro.com/app/board/uXjVI9vdzpc=/
 
@@ -2824,6 +2838,171 @@ Los principales repositorios en este contexto son:
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropsReportsManagement_feeifk.jpg">
  </p>
+
+# Capítulo V: Solution UI/UX Design
+
+## 5.1 Style Guidelines
+
+Esta sección establece las pautas visuales y funcionales necesarias para garantizar que todos los entregables del proyecto mantengan coherencia estética y comunicativa. Este repositorio incluye activos visuales, fuentes, paletas de colores y principios de diseño compartidos, con el objetivo de conservar una imagen consistente en las plataformas.
+
+### 5.1.1 General Style Guidelines
+
+**Brand Overview:**  
+Nuestra startup, Codex, surge como una respuesta a los desafíos de la agricultura moderna en el Perú, centrando sus esfuerzos en la transformación digital del riego agrícola mediante tecnologías IoT accesibles. Codex busca impactar positivamente en la vida de los agricultores al brindarles herramientas inteligentes y automatizadas para optimizar el uso del agua, reducir desperdicios y mejorar la productividad de los cultivos.
+
+Con esta visión en mente, desarrollamos WaruSmart, una solución tecnológica que combina sensores IoT, análisis predictivo y una interfaz intuitiva para facilitar el control y monitoreo del riego agrícola en tiempo real. Nuestra propuesta se orienta tanto a pequeños agricultores como a cooperativas y ONG del sector agrícola.
+
+**Misión**  
+Ofrecer soluciones tecnológicas accesibles y eficientes para automatizar el riego agrícola, promoviendo una agricultura sostenible, moderna y de fácil adopción para todos los agricultores peruanos.
+
+**Visión**  
+Ser reconocidos como la plataforma líder en soluciones de riego inteligente en el Perú, destacando por nuestra innovación, impacto social y contribución a la seguridad alimentaria mediante el uso responsable del agua y tecnologías de precisión.
+
+**Logotipo de la startup (Codex):**  
+<img src="/Assets/Style-Guidelines/logotipo-codex.png" alt="Logo Codex" width="50%"/>
+
+**Logotipo del producto (WaruSmart):**  
+<img src="/Assets/Style-Guidelines/logotipo-warusmart.png" alt="Logo WaruSmart" width="50%"/>
+
+**Brand Name**  
+El nombre WaruSmart surge de la combinación entre la palabra "waru waru" —una técnica ancestral andina de cultivo— y el concepto de "smart", evocando modernidad y tecnología. Esta fusión refleja nuestra intención de integrar prácticas tradicionales con innovación digital, ofreciendo a los agricultores una herramienta confiable, eficiente y culturalmente cercana. WaruSmart representa el puente entre el conocimiento ancestral y la agricultura del futuro.
+
+**Colors**  
+Los colores elegidos para WaruSmart se inspiran en la psicología del color, buscando transmitir familiaridad, sostenibilidad y conexión con la agricultura. El verde representa crecimiento, naturaleza y frescura, mientras que los tonos marrones evocan la tierra y el trabajo agrícola. Estos colores refuerzan la identidad visual de la plataforma y facilitan la navegación al ser agradables a la vista.
+
+En los wireframes, se emplean tonos de gris que permiten una visualización preliminar clara y estructurada del diseño.
+
+![Paleta de colores](/Assets/Style-Guidelines/colores.png)
+
+**Typography**  
+La tipografía juega un rol fundamental en la experiencia de usuario. Para WaruSmart, se eligió la fuente Poppins, ya que ofrece una estética moderna y minimalista. Se utilizan estilos Medium, Regular, SemiBold y Bold, asegurando jerarquías visuales claras y legibilidad en distintos dispositivos.
+
+Esta elección garantiza coherencia en todos los niveles de la aplicación, desde títulos hasta mensajes de alerta, manteniendo una imagen profesional y amigable.
+
+![Tipografía](/Assets/Style-Guidelines/tipografia.png)
+
+**Spacing**  
+El espaciado uniforme y bien definido es esencial para una experiencia de usuario fluida y ordenada. En WaruSmart, se establece una guía de márgenes y paddings coherente, que se adapta responsivamente a diferentes tamaños de pantalla (desktop, tablet y mobile).
+
+Esta estrategia mejora la legibilidad, evita sobrecarga visual y facilita la interacción, permitiendo que los usuarios se concentren en la información relevante sin distracciones.
+
+**Tone and Language**  
+El tono de comunicación de WaruSmart se caracteriza por ser formal pero cercano, sereno, claro y respetuoso. Nuestro lenguaje busca generar confianza y profesionalismo sin recurrir a tecnicismos excesivos, facilitando así la comprensión por parte de usuarios con distintos niveles de familiaridad tecnológica.
+
+### 5.1.2 Web, Mobile and IoT Guidelines
+
+**Web Interface Guidelines**  
+La interfaz web de WaruSmart ha sido diseñada bajo un enfoque minimalista, claro y centrado en el usuario. El objetivo es facilitar la adopción del sistema por parte de agricultores con distintos niveles de experiencia tecnológica, priorizando la comprensión intuitiva de las funciones clave del sistema.
+
+* **Imágenes:** Se emplean imágenes contextuales que refuercen la función de cada sección, como ilustraciones agrícolas o iconografía que represente sensores y cultivos. Se prioriza la calidad visual y la coherencia con la identidad visual de la marca. El logotipo y la imagen de perfil del usuario se mantendrán visibles en la barra de navegación.
+* **Botones:** Los botones siguen convenciones universales para evitar confusiones. Íconos como el tacho de basura (eliminar), el ícono de lápiz (editar) o una "X" (cerrar) permiten mantener la consistencia externa con lo que el usuario ya conoce.
+* **Pop-ups:** Las ventanas emergentes (pop-ups) aparecen para confirmar acciones importantes, como programar o detener el riego. Se presentan con colores destacados, y siempre incluyen tres opciones: "Aceptar", "Cancelar" y "Cerrar" (ícono “X”), adaptándose automáticamente a la resolución del dispositivo.
+
+**Mobile Interface Guidelines**  
+La versión mobile mantiene la misma identidad visual y experiencia que la interfaz web, adaptándose a las restricciones de espacio y tamaño de pantalla.
+
+* **Imágenes:** Se optimizan para dispositivos móviles, manteniendo su propósito informativo y estético sin interferir en la usabilidad. Se prioriza la carga rápida y el uso eficiente del espacio.
+* **Botones:** Se redimensionan para facilitar su manipulación táctil, con zonas de interacción suficientemente amplias. Se mantiene el mismo set de íconos para asegurar coherencia visual entre plataformas.
+* **Pop-ups:** Se adaptan al tamaño del dispositivo, evitando bloquear contenido importante. Su aparición se limita a momentos clave y su diseño asegura legibilidad y claridad en la interacción.
+
+**IoT Interface Guidelines**  
+En el caso de WaruSmart, el dispositivo IoT está actualmente en fase de diseño conceptual. Dado que el sistema está enfocado en la automatización del riego mediante sensores de humedad y variables ambientales, toda la interacción del usuario se realiza a través de las interfaces web y mobile. El dispositivo solo incorpora un botón físico de encendido y apagado, pensado para facilitar su activación manual en el campo sin necesidad de conexión digital.
+
+
+## 5.2 Information Architecture
+
+WatuSmart está pensada para ser utilizada por usuarios con poca experiencia con aparatos digitales, debido a esto, la información debe ser mostrada de forma intuitiva, asegurándose de 
+que visualmente, el usuario pueda saber que es lo que se encuentra visualizando.
+
+### 5.2.1 Organization Systems
+
+En WaruSmart, los distintos cultivos monitoreados se organizaran de forma secuencial, según las fase de desarrollo, esto con el objetivo de que el usuario pueda localizar con facilidad 
+los cultivos a recolectar. Cuando desee ver información sobre los últimos riegos, estos se mostrarán en orden cronológico a partir del más reciente.
+
+Las distintas opciones de la aplicación se verán organizadas se forma secuencial según la fase de desarrollo a la que está relacionada
+
+Finalmente, al visualizar la información de un cultivo en específico, esta se ordenará de forma jerarquica, priorizando las características según la importancia.
+
+### 5.2.2 Labeling Systems
+
+Las distintas secciones de la aplicación cuentan con un título encargado de explicar al usuario que se encuentra viendo.
+
+Dentro de cada sección, cada apartado cuenta con un subtítulo propio el cual explica lo que el usuario está visualizando, estos subtítulos no deben ser iguales a los títulos de la sección.
+
+Al visualizar los últimos riegos, cada uno mostrará la fecha y hora en que se realizó.
+
+### 5.2.3 SEO and Meta Tags
+
+**Title**
+
+```html
+    <title>WaruSmartLandingPage</title>
+```
+
+**Charset**
+
+```html
+    <meta charset="UTF-8">
+```
+
+**Description**
+
+```html
+    <meta name="description" content="WaruSmart is an IOT solution for crop irrigation"/>
+```
+
+**Keywords**
+
+```html
+    <meta name="keywords" content="riego, cuidado, agricultores, tecnología, cultivos"/>
+```
+**Copyright and Author**
+
+```html
+    <meta name="author" content="Codex"/>
+    <meta name="copyright" content="Copyright Codex team" />
+```
+
+**ASO**
+
+APP Title: WaruSmart<br>
+APP keywords: Agricultura, cultivos, riego, cuidado, IOT<br>
+App Subtitle: Help for your crops management<br>
+App Description: Mobile application for WaruSmart, viusalize your crops data in your phone. (WaruSmart IOT service needed)<br>
+
+
+### 5.2.4 Searching Systems
+
+El sistema de búsqueda será usado principalmente para ubicar riegos y cultivos.
+
+Para encontrar un riego en específico, el usuario puede buscar por día en el que se realizaron, esto será apoyado por la información de la fecha y hora mostradas.
+
+En la busqueda de un cultivo, el usuario puede filtrarlos según la etapa de desarrollo, así como buscar según la fecha en que fueron plantados. En ambos casos, los 
+resultados se mostrarán ordenados según la fehca en que fueron plantados, empezando por el más antiguo
+
+### 5.2.5 Navigation Systems
+
+En Warusmart, los usuarios pueden navegar a travez de una barra superior, la cual contiene botones que los redirigen a las distintas secciones de la aplicación. Dentro de estas, el usuario puede elegir volver 
+al menú principal, como también puede usar la misma barra para viajar a otras secciones. En las secciones que lo permiten, también se podrá usar una barra de búsqueda
+para fioltrar los resultados obtenidos.
+
+## 5.3 Landing Page UI Design
+
+### 5.3.1 Wireframe
+
+### 5.3.2 Mock-up
+
+## 5.4 Applications UX/UI Design
+
+### 5.4.1 Wireframes
+  
+### 5.4.2 Wireflow Diagrams
+  
+### 5.4.3 Mock-ups
+  
+### 5.4.4 User Flow Diagrams
+
+## 5.5 Applications Prototyping
 
 ## Conclusiones
  
