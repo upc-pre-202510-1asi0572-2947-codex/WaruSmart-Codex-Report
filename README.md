@@ -3453,6 +3453,16 @@ Enalce LucidChart: https://lucid.app/lucidchart/e26e722e-1559-4de0-8a94-519b208f
 
 ## 5.5 Applications Prototyping
 
+El prototipo de nuestra aplicación web fue diseñado con el objetivo de reflejar la propuesta de valor de WaruSmart: ofrecer una solución eficiente para la gestión de riego, mediante una plataforma intuitiva y de uso sencillo. Para ello, se consideraron los siguientes aspectos:
+
+* Responsive Web Design
+* Funcionalidades relevantes
+* UI sencillo de entender
+
+<img src="./Assets/cap5/web-prototyping.png">
+
+Enlace: https://www.figma.com/proto/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=2079-4788&p=f&t=rt23Wk3uEQW1GPHL-1&scaling=min-zoom&content-scaling=fixed&page-id=2079%3A828 
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1 Software Configuration Management
