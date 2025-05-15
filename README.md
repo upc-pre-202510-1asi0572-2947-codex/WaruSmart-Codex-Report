@@ -3917,6 +3917,9 @@ En la siguiente captura se visualiza el Actions actualizado en nuestro repositor
 
 #### 6.2.1.1 Sprint Planning 1
 
+Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
+<img src = "Assets/chapter-vi/sprint1_planning.png">
+
 |Sprint # | Sprint 1|
 |---------|---------|
 **SprintPlanningBackground** 
@@ -4183,6 +4186,13 @@ La pantalla muestra un listado de dispositivos IoT en las que se informa el esta
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png">
 </p>
+
+
+- **Flujo de navegación de la aplicación web**:  
+  ![Flujo de navegación](https://res.cloudinary.com/drkelnilg/image/upload/v1747352229/imagen_2025-05-15_183706453_xkkjav.png)  
+  *Diagrama de flujo que ilustra la navegación entre las diferentes secciones de la aplicación web, permitiendo al usuario interactuar con los datos de sus cultivos y dispositivos IoT.*
+  
+- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA
 
 ---
 
