@@ -3145,18 +3145,18 @@ Es la página por defecto dentro de los directorios de los servidores de cualqui
 
 **Convenciones de HTML:**
 
-- Se debe declarar el tipo de documento en la primera línea: <!DOCTYPE html>
-- Se recomienda usar minúsculas en las etiquetas y estructuras: <body> <p>
-- Se recomienda cerrar todas las etiquetas y estructuras: <p>This is a paragraph.</p>
-- Se recomienda usar minúsculas en los atributos: <a href="https://www.google.com/html/">
-- Se recomienda usar comillas en los valores de atributo: <table class="striped">
-- Se debe especificar el alt, ancho y alto de las imágenes: <img src="html5.gif" alt="HTML5" style="width:128px;height:128px">
-- Se recomienda no usar espacios a la hora de usar el signo “=”: <link rel="stylesheet" href="styles.css">
+- Se debe declarar el tipo de documento en la primera línea: `<!DOCTYPE html>`
+- Se recomienda usar minúsculas en las etiquetas y estructuras: `<body>` `<p>`
+- Se recomienda cerrar todas las etiquetas y estructuras: `<p>This is a paragraph.</p>`
+- Se recomienda usar minúsculas en los atributos: `<a href="https://www.google.com/html/"></a>`
+- Se recomienda usar comillas en los valores de atributo: `<table class="striped">`
+- Se debe especificar el alt, ancho y alto de las imágenes: `<img src="html5.gif" alt="HTML5" style="width:128px;height:128px">`
+- Se recomienda no usar espacios a la hora de usar el signo “=”: `<link rel="stylesheet" href="styles.css">`
 - Solo se debe usar líneas en blaco para facilitar la lectura de bloques de códigos grandes o lógicos.
-- No se debe omitir el elemento <title> ya que es vital para el motor de búsqueda, así como también se recomienda que el contenido de los <title> sea preciso y significativo: <title>HTML Style Guide and Coding Conventions</title>
-- No se recomienda omitir las etiquetas <html> y <body> ya que puede producir errores en navegadores antiguos y puede bloquear el software DOM y XML.
-- Se debe usar el atributo lang para declarar el idioma de la página web: <html lang="en-us">
-- Se debe utilizar el atributo meta para una interpretación adecuada e indexación correcta en los motores de búsqueda: <meta charset="UTF-8">
+- No se debe omitir el elemento `<title>` ya que es vital para el motor de búsqueda, así como también se recomienda que el contenido de los `<title>` sea preciso y significativo: `<title>HTML Style Guide and Coding Conventions</title>`
+- No se recomienda omitir las etiquetas `<html>` y `<body>` ya que puede producir errores en navegadores antiguos y puede bloquear el software DOM y XML.
+- Se debe usar el atributo lang para declarar el idioma de la página web: `<html lang="en-us">`
+- Se debe utilizar el atributo meta para una interpretación adecuada e indexación correcta en los motores de búsqueda: `<meta charset="UTF-8">`
 
 **CSS:** https://google.github.io/styleguide/htmlcssguide.html
 
@@ -3257,11 +3257,47 @@ Se debe incluir un punto y coma al final de cada instrucción.
 
 En esta seccion abordaremos el despliegue de nuestro Landing Page, Aplicacion Web y Backend API Aplication.
 
-1. Landing Page
+**1. Landing Page**
 
-2. Aplicación Web
+Para el despliegue de la Landing Page se utilizara Netlify https://app.netlify.com/
 
-3. Backend API Aplication
+<img src="./Assets/chapter-vi/netlify-new-project.png">
+
+Una vez entrando en la opcion de agregar nuevo deploy, conectamos con Github donde tenemos nuestros repositorios de desarrollo y escogemos el repositorio de WaruSmart-WebPlatform.
+
+<img src="./Assets/chapter-vi/select-repository-1.png">
+
+Al ser una aplicación de solo HTML no ocupa una configuración de builde con comandos personalizados.
+
+<img src="./Assets/chapter-vi/deploy-configuration-1.png">
+
+Luego de unos segundos se completará el builde y se te brindará un URL para poder accedr a la página web.
+
+<img src="./Assets/chapter-vi/deploy-view-2.png">
+
+<img src="./Assets/chapter-vi/deploy-view-3.png">
+
+**2. Aplicación Web**
+
+De igual forma que la Landing Page se utilizo Netlify para el despliegue de la aplicación web, teniendo que iniciar sesion en la plataforma https://app.netlify.com/
+
+<img src="./Assets/chapter-vi/netlify-new-project.png">
+
+Una vez entrando en la opcion de agregar nuevo deploy, conectamos con Github donde tenemos nuestros repositorios de desarrollo y escogemos el repositorio de WaruSmart-WebPlatform.
+
+<img src="./Assets/chapter-vi/select-repository.png">
+
+Una vez dentro debemos agregar las opciones de Buildeo para un correcta creacion del deploy del proyecto.
+
+<img src="./Assets/chapter-vi/deploy-configuration.png">
+
+Luego de unos minutos el buildeo se debio completar y se te brindará un URL para poder acceder a la página web.
+
+<img src="./Assets/chapter-vi/deploy-view.png">
+
+<img src="./Assets/chapter-vi/deploy-view-1.png">
+
+**3. Backend API Aplication**
 
 Se utilizo Azure para el despliegue de la aplicacion Backend Api desarrollada en Net Core. La configuracion inicial se evidencia en la siguiente captura:
 
@@ -3274,6 +3310,10 @@ En la siguiente imagen se evidencia las creación tanto de los recursos de la ba
 Por último visualizamos el API una vez deployado, en la página de documentación swagger para la visualización de los Endpoints y futuro acceso mediante la aplicación web a través de los endpoints.
 
 <img src="./Assets/chapter-vi/backend-3.jpeg">
+
+En la siguiente captura se visualiza el Actions actualizado en nuestro repositorio de Github relacionado con el deploy.
+
+<img src="./Assets/chapter-vi/CI-CD.jfif">
 
 
 ## 6.2 Landing Page, Services & Applications Implementation
