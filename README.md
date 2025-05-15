@@ -170,7 +170,6 @@ para cada integrante del equipo:
       - [Repositorio: `UserRepository`](#repositorio-userrepository)
         - [Métodos](#métodos-6)
       - [4.2.1.2 Interface Layer](#4212-interface-layer)
-    - [Bounded Context: IAM](#bounded-context-iam)
     - [UserController](#usercontroller)
       - [4.2.1.3 Application Layer](#4213-application-layer)
     - [Command Handlers](#command-handlers)
@@ -223,7 +222,6 @@ para cada integrante del equipo:
       - [Repositorio: `AccountRepository`](#repositorio-accountrepository)
         - [Métodos](#métodos-16)
       - [4.2.2.2 Interface Layer](#4222-interface-layer)
-    - [Bounded Context: Subscriptions and Payments](#bounded-context-subscriptions-and-payments)
     - [SubscriptionController](#subscriptioncontroller)
     - [PaymentController](#paymentcontroller)
       - [4.2.2.3 Application Layer](#4223-application-layer)
@@ -1524,7 +1522,6 @@ Dentro del dominio de **Identity and Access Management (IAM)**, se encuentran en
  
  ---
 #### 4.2.1.2 Interface Layer
-### Bounded Context: IAM
 
 En esta sección, se describe la capa de interfaz correspondiente al dominio de **Identity and Access Management (IAM)**, la cual expone los controladores necesarios para gestionar las interacciones de los usuarios con el sistema.
 
@@ -1636,13 +1633,16 @@ Los principales repositorios en este contexto son:
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIAMComponents_grbjpl.png">
- </p>
+</p>
 
 #### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagrams
+<p>
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747309926/databasediagram-warusmart.png">
+</p>
 
 ### 4.2.2 Bounded Context: Subscriptions and Payments
 
@@ -1884,8 +1884,6 @@ Este contexto está enfocado en la gestión de las **suscripciones** de los usua
  ---
 
 #### 4.2.2.2 Interface Layer
-### Bounded Context: Subscriptions and Payments
-
 En esta sección, se presenta la capa de interfaz correspondiente al dominio de **Subscriptions and Payments**, encargada de gestionar las operaciones relacionadas con los planes de suscripción, sus cambios de estado, y el control de los pagos realizados por los usuarios.
 
 Los controladores de este contexto permiten visualizar el estado actual de una suscripción, realizar upgrades o downgrades entre planes, cancelar suscripciones, y procesar o validar pagos de acuerdo con las reglas definidas en la plataforma.
@@ -2055,6 +2053,9 @@ Los principales repositorios en este contexto son:
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
 
 ##### 4.2.2.6.2 Bounded Context Database Design Diagrams
+<p>
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747310269/database-suscription-warusmart.png">
+</p>
 
 ### 4.2.3 Bounded Context: Crops Management (Notification)
 
@@ -2304,7 +2305,10 @@ Los principales repositorios en este contexto son:
  #### 4.2.3.6 Bounded Context Softwre Architecture Code Level Diagrams
  
  ##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
- 
+  <p>
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropManagement_vgvwwo.jpg">
+ </p>
+
  ##### 4.2.3.6.2 Bounded Context Database Design Diagrams
  <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropManagement_vgvwwo.jpg">
@@ -2575,7 +2579,7 @@ Los principales repositorios en este contexto son:
  #### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
  
  ##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
- 
+
  ##### 4.2.4.6.2 Bounded Context Database Design Diagrams
  <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/IrrigationManagement_h8cwzv.jpg">
