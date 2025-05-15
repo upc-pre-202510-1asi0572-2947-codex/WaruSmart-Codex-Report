@@ -3103,7 +3103,43 @@ El mock-up para la landing page en la vista del navegador web móvil incorpora l
 ### 5.4.1 Wireframes
   
 ### 5.4.2 Wireflow Diagrams
-  
+
+**User Goal: Registrarse o iniciar sesión en la plataforma**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Para este diagrama de flujo el usuario sigue los pasos para entrar a la plataforma, si el usuario ya cuenta con una cuenta, solo hace click en el botón de login y entrar a la aplicación, en cambio, en caso el usuario no cuente con una cuenta en la plataforma y sea nuevo, tendrá que pasar por todo el proceso de registro desde comprando un plan de suscripción.
+
+<img src="./Assets/cap5/appweb/diagramflow-login.png">
+
+**User Goal: Añadir cultivo**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Para este diagrama de flujo, no importa el user persona, puesto que esta es una funcionalidad básica de nuestra aplicación y en sí el core de esta, el flujo inicia una vez el usuario se encuentre en el panel de control, siguiendo una sucesión de pasos hasta cuando agrega su cultivo y es redirigido a la sección sobre la información de este.
+
+<img src="./Assets/cap5/appweb/diagramflow-add-crop.png">
+
+
+**User Goal: Revisar el reporte estadistico de cultivos**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Este diagrama de flujo ofrece información de tablas estadísticas la cual pueden acceder desde el panel de control y eligiendo la opción de "Statistics" puede ser crucial para toma de decisiones importantes en relación a sus cultivos.
+
+<img src="./Assets/cap5/appweb/diagramflow-report.png">
+
+**User Goal: Realizar consultas a otros usuarios de la aplicación mediante el foro**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Para este diagrama de flujo somos conscientes que a veces no podemos resolver todas las dudas de nuestros usuarios así como posibles percances que ellos puedan presentar en relación en sus cultivos. Este user goal se enfoca en como un usuario puede ingresar al foro de la comunidad desde el panel de control y realizar preguntas sobre un tema en específico.
+
+<img src="./Assets/cap5/appweb/diagramflow-foro.png">
+
+
+Enalce LucidChart: https://lucid.app/lucidchart/9c7847da-4de3-488f-a4ca-b3ec8d902fac/edit?viewport_loc=-1741%2C-4731%2C3670%2C1738%2C0_0&invitationId=inv_6678fc32-61ab-4f16-8bd1-5e98388fa599 
+
 ### 5.4.3 Mock-ups
   
 ### 5.4.4 User Flow Diagrams
