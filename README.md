@@ -250,30 +250,32 @@ para cada integrante del equipo:
       - [4.2.2.6 Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.2.6.1 Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
         - [4.2.2.6.2 Bounded Context Database Design Diagrams](#42262-bounded-context-database-design-diagrams)
-    - [4.2.3 Bounded Context: Crops Management (Notification)](#423-bounded-context-crops-management-notification)
+    - [4.2.3 Bounded Context: Crops Management](#423-bounded-context-crops-management)
       - [4.2.3.1 Domain Layer](#4231-domain-layer)
     - [Aggregate Root](#aggregate-root-2)
       - [Aggregate: `Crop`](#aggregate-crop)
         - [Atributos](#atributos-12)
         - [Métodos](#métodos-17)
-    - [Entities](#entities-2)
-      - [Entidad: `Field`](#entidad-field)
+      - [Aggregate: `Sowing`](#aggregate-sowing)
         - [Atributos](#atributos-13)
         - [Métodos](#métodos-18)
-    - [Value Objects](#value-objects-2)
-      - [Value Object: `CropType`](#value-object-croptype)
+    - [Entities](#entities-2)
+      - [Entidad: `Field`](#entidad-field)
         - [Atributos](#atributos-14)
         - [Métodos](#métodos-19)
+    - [Value Objects](#value-objects-2)
+      - [Value Object: `CropType`](#value-object-croptype)
+        - [Atributos](#atributos-15)
+        - [Métodos](#métodos-20)
     - [Domain Services](#domain-services-2)
       - [Servicio de Dominio: `CropManagementService`](#servicio-de-dominio-cropmanagementservice)
-        - [Métodos](#métodos-20)
+        - [Métodos](#métodos-21)
     - [Repositories](#repositories-2)
       - [Repositorio: `CropRepository`](#repositorio-croprepository)
-        - [Métodos](#métodos-21)
-      - [Repositorio: `FieldRepository`](#repositorio-fieldrepository)
         - [Métodos](#métodos-22)
+      - [Repositorio: `FieldRepository`](#repositorio-fieldrepository)
+        - [Métodos](#métodos-23)
       - [4.2.3.2 Interface Layer](#4232-interface-layer)
-    - [Bounded Context: Crops Management](#bounded-context-crops-management)
     - [CropController](#cropcontroller)
       - [4.2.3.3 Application Layer](#4233-application-layer)
     - [Command Handlers](#command-handlers-2)
@@ -294,24 +296,24 @@ para cada integrante del equipo:
       - [4.2.4.1 Domain Layer](#4241-domain-layer)
     - [Aggregate Root](#aggregate-root-3)
       - [Aggregate: `IrrigationPlan`](#aggregate-irrigationplan)
-        - [Atributos](#atributos-15)
-        - [Métodos](#métodos-23)
-    - [Entities](#entities-3)
-      - [Entidad: `IrrigationSchedule`](#entidad-irrigationschedule)
         - [Atributos](#atributos-16)
         - [Métodos](#métodos-24)
-      - [Entidad: `IrrigationEvent`](#entidad-irrigationevent)
+    - [Entities](#entities-3)
+      - [Entidad: `IrrigationSchedule`](#entidad-irrigationschedule)
         - [Atributos](#atributos-17)
         - [Métodos](#métodos-25)
+      - [Entidad: `IrrigationEvent`](#entidad-irrigationevent)
+        - [Atributos](#atributos-18)
+        - [Métodos](#métodos-26)
     - [Value Objects](#value-objects-3)
     - [Domain Services](#domain-services-3)
       - [Servicio de Dominio: `IrrigationManagementService`](#servicio-de-dominio-irrigationmanagementservice)
-        - [Métodos](#métodos-26)
+        - [Métodos](#métodos-27)
     - [Repositories](#repositories-3)
       - [Repositorio: `IrrigationPlanRepository`](#repositorio-irrigationplanrepository)
-        - [Métodos](#métodos-27)
-      - [Repositorio: `IrrigationEventRepository`](#repositorio-irrigationeventrepository)
         - [Métodos](#métodos-28)
+      - [Repositorio: `IrrigationEventRepository`](#repositorio-irrigationeventrepository)
+        - [Métodos](#métodos-29)
       - [4.2.4.2 Interface Layer](#4242-interface-layer)
     - [Bounded Context: Irrigation Management](#bounded-context-irrigation-management)
     - [IrrigationController](#irrigationcontroller)
@@ -331,32 +333,32 @@ para cada integrante del equipo:
       - [4.2.4.6 Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.4.6.1 Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
         - [4.2.4.6.2 Bounded Context Database Design Diagrams](#42462-bounded-context-database-design-diagrams)
-    - [4.2.5 Bounded Context: Crops Reports Management](#425-bounded-context-crops-reports-management)
+    - [4.2.5 Bounded Context: Analytics Mangement](#425-bounded-context-analytics-mangement)
   - [Diccionario de Clases](#diccionario-de-clases-2)
     - [Clase: `CropReport`](#clase-cropreport)
-        - [Atributos](#atributos-18)
-        - [Métodos](#métodos-29)
-    - [Clase: `HistoricalReport`](#clase-historicalreport)
         - [Atributos](#atributos-19)
         - [Métodos](#métodos-30)
+    - [Clase: `HistoricalReport`](#clase-historicalreport)
+        - [Atributos](#atributos-20)
+        - [Métodos](#métodos-31)
       - [4.2.5.1 Domain Layer](#4251-domain-layer)
     - [Aggregate Root](#aggregate-root-4)
       - [Aggregate: `CropReport`](#aggregate-cropreport)
-        - [Atributos](#atributos-20)
-        - [Métodos](#métodos-31)
-    - [Entities](#entities-4)
-      - [Entidad: `HistoricalReport`](#entidad-historicalreport)
         - [Atributos](#atributos-21)
         - [Métodos](#métodos-32)
+    - [Entities](#entities-4)
+      - [Entidad: `HistoricalReport`](#entidad-historicalreport)
+        - [Atributos](#atributos-22)
+        - [Métodos](#métodos-33)
     - [Value Objects](#value-objects-4)
     - [Domain Services](#domain-services-4)
       - [Servicio de Dominio: `CropReportService`](#servicio-de-dominio-cropreportservice)
-        - [Métodos](#métodos-33)
+        - [Métodos](#métodos-34)
     - [Repositories](#repositories-4)
       - [Repositorio: `CropReportRepository`](#repositorio-cropreportrepository)
-        - [Métodos](#métodos-34)
-      - [Repositorio: `HistoricalReportRepository`](#repositorio-historicalreportrepository)
         - [Métodos](#métodos-35)
+      - [Repositorio: `HistoricalReportRepository`](#repositorio-historicalreportrepository)
+        - [Métodos](#métodos-36)
       - [4.2.5.2 Interface Layer](#4252-interface-layer)
     - [Bounded Context: Crops Reports Management](#bounded-context-crops-reports-management)
     - [CropReportController](#cropreportcontroller)
@@ -2158,7 +2160,7 @@ Este es el diagrama de base de datos del Bounded context Subscriptions & Payment
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747310269/database-suscription-warusmart.png">
 </p>
 
-### 4.2.3 Bounded Context: Crops Management (Notification)
+### 4.2.3 Bounded Context: Crops Management
 
 #### 4.2.3.1 Domain Layer
  Dentro del dominio de **Crops Management**, se encuentran entidades y servicios clave que permiten gestionar los cultivos registrados por los usuarios dentro de la plataforma Warusmart. Este módulo es esencial para organizar toda la información agrícola, permitiendo llevar un control eficiente de qué cultivos están sembrados, en qué parcelas, con qué fechas de siembra y en qué estado de desarrollo se encuentran.
@@ -2193,6 +2195,31 @@ Este es el diagrama de base de datos del Bounded context Subscriptions & Payment
  - `updateArea()`
  - `reassignField()`
  
+
+ #### Aggregate: `Sowing`
+
+| Nombre | Sowing  |
+| ------ | ------- |
+| Descripción | Representa el agregado que gestiona toda la información de los sembríos en la plataforma |
+
+  ##### Atributos
+
+  - `id: String`
+  - `StartDate: DateTime`
+  - `EndDate: DateTime`
+  - `AreaLand: int`
+  - `Status: bool`
+  - `PhenologicalPhase: EPhenologicalPhase`
+  - `crop: Crop`
+  - `user: User`
+
+  ##### Métodos
+
+  - `updateSowing()`
+  - `CreateSowing()`
+  - `getAllSowingDevicesbyId()`
+  - `getGeneralInformation()`
+
  ---
  
  ### Entities
@@ -2289,7 +2316,6 @@ Este es el diagrama de base de datos del Bounded context Subscriptions & Payment
  ---
  
 #### 4.2.3.2 Interface Layer
-### Bounded Context: Crops Management
 
 En esta sección, se presenta la capa de interfaz correspondiente al dominio de **Crops Management**, responsable de gestionar todas las interacciones de los usuarios relacionadas con el registro, actualización y visualización de cultivos en la plataforma.
 
@@ -2415,7 +2441,7 @@ En el siguiente diagrama se muestra el componente Crops Management de la soluci�
  ##### 4.2.3.6.2 Bounded Context Database Design Diagrams
  Este es el diagrama de base de datos del Bounded context Crops Management
  <p>
-   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropManagement_vgvwwo.jpg">
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747350291/cropsmanagement-databasediagram.png">
  </p>
  
  ### 4.2.4 Bounded Context: Irrigation Management
@@ -2695,7 +2721,7 @@ El siguiente diagrama muestra el componente Irrigation Management de la solució
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/IrrigationManagement_h8cwzv.jpg">
  </p>
  
- ### 4.2.5 Bounded Context: Crops Reports Management
+ ### 4.2.5 Bounded Context: Analytics Mangement
  ## Diccionario de Clases
  
  ### Clase: `CropReport`
