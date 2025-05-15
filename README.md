@@ -3322,6 +3322,20 @@ En la siguiente captura se visualiza el Actions actualizado en nuestro repositor
 
 #### 6.2.1.1 Sprint Planning 1
 
+|Sprint # | Sprint 1|
+|---------|---------|
+**SprintPlanningBackground** 
+**Date** | 2025-05-01
+**Time** | 19:00PM–20:00PM
+**Location** | Virtual (Google Meet)
+**PreparedBy** | Codex Team
+**Attendees(to planning meeting)** | Codex Team
+**Sprintn–0ReviewSummary** | Debido a que es el primer sprint, no hay reviews de un sprint anterior.
+**Sprintn–1RetrospectiveSummary** | Siendo el primer sprint, se mencionará la expectativa de los miembros del equipo: terminar las actividades designadas en el Sprint 1
+**SprintGoalandUserStories** | Objetivo: Diseñar e implementar la landing page, web application y API application.
+**Sprint1Velocity** | X puntos
+**SumofStoryPoints** | X
+
 #### 6.2.1.2 Aspect Leaders and Collaborators
 
 #### 6.2.1.3 Sprint Backlog 1
