@@ -3210,17 +3210,17 @@ En el siguiente wireframe se muestra la sección "Iniciar sesión", donde nuestr
 **Crear Cuenta**
 El siguiente wireframe muestra la sección de "Registro de usuario", donde los agricultores podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por WaruSmart.
 
-<img src="./Assets/cap5/appweb/Register.png">
+<img src="./Assets/cap5/appweb/Register-Wireframe.png">
 
 **Elegir Suscripción**
 El siguiente wireframe presenta la sección “Elegir plan de pago”, la cual despliega las categorías de planes disponibles en la plataforma.
 
-<img src="./Assets/cap5/appweb/Suscripcion.png">
+<img src="./Assets/cap5/appweb/Suscripcion-Wireframe.png">
 
 **Pasarela de Pagos**
 El siguiente wireframe corresponde a la sección “Pasarela de pagos” donde los agricultores son dirigidas a un formulario para seleccionar y registrar su método de pago.
 
-<img src="./Assets/cap5/appweb/Pagar.png">
+<img src="./Assets/cap5/appweb/Pagar-Wireframe.png">
 
 **Mi Perfil**
 El siguiente wireframe presenta la sección "Mi perfil", donde se muestran los datos que el usuario proporcionó al registrarse en WaruSmart. Además, el usuario tendrá la capacidad de modificar esta información según sea necesario.
@@ -3250,12 +3250,12 @@ Esta sección forma parte de "Información del cultivo". Aquí se despliegan det
 **Cuidado de Cultivos**
 Esta sección forma parte de "Información del cultivo". Aquí se muestra la fase fenológica del cultivo, la fecha de cambio de fase fenológica, recomendaciones para el cuidado del cultivo y un calendario que facilita la visualización de las fechas de los cuidados.
 
-<img src="./Assets/cap5/appweb/Cuidado.png">
+<img src="./Assets/cap5/appweb/Cuidado-Wireframe.png">
 
 **Controles o Isumos**
 Las secciones de Controles e Insumos son parte integral de "Información del cultivo". En la sección de Controles, el usuario puede realizar un controles del estado de su cultivo en determinada fase fenologica, mientras que en la sección de Insumos puede registrar los insumos utilizados en el cultivo.
 
-<img src="./Assets/cap5/appweb/Controles.png">
+<img src="./Assets/cap5/appweb/Controles-Wireframe.png">
 
 **Añadir Controles o Insumos**
 En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir un control o insumo.
@@ -3285,12 +3285,12 @@ En la sección "Foro de Consulta", los usuarios podrán publicar, ver y responde
 **Añadir consulta**
 En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir una pregunta al foro.
 
-<<img src="./Assets/cap5/appweb/Anadir-consulta.png">
+<img src="./Assets/cap5/appweb/Anadir-consulta.png">
 
 **Respuestas de consultas**
 En esta sección los usuarios podran ver las respuestas a una pregunta.
 
-<<img src="./Assets/cap5/appweb/Respuestas-consultas.png">
+<img src="./Assets/cap5/appweb/Respuestas-consultas.png">
 
 **Web Applications Wireframe Mobile**
 A continuacion se prensenta los wireframes responsive, estos cuentan con las mismas secciones anteriormente mencionadas.
@@ -3360,10 +3360,11 @@ Enalce LucidChart: https://lucid.app/lucidchart/9c7847da-4de3-488f-a4ca-b3ec8d90
 Enlace para acceder al Figma: https://www.figma.com/design/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=4-12&t=iZEQruVTNqlT2DZg-1
 
 **Web Applications Mock-ups Desktop Web Browser**
+
 **Iniciar sesión**
 En el siguiente wireframe se muestra la sección "Iniciar sesión", donde nuestros usuarios podrán ingresar los datos necesarios para acceder a la aplicación, siempre y cuando cuenten con una cuenta previamente creada.
 
-<img src="./Assets/cap5/appweb/LogIn.png">
+<img src="./Assets/cap5/appweb/Sign In.png">
 
 **Crear cuenta**
 El siguiente wireframe muestra la sección de "Registro de usuario", donde los usuarios podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por WaruSmart. 
