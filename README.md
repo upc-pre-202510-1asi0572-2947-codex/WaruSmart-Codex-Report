@@ -2585,6 +2585,9 @@ Los principales repositorios en este contexto son:
  #### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
  
  ##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747315010/irrigationmanagement-warusmart.png">
+</p>
 
  ##### 4.2.4.6.2 Bounded Context Database Design Diagrams
  <p>
@@ -2879,6 +2882,9 @@ Los principales repositorios en este contexto son:
 #### 4.2.5.6 Bounded Context Softwre Architecture Code Level Diagrams
 
 #### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+<p>
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747315514/cropreportsmanagement-warusmart.png">
+ </p>
 
 #### 4.2.5.6.2 Bounded Context Database Design Diagrams
 <p>
