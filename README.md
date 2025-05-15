@@ -415,6 +415,10 @@ para cada integrante del equipo:
       - [6.2.1.4 Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
       - [6.2.1.5 Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
       - [6.2.1.6 Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [Home](#home)
+      - [Sowings list](#sowings-list)
+      - [Sowings Management](#sowings-management)
+      - [IoT Devices Management](#iot-devices-management)
       - [6.2.1.7 Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [Evidencias visuales del backend:](#evidencias-visuales-del-backend)
       - [6.2.1.8 Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
@@ -4154,7 +4158,28 @@ Para el logro de este proyecto, se realizó el despliegue tanto de la **Landing 
 
   **Evidencia de frontend:**
 - ![Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/zuitbzbdhkycp0vp4aj8.jpg)  
-  *Vista general de la interfaz web, donde se muestran las métricas del cultivo, dispositivos IoT y recomendaciones específicas según el tipo de planta sembrada.*
+  *Vista general de la interfaz web, donde se mostrarán las métricas del cultivo, dispositivos IoT y recomendaciones específicas según el tipo de planta sembrada.*
+
+#### Home
+
+<p>
+ <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349054/frontend-home-warusmart.png">
+</p>
+
+#### Sowings list
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349115/frontend-sowingslist-warusmart.png">
+</p>
+
+#### Sowings Management
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349152/frontend-sowingmanagement-warusmart.png">
+</p>
+
+#### IoT Devices Management
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png">
+</p>
 
 ---
 
