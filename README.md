@@ -574,11 +574,13 @@ El sistema WaruSmart es un producto de confianza, respaldado por datos precisos.
 
 #### 1.2.2.4 Lean UX Canvas.
 
-A continuación se presenta el Lean UX Canvas realizado para nuestra solución:
+A continuación se presenta el Lean UX Canvas realizado para nuestra solución, dónde se visualiza la recopilación del proceso Lean UX realizado previamente:
 
 Lean UX Canvas:
 
 ![Lean UX Canvas](Assets/lean-ux-canvas/lean-ux-canvas-warusmart.png)
+
+Enlace a herramienta Miro: https://miro.com/welcomeonboard/UWFFNVNNeFJxOGd3MEl5eCt6T3ZBQTNwckIvdkdGdEMrTmNPV2lDc3ZXMFBMVlUxL1ZwcW1ncVBIOTJRU1hicCtLUnMxaUhBaUZkZkdPaGUxaitTNjYyOCtJazNuTUdzMGFheCsrNFY2eHFsZ3JZakdXS1JYd2xYNFNRVFRRQ2p0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=648998225080 
 
 ### 1.3 **Segmentos Objetivos.**
 
