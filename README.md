@@ -246,8 +246,8 @@ para cada integrante del equipo:
       - [AccountRepository](#accountrepository)
       - [SubscriptionRepository](#subscriptionrepository)
       - [PaymentRepository](#paymentrepository)
-      - [4.2.2.5 Bounded Context Softwre Architecture Component Level Diagrams](#4225-bounded-context-softwre-architecture-component-level-diagrams)
-      - [4.2.2.6 Bounded Context Softwre Architecture Code Level Diagrams](#4226-bounded-context-softwre-architecture-code-level-diagrams)
+      - [4.2.2.5 Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.2.6 Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.2.6.1 Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
         - [4.2.2.6.2 Bounded Context Database Design Diagrams](#42262-bounded-context-database-design-diagrams)
     - [4.2.3 Bounded Context: Crops Management (Notification)](#423-bounded-context-crops-management-notification)
@@ -286,8 +286,8 @@ para cada integrante del equipo:
     - [Repositorios](#repositorios-2)
       - [CropRepository](#croprepository)
       - [FieldRepository](#fieldrepository)
-      - [4.2.3.5 Bounded Context Softwre Architecture Component Level Diagrams](#4235-bounded-context-softwre-architecture-component-level-diagrams)
-      - [4.2.3.6 Bounded Context Softwre Architecture Code Level Diagrams](#4236-bounded-context-softwre-architecture-code-level-diagrams)
+      - [4.2.3.5 Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.3.6 Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1 Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2 Bounded Context Database Design Diagrams](#42362-bounded-context-database-design-diagrams)
     - [4.2.4 Bounded Context: Irrigation Management](#424-bounded-context-irrigation-management)
@@ -1720,6 +1720,7 @@ Los principales repositorios en este contexto son:
 ---
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
+En el siguiente diagrama de muestra el componente de IAM
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIAMComponents_grbjpl.png">
 </p>
@@ -1727,11 +1728,13 @@ Los principales repositorios en este contexto son:
 #### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
+Este es el diagrama de clases del Bounded context IAM
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747311435/iambounded-classdiagram.png">
 </p>
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagrams
+Este es el diagrama de base de datos del Bounded context IAM
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747309926/databasediagram-warusmart.png">
 </p>
@@ -2135,19 +2138,22 @@ Los principales repositorios en este contexto son:
 | `deleteById(paymentId: int): void` | Elimina un registro de pago utilizando su identificador único. |
 
 ---
-#### 4.2.2.5 Bounded Context Softwre Architecture Component Level Diagrams
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams
+El siguiente diagrama muestra el componente Subscriptions & Payments
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674154/WaruSmartSubscriptionsPaymentsComponents_d1wzj6.png">
  </p>
 
-#### 4.2.2.6 Bounded Context Softwre Architecture Code Level Diagrams
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+Este es el diagrama de clases del Bounded context Subscriptions & Payments
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747313475/subscription-classdiagram-warusmart.png">
 </p>
 
 ##### 4.2.2.6.2 Bounded Context Database Design Diagrams
+Este es el diagrama de base de datos del Bounded context Subscriptions & Payments
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747310269/database-suscription-warusmart.png">
 </p>
@@ -2392,19 +2398,22 @@ Los principales repositorios en este contexto son:
 | `deleteById(fieldId: int): void` | Elimina un campo agrícola de la base de datos utilizando su identificador. |
 
 ---
-#### 4.2.3.5 Bounded Context Softwre Architecture Component Level Diagrams
+#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams
+En el siguiente diagrama se muestra el componente Crops Management de la solución
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsManagementComponents_iyktxz.png">
  </p>
  
- #### 4.2.3.6 Bounded Context Softwre Architecture Code Level Diagrams
+ #### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
  
  ##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+ Este es el diagrama de clases del Bounded context Crops Management
   <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747314382/cropsmanagement-warusmart.png">
  </p>
 
  ##### 4.2.3.6.2 Bounded Context Database Design Diagrams
+ Este es el diagrama de base de datos del Bounded context Crops Management
  <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropManagement_vgvwwo.jpg">
  </p>
@@ -2667,6 +2676,7 @@ Los principales repositorios en este contexto son:
 ---
 
 #### 4.2.4.5 Bounded Context Softwre Architecture Component Level Diagrams
+El siguiente diagrama muestra el componente Irrigation Management de la solución
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIrrigationManagementComponents_nbo4c1.png">
  </p>
@@ -2674,11 +2684,13 @@ Los principales repositorios en este contexto son:
  #### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
  
  ##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+ Este es el diagrama de clases del Bounded context Irrigation Management
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747315010/irrigationmanagement-warusmart.png">
 </p>
 
  ##### 4.2.4.6.2 Bounded Context Database Design Diagrams
+ Este es el diagrama de clases del Bounded context Irrigation Management
  <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/IrrigationManagement_h8cwzv.jpg">
  </p>
@@ -2964,6 +2976,7 @@ Los principales repositorios en este contexto son:
  ---
 
 #### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
+El siguiente diagrama muestra el componente Crops Reports Management de la solución
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsReportsManagementComponents_uxvryf.png">
  </p>
@@ -2971,11 +2984,13 @@ Los principales repositorios en este contexto son:
 #### 4.2.5.6 Bounded Context Softwre Architecture Code Level Diagrams
 
 #### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+Este es el diagrama de clases del Bounded context Crops Reports Management
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747315514/cropreportsmanagement-warusmart.png">
  </p>
 
 #### 4.2.5.6.2 Bounded Context Database Design Diagrams
+Este es el diagrama de clases del Bounded context Crops Reports Management
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropsReportsManagement_feeifk.jpg">
  </p>
