@@ -1329,7 +1329,7 @@ Para la definición de nuestra arquitectura de software hicimos uso del Diagrama
 #### 4.1.3.1 Software Architecture System Landscape Diagram
 El siguiente diagrama muestra la estructura global de la solución.
 <p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747293047/systemlandscape-warusmart.png">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747297902/systemlandscape-warusmart.png">
 </p>
 
 #### 4.1.3.2 Software Architecture Context Level Diagrams
@@ -1346,7 +1346,7 @@ El siguiente diagrama ilustra cómo los diferentes contenedores del sistema inte
 #### 4.1.3.2 Software Architecture Deployment Diagrams
 Este diagrama muestra cómo los diferentes elementos del sistema, como aplicaciones, servidores, bases de datos y dispositivos de usuario, se despliegan en nodos físicos o virtuales.
 <p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContainers_d6yoda.png">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747299819/deploymentdiagram-warusmart.png">
 </p>
 
 ## 4.2. Tactical-Level Domain-Driven Design
