@@ -2312,7 +2312,7 @@ Los principales repositorios en este contexto son:
  
  ##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
   <p>
-   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropManagement_vgvwwo.jpg">
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747314382/cropsmanagement-warusmart.png">
  </p>
 
  ##### 4.2.3.6.2 Bounded Context Database Design Diagrams
