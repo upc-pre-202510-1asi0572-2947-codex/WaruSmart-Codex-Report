@@ -3263,6 +3263,45 @@ Enalce LucidChart: https://lucid.app/lucidchart/9c7847da-4de3-488f-a4ca-b3ec8d90
   
 ### 5.4.4 User Flow Diagrams
 
+**User Goal: Registrarse o iniciar sesión en la plataforma**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+El usario va a la pantalla iniciar sesión, donde tras ingresar su correo y contraseña selecciona su plan e ingresa sus datos. Finalmente, puede visualizar sus datos e ingresar al panel de control. En caso de que al iniciar sesión el usuario no fuera capaz de ver
+el panel debido a un error, visualizará un mensaje de "ERROR 404"
+
+<img src="./Assets/cap5/appweb/signup_flow.png">
+
+**User Goal: Añadir cultivo**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Desde el panel, el usuario entra en la sección de de cultivos en progreso, donde al pulsar el botón de añadir cultivo, este puede ingresar sus datos para crearlo. Si funciona, el usuario será redirigido a una pantalla desde la que puede visualizar los datos del
+cultivo creado, si la aplicación falla, se  mostrará mensajes de error.
+
+<img src="./Assets/cap5/appweb/addcrop_flow.png">
+
+
+**User Goal: Revisar el reporte estadistico de cultivos**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+El usuario puede ver las estadísticas de sus cultivos mediante gráficos. Si la aplicación presenta fallos, no se mostrará ningún gráfico.
+
+<img src="./Assets/cap5/appweb/viewstatics_flow.png">
+
+**User Goal: Realizar consultas a otros usuarios de la aplicación mediante el foro**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+El usuario puede acceder a un foro de consultas, con preguntas de varios colaboradores. Una vez allí, puede elegir crear una consulta, tras lo cual podrá visualizarla en el apartado de "Mis consultas"
+
+<img src="./Assets/cap5/appweb/consultation_flow.png">
+
+
+Enalce LucidChart: https://lucid.app/lucidchart/e26e722e-1559-4de0-8a94-519b208fb2f1/edit?viewport_loc=-909%2C3363%2C2952%2C1447%2C0_0&invitationId=inv_e80d2f45-112d-4551-86a3-f75d86cd3677
+
+
 ## 5.5 Applications Prototyping
 
 # Capítulo VI: Product Implementation, Validation & Deployment
