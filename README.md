@@ -1055,7 +1055,7 @@ Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
     <tr>
       <td>E3-US301</td>
       <td>Activación automática del riego por baja humedad del suelo</td>
-      <td>8</td>
+      <td>5</td>
       <td>3</td>
     </tr>
     <tr>
