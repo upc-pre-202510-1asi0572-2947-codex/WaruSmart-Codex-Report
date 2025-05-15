@@ -3006,6 +3006,27 @@ Se debe incluir un punto y coma al final de cada instrucción.
 
 ### 6.1.4 Software Deployment Configuration
 
+En esta seccion abordaremos el despliegue de nuestro Landing Page, Aplicacion Web y Backend API Aplication.
+
+1. Landing Page
+
+2. Aplicación Web
+
+3. Backend API Aplication
+
+Se utilizo Azure para el despliegue de la aplicacion Backend Api desarrollada en Net Core. La configuracion inicial se evidencia en la siguiente captura:
+
+<img src="./Assets/chapter-vi/backend-1.jpeg">
+
+En la siguiente imagen se evidencia las creación tanto de los recursos de la base de datos ("waru-smart-server"), aplicacion de servicio ("waru-smart") entre otros recursos indispensables para el correcto funcionamiento del servicios API.
+
+<img src="./Assets/chapter-vi/backend-2.jpeg">
+
+Por último visualizamos el API una vez deployado, en la página de documentación swagger para la visualización de los Endpoints y futuro acceso mediante la aplicación web a través de los endpoints.
+
+<img src="./Assets/chapter-vi/backend-3.jpeg">
+
+
 ## 6.2 Landing Page, Services & Applications Implementation
 
 ### 6.2.1 Sprint 1
