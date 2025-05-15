@@ -3062,16 +3062,18 @@ A continuación, se presenta nuestra landing page vista desde el desktop web bro
 
 A continuación, se presenta la landing page vista desde el mobile web browser. Esta incluye los mismos contenidos que el diseño desktop web browser, pero adaptados a las dimensiones del dispositivo móvil.
 
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile1.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile2.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile3.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile4.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile5.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile6.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile7.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile8.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile9.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile10.png" style="max-width: 30%;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile1.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile2.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile3.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile4.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile5.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile6.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile7.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile8.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile9.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile10.png" style="max-width: 30%;">
+</div>
 
 ### 5.3.2 Landing Page Mock-up
 
@@ -3083,15 +3085,17 @@ A continuación, les mostramos el mockup actualizado de nuestra página de inici
 **Landing Page Mock-up Mobile**
 El mock-up para la landing page en la vista del navegador web móvil incorpora la misma estructura de los wireframes y las mismas secciones mencionados anteriormente.
 
-<img src="./Assets/cap5/landingpage/LandingPageMockup1.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandingPageMockup2.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandingPageMockup3.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandingPageMockup4.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandingPageMockup5.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandingPageMockup6.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandingPageMockup7.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandingPageMockup8.png" style="max-width: 30%;">
-<img src="./Assets/cap5/landingpage/LandingPageMockup10.png" style="max-width: 30%;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup1.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup2.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup3.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup4.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup5.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup6.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup7.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup8.png" style="max-width: 30%;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup10.png" style="max-width: 30%;">
+</div>
 
 ## 5.4 Applications UX/UI Design
 
