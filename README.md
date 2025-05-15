@@ -578,7 +578,7 @@ A continuación se presenta el Lean UX Canvas realizado para nuestra solución, 
 
 Lean UX Canvas:
 
-![Lean UX Canvas](Assets/lean-ux-canvas/lean-ux-canvas-warusmart.png)
+![Lean UX Canvas](https://res.cloudinary.com/ddexg0fk0/image/upload/v1747307889/LeanUXCanvas-WaruSmart_yh2voe.png)
 
 Enlace a herramienta Miro: https://miro.com/welcomeonboard/UWFFNVNNeFJxOGd3MEl5eCt6T3ZBQTNwckIvdkdGdEMrTmNPV2lDc3ZXMFBMVlUxL1ZwcW1ncVBIOTJRU1hicCtLUnMxaUhBaUZkZkdPaGUxaitTNjYyOCtJazNuTUdzMGFheCsrNFY2eHFsZ3JZakdXS1JYd2xYNFNRVFRRQ2p0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=648998225080 
 
