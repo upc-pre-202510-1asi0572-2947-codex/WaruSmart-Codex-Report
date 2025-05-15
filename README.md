@@ -3260,6 +3260,155 @@ Para este diagrama de flujo somos conscientes que a veces no podemos resolver to
 Enalce LucidChart: https://lucid.app/lucidchart/9c7847da-4de3-488f-a4ca-b3ec8d902fac/edit?viewport_loc=-1741%2C-4731%2C3670%2C1738%2C0_0&invitationId=inv_6678fc32-61ab-4f16-8bd1-5e98388fa599 
 
 ### 5.4.3 Mock-ups
+
+Enlace para acceder al Figma: https://www.figma.com/design/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=4-12&t=iZEQruVTNqlT2DZg-1
+
+**Web Applications Mock-ups Desktop Web Browser**
+**Iniciar sesión**
+En el siguiente wireframe se muestra la sección "Iniciar sesión", donde nuestros usuarios podrán ingresar los datos necesarios para acceder a la aplicación, siempre y cuando cuenten con una cuenta previamente creada.
+
+<img src="./Assets/cap5/appweb/LogIn.png">
+
+**Crear cuenta**
+El siguiente wireframe muestra la sección de "Registro de usuario", donde los usuarios podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por WaruSmart. 
+
+<img src="./Assets/cap5/appweb/Register.png">
+
+**Elegir suscripción**
+El siguiente wireframe presenta la sección “Elegir plan de pago”, la cual despliega las categorías de planes disponibles en la plataforma. 
+
+<img src="./Assets/cap5/appweb/Suscripcion.png">
+
+**Pasarela de pagos**
+El siguiente mockup corresponde a la sección “Pasarela de pagos” donde los agricultores u horticultores son dirigidas a un formulario para seleccionar y registrar su método de pago. 
+
+<img src="./Assets/cap5/appweb/Pagar.png">
+
+**Mi Perfil**
+El siguiente mockup presenta la sección "Mi perfil", donde se muestran los datos que el usuario proporcionó al registrarse en WaruSmart. Además, el usuario tendrá la capacidad de modificar esta información según sea necesario. 
+
+<img src="./Assets/cap5/appweb/Mi perfil.png">
+
+**Panel de control**
+En la sección "Panel de control", los usuarios podrán visualizar estadísticas de sus cultivos. Además, dispondrán de enlaces que los llevarán directamente a otras secciones de la aplicación. 
+
+<img src="./Assets/cap5/appweb/Panel de Control.png">
+
+**Lista de Cultivos**
+En la sección "Lista de cultivos" los usuarios podran ver los cultivos que se encuentran en curso. Además, si selecciona un cultivo va a tener acceso a mas información del mismo y tambien podran añadir cultivos. 
+
+<img src="./Assets/cap5/appweb/Lista de cultivos en curso.png">
+
+**Añadir Cultivo**
+En la sección "Añadir Cultivo" los usuarios tiene que llenar los parametros necesarios para poder añadir un cultivo. 
+
+<img src="./Assets/cap5/appweb/Añadir Cultivo.png">
+
+**Informacion General**
+Esta sección forma parte de "Información del cultivo". Aquí se despliegan detalles como el nombre del cultivo, la fecha de inicio, el área plantada y una descripción del mismo. 
+
+<img src="./Assets/cap5/appweb/Informacion General.png">
+
+**Cuidado de cultivos**
+Esta sección forma parte de "Información del cultivo". Aquí se muestra la fase fenológica del cultivo, la fecha de cambio de fase fenológica, recomendaciones para el cuidado del cultivo y un calendario que facilita la visualización de las fechas de los cuidados. 
+
+<img src="./Assets/cap5/appweb/Cuidado.png">
+
+**Controles e insumos**
+Las secciones de Controles e Insumos son parte integral de "Información del cultivo". En la sección de Controles, el usuario puede realizar un controles del estado de su cultivo en determinada fase fenologica, mientras que en la sección de Insumos puede registrar los insumos utilizados en el cultivo. 
+
+<img src="./Assets/cap5/appweb/Controles.png">
+
+**Añadir Controles**
+En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir un control o insumo. 
+
+<img src="./Assets/cap5/appweb/Añadir Control.png">
+
+**Enfermedades o Plagas**
+Esta sección es parte de "Información del cultivo". Aquí, el usuario podrá buscar información sobre enfermedades o plagas que estén afectando a su cultivo. 
+
+<img src="./Assets/cap5/appweb/Enfermedades o Plagas.png">
+
+**Productos Consumidos**
+Esta sección que se encuentra dentro de "Información de cultivo", muestra al usuario los detalles de los productos que se registró su uso durante el uso de la aplicación; detallando la fecha del consumo, el tipo de producto utilizado, el nombre científico del producto y la cantidad registrada de uso 
+
+<img src="./Assets/cap5/appweb/Productos Consumidos.png">
+
+**Añadir Producto**
+Esta sección que es parte de la sección "Productos consumidos" muestra la ventana de Add Product, el cual permite registrar el tipo, nombre y cantidad del producto que desee añadir dentro de sus productos consumidos. A la ves, se muestra los de accion los cuáles confirman la adición del producto al registro de productos usados del usuario y la cancelación de añadir un nuevo producto; respectivamente. exportracion de controles 
+
+<img src="./Assets/cap5/appweb/Añadir Producto.png">
+
+**Historico de Cultivos**
+En esta sección, los usuarios podrán visualizar los registros de los cultivos que hayan realizado dentro de la aplicación. 
+
+<img src="./Assets/cap5/appweb/Historico de Cultivos.png">
+
+**Exportacion Controles**
+En esta sección se muestra la opción de exportar los controles registrados del usuario a lo largo de su uso en la aplicación mediante el botón "Export" 
+
+<img src="./Assets/cap5/appweb/Exportacion de Controles.png">
+
+**Exportacion Productos Consumidos**
+En esta sección se muestra la opción de exportar los productos registrados por el usuario mediante un botón "Export" 
+
+<img src="./Assets/cap5/appweb/Exportacion de Productos Consumidos.png">
+
+**Reporte estadístico**
+La siguiente sección muestra los informes estadísticos que proporciona la aplicación WaruSmart, en particular, los insumos utilizados por cultivo y el número de controles realizados por cultivo. 
+
+<img src="./Assets/cap5/appweb/Reporte estadístico.png">
+
+**Foro de Consulta**
+En la sección "Foro de Consulta", los usuarios podrán publicar, ver y responder preguntas presentes en el foro. Además, tendrán la opción de filtrar las preguntas. 
+
+<img src="./Assets/cap5/appweb/Foro de Consulta.png"
+
+**Añadir consulta**
+En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir una pregunta al foro. 
+
+<img src="./Assets/cap5/appweb/Nueva consulta.png">
+
+**Mis Consultas**
+En esta sección se muestra todas las consultas que ha realizado cada usuario dentro de la aplicación, mostrando la información de la pregunta, la categoría asociada, el usuario que realizo la consulta y la fecha de publicación 
+
+<img src="./Assets/cap5/appweb/Mis Consultas.png">
+
+
+**Respuestas de consultas**
+En esta sección los usuarios podran ver las respuestas a una pregunta. 
+
+<img src="./Assets/cap5/appweb/Respuestas de consultas.png">
+
+**Web Applications Mock-ups Mobile**
+A continuacion se prensenta los Mock-ups responsive, estos cuentan con las mismas secciones anteriormente mencionadas.
+
+<h3>📱 Web Applications Mock-ups Mobile</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="./Assets/cap5/appweb/LogIn-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Register-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Suscripcion-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Pagar-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Mi perfil-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Panel de Control-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Lista de cultivos en curso-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Añadir Cultivo-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Informacion General-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Cuidado-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Controles-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Añadir Control-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Enfermedades o Plagas-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Productos Consumidos-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Añadir Producto-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Historico de Cultivos-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Exportacion de Controles-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Exportacion de Productos Consumidos-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Reporte estadístico-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Foro de Consulta-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Nueva consulta-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Mis Consultas-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Respuestas de consultas-Mobile-Mock.png" style="width: 30%; height: auto;">
+</div>
   
 ### 5.4.4 User Flow Diagrams
 
