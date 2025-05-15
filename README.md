@@ -3050,9 +3050,48 @@ para fioltrar los resultados obtenidos.
 
 ## 5.3 Landing Page UI Design
 
-### 5.3.1 Wireframe
+### 5.3.1 Landing Page Wireframe
 
-### 5.3.2 Mock-up
+**Landing Page Wireframe Desktop Web Browser**
+
+A continuación, se presenta nuestra landing page vista desde el desktop web browser. Esta cuenta con secciones de gran relevancia para el usuario, las cuales ofrecen información sobre los beneficios que obtendrá a través del producto, los diferentes planes de pago disponibles, los perfiles de los miembros del equipo y las opiniones de nuestros clientes. Además, en esta sección encontrarán un formulario mediante el cual los usuarios podrán ponerse en contacto con los desarrolladores de la aplicación a través de un mensaje por correo electrónico.
+
+![Wireframe Desktop](./Assets/cap5/landingpage/LandinPageWireframe.png)
+
+**Landing Page Wireframe Mobile**
+
+A continuación, se presenta la landing page vista desde el mobile web browser. Esta incluye los mismos contenidos que el diseño desktop web browser, pero adaptados a las dimensiones del dispositivo móvil.
+
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile1.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile2.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile3.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile4.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile5.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile6.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile7.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile8.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile9.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile10.png" style="max-width: 30%;">
+
+### 5.3.2 Landing Page Mock-up
+
+**Landing Page Mock-up Desktop Web Browser**
+A continuación, les mostramos el mockup actualizado de nuestra página de inicio. Este diseño se ha creado utilizando los wireframes previamente desarrollados y siguiendo las General Style Guidelines, asegurándonos de mantener todas las secciones pertinentes y optimizando la experiencia del usuario.
+
+![Mockup Desktop](./Assets/cap5/landingpage/LandingPageMockup.png)
+
+**Landing Page Mock-up Mobile**
+El mock-up para la landing page en la vista del navegador web móvil incorpora la misma estructura de los wireframes y las mismas secciones mencionados anteriormente.
+
+<img src="./Assets/cap5/landingpage/LandingPageMockup1.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandingPageMockup2.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandingPageMockup3.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandingPageMockup4.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandingPageMockup5.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandingPageMockup6.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandingPageMockup7.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandingPageMockup8.png" style="max-width: 30%;">
+<img src="./Assets/cap5/landingpage/LandingPageMockup10.png" style="max-width: 30%;">
 
 ## 5.4 Applications UX/UI Design
 
