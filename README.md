@@ -617,7 +617,7 @@ El sistema WaruSmart es un producto de confianza, respaldado por datos precisos.
 
 A continuación se presenta el Lean UX Canvas realizado para nuestra solución, dónde se visualiza la recopilación del proceso Lean UX realizado previamente:
 
-Lean UX Canvas:
+Lean UX Canvas:El Lean UX Canvas de WaruSmart resume los problemas, usuarios, soluciones y beneficios clave identificados durante el proceso de diseño. Plantea hipótesis centradas en mejorar la productividad agrícola mediante riego automatizado y decisiones basadas en datos, y propone validarlas a través de pruebas piloto y comparaciones con métodos tradicionales.
 
 ![Lean UX Canvas](https://res.cloudinary.com/ddexg0fk0/image/upload/v1747307889/LeanUXCanvas-WaruSmart_yh2voe.png)
 
@@ -644,6 +644,8 @@ Enlace a herramienta Miro: https://miro.com/welcomeonboard/UWFFNVNNeFJxOGd3MEl5e
 ## 2.1 **Competidores.**
 
 ### 2.1.1   Análisis competitivo.
+
+El análisis competitivo permite identificar las fortalezas, debilidades y estrategias clave de las principales soluciones similares en el mercado. Esta comparación proporciona una visión clara del posicionamiento de WaruSmart frente a otras propuestas tecnológicas de riego agrícola, considerando aspectos como perfil, propuesta de valor, estrategias de marketing, productos y análisis FODA. A través de esta evaluación se busca destacar las ventajas diferenciales de WaruSmart y detectar oportunidades de mejora en el entorno competitivo.
 
 |                                                         | WaruSmart                                                                                                                                                                                                                                   | Agrobit                                                                                                                                                                              | Netafirm                                                                                                                                                                                                                                                                | Irritec                                                                                                                                                                                                 |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -716,6 +718,8 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 <p>10. ¿Cuanto estarian dispuestos a pagar por el sistema?</p>
 
 ### 2.2.2   Registro de entrevistas.
+
+Con el objetivo de validar la necesidad de una solución tecnológica en el riego agrícola, se realizaron entrevistas cualitativas a agricultores individuales y representantes de cooperativas agrarias de distintas regiones del Perú. Estas entrevistas permitieron identificar comportamientos, problemas, expectativas y actitudes frente al uso de tecnología en el campo, así como el nivel de disposición hacia una solución como WaruSmart. A continuación, se presenta un resumen de los testimonios recogidos.
 
 **Segmento1: Agricultores individuales**
 
@@ -995,6 +999,8 @@ E2-US12                                                                         
 
 ## 3.3 **Impact Mapping.**
 
+El Impact Mapping es una técnica de visualización estratégica que ayuda a alinear los objetivos del negocio con las funcionalidades del sistema, considerando los actores involucrados, sus acciones y los impactos esperados. En el caso de WaruSmart, se elaboraron mapas de impacto para los dos segmentos principales de usuarios: agricultores individuales y cooperativas agrarias. Estos mapas permiten identificar de manera clara cómo cada tipo de usuario puede beneficiarse del sistema, y qué funcionalidades deben priorizarse para lograr los resultados deseados.
+
 **Segmento agricultor**
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/WaruSmart-impact-mapping-agricultor_cbek9r.png">
@@ -1006,6 +1012,9 @@ E2-US12                                                                         
 </p>
 
 ## 3.4 **Product Backlog.**
+
+El Product Backlog de WaruSmart reúne las funcionalidades priorizadas del sistema, organizadas en historias de usuario distribuidas por sprints. Este backlog refleja las necesidades tanto de agricultores individuales como de cooperativas, y ha sido estructurado para facilitar un desarrollo ágil e incremental, guiado por el valor entregado al usuario.
+
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/Product-backlog_pxpakr.png">
 </p>
