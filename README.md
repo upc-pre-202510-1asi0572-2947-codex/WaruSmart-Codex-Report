@@ -3100,7 +3100,126 @@ El mock-up para la landing page en la vista del navegador web móvil incorpora l
 
 ## 5.4 Applications UX/UI Design
 
-### 5.4.1 Wireframes
+### 5.4.1 Applications Wireframes
+
+Enlace del Figma: https://www.figma.com/design/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=4-12&t=iZEQruVTNqlT2DZg-1
+
+**Web Applications Wireframe Desktop Web Browser**
+
+**Inicar Sesión**
+En el siguiente wireframe se muestra la sección "Iniciar sesión", donde nuestros usuarios podrán ingresar los datos necesarios para acceder a la aplicación, siempre y cuando cuenten con una cuenta previamente creada.
+
+<img src="./Assets/cap5/appweb/LogIn.png">
+
+**Crear Cuenta**
+El siguiente wireframe muestra la sección de "Registro de usuario", donde los agricultores podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por WaruSmart.
+
+<img src="./Assets/cap5/appweb/Register.png">
+
+**Elegir Suscripción**
+El siguiente wireframe presenta la sección “Elegir plan de pago”, la cual despliega las categorías de planes disponibles en la plataforma.
+
+<img src="./Assets/cap5/appweb/Suscripcion.png">
+
+**Pasarela de Pagos**
+El siguiente wireframe corresponde a la sección “Pasarela de pagos” donde los agricultores son dirigidas a un formulario para seleccionar y registrar su método de pago.
+
+<img src="./Assets/cap5/appweb/Pagar.png">
+
+**Mi Perfil**
+El siguiente wireframe presenta la sección "Mi perfil", donde se muestran los datos que el usuario proporcionó al registrarse en WaruSmart. Además, el usuario tendrá la capacidad de modificar esta información según sea necesario.
+
+<img src="./Assets/cap5/appweb/Mi-perfil.png">
+
+**Panel de control**
+En la sección "Panel de control", los usuarios podrán visualizar estadísticas de sus cultivos. Además, dispondrán de enlaces que los llevarán directamente a otras secciones de la aplicación.
+
+<img src="./Assets/cap5/appweb/Panel-Control.png">
+
+**Lista de Cultivos**
+En la sección "Lista de cultivos" los usuarios podran ver los cultivos que se encuntran en curso. Además, si seleciona un cultivo va a tener acceso a mas información del mismo y tambien podran añadir cultivos.
+
+<img src="./Assets/cap5/appweb/Lista-cultivos-curso.png">
+
+**Añadir Cultivo**
+En la sección "Añadir Cultivo" los usuarios tiene que llenar los parametros necesarios para poder añadir un cultivo.
+
+<img src="./Assets/cap5/appweb/Anadir-cultivo.png">
+
+**Información General**
+Esta sección forma parte de "Información del cultivo". Aquí se despliegan detalles como el nombre del cultivo, la fecha de inicio, el área plantada y una descripción del mismo.
+
+<img src="./Assets/cap5/appweb/Informacion-General.png">
+
+**Cuidado de Cultivos**
+Esta sección forma parte de "Información del cultivo". Aquí se muestra la fase fenológica del cultivo, la fecha de cambio de fase fenológica, recomendaciones para el cuidado del cultivo y un calendario que facilita la visualización de las fechas de los cuidados.
+
+<img src="./Assets/cap5/appweb/Cuidado.png">
+
+**Controles o Isumos**
+Las secciones de Controles e Insumos son parte integral de "Información del cultivo". En la sección de Controles, el usuario puede realizar un controles del estado de su cultivo en determinada fase fenologica, mientras que en la sección de Insumos puede registrar los insumos utilizados en el cultivo.
+
+<img src="./Assets/cap5/appweb/Controles.png">
+
+**Añadir Controles o Insumos**
+En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir un control o insumo.
+
+<img src="./Assets/cap5/appweb/Anadir-Control.png">
+
+**Enfermedades o Plagas**
+Esta sección es parte de "Información del cultivo". Aquí, el usuario podrá buscar información sobre enfermedades o plagas que estén afectando a su cultivo.
+
+<img src="./Assets/cap5/appweb/Enfermedades-Plagas.png">
+
+**Historico de Cultivos**
+En esta sección, los usuarios podrán visualizar los registros de los cultivos que hayan realizado dentro de la aplicación.
+
+<img src="./Assets/cap5/appweb/Historico-Cultivos.png">
+
+**Reporte Estadístico**
+La siguiente sección muestra los informes estadísticos que proporciona la aplicación ChaquiTaclla, en particular, los insumos utilizados por cultivo y el número de controles realizados por cultivo.
+
+<img src="./Assets/cap5/appweb/Reporte-estadístico.png">
+
+**Foro de Consulta**
+En la sección "Foro de Consulta", los usuarios podrán publicar, ver y responder preguntas presentes en el foro. Además, tendrán la opción de filtrar las preguntas.
+
+<img src="./Assets/cap5/appweb/Foro-Consulta.png">
+
+**Añadir consulta**
+En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir una pregunta al foro.
+
+<<img src="./Assets/cap5/appweb/Anadir-consulta.png">
+
+**Respuestas de consultas**
+En esta sección los usuarios podran ver las respuestas a una pregunta.
+
+<<img src="./Assets/cap5/appweb/Respuestas-consultas.png">
+
+**Web Applications Wireframe Mobile**
+A continuacion se prensenta los wireframes responsive, estos cuentan con las mismas secciones anteriormente mencionadas.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="./Assets/cap5/appweb/LogIn-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Register-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Suscripcion-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Pagar-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Mi-perfil-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Panel-Control-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Lista de cultivos en curso-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Anadir Cultivo-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Informacion-General-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Cuidado-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Controles-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Anadir-Control-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Enfermedades-Plagas-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Historico- Cultivos-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Reporte-estadístico-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Foro de Consulta-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Nueva-consulta-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Respuestas-consultas-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+</div>
+
   
 ### 5.4.2 Wireflow Diagrams
 
