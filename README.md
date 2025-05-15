@@ -370,12 +370,33 @@ para cada integrante del equipo:
       - [4.2.5.6 Bounded Context Softwre Architecture Code Level Diagrams](#4256-bounded-context-softwre-architecture-code-level-diagrams)
       - [4.2.5.6.1 Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
       - [4.2.5.6.2 Bounded Context Database Design Diagrams](#42562-bounded-context-database-design-diagrams)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design-1)
+  - [5.1 Style Guidelines](#51-style-guidelines)
+    - [5.1.1 General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2 Web, Mobile and IoT Guidelines](#512-web-mobile-and-iot-guidelines)
+  - [5.2 Information Architecture](#52-information-architecture)
+    - [5.2.1 Organization Systems](#521-organization-systems)
+    - [5.2.2 Labeling Systems](#522-labeling-systems)
+    - [5.2.3 SEO and Meta Tags](#523-seo-and-meta-tags)
+    - [5.2.4 Searching Systems](#524-searching-systems)
+    - [5.2.5 Navigation Systems](#525-navigation-systems)
+  - [5.3 Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1 Wireframe](#531-wireframe)
+    - [5.3.2 Mock-up](#532-mock-up)
+  - [5.4 Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1 Wireframes](#541-wireframes)
+    - [5.4.2 Wireflow Diagrams](#542-wireflow-diagrams)
+    - [5.4.3 Mock-ups](#543-mock-ups)
+    - [5.4.4 User Flow Diagrams](#544-user-flow-diagrams)
+  - [5.5 Applications Prototyping](#55-applications-prototyping)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
     - [Videos de Exposición](#videos-de-exposición)
+    - [Repositorio del Frontend](#repositorio-del-frontend)
+    - [Repositorio del Backend](#repositorio-del-backend)
 
 ### Capítulo V: Solution UI/UX Design
 
@@ -1277,12 +1298,18 @@ A partir de los eventos, comandos, políticas y agregados definidos en cada cont
 
 ## Análisis de Alternativas de Diseño
 
-- **¿Qué pasaría si movemos la funcionalidad de generación de recomendaciones de riego de Data Analytics Management a Irrigation Management?**Se evaluó que esta decisión podría simplificar la reacción inmediata del riego, pero aumentaría el acoplamiento y dificultaría mantener reglas de análisis independientes.
-- **¿Qué pasaría si descomponemos Crops Management (Notif) y movemos las alertas de sensores a un contexto aparte llamado Alert Management?**Se analizó la posibilidad, pero se descartó debido al incremento de complejidad en la integración entre sensores, cultivos y zonas de riego.
-- **¿Qué pasaría si partimos Data Analytics Management en dos bounded contexts: uno para la generación de gráficos históricos y otro para la emisión de recomendaciones?**Esta fragmentación fue desestimada en esta fase inicial, priorizando la cohesión de los análisis de datos en un solo contexto para reducir la complejidad operativa.
-- **¿Qué pasaría si tomamos la gestión de sincronización en la nube de Data Analytics Management y la usamos como un servicio compartido entre Crops Management y Data Analytics?**Se identificó que esto podría optimizar recursos en el futuro, pero para esta versión inicial se decidió mantener la sincronización dentro de Data Analytics para evitar una dependencia técnica innecesaria.
-- **¿Qué pasaría si duplicamos la lógica de asignación de sensores en Crops Management para permitir la lectura directa desde Data Analytics Management?**Esta opción fue rechazada, ya que aumentaría la redundancia y podría provocar inconsistencias en el mapeo de sensores y zonas de cultivo.
-- **¿Qué pasaría si creamos un shared service para el modelo de usuario que comparten Identification and Authentication Management y Subscriptions and Payments?**Se concluyó que, en lugar de crear un shared service separado, se aplicaría el patrón Shared Kernel, compartiendo de manera controlada la entidad Usuario entre estos contextos.
+- **¿Qué pasaría si movemos la funcionalidad de generación de recomendaciones de riego de Data Analytics Management a Irrigation Management?**
+  Se evaluó que esta decisión podría simplificar la reacción inmediata del riego, pero aumentaría el acoplamiento y dificultaría mantener reglas de análisis independientes.
+- **¿Qué pasaría si descomponemos Crops Management (Notif) y movemos las alertas de sensores a un contexto aparte llamado Alert Management?** 
+  Se analizó la posibilidad, pero se descartó debido al incremento de complejidad en la integración entre sensores, cultivos y zonas de riego.
+- **¿Qué pasaría si partimos Data Analytics Management en dos bounded contexts: uno para la generación de gráficos históricos y otro para la emisión de recomendaciones?** 
+  Esta fragmentación fue desestimada en esta fase inicial, priorizando la cohesión de los análisis de datos en un solo contexto para reducir la complejidad operativa.
+- **¿Qué pasaría si tomamos la gestión de sincronización en la nube de Data Analytics Management y la usamos como un servicio compartido entre Crops Management y Data Analytics?** 
+  Se identificó que esto podría optimizar recursos en el futuro, pero para esta versión inicial se decidió mantener la sincronización dentro de Data Analytics para evitar una dependencia técnica innecesaria.
+- **¿Qué pasaría si duplicamos la lógica de asignación de sensores en Crops Management para permitir la lectura directa desde Data Analytics Management?** 
+  Esta opción fue rechazada, ya que aumentaría la redundancia y podría provocar inconsistencias en el mapeo de sensores y zonas de cultivo.
+- **¿Qué pasaría si creamos un shared service para el modelo de usuario que comparten Identification and Authentication Management y Subscriptions and Payments?** 
+  Se concluyó que, en lugar de crear un shared service separado, se aplicaría el patrón Shared Kernel, compartiendo de manera controlada la entidad Usuario entre estos contextos.
 - **¿Qué pasaría si aislamos la gestión de zonas de riego de Irrigation Management y la movemos a Crops Management?**
   Se consideró que esta opción podría reducir la flexibilidad de configuración de riego, por lo que se mantuvo la gestión de zonas dentro del contexto de riego.
 
@@ -1300,18 +1327,27 @@ Es importante resaltar que durante este proceso el equipo aplicó los patrones d
 ### 4.1.3 Software Architecture
 Para la definición de nuestra arquitectura de software hicimos uso del Diagrama C4 model y la herramienta Structurizr.
 #### 4.1.3.1 Software Architecture System Landscape Diagram
+El siguiente diagrama muestra la estructura global de la solución.
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747293047/systemlandscape-warusmart.png">
+</p>
 
 #### 4.1.3.2 Software Architecture Context Level Diagrams
-<p>
+El sigueinte diagrama de contexto muestra las relaciones y flujos de información entre los actores (usuarios y sistemas)
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContext_f7hfik.png">
 </p>
 
 #### 4.1.3.2 Software Architecture Container Level Diagrams
+El siguiente diagrama ilustra cómo los diferentes contenedores del sistema interactúan entre sí y con los usuarios finales.
 <p>
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContainers_d6yoda.png">
 </p>
 
 #### 4.1.3.2 Software Architecture Deployment Diagrams
+Este diagrama muestra cómo los diferentes elementos del sistema, como aplicaciones, servidores, bases de datos y dispositivos de usuario, se despliegan en nodos físicos o virtuales.
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContainers_d6yoda.png">
+</p>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
