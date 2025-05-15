@@ -1442,7 +1442,7 @@ El sigueinte diagrama de contexto muestra las relaciones y flujos de informació
 #### 4.1.3.2 Software Architecture Container Level Diagrams
 El siguiente diagrama ilustra cómo los diferentes contenedores del sistema interactúan entre sí y con los usuarios finales.
 <p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContainers_d6yoda.png">
+  <img src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747351253/raazunegdyvsafdbbifj.png">
 </p>
 
 #### 4.1.3.2 Software Architecture Deployment Diagrams
