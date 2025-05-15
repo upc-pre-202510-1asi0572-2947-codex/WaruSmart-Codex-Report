@@ -3322,6 +3322,9 @@ En la siguiente captura se visualiza el Actions actualizado en nuestro repositor
 
 #### 6.2.1.1 Sprint Planning 1
 
+Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
+<img src = "Assets/chapter-vi/sprint1_planning.png">
+
 |Sprint # | Sprint 1|
 |---------|---------|
 **SprintPlanningBackground** 
