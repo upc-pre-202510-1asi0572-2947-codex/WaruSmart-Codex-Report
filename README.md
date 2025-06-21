@@ -4811,18 +4811,18 @@ En esta sección se presenta un resumen del contenido incluido en el video **Abo
 También se incluye un testimonio grupal final donde el equipo resalta la importancia del trabajo conjunto, la planificación ágil y el impacto esperado de WaruSmart en la agricultura rural.
 
 ### 📸 Captura del video:
-![Captura del equipo](https://res.cloudinary.com/ejemplo/image/upload/v1234567890/equipo-warusmart.jpg)
+![Captura del equipo](https://res.cloudinary.com/dr5v9tizc/image/upload/v1750526443/Captura_AboutTheTeam_stnuon.png)
 
 ### 🔗 Enlaces del video:
 
 - 📺 Versión en Microsoft Stream (entorno institucional):  
-  [https://web.microsoftstream.com/video/ejemplo-codex-warusmart](https://web.microsoftstream.com/video/ejemplo-codex-warusmart)
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeJW8_7VqChEsC3-pim2j6gBDNAUzd2r8Ew9AdhPQ2NcWQ?e=0MmFrL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeJW8_7VqChEsC3-pim2j6gBDNAUzd2r8Ew9AdhPQ2NcWQ?e=0MmFrL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - 📺 Versión pública en YouTube (para insertar en Landing Page):  
-  [https://youtube.com/watch?v=codex-warusmart-equipo](https://youtube.com/watch?v=codex-warusmart-equipo)
+  [https://youtu.be/S_ZQc5pirhE](https://youtu.be/S_ZQc5pirhE)
 
 ### ⏱️ Duración total del video:
-**3 minutos con 15 segundos**
+**8 minutos con 9 segundos**
 
 
 # Bibliografía
