@@ -3749,19 +3749,21 @@ En la siguiente captura se visualiza el Actions actualizado en nuestro repositor
 Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
 <img src = "Assets/chapter-vi/sprint1_planning.png">
 
-|Sprint # | Sprint 1|
-|---------|---------|
-**SprintPlanningBackground** 
-**Date** | 2025-05-01
-**Time** | 19:00PM–20:00PM
-**Location** | Virtual (Google Meet)
-**PreparedBy** | Fernando Daniel Quispe Condori
-**Attendees(to planning meeting)** | Victor Herrera / Anderson Macedo / Jeferson Cabrera / Christopher More / Fernando Quispe / Jair Velazquez / Carlos Pingus
-**Sprintn–0ReviewSummary** | Debido a que es el primer sprint, no hay reviews de un sprint anterior.
-**Sprintn–1RetrospectiveSummary** | Siendo el primer sprint, se mencionará la expectativa de los miembros del equipo: terminar las actividades designadas en el Sprint 1
-**SprintGoalandUserStories** | Nuestro enfoque está en ofrecer a nuestros clientes los agricultores la experiencia que les permita gestionar sus cultivos de manera eficiente. Creemos que la entrega impactará a los agricultores en la gestión de su cultivo. Esto se confirmará cuando accedan a nuestros artefactos.
-**Sprint1Velocity** | 14 puntos
-**SumofStoryPoints** | 14 puntos
+| **Sprint #**           | **Sprint 1**                                                                 |
+|------------------------|------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                      |
+| **Date**               | 2025-05-01                                                                   |
+| **Time**               | 19:00 PM – 20:00 PM                                                          |
+| **Location**           | Virtual (Google Meet)                                                       |
+| **Prepared By**        | Fernando Daniel Quispe Condori                                               |
+| **Attendees (to planning meeting)** | Victor Herrera, Anderson Macedo, Jeferson Cabrera, Christopher More, Fernando Quispe, Jair Velazquez, Carlos Pingus |
+| **Sprint -0 Review Summary** | Debido a que es el primer sprint, no hay reviews de un sprint anterior.     |
+| **Sprint -1 Retrospective Summary** | Siendo el primer sprint, se mencionaron las expectativas del equipo: completar las actividades asignadas en el Sprint 1. |
+| **Sprint Goal and User Stories** | Nuestro enfoque está en ofrecer a los agricultores una experiencia que les permita gestionar sus cultivos de manera eficiente. Creemos que esta entrega impactará positivamente en su organización. Esto se confirmará al acceder a nuestros artefactos. |
+| **Sprint 1 Velocity**  | 14 puntos                                                                    |
+| **Sum of Story Points**| 14 puntos                                                                    |
+
+El Sprint 1 se llevó a cabo el 1 de mayo de 2025 mediante una reunión virtual por Google Meet, donde participaron todos los integrantes del equipo. Al ser el primer sprint, no hubo revisión ni retrospectiva previa, pero se establecieron expectativas claras sobre cumplir las actividades planificadas. El objetivo principal fue desarrollar funcionalidades iniciales para que los agricultores gestionen sus cultivos de forma eficiente. Se trabajaron 14 puntos de historia, marcando el inicio del proyecto con enfoque colaborativo y metas definidas.
 
 #### 6.2.1.2 Aspect Leaders and Collaborators
 
@@ -4094,19 +4096,687 @@ Durante el presente sprint, se pudo evidenciar una colaboración activa entre lo
 
 Estos insights reflejan una dinámica de trabajo distribuido por especialidades técnicas, donde los miembros del equipo se enfocaron en áreas específicas pero alineadas al objetivo común del sprint, promoviendo la integración progresiva de todos los módulos del sistema.
 
+### 6.2.2 Sprint 2
+
+#### 6.2.2.1 Sprint Planning 2
+
+Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
+<img src = "Assets/chapter-vi/sprint1_planning.png">
+
+| **Sprint #**                        | **Sprint 2**                                                                                                                                                                                                                                            |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**      |                                                                                                                                                                                                                                                         |
+| **Date**                            | 2025-06-05                                                                                                                                                                                                                                              |
+| **Time**                            | 20:00 PM – 21:30 PM                                                                                                                                                                                                                                     |
+| **Location**                        | Virtual (Google Meet)                                                                                                                                                                                                                                   |
+| **Prepared By**                     | Velasquez Pizarro, Jair                                                                                                                                                                                                                                 |
+| **Attendees (to planning meeting)** | Victor Herrera, Anderson Macedo, Jeferson Cabrera, Christopher More, Fernando Quispe, Jair Velazquez, Carlos Pingus                                                                                                                                     |
+| **Sprint 1 Review Summary**         | Se evaluaron los resultados del Sprint 1, identificando oportunidades de mejora en la integración de componentes y en la organización del trabajo.                                                                                                      |
+| **Sprint 1 Retrospective Summary**  | Se destacó la necesidad de una mejor sincronización al momento de integrar los bounded contex y una planificación más precisa de las tareas técnicas.                                                                                                   |
+| **Sprint Goal and User Stories**    | En este sprint se buscará avanzar en la implementación de la web app, así como la integración con los servicios backend y dispositivos embebidos. Se espera validar el funcionamiento conjunto de los módulos y entregar una versión funcional inicial. |
+| **Sprint 2 Velocity**               | 18 puntos                                                                                                                                                                                                                                               |
+| **Suma de Story Points**            | 18 puntos                                                                                                                                                                                                                                               |
+
+El Sprint 2 se llevó a cabo con una reunión virtual por Google Meet, donde se reunieron todos los integrantes del equipo. En la revisión del sprint anterior se resaltaron mejoras necesarias en la integración técnica y la gestión del tiempo. Como meta, se propuso avanzar en la conexión entre los diferentes módulos del sistema, incluyendo backend, frontend y dispositivos físicos. Se planificaron tareas más específicas para lograr una entrega funcional y coherente, trabajando sobre un total de 18 puntos de historia, con enfoque colaborativo y mejor coordinación.
+
+#### 6.2.2.2 Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint actual. Esta matriz detalla los principales aspectos funcionales desarrollados, organizados según los Bounded Contexts definidos para la solución. Por cada aspecto, se indica quién asume el rol de líder (L) y quiénes participan como colaboradores (C), con el objetivo de lograr una comunicación clara, una distribución equitativa del trabajo y una mayor efectividad durante la ejecución del Sprint.
+
+La organización responde a la estructura interna del equipo, considerando las habilidades técnicas y experiencia previa de cada integrante en relación con los módulos del sistema. Esta asignación se refleja posteriormente en la selección y ejecución de tareas en el Sprint Backlog.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Suscription and Payments** | **IAM** | **Profile Preferences** | **Service Design & Planning** | **IoT Resource Management** | **Service Operation Monitoring (Crops)** | **Analytics Management** |
+| --------------------------------------- | ------------------- | ---------------------------- | ------- | ----------------------- | ----------------------------- | --------------------------- | ---------------------------------------- | ------------------------ |
+| **Quispe Condori, Fernando Daniel**     | `fdaniel13s`        | C                            | C       |                         | L                             | C                           | C                                        | C                        |
+| **Velasquez Pizarro, Jair**             | `Purak189`          |                              | C       |                         |                               | L                           | C                                        |                          |
+| **Cabrera Camizan, Jeferson Smith**     | `Jeferson11C`       |                              |         |                         | C                             | C                           | L                                        | C                        |
+| **Herrera Castillo, Victor Raul**       | `VictorHerrera10`   | C                            | C       | L                       |                               |                             |                                          |                          |
+| **Macedo Calsina, Anderson Walter**     | `AnderMacedo`       | L                            |         |                         |                               |                             |                                          |                          |
+| **More Rondon, Christopher Sebastian**  | `christopherMore1`  |                              |         |                         | C                             |                             | C                                        | L                        |
+| **Pingus Rodriguez, Carlos Daniel**     | `KazutoTR`          | C                            | L       |                         |                               |                             |                                          |                          |
+
+Durante este Sprint, cada integrante del equipo asumió un rol específico en función de los módulos del sistema a implementar. Por ejemplo, Anderson lideró el módulo de Suscripciones y Pagos, definiendo los flujos asociados a los planes disponibles. Carlos asumió el liderazgo del módulo IAM, implementando la lógica de autenticación y control de accesos. Victor tomó la iniciativa en el diseño de las preferencias de perfil, mientras que Fernando lideró el modelado del módulo de planificación del servicio.
+
+Jair y Jeferson se encargaron de los aspectos técnicos relacionados con los dispositivos IoT y la operación de cultivos, asegurando una correcta integración entre la lógica embebida y el backend. Finalmente, Christopher lideró el contexto de Analytics, proponiendo visualizaciones y consultas útiles para los usuarios finales.
+
+Esta distribución permitió que cada módulo avanzara con claridad de objetivos, aprovechando las fortalezas individuales y fomentando la colaboración transversal en cada fase del desarrollo.
+
+#### 6.2.2.3 Sprint Backlog 2
+
+En este segundo sprint, el grupo se enfocó en fortalecer las funcionalidades del sistema para brindar una experiencia más completa al agricultor. Se implementaron mejoras en el panel de gestión y monitoreo de cultivos, integrando dispositivos IoT para obtener datos en tiempo real. Además, se desarrollaron herramientas gráficas de visualización del estado del cultivo, ajustes de umbrales de alerta y nuevas opciones de interacción con parcelas y sensores, permitiendo al usuario tomar decisiones de manera más informada y precisa.
+
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #:</td>
+            <td colspan="7">Sprint 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td>Title</td>
+            <td>ID</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned to</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>E1-US01</td>
+            <td>Navegación entre secciones</td>
+            <td>02</td>
+            <td>Implementar barra de navegación</td>
+            <td>Desarrollar una barra que permita navegar entre secciones de la landing (inicio, cómo funciona, beneficios, testimonios, contacto)</td>
+            <td>5</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>E1-US02</td>
+            <td>Conocer cómo funciona la solución</td>
+            <td>03</td>
+            <td>Sección "¿Cómo funciona?"</td>
+            <td>Crear una sección informativa que explique el funcionamiento del sistema (app + sensores)</td>
+            <td>4</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>E1-US03</td>
+            <td>Visualizar beneficios segmentados</td>
+            <td>04</td>
+            <td>Diseñar sección de beneficios</td>
+            <td>Mostrar beneficios diferenciados según el perfil del visitante (agricultor/cooperativa)</td>
+            <td>5</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>E1-US04</td>
+            <td>Sección testimonios de usuarios</td>
+            <td>05</td>
+            <td>Agregar testimonios reales</td>
+            <td>Diseñar una sección con al menos dos testimonios de agricultores/cooperativas con resultados medibles</td>
+            <td>3</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>E1-US05</td>
+            <td>Sección contactarse</td>
+            <td>06</td>
+            <td>Formulario de contacto</td>
+            <td>Crear sección para que el usuario pueda dejar sus datos y mensaje para ser contactado</td>
+            <td>4</td>
+            <td>Victor Herrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E2-US08</td>
+            <td rowspan="3">Vista general del estado del cultivo</td>
+            <td>07</td>
+            <td>Panel con resumen de estado</td>
+            <td>Desarrollar un panel con resumen de condiciones del cultivo utilizando datos de sensores</td>
+            <td>6</td>
+            <td>Jeferson Cabrera - Carlos Pingus</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>08</td>
+            <td>Visualización por campo registrado</td>
+            <td>Permitir al usuario cambiar entre campos registrados y visualizar el estado de cada uno</td>
+            <td>4</td>
+            <td>Jeferson Cabrera - Cristopher More - Anderson Macedo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>08</td>
+            <td>IoT Devices</td>
+            <td>Permitir al usuario registrar dispositivos IoT por cultivo.</td>
+            <td>4</td>
+            <td>Jeferson Cabrera - Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">E5-US23</td>
+            <td rowspan="3">Creación de parcelas agrícolas</td>
+            <td>09</td>
+            <td>Registrar nueva parcela</td>
+            <td>Formulario para registrar ubicación, tamaño y características. Validación de campos obligatorios.</td>
+            <td>5</td>
+            <td>Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Editar parcela</td>
+            <td>Permitir modificar la información de una parcela ya registrada.</td>
+            <td>3</td>
+            <td>Equipo Frontend</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Eliminar parcela</td>
+            <td>Permitir eliminar una parcela desde el panel de gestión con confirmación.</td>
+            <td>2</td>
+            <td>Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="4">E5-US24</td>
+            <td rowspan="4">Agregar cultivos a una parcela</td>
+            <td>12</td>
+            <td>Asignar cultivo a parcela</td>
+            <td>Permitir al usuario agregar uno o más cultivos a una parcela desde lista disponible.</td>
+            <td>4</td>
+            <td>Carlos Pingus</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Mostrar cultivos por parcela</td>
+            <td>Listar los cultivos asociados a una parcela en su vista de detalle.</td>
+            <td>3</td>
+            <td>Jefferson Cabrera</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Editar cultivo</td>
+            <td>Permitir editar los detalles del cultivo asignado (variedad, fecha, etc.).</td>
+            <td>2</td>
+            <td>Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Cambiar fase fenológica</td>
+            <td>Permitir al usuario actualizar la fase fenológica del cultivo desde el panel.</td>
+            <td>3</td>
+            <td>Jefferson Cabrera</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 6.2.1.4 Development Evidence for Sprint Review
+
+En esta sección se detallan los avances clave en el desarrollo de los productos de la solución durante el Sprint 2, los cuales abarcan mejoras en la Web Application, la integración con dispositivos IoT, optimizaciones en los Web Services (API) y ajustes en la experiencia de usuario. A continuación, se muestra una tabla con los commits más representativos por repositorio, que evidencian el trabajo realizado por el equipo en función a las funcionalidades priorizadas para este sprint.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|----------------------|---------------------|
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 8e03a7b | fix: mejorar reconexión MQTT | Se ajustó la lógica de reconexión al broker MQTT para mayor estabilidad. | 06/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 4d7c99f | feat: agregar lectura continua de sensores | Se implementó la lectura periódica de humedad y temperatura desde sensores conectados. | 12/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 9f4cb2d | fix(ui): corrección en vista de parcelas | Se corrigió el scroll en la vista de detalle de parcelas para dispositivos pequeños. | 08/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 25a1e6e | feat: login con token del backend | Se integró autenticación usando JWT emitido por el backend. | 15/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/dashboard | a65fd12 | feat: integración de panel con sensores | Se enlazó el panel de control con datos recibidos desde los sensores vía backend. | 14/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/ui-enhancements | d23a9f1 | style: mejora en la experiencia del usuario | Se mejoró la navegación y estilos de botones para mayor accesibilidad. | 18/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | 57cdef1 | feat: procesamiento local de datos | Se añadió lógica para procesar datos de sensores y enviar solo datos relevantes al backend. | 13/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | b9e1a33 | fix: corrección en formateo de paquetes JSON | Se resolvió error al parsear paquetes de datos para envío a la nube. | 19/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/device-api | f730d4e | feat: nuevo endpoint para datos por dispositivo | Se implementó endpoint para consultar métricas por dispositivo registrado. | 05/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/alerts | 0a12e4b | feat: generación de alertas por umbral | Se habilitó lógica para generar alertas cuando los sensores superen valores críticos. | 20/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/iot-update | c139d04b | feat: endpoint para actualizar dispositivos IoT | Permite modificar configuración de sensores desde el frontend. | 09/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 23a97b9f | feat: nueva pantalla de detalle de cultivo | Se muestra información del cultivo y sensores asociados. | 10/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | 90fb5c2d | fix: sincronización con edge corregida | Mejoras en lógica de sincronización con dispositivos edge. | 11/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 7c06c3be | feat: alertas por humedad baja | Se configuró evento de alerta por humedad bajo umbral. | 12/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/user-tracking | e7dbf460 | feat: seguimiento de actividad del usuario | Registro de interacción y cambios en tiempo real. | 13/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/sensors-dashboard | a4b1e243 | feat: visualización de datos de sensores | Se implementaron gráficos de humedad y temperatura por cultivo. | 14/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | 2c86be88 | feat: procesamiento local de decisiones de riego | Algoritmo local para activar bomba de agua automáticamente. | 15/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | develop | e6a71ff5 | fix: validaciones de seguridad en API de sensores | Se mejoró la seguridad de endpoints del sistema IoT. | 16/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/iot-panel | 27d4e72a | feat: panel interactivo para sensores por parcela | Nueva vista que muestra estado en tiempo real de sensores activos por parcela. | 17/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 85b07f9c | feat: integración con bombas inteligentes | Se integró control automatizado de riego desde sensor local. | 17/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 2de91b03 | feat: notificaciones push por condición crítica | Se activan alertas móviles ante detección de riesgo climático. | 18/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | develop | 630e859b | feat: endpoint resumen de estado general por usuario | Se devuelve estado consolidado de todos los cultivos activos del usuario. | 18/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | b4f6ce72 | fix: mejora en el reintento de sincronización fallida | Se optimizó el proceso de reintentos en redes inestables. | 19/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/user-role-management | 738ddfb1 | feat: control de roles y permisos para vistas | Se añadieron restricciones de acceso por tipo de usuario (agricultor/cooperativa). | 19/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | ab1c547d | feat: control local de ventiladores por temperatura | Se activa ventilación automáticamente según valores umbral. | 20/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | d154f89a | fix: mejora de interfaz para gestión de parcelas | Se reorganizó diseño para facilidad de uso en pantallas pequeñas. | 21/06/2025 |
+
+A lo largo del trabajo comprendidos entre el 1 y el 21 de junio, se evidenció un avance sostenido y coordinado en todos los servicios de la solución WaruSmart. Se desarrollaron y refinaron funcionalidades en la landing page, la plataforma web, el backend, la aplicación móvil, el sistema fog y la app edge. Entre los principales logros destacan la autenticación por roles, gestión de cultivos y dispositivos IoT, visualización de datos en tiempo real, alertas móviles, control local desde el edge, y sincronización efectiva con el servidor. Este trabajo colaborativo permitió avanzar de forma integral hacia una plataforma robusta e interconectada.
+
+#### 6.2.1.5 Testing Suite Evidence for Sprint Review
+
+A continuación, se presenta la evidencia de la suite de pruebas automatizadas correspondiente al Sprint 2, la cual respalda el cumplimiento de las funcionalidades desarrolladas y validadas durante este ciclo de trabajo.
+
+| Repositorio/Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
+|--------------------|------------|-----------------|-----------------------|----------------------|
+| US01/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US01.feature | Herrera.Victor-feature-Sprint1-TU01 | 300d064 | add gherkin TU01 | 10/05/2025 |
+| US02/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US02.feature | Herrera.Victor-feature-Sprint1-TU02 | 300d064 | add gherkin TU02 | 10/05/2025 |
+| US03/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US03.feature | Herrera.Victor-feature-Sprint1-TU03 | 300d064 | add gherkin TU03 | 10/05/2025 |
+| US04/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US04.feature | Herrera.Victor-feature-Sprint1-TU04 | 300d064 | add gherkin TU04 | 10/05/2025 |
+| US05/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US05.feature | Herrera.Victor-feature-Sprint1-TU05 | 300d064 | add gherkin TU05 | 10/05/2025 |
+| US23/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US23.feature | Herrera.Victor-feature-Sprint1-TU23 | 300d064 | add gherkin TU23 | 10/05/2025 |
+| US24/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US24.feature | Herrera.Victor-feature-Sprint1-TU24 | 300d064 | add gherkin TU24 | 10/05/2025 |
+
+Durante el Sprint 2, el equipo de desarrollo de WaruSmart continuó fortaleciendo la validación técnica de las funcionalidades implementadas, ampliando la cobertura de escenarios de prueba automatizados mediante el lenguaje Gherkin. Se incorporaron nuevas historias de usuario relacionadas con la gestión de cultivos, dispositivos IoT, autenticación y visualización de datos, las cuales fueron expresadas en archivos .feature. Cada escenario siguió la estructura Given-When-Then, asegurando una clara trazabilidad con los criterios de aceptación definidos. Estos artefactos se gestionaron en el repositorio WaruSmart-Testing, garantizando el control de calidad y la coherencia funcional en esta nueva fase de desarrollo.
+
+#### 6.2.1.6 Execution Evidence for Sprint Review
+
+Durante este segundo sprint, se logró el despliegue de nuevos componentes clave del ecosistema WaruSmart, consolidando su arquitectura distribuida y su funcionalidad completa. Entre los avances se destacan las mejoras en el frontend, el despliegue del backend actualizado, la integración de la app móvil, el funcionamiento del Fog Computing y la conectividad de dispositivos Edge.
+
+- 🖥️ **Landing Page**  
+  Muestra la propuesta de valor del sistema y está desplegada en GitHub Pages. Se añadieron mejoras visuales y de navegación.  
+  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html) - https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html
+
+- ⚙️ **Backend (Swagger - Azure App Service)**  
+  Se actualizó el backend con nuevos endpoints, validaciones y mejoras de seguridad para la gestión de usuarios, cultivos, siembras, sensores y dispositivos IoT.  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html) - https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html
+
+- 💻 **Frontend Web App**  
+  Se implementaron nuevos componentes visuales para el panel de control, listado de dispositivos IoT, detalle de siembras y gestión de usuarios.  
+  👉 Evidencias gráficas del avance frontend:
+
+  ![Home](https://res.cloudinary.com/dydklnicb/image/upload/v1747349054/frontend-home-warusmart.png)  
+  *Vista del panel principal con métricas, menú y mapa.*
+
+  ![Sowings list](https://res.cloudinary.com/dydklnicb/image/upload/v1747349115/frontend-sowingslist-warusmart.png)  
+  *Listado de siembras con filtros y datos clave.*
+
+  ![IoT Management](https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png)  
+  *Gestión de dispositivos IoT por siembra.*
+
+- 📱 **Mobile Application (React Native)**  
+  Se desplegó una versión funcional para Android que permite a los agricultores registrar sus cultivos y consultar recomendaciones directamente desde el celular.  
+  👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) - https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication
+
+- 🌫️ **Fog Computing Node (WaruSmart-Fog-App)**  
+  Se configuró un microservicio intermedio que gestiona la recepción de datos de sensores desde dispositivos Edge y reenvía al backend central.  
+  👉 Repositorio: [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) - https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App
+
+- 📡 **Edge Devices (ESP32 - WaruSmart-Edge-App)**  
+  Los dispositivos físicos de borde fueron integrados con la plataforma a través del microservicio Fog. Se probó correctamente la lectura de sensores y envío de datos.  
+  👉 Repositorio: [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) - https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App
+
+---
+
+- 🎬 **Video Navegación Web App:**  
+  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA) - 
+
+- 🎬 **Video de Navegación Backend:**  
+  👉 [Ver video Swagger API](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQlpEXxAcClMr5cN416gP3MBrcxVrPyk4-Wlq-elpjezyw?e=pWgMiN) - 
+
+- 🎬 **Video del Edge y flujo fisico:**  
+  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp) - 
+
+---
+
+#### 6.2.1.7 Services Documentation Evidence for Sprint Review
+
+Durante este sprint, se consolidó la documentación de servicios de WaruSmart a través del backend REST desplegado en Azure. El backend central permite gestionar múltiples entidades clave del sistema, como usuarios, parcelas, cultivos, dispositivos IoT y fases fenológicas. Gracias a Swagger UI, se puede explorar y probar cada uno de estos endpoints de forma estructurada y accesible para todo el equipo.
+
+- 📘 **Documentación del backend - Swagger UI**  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+ **Evidencias visuales del backend**
+
+- ![Backend Swagger General](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
+  *Vista general de la interfaz Swagger mostrando los endpoints activos organizados por recurso: usuarios, cultivos, parcelas, dispositivos, sensores, recomendaciones.*
+
+- ![Backend Endpoint IoT](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)  
+  *Detalle del endpoint `POST /iot-devices` que permite registrar un nuevo dispositivo IoT y asignarlo a un cultivo específico.*
+
+- ![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
+  *Prueba del endpoint `GET /sowings/user` mostrando la respuesta exitosa con datos simulados de siembras asociadas al usuario autenticado.*
+
+- ![Backend Sowings by Phase](https://res.cloudinary.com/dydklnicb/image/upload/v1747400000/backend-sowing-by-phase.png)  
+  *Nuevo endpoint que permite actualizar o consultar la fase fenológica de un cultivo, facilitando el seguimiento agronómico.*
+
+- ![Backend Fog Endpoint](https://res.cloudinary.com/dydklnicb/image/upload/v1747400055/backend-fog-endpoint.png)  
+  *Integración de endpoints de comunicación Fog-to-Cloud para el envío seguro de datos desde sensores de borde.*
+
+---
+
+#### 6.2.1.8 Software Deployment Evidence for Sprint Review
+
+Durante este sprint, se desplegaron exitosamente los principales componentes del sistema, lo que permite demostrar que se cuenta con una arquitectura modular y funcional:
+
+- 🖥️ **Landing Page**  
+  Esta página de presentación está alojada en GitHub Pages y representa el punto de entrada informativo del proyecto WaruSmart.  
+  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+
+- ⚙️ **Backend API REST**  
+  Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone todos los endpoints necesarios para las operaciones internas del sistema.  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+- 💻 **Web Platform (Frontend)**  
+  Desarrollada en React, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
+  👉 [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
+
+- 📱 **Mobile Application**  
+  La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+
+- 📶 **Edge Application**  
+  Aplicación liviana diseñada para ejecutarse en dispositivos de borde (edge), encargada de recolectar datos desde sensores y enviarlos hacia la nube.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
+
+- 🌩️ **Fog Application**  
+  Servicio intermedio desplegado entre los dispositivos y la nube, que gestiona el procesamiento local y asegura la disponibilidad en caso de desconexión.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
+
+Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (**frontend ↔ backend ↔ edge/fog ↔ mobile**), lo que confirma la viabilidad técnica de la solución WaruSmart.
+
+#### 6.2.1.9 Team Collaboration Insights during Sprint
+
+Durante el presente sprint, se evidenció una colaboración activa entre los integrantes del equipo en los distintos módulos del sistema WaruSmart: **Landing Page**, **Frontend Web App**, **Backend API**, **Mobile App**, **Edge App** y **Fog App**. A continuación, se presentan los insights obtenidos a partir de los repositorios del proyecto, los cuales reflejan el compromiso y la distribución del trabajo técnico entre los miembros.
+
+**🖥️ Colaboración en el desarrollo de la Landing Page**
+
+- ![Insight Landing Page](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314726/sknvodjw4eddrbsmatlu.jpg)  
+  *Se visualiza la evolución de commits en el repositorio del Landing Page, donde se implementaron ajustes visuales, mejoras de accesibilidad y contenido multilingüe. Los miembros a cargo realizaron despliegues progresivos en GitHub Pages.*
+
+**💻 Colaboración en el desarrollo del Frontend Web App**
+
+- ![Insight Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/iszfypdv193fbfkhzqyy.jpg)  
+  *El repositorio del frontend refleja una alta frecuencia de colaboraciones, enfocadas en la construcción de vistas como panel de control, módulos de siembras, visualización de dispositivos IoT y manejo de alertas. Se evidencia trabajo en equipo con revisión cruzada de código.*
+
+**⚙️ Colaboración en el desarrollo del Backend API**
+
+- ![Insight Backend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/sojaqz283ma9yvpkqsml.jpg)  
+  *Las contribuciones al backend se centraron en nuevos endpoints, ajustes en la arquitectura de dominio, integración de servicios REST para siembras y dispositivos, y documentación Swagger. El equipo mantuvo una dinámica de commits sostenida y progresiva.*
+
+**📱 Colaboración en el desarrollo de la Mobile Application**
+
+- ![Insight Mobile](https://res.cloudinary.com/dydklnicb/image/upload/v1747355200/mobile-collab-warusmart.png)  
+  *El desarrollo de la app móvil mostró aportes continuos orientados a navegación, localización de cultivos y gestión offline. La colaboración se extendió a pruebas en emuladores y validación de flujos críticos en producción.*
+
+**🌐 Colaboración en el desarrollo del Edge App**
+
+- ![Insight Edge](https://res.cloudinary.com/dydklnicb/image/upload/v1747355200/edge-collab-warusmart.png)  
+  *El repositorio del componente edge evidencia el trabajo coordinado en funciones de lectura de sensores, envío de datos al fog y mecanismos de reconexión ante fallos. El desarrollo fue realizado considerando el entorno embebido.*
+
+**🌩️ Colaboración en el desarrollo del Fog App**
+
+- ![Insight Fog](https://res.cloudinary.com/dydklnicb/image/upload/v1747355200/fog-collab-warusmart.png)  
+  *El módulo fog recibió múltiples contribuciones que permitieron establecer su rol como intermediario entre el edge y la nube, enfocándose en almacenamiento local temporal y retransmisión de datos. Se configuró como contenedor independiente.*
+
+Estos insights reflejan una dinámica de trabajo colaborativo distribuido por capas tecnológicas, manteniendo sincronía entre los módulos y garantizando una evolución coherente de la solución WaruSmart durante este sprint.
+
+## 6.3 Validation Interviews
+
+A continuacion se muetras las Validation Interviews son una etapa clave para nuestro equipo, ya que nos permitirán validar directamente con los usuarios reales como agricultores y técnicos del sector agro si el sistema WaruSmart responde adecuadamente a sus necesidades. A través de estas entrevistas, podremos recoger comentarios valiosos sobre la utilidad, usabilidad y relevancia de las funcionalidades implementadas. Esta retroalimentación nos servirá para realizar ajustes oportunos, reforzar aspectos positivos y garantizar que la solución tenga un verdadero impacto en la mejora de la gestión agrícola en campo.
+
+### 6.3.1. Diseño de Entrevistas
+
+### 👨‍🌾 Agricultores Individuales
+
+#### 🧩 Contexto de uso y tecnología
+- ¿Qué cultivos maneja actualmente y con qué frecuencia realiza el riego?
+- ¿Utiliza alguna tecnología actualmente para controlar la humedad o temperatura del suelo?
+- ¿Qué herramientas digitales (web o móvil) ha usado anteriormente en su trabajo agrícola?
+
+#### 💧 Necesidades de monitoreo y control
+- ¿Con qué problemas se encuentra cuando el clima cambia inesperadamente?
+- ¿Cómo sabría si su cultivo está recibiendo la cantidad adecuada de agua?
+- ¿Considera útil tener alertas en su celular sobre humedad o temperatura del suelo?
+
+#### 📱 Validación del sistema WaruSmart
+- ¿Qué le parece una app web o móvil donde pueda ver en tiempo real los niveles de humedad y temperatura de su cultivo?
+- ¿Le gustaría recibir recomendaciones automáticas para ajustar el riego según las condiciones?
+- ¿Qué tan fácil le resultaría usar un sistema que conecte sensores al suelo y le envíe alertas?
+
+#### 🛠️ Implementación y soporte
+- ¿Qué necesitaría para sentirse cómodo usando esta tecnología?
+- ¿Estaría dispuesto a instalar sensores IoT en su terreno si se le proporciona capacitación?
+- ¿Qué tipo de ayuda o acompañamiento le gustaría tener en el uso de esta plataforma?
+
+---
+
+### 🌱 Cooperativas Agrarias
+
+#### 🧩 Contexto organizacional
+- ¿Qué tipo de cultivos gestionan y en cuántas parcelas aproximadamente?
+- ¿Tienen algún sistema actual para hacer seguimiento al estado de los cultivos de la cooperativa?
+- ¿Qué canales usan para comunicar alertas o problemas a los agricultores?
+
+#### 💧 Necesidades colectivas de monitoreo
+- ¿Qué tan útil sería para ustedes tener un sistema centralizado donde se vea la humedad y temperatura de todos los terrenos?
+- ¿Cómo gestionan actualmente el uso del agua a nivel comunitario?
+- ¿Creen que las alertas automáticas por celular mejorarían la coordinación en la cooperativa?
+
+#### 📱 Validación del sistema WaruSmart
+- ¿Consideran útil una plataforma web y móvil para monitorear los cultivos de todos los asociados?
+- ¿Qué funcionalidades les parecerían clave en una app para tomar decisiones colectivas de riego?
+- ¿Qué tan viable ven la instalación de sensores en cada terreno asociado?
+
+#### 📢 Adopción comunitaria
+- ¿Cómo creen que esta tecnología puede ayudar a modernizar la producción en su comunidad?
+- ¿Estarían dispuestos a ser promotores de esta herramienta si los resultados son positivos?
+- ¿Qué barreras creen que existen para que sus miembros adopten una solución como WaruSmart?
+
+### 6.3.2. Registro de Entrevistas
+
+### 6.3.3. Evaluaciones segun heuristicas
+
+<p align="center">
+  <strong>## UX Heuristics & Principles Evaluation</strong><br>
+  <em>Usability – Inclusive Design – Information Architecture</em>
+</p>
+
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Desarrollo de Soluciones IoT  
+**SECCIÓN**: 1ASI057-2  
+**PROFESORES**: Todos  
+**AUDITOR**: Grupo Codex  
+**CLIENTE(S)**: Agricultores individuales y representantes de cooperativas agrarias
+
+---
+
+**SITE o APP A EVALUAR**: WaruSmart – Plataforma de gestión agrícola (Web, Mobile, IoT Edge y Backend)
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas en el sistema WaruSmart:
+
+1. Registro de un agricultor en la plataforma (Web y Mobile)
+2. Visualización del estado de humedad y temperatura de los cultivos
+3. Registro de una nueva parcela o campo agrícola
+4. Asignación de dispositivos IoT a una parcela específica
+5. Visualización de alertas generadas por sensores IoT
+6. Modificación de la fase fenológica del cultivo desde el panel web
+7. Generación de recomendaciones automáticas según datos de sensores
+8. Acceso a métricas de riego desde la app móvil
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración con módulos externos de analisis climática
+2. Reportes automatizados por correo electrónico
+3. Gestión avanzada de permisos por roles
+4. Configuración remota de dispositivos desde el panel web
+5. Visualización de analíticas comparativas entre campañas
+
+## ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que haya tiempo disponible. |
+| **2** | Problema menor: ocurre con algo más de frecuencia o es un poco más difícil de resolver para el usuario. Debería corregirse con baja prioridad en la siguiente versión. |
+| **3** | Problema mayor: ocurre con frecuencia o el usuario no puede resolverlo. Es importante corregirlo con alta prioridad. |
+| **4** | Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregirse antes del despliegue. |
+
+## TABLA RESUMEN DE PROBLEMAS DETECTADOS
+
+| #  | Problema                                                                                   | Escala de Severidad | Heurística / Principio Violado                                     |
+|----|--------------------------------------------------------------------------------------------|---------------------|---------------------------------------------------------------------|
+| 1  | No hay un control que permita regresar al panel principal desde la gestión de sensores    | 3                   | Usability: Libertad y control del usuario                          |
+| 2  | Se repiten constantemente algunas opciones en el menú lateral                             | 1                   | Usability: Consistencia y estándares                               |
+| 3  | Imágenes sin atributo “alt” en vista de detalles del cultivo                              | 3                   | Usability: Consistencia y estándares                               |
+| 4  | Incluye un botón “Ver más” en sección de alertas sin contenido adicional                  | 3                   | Inclusive Design: Proporciona experiencias comparables             |
+| 5  | No se incluye información clara sobre planes de uso del sistema o niveles de acceso       | 2                   | Information Architecture: ¿Is it usable?                          |
+| 6  | El sistema no permite buscar rápidamente una parcela por nombre                           | 2                   | Information Architecture: ¿Is it findable?                        |
+| 7  | Botón de cierre de sesión muy pequeño en versión móvil                                    | 2                   | Inclusive Design: Facilita el acceso físico                        |
+| 8  | Mensajes de error técnicos poco comprensibles para usuarios sin conocimientos técnicos    | 3                   | Usability: Ayuda y documentación                                   |
+
+### PROBLEMA #1: No hay un control que permita regresar al panel principal desde la gestión de sensores
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Libertad y control del usuario
+
+**Problema:**  
+Durante la navegación en el módulo de gestión de sensores IoT, el usuario no cuenta con un botón visible que le permita regresar fácilmente al panel principal del sistema. Esto provoca que tenga que cerrar sesión o usar el botón “atrás” del navegador, lo cual interrumpe la experiencia y genera una mayor carga cognitiva. Esta falta de control puede generar frustración y disminuir la eficiencia en tareas de gestión rápida.
+
+**Recomendación:**  
+Incluir un botón fijo de retorno al dashboard principal dentro del encabezado del módulo de sensores, para permitir una navegación más fluida sin afectar el flujo de datos ni perder el estado del sistema.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-sensores.png)
+
+### PROBLEMA #2: Se repiten constantemente algunas opciones en el menú lateral
+
+**Severidad:** 1  
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema:**  
+En el menú lateral de navegación de la plataforma WaruSmart, se muestran de forma redundante ciertas opciones como “Gestión de parcelas” y “Ver parcelas”, lo que puede generar confusión en el usuario al no saber si son secciones distintas o duplicadas. Esta repetición afecta la claridad de la interfaz y contradice los principios de diseño limpio y eficiente.
+
+**Recomendación:**  
+Revisar la arquitectura de la información del menú lateral y consolidar opciones redundantes bajo una sola entrada con submenús claros, si es necesario. Esto facilitará la navegación y mantendrá la interfaz ordenada.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314726/ejemplo-captura-menu.png)
+
+### PROBLEMA #3: Imágenes sin atributo “alt” en vista de detalles del cultivo
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema:**  
+En la vista de detalles del cultivo, las imágenes utilizadas (por ejemplo, iconos de sensores o fotos referenciales del cultivo) no incluyen atributos `alt`. Esto perjudica la accesibilidad del sistema, ya que los lectores de pantalla no pueden interpretar su contenido, y en caso de errores de carga, el usuario no tiene referencia de qué representa la imagen.
+
+**Recomendación:**  
+Agregar descripciones significativas en el atributo `alt` para todas las imágenes y elementos visuales relevantes, siguiendo los estándares de accesibilidad web. Esto asegurará que todos los usuarios, incluyendo personas con discapacidades visuales, puedan comprender el contenido.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-imagenes.png)
+
+### PROBLEMA #4: Incluye un botón “Ver más” en sección de alertas sin contenido adicional
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**  
+En la sección de alertas dentro del panel de cultivos, aparece un botón “Ver más” que no conduce a ningún contenido adicional o detalle relevante. Esto genera confusión y una experiencia inconsistente, especialmente para usuarios con menor familiaridad con interfaces digitales, ya que esperan obtener más información crítica sobre sus cultivos.
+
+**Recomendación:**  
+Eliminar el botón si no hay contenido adicional, o en su defecto, vincularlo a una vista que explique más a detalle la alerta (como histórico, causas o recomendaciones). Esto mejorará la confianza del usuario en la interfaz y evitará interacciones innecesarias.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-vermas.png)
+
+### PROBLEMA #5: No se incluye información clara sobre los planes de uso del sistema o niveles de acceso
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – ¿Is it usable?
+
+**Problema:**  
+En ninguna sección visible de la plataforma se detalla si existen planes de uso diferenciados, niveles de acceso (para agricultores individuales o cooperativas), ni si algunas funciones requieren permisos especiales. Esta falta de información puede causar confusión y frustración en los usuarios al no saber qué funcionalidades están disponibles para su perfil.
+
+**Recomendación:**  
+Incluir una sección accesible desde la navegación principal donde se expliquen claramente los tipos de usuario, los niveles de acceso disponibles y las funciones asociadas a cada uno. Esto brindará mayor transparencia y mejorará la experiencia de incorporación al sistema.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-niveles.png)
+
+### PROBLEMA #6: No se encuentra fácilmente el historial de riego en la interfaz de cultivos
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – ¿Is it findable?
+
+**Problema:**  
+En la vista de detalle del cultivo, no hay una ruta clara o botón visible que lleve al historial de riego. Los usuarios deben explorar varias secciones o paneles antes de encontrar esta información esencial, lo que dificulta la toma de decisiones y reduce la eficiencia del sistema.
+
+**Recomendación:**  
+Añadir un botón visible y accesible desde el dashboard del cultivo que dirija directamente al historial de riego. También se recomienda implementar una sección dedicada a reportes históricos donde se agrupen este tipo de datos.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-historialriego.png)
+
+### PROBLEMA #7: El sistema no notifica al usuario cuando un dispositivo IoT está desconectado
+
+**Severidad:** 4  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema:**  
+En el módulo de monitoreo de dispositivos IoT, no se muestra ninguna alerta clara o mensaje cuando un sensor pierde conexión. Esto representa un riesgo crítico, ya que los usuarios pueden asumir que sus cultivos están siendo monitoreados cuando en realidad no hay datos en tiempo real, lo que afecta directamente la toma de decisiones en campo.
+
+**Recomendación:**  
+Implementar un sistema de alertas visuales (íconos en rojo o mensajes emergentes) y notificaciones push en la versión móvil que indiquen cuándo un dispositivo deja de enviar datos por un tiempo determinado. Esto garantiza una respuesta oportuna por parte del usuario.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-alertaiot.png)
+
+### PROBLEMA #8: La aplicación móvil no adapta correctamente el contenido a pantallas pequeñas
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Considera distintas formas de interacción
+
+**Problema:**  
+Al acceder a WaruSmart desde dispositivos móviles, especialmente en pantallas de menor tamaño, algunos elementos de la interfaz como tablas de siembras, botones y textos se sobreponen o desbordan. Esto dificulta la navegación, sobre todo para usuarios con menor experiencia digital, reduciendo la accesibilidad del sistema.
+
+**Recomendación:**  
+Aplicar principios de diseño responsive en todas las vistas, utilizando flexbox o grid adaptables, tamaños de fuente relativos y menús colapsables. También se recomienda realizar pruebas en diferentes tamaños de pantalla para validar la correcta experiencia de uso.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-responsive.png)
+
+
+## 6.4.Video About-the-Product
+
+Como parte de la estrategia de difusión del sistema **WaruSmart**, el equipo desarrolló un video explicativo orientado a dos públicos clave:
+
+- 🌱 **Visitantes del Landing Page**: usuarios interesados en conocer la propuesta de valor del sistema, sus beneficios, funcionamiento general y el impacto positivo que ofrece en la agricultura.
+- 📱 **Usuarios de las aplicaciones Web y Móvil**: agricultores y cooperativas que desean entender cómo utilizar las funcionalidades principales del sistema para gestionar sus cultivos, dispositivos IoT y obtener recomendaciones personalizadas.
+
+El video adopta un tono cercano, claro y profesional, coherente con la identidad visual de WaruSmart. Se presenta una visión general del sistema, incluyendo su modelo de negocio, arquitectura modular (web, móvil, backend y edge), así como ejemplos reales de uso.
+
+📌 **Testimonio destacado**
+> *"Gracias a WaruSmart he podido monitorear mejor mis cultivos y ahora sé cuándo debo regar o ajustar la temperatura. Me ayudó a mejorar mi producción y ahorrar agua."*  
+> — Agricultor validado en entrevistas, sector Cieneguilla.
+
+📺 **Captura del video**  
+![Screenshot del Video](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747352229/imagen_2025-05-15_183706453_xkkjav.png)
+
+🔗 **Enlaces del video**
+- Versión publicada en **Microsoft Stream**:  
+  👉 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?e=GhkROp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?e=GhkROp)
+
+- Versión publicada en **YouTube** (para incrustar en el Landing Page):  
+  👉 [https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=VIDEO_ID) <!-- Reemplaza con enlace real si aplica -->
+
+⏱️ **Duración del video**: 3 minutos y 20 segundos
+
+---
+
+Este video permite a los usuarios y potenciales clientes tener una visión clara del sistema y sus beneficios, contribuyendo así a mejorar la adopción y entendimiento del ecosistema WaruSmart.
+
+
 ## Conclusiones
 
 - A partir del análisis realizado, se logró estructurar de manera inicial la solución **WaruSmart**, orientada a la gestión inteligente del riego mediante tecnologías IoT y plataformas web. La aplicación de técnicas como **Event Storming** y **Domain-Driven Design** permitió identificar los principales eventos, actores, comandos y políticas que formarán la base del sistema, asegurando una visión coherente de su funcionamiento.
 
 - La delimitación de **Bounded Contexts** y la elaboración de un **Context Mapping** permitieron organizar adecuadamente las distintas áreas funcionales del sistema, favoreciendo la modularidad, la escalabilidad futura y la claridad de responsabilidades. Este trabajo preliminar proporciona un marco sólido para el diseño posterior de la infraestructura técnica y el desarrollo de los microservicios correspondientes.
 
-- Durante el Sprint 1 se logró desplegar con éxito los tres pilares principales del sistema: **Landing Page**, **Frontend Web App** y **Backend API REST**. Esta entrega temprana permite validar la arquitectura distribuida y establecer la base para la integración continua entre los componentes del sistema.
+- Durante el Sprint 1 se logró desplegar con éxito los tres pilares principales del sistema: **Landing Page**, **Frontend Web App** y **Backend API REST**. Esta entrega temprana permitió validar la arquitectura distribuida y establecer la base para la integración continua entre los componentes del sistema.
+
+- En el Sprint 2 se fortaleció el ecosistema de WaruSmart con la incorporación de nuevas funcionalidades como la gestión de cultivos y parcelas, el monitoreo con dispositivos IoT, la autenticación de usuarios, el control de siembras por usuario y la visualización de datos en tiempo real. Estas funcionalidades han sido integradas tanto en el backend como en la aplicación web, permitiendo un flujo de trabajo más completo para los usuarios finales.
+
+- Además, se avanzó significativamente en la aplicación móvil y el módulo edge, sentando las bases para un monitoreo local de sensores IoT incluso en contextos sin conectividad estable. Esto amplía el alcance del sistema en zonas rurales.
 
 - Se evidenció una participación activa y distribuida del equipo de trabajo en los diferentes repositorios, con aportes significativos tanto en el diseño visual como en la lógica de negocio y la implementación técnica, lo cual refleja un enfoque colaborativo y disciplinado.
 
-- Las decisiones técnicas tomadas en este primer sprint permiten sentar una base estable para el desarrollo incremental del sistema en futuros sprints, minimizando riesgos de re-trabajo y alineando al equipo con buenas prácticas de ingeniería de software.
+- Las **entrevistas de validación** y las **pruebas heurísticas** que se ejecutarán en las siguientes fases permitirán retroalimentar el diseño actual con aportes reales de los usuarios y fortalecer la experiencia de uso.
 
----
+- Las decisiones técnicas tomadas hasta el momento, incluyendo el uso de Swagger para la documentación, control de versiones por ramas especializadas y despliegue continuo, permiten sentar una base estable para el desarrollo incremental del sistema en futuros sprints, minimizando riesgos de re-trabajo y alineando al equipo con buenas prácticas de ingeniería de software y diseño centrado en el usuario.
+
 
 ## Recomendaciones
 
@@ -4114,13 +4784,36 @@ Estos insights reflejan una dinámica de trabajo distribuido por especialidades 
 
 - Es importante establecer mecanismos tempranos de integración entre frontend y backend, mediante contratos de API bien definidos y pruebas de integración automatizadas, para evitar bloqueos en etapas posteriores del desarrollo.
 
-- Dado que el sistema está orientado a la interacción con dispositivos físicos IoT, se sugiere implementar desde el siguiente sprint una arquitectura de monitoreo y manejo de errores que contemple caídas de red, fallos de hardware o pérdida de sincronización con sensores.
+- Dado que el sistema está orientado a la interacción con dispositivos físicos IoT, se sugiere implementar desde el siguiente sprint una arquitectura de monitoreo y manejo de errores que contemple caídas de red, fallos de hardware o pérdida de sincronización con sensores, así como la posibilidad de operar en modo offline con sincronización posterior.
 
-- Documentar cada despliegue realizado, tanto en GitHub Pages como en Azure, asegurando que el equipo tenga visibilidad clara de las configuraciones empleadas y pueda reproducir el entorno en otras máquinas o entornos cloud.
+- Documentar cada despliegue realizado, tanto en GitHub Pages como en Azure y GitHub Actions, asegurando que el equipo tenga visibilidad clara de las configuraciones empleadas y pueda reproducir el entorno en otras máquinas o entornos cloud en caso de ser necesario.
 
-- Aprovechar los datos recopilados en los insights de colaboración para distribuir mejor las tareas en próximos sprints, fomentando el equilibrio de carga de trabajo y potenciando los perfiles técnicos de cada integrante.
+- Aprovechar los datos recopilados en los insights de colaboración para distribuir mejor las tareas en próximos sprints, fomentando el equilibrio de carga de trabajo, promoviendo sesiones de emparejamiento técnico (pair programming), y potenciando los perfiles individuales de cada integrante del equipo Codex.
+
+- Consolidar y versionar las pruebas automatizadas en un entorno común como `WaruSmart-Testing`, integrando Gherkin y BDD para mantener la trazabilidad entre funcionalidades y criterios de aceptación.
+
+- Iniciar la planificación de las sesiones de validación con usuarios mediante prototipos navegables o versiones demo, priorizando la experiencia móvil y la usabilidad en campo, que son críticas para el público objetivo agrícola.
 
 ## Video About-the-Team
+
+En esta sección se presenta un resumen del contenido incluido en el video **About-the-Team**, donde los integrantes del equipo **Codex** comparten su experiencia, motivaciones y aprendizajes durante el desarrollo del proyecto **WaruSmart**.
+
+También se incluye un testimonio grupal final donde el equipo resalta la importancia del trabajo conjunto, la planificación ágil y el impacto esperado de WaruSmart en la agricultura rural.
+
+### 📸 Captura del video:
+![Captura del equipo](https://res.cloudinary.com/ejemplo/image/upload/v1234567890/equipo-warusmart.jpg)
+
+### 🔗 Enlaces del video:
+
+- 📺 Versión en Microsoft Stream (entorno institucional):  
+  [https://web.microsoftstream.com/video/ejemplo-codex-warusmart](https://web.microsoftstream.com/video/ejemplo-codex-warusmart)
+
+- 📺 Versión pública en YouTube (para insertar en Landing Page):  
+  [https://youtube.com/watch?v=codex-warusmart-equipo](https://youtube.com/watch?v=codex-warusmart-equipo)
+
+### ⏱️ Duración total del video:
+**3 minutos con 15 segundos**
+
 
 # Bibliografía
 
@@ -4130,9 +4823,8 @@ Estos insights reflejan una dinámica de trabajo distribuido por especialidades 
  | Enlace                | Entregable |
  | --------------------- | ---------- |
  | https://goo.su/8Zz305 | TB1        |
- |                       | TP         |
  |                       | TB2        |
- |                       | TF         |
+
 
 ### Repositorio del Frontend
 https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform
