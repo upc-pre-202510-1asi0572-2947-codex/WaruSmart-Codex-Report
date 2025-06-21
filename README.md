@@ -4110,8 +4110,8 @@ Estos insights reflejan una dinámica de trabajo distribuido por especialidades 
 
 #### 6.2.2.1 Sprint Planning 2
 
-Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
-<img src = "Assets/chapter-vi/sprint1_planning.png">
+Enlace al Trello: https://trello.com/b/yITmdUYn/warusmart-sprint-planning-2 <br>
+<img src = "https://res.cloudinary.com/dydklnicb/image/upload/v1750520336/Trello_Sprint2.png">
 
 | **Sprint #**                        | **Sprint 2**                                                                                                                                                                                                                                            |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -4122,10 +4122,10 @@ Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
 | **Prepared By**                     | Velasquez Pizarro, Jair                                                                                                                                                                                                                                 |
 | **Attendees (to planning meeting)** | Victor Herrera, Anderson Macedo, Jeferson Cabrera, Christopher More, Fernando Quispe, Jair Velazquez, Carlos Pingus                                                                                                                                     |
 | **Sprint 1 Review Summary**         | Se evaluaron los resultados del Sprint 1, identificando oportunidades de mejora en la integración de componentes y en la organización del trabajo.                                                                                                      |
-| **Sprint 1 Retrospective Summary**  | Se destacó la necesidad de una mejor sincronización al momento de integrar los bounded contex y una planificación más precisa de las tareas técnicas.                                                                                                   |
+| **Sprint 1 Retrospective Summary**  | Se destacó la necesidad de una mejor sincronización al momento de integrar los bounded contexts y una planificación más precisa de las tareas técnicas.                 |
 | **Sprint Goal and User Stories**    | En este sprint se buscará avanzar en la implementación de la web app, así como la integración con los servicios backend y dispositivos embebidos. Se espera validar el funcionamiento conjunto de los módulos y entregar una versión funcional inicial. |
-| **Sprint 2 Velocity**               | 18 puntos                                                                                                                                                                                                                                               |
-| **Suma de Story Points**            | 18 puntos                                                                                                                                                                                                                                               |
+| **Sprint 2 Velocity**               | 108 puntos                                                                                                                                                                                                                                               |
+| **Suma de Story Points**            | 108 puntos                                                                                                                                                                                                                                               |
 
 El Sprint 2 se llevó a cabo con una reunión virtual por Google Meet, donde se reunieron todos los integrantes del equipo. En la revisión del sprint anterior se resaltaron mejoras necesarias en la integración técnica y la gestión del tiempo. Como meta, se propuso avanzar en la conexión entre los diferentes módulos del sistema, incluyendo backend, frontend y dispositivos físicos. Se planificaron tareas más específicas para lograr una entrega funcional y coherente, trabajando sobre un total de 18 puntos de historia, con enfoque colaborativo y mejor coordinación.
 
@@ -4155,166 +4155,19 @@ Esta distribución permitió que cada módulo avanzara con claridad de objetivos
 
 En este segundo sprint, el grupo se enfocó en fortalecer las funcionalidades del sistema para brindar una experiencia más completa al agricultor. Se implementaron mejoras en el panel de gestión y monitoreo de cultivos, integrando dispositivos IoT para obtener datos en tiempo real. Además, se desarrollaron herramientas gráficas de visualización del estado del cultivo, ajustes de umbrales de alerta y nuevas opciones de interacción con parcelas y sensores, permitiendo al usuario tomar decisiones de manera más informada y precisa.
 
-<table>
-    <thead>
-        <tr>
-            <td>Sprint #:</td>
-            <td colspan="7">Sprint 2</td>
-        </tr>
-        <tr>
-            <td colspan="2">User Story</td>
-            <td colspan="6">Work-Item / Task</td>
-        </tr>
-        <tr>
-            <td>ID</td>
-            <td>Title</td>
-            <td>ID</td>
-            <td>Title</td>
-            <td>Description</td>
-            <td>Estimation (Hours)</td>
-            <td>Assigned to</td>
-            <td>Status</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>E1-US01</td>
-            <td>Navegación entre secciones</td>
-            <td>02</td>
-            <td>Implementar barra de navegación</td>
-            <td>Desarrollar una barra que permita navegar entre secciones de la landing (inicio, cómo funciona, beneficios, testimonios, contacto)</td>
-            <td>5</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>E1-US02</td>
-            <td>Conocer cómo funciona la solución</td>
-            <td>03</td>
-            <td>Sección "¿Cómo funciona?"</td>
-            <td>Crear una sección informativa que explique el funcionamiento del sistema (app + sensores)</td>
-            <td>4</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>E1-US03</td>
-            <td>Visualizar beneficios segmentados</td>
-            <td>04</td>
-            <td>Diseñar sección de beneficios</td>
-            <td>Mostrar beneficios diferenciados según el perfil del visitante (agricultor/cooperativa)</td>
-            <td>5</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>E1-US04</td>
-            <td>Sección testimonios de usuarios</td>
-            <td>05</td>
-            <td>Agregar testimonios reales</td>
-            <td>Diseñar una sección con al menos dos testimonios de agricultores/cooperativas con resultados medibles</td>
-            <td>3</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>E1-US05</td>
-            <td>Sección contactarse</td>
-            <td>06</td>
-            <td>Formulario de contacto</td>
-            <td>Crear sección para que el usuario pueda dejar sus datos y mensaje para ser contactado</td>
-            <td>4</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="3">E2-US08</td>
-            <td rowspan="3">Vista general del estado del cultivo</td>
-            <td>07</td>
-            <td>Panel con resumen de estado</td>
-            <td>Desarrollar un panel con resumen de condiciones del cultivo utilizando datos de sensores</td>
-            <td>6</td>
-            <td>Jeferson Cabrera - Carlos Pingus</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>08</td>
-            <td>Visualización por campo registrado</td>
-            <td>Permitir al usuario cambiar entre campos registrados y visualizar el estado de cada uno</td>
-            <td>4</td>
-            <td>Jeferson Cabrera - Cristopher More - Anderson Macedo</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>08</td>
-            <td>IoT Devices</td>
-            <td>Permitir al usuario registrar dispositivos IoT por cultivo.</td>
-            <td>4</td>
-            <td>Jeferson Cabrera - Fernando Quispe</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="3">E5-US23</td>
-            <td rowspan="3">Creación de parcelas agrícolas</td>
-            <td>09</td>
-            <td>Registrar nueva parcela</td>
-            <td>Formulario para registrar ubicación, tamaño y características. Validación de campos obligatorios.</td>
-            <td>5</td>
-            <td>Fernando Quispe</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>Editar parcela</td>
-            <td>Permitir modificar la información de una parcela ya registrada.</td>
-            <td>3</td>
-            <td>Equipo Frontend</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>Eliminar parcela</td>
-            <td>Permitir eliminar una parcela desde el panel de gestión con confirmación.</td>
-            <td>2</td>
-            <td>Fernando Quispe</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="4">E5-US24</td>
-            <td rowspan="4">Agregar cultivos a una parcela</td>
-            <td>12</td>
-            <td>Asignar cultivo a parcela</td>
-            <td>Permitir al usuario agregar uno o más cultivos a una parcela desde lista disponible.</td>
-            <td>4</td>
-            <td>Carlos Pingus</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>Mostrar cultivos por parcela</td>
-            <td>Listar los cultivos asociados a una parcela en su vista de detalle.</td>
-            <td>3</td>
-            <td>Jefferson Cabrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>14</td>
-            <td>Editar cultivo</td>
-            <td>Permitir editar los detalles del cultivo asignado (variedad, fecha, etc.).</td>
-            <td>2</td>
-            <td>Fernando Quispe</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>15</td>
-            <td>Cambiar fase fenológica</td>
-            <td>Permitir al usuario actualizar la fase fenológica del cultivo desde el panel.</td>
-            <td>3</td>
-            <td>Jefferson Cabrera</td>
-            <td>Done</td>
-        </tr>
-    </tbody>
-</table>
+| User Story - ID | User Story - Title                                                      | Status    | Work Item - ID | Work Item - Title                                         | Work Item - Description                                          | Work Item - Estimation | Work Item - Assigned To |
+| --------------- | ----------------------------------------------------------------------- | --------- | -------------- | --------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------- | ----------------------- |
+| E2-US06         | Visualización de temperatura y humedad del suelo en web                 | To Review | 01             | Visualización de temperatura y humedad del suelo en web   | Crear vista web para mostrar temperatura y humedad del suelo     | 3                      | Cristopher More                     |
+| E2-US07         | Visualización de humedad ambiental y temperatura del aire               | To Review | 02             | Visualización de humedad ambiental y temperatura del aire | Mostrar humedad ambiental y temperatura del aire en interfaz web | 3                      | Cristopher More                     |
+| E2-US10         | Registro histórico de condiciones ambientales en la web                 | To Review | 03             | Registro histórico de condiciones ambientales en la web   | Implementar módulo para ver historial de clima en la web         | 4                      | Cristopher More                     |
+| E2-US35         | Visualización de temperatura y humedad del suelo en movil               | To Review | 04             | Visualización de temperatura y humedad del suelo en movil | Mostrar temperatura y humedad del suelo en app móvil             | 3                      | Anderson Macedo                     |
+| E3 - MS10       | Configuracion en los dispositivos de los umbrales de riego              | To Review | 05             | Configuración en dispositivos de umbrales de riego        | Permitir configurar umbrales de riego en dispositivos IoT        | 5                      | Fernando Quispe                     |
+| TS06 - T21      | Recepción de datos de sensores a través de REST para actuar             | To Review | 06             | Recepción de datos de sensores vía REST                   | Crear endpoint REST para recibir datos de sensores y procesarlos | 4                      | Jair Velasquez                     |
+| TS08 - T19      | Lógica de almacenamiento en la Edge App de los datos.                   | To Review | 07             | Lógica de almacenamiento en Edge App                      | Desarrollar almacenamiento local de datos en la Edge App         | 6                      | Jerferson Cabrera                     |
+| TS09 - T18      | Exposición de la data del Fog App para enviar al backend                | To Review | 08             | Exposición de datos del Fog App                           | Implementar mecanismo de envío de datos desde Fog App al backend | 4                      | Carlos Pingus                     |
+| TS11 - T20      | Gestionar en la Fog APP todos los Edge que se conectarán                | To Review | 09             | Gestión de Edge Devices desde Fog App                     | Añadir gestión de dispositivos Edge desde el panel del Fog App   | 5                      | Jair Velasquez                     |
+| TS12 - T17      | En el Fog App realizar la implementación de las alertas bajo una alerta | To Review | 10             | Implementación de alertas en Fog App                      | Agregar lógica para emitir alertas automáticas en el Fog App     | 6                      | Jair Velasquez                     |
+
 
 #### 6.2.1.4 Development Evidence for Sprint Review
 
