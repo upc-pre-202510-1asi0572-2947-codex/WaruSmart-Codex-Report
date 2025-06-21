@@ -4407,13 +4407,11 @@ Durante este segundo sprint, se logró el despliegue de nuevos componentes clave
 ---
 
 - 🎬 **Video Navegación Web App:**  
-  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA) - 
-
-- 🎬 **Video de Navegación Backend:**  
-  👉 [Ver video Swagger API](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQlpEXxAcClMr5cN416gP3MBrcxVrPyk4-Wlq-elpjezyw?e=pWgMiN) - 
+  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp) https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp 
 
 - 🎬 **Video del Edge y flujo fisico:**  
-  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp) - 
+  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQXLK1ugUlNBuy9Mu03LpwkBZc_q3fNJvZHjc5lkZhUiYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4gQX0R)https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQXLK1ugUlNBuy9Mu03LpwkBZc_q3fNJvZHjc5lkZhUiYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4gQX0R
+
 
 ---
 
@@ -4426,19 +4424,19 @@ Durante este sprint, se consolidó la documentación de servicios de WaruSmart a
 
  **Evidencias visuales del backend**
 
-- ![Backend Swagger General](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
+![Backend Swagger General](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
   *Vista general de la interfaz Swagger mostrando los endpoints activos organizados por recurso: usuarios, cultivos, parcelas, dispositivos, sensores, recomendaciones.*
 
-- ![Backend Endpoint IoT](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)  
+![Backend Endpoint IoT](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)  
   *Detalle del endpoint `POST /iot-devices` que permite registrar un nuevo dispositivo IoT y asignarlo a un cultivo específico.*
 
-- ![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
+![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
   *Prueba del endpoint `GET /sowings/user` mostrando la respuesta exitosa con datos simulados de siembras asociadas al usuario autenticado.*
 
-- ![Backend Sowings by Phase](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.42.25_AM_yncr8e.jpg)  
+![Backend Sowings by Phase](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.42.25_AM_yncr8e.jpg)  
   *Nuevo endpoint que permite actualizar o consultar la fase fenológica de un cultivo, facilitando el seguimiento agronómico.*
 
-- ![Backend Fog Endpoint](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.47.11_AM_fbvart.jpg)  
+![Backend Fog Endpoint](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.47.11_AM_fbvart.jpg)  
   *Integración de endpoints de comunicación Fog-to-Cloud para el envío seguro de datos desde sensores de borde.*
 
 ---
