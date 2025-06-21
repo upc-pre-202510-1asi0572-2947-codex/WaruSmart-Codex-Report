@@ -4753,16 +4753,16 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 > — Agricultor validado en entrevistas, sector Cieneguilla.
 
 📺 **Captura del video**  
-![Screenshot del Video](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747352229/imagen_2025-05-15_183706453_xkkjav.png)
+![Screenshot del Video](https://res.cloudinary.com/dr5v9tizc/image/upload/v1750513890/Captura-AboutTheProduct_fczua7.png)
 
 🔗 **Enlaces del video**
 - Versión publicada en **Microsoft Stream**:  
-  👉 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?e=GhkROp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?e=GhkROp)
+  👉 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - Versión publicada en **YouTube** (para incrustar en el Landing Page):  
-  👉 [https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=VIDEO_ID) <!-- Reemplaza con enlace real si aplica -->
+  👉 [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
 
-⏱️ **Duración del video**: 3 minutos y 20 segundos
+⏱️ **Duración del video**: 6 minutos y 59 segundos
 
 ---
 
@@ -4816,10 +4816,10 @@ También se incluye un testimonio grupal final donde el equipo resalta la import
 ### 🔗 Enlaces del video:
 
 - 📺 Versión en Microsoft Stream (entorno institucional):  
-  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  [https://web.microsoftstream.com/video/ejemplo-codex-warusmart](https://web.microsoftstream.com/video/ejemplo-codex-warusmart)
 
 - 📺 Versión pública en YouTube (para insertar en Landing Page):  
-  [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
+  [https://youtube.com/watch?v=codex-warusmart-equipo](https://youtube.com/watch?v=codex-warusmart-equipo)
 
 ### ⏱️ Duración total del video:
 **3 minutos con 15 segundos**
