@@ -752,6 +752,8 @@ Tabla que muestra las principales actividades del usuario, junto con el como rea
 
 **SEGMENTO AGRICULTORES:**
 
+Se espera que los agricultores individuales puedan monitorear con mayor facilidad sus cultivos, lo que les permitirá sentirse mejor al mejorar su rentabilidad.
+
 <img src="Assets/needfinding/To-Be-agricultor.PNG">
 Herramienta: Miro
 
@@ -759,6 +761,8 @@ Herramienta: Miro
 <br>
 
 **SEGMENTO COOPERATIVAS:**
+
+Se espera que las cooperativas agrarias puedan llevar un mejor control de sus gastos, así como tener una mejor gestión de las condiciones de sus cultivos, lo que conlleva a que tengan mejores ganancias.
 
 <img src="Assets/needfinding/To-Be-cooperativa.PNG">
 Herramienta: Miro
@@ -818,11 +822,17 @@ El Impact Mapping es una técnica de visualización estratégica que ayuda a ali
 
 **Segmento agricultor**
 <p>
+
+Los agricultores individuales contarán con la posibilidad de visualizar fácilmente la información de sus cultivos, lo que los llevará a cuidarlos de mejor manera. Al mismo tiempo, ahorrarán tiempo y energía al automatizar el riego de las plantas.
+  
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/WaruSmart-impact-mapping-agricultor_cbek9r.png">
 </p>
 
 **Segmento cooperativa**
 <p>
+
+Las cooperativas agrarias contarán con visualización de reportes que les permitan llevar un mejor registro de sus cultivos, así como de las condiciones en las que se encuentran. al mismo tiempo, contarán con la posibilidad de añadir sensores o exportar reportes, lo que permitirá que se mantengan lo más informados posible.
+  
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/Segmento_Cooperativa_flzule.png">
 </p>
 
