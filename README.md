@@ -4816,10 +4816,10 @@ También se incluye un testimonio grupal final donde el equipo resalta la import
 ### 🔗 Enlaces del video:
 
 - 📺 Versión en Microsoft Stream (entorno institucional):  
-  [https://web.microsoftstream.com/video/ejemplo-codex-warusmart](https://web.microsoftstream.com/video/ejemplo-codex-warusmart)
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - 📺 Versión pública en YouTube (para insertar en Landing Page):  
-  [https://youtube.com/watch?v=codex-warusmart-equipo](https://youtube.com/watch?v=codex-warusmart-equipo)
+  [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
 
 ### ⏱️ Duración total del video:
 **3 minutos con 15 segundos**
