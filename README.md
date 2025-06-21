@@ -62,25 +62,97 @@ NRC: 2947</h5>
 | 1.4     | 23/09/25 | Anderson Walter Macedo Calsina, Fernando Daniel Quispe Condori                                                                                                                                                                | Desarrollo de User Stories priorizadas con sus respectivos criterios de aceptación                                          |
 | 1.5     | 25/09/25 | Victor Raul Herrera Castillo, Jeferson Smith Cabrera Camizan                                                                                                                                                                  | Definición estructurada del Product Backlog y priorización mediante MoSCoW                                                  |
 | 2.0     | 28/09/25 | Todos los miembros                                                                                                                                                                                                            | Finalización de TP1: Consolidación de artefactos de diseño, implementación inicial de la Landing Page, planificación de Sprint 1 |
-
+| 2.1     | 02/10/24 | Cancho Coila Diego                                                                                                                                                                                                              | Sprint Planning 1: Preparación del entorno y gestión de tareas                                                             |
+| 2.2     | 08/10/24 | Arenas Conde José Anthony                                                                                                                                                                                                      | Implementación de Landing Page, secciones esenciales y pruebas de usabilidad                                               |
+| 2.3     | 11/10/24 | Lagos Aguilar, Luis Eduardo                                                                                                                                                                                                     | Configuración del entorno de desarrollo, gestión de código fuente                                                          |
+| 2.4     | 14/10/24 | Guerrero Castillo, Anthony Jeandet                                                                                                                                                                                              | Revisión del Sprint 1, evidencias y pruebas de accesibilidad                                                              |
+| 2.5     | 16/10/24 | Chamorro Torres, Samuel Rolando                                                                                                                                                                                                | Despliegue de Landing Page y preparación para Sprint 2                                                                     |
+| 2.6     | 20/10/24 | Cancho Coila Diego                                                                                                                                                                                                              | Sprint Planning 2: Definición de REST Endpoints y configuración UI                                                         |
+| 2.7     | 23/10/24 | Arenas Conde José Anthony                                                                                                                                                                                                      | Integración de componentes UI y gestión de grupos                                                                           |
+| 2.8     | 25/10/24 | Lagos Aguilar, Luis Eduardo                                                                                                                                                                                                     | Desarrollo de funcionalidades de cuenta y pruebas de integración                                                           |
+| 2.9     | 30/10/24 | Guerrero Castillo, Anthony Jeandet                                                                                                                                                                                              | Configuración de pruebas y validación de datos en tiempo real con esas nuevas actividades                                   |
+| 3.0     | 03/11/24 | Todos los miembros                                                                                                                                                                                                            | Finalización de TB2: Implementación de funcionalidades clave de gestión de usuarios y cuentas                              |
 
 ### Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto: https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Codex-Report/tree/develop
+**URL del repositorio para el reporte del proyecto:** https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Codex-Report/tree/develop
+**Link de los repositorios de la oraganización:** https://github.com/upc-pre-202510-1asi0572-2947-codex
 
-TB1
-Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma
-para cada integrante del equipo:
+**TB1**
+
+En esta primera entrega (TB1), el objetivo principal fue la creación de WaruSmart, nuestra solución para la automatización de riego agrícola. Todos los miembros del equipo participaron activamente en la elaboración del informe, utilizando herramientas colaborativas como GitHub, Mural, Jira, UXPressia y Miro. A continuación, se presentarán los diagramas de flujo que reflejan las contribuciones de cada miembro del equipo.
 
 | Integrante                         | Tareas Asignadas                                                                      |
-| ---------------------------------- | ------------------------------------------------------------------------------------- |
-| Anderson Walter Macedo Calcina     | analisis competitivo, estrategias y tacticas, registro de entrevistas                 |
+| ---------------------------------- |---------------------------------------------------------------------------------------|
+| Anderson Walter Macedo Calcina     | Analisis competitivo, estrategias y tacticas, registro de entrevistas                 |
 | Cabrera Camizan, Jeferson Smith    | EventStorming, Candidate Context Discovery, Bounded Context Canvases yContext Mapping |
-| More Rondon, Christopher Sebastian | Needfinding, diseño de entrevistas, estructura del informe                           |
+| More Rondon, Christopher Sebastian | Needfinding, diseño de entrevistas, estructura del informe                            |
 | Quispe Condori, Fernando Daniel    | Solutio Profile - Bounded context canvases - Diagram Flow MeSSAGES                    |
-| Velasquez Pizarro, Jair            | User Stories - Impact Mapping - Product Backlog                                                                                   |
-| Pingus Rodriguez, Carlos Daniel    | Definición de Bounded Contexts                                                       |
+| Velasquez Pizarro, Jair            | User Stories - Impact Mapping - Product Backlog                                       |
+| Pingus Rodriguez, Carlos Daniel    | Definición de Bounded Contexts                                                        |
 | Herrera Castillo, Victor Raul      | Diagramas C4                                                                          |
+
+![TB1](https://res.cloudinary.com/djia8bsvr/image/upload/v1750477314/Screenshot_2025-06-20_224058_an844o.png)
+
+
+Este gráfico muestra la cantidad de commits realizados por cada integrante durante el desarrollo del TB1 de WaruSmart.
+
+El gráfico ofrece una representación visual de las contribuciones registradas en nuestro repositorio y la cantidad de interacción de los miembros del equipo a lo largo del tiempo.
+
+Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada miembro aportando de manera significativa al avance y desarrollo de la solución.
+
+**TP1**
+
+En esta primera entrega de TP1, el objetivo principal fue la presentación de la versión final de la landing page, la primera versión de la aplicación web y los avances iniciales del backend de WaruSmart, nuestra solución para la automatización del riego agrícola. Durante este periodo, nos enfocamos en el desarrollo de la interfaz de usuario y la estructura básica del backend, con el fin de sentar las bases para futuras integraciones y mejoras. La landing page se completó con todos los elementos esenciales, y la primera versión de la aplicación web fue configurada con las funcionalidades iniciales.
+
+Todos los miembros del equipo participaron activamente en el avance del proyecto, utilizando herramientas colaborativas como GitHub, Mural, Jira, UXPressia y Miro. A continuación, se presentan los diagramas de flujo que muestran las tareas realizadas por cada miembro del equipo.
+
+| Integrante                         | Tareas Asignadas                                                                                               |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Anderson Walter Macedo Calsina     | Desarrollo de backend, configuración inicial del servidor y estructura de la base de datos                     |
+| Cabrera Camizan, Jeferson Smith    | Diseño e implementación de la landing page, optimización de la interfaz web y funciones básicas                |
+| More Rondon, Christopher Sebastian | Desarrollo de la interfaz frontend, integración de la primera versión web, pruebas de usabilidad               |
+| Quispe Condori, Fernando Daniel    | Implementación inicial de la automatización en el backend, conexión básica con la base de datos                |
+| Velasquez Pizarro, Jair            | Redacción y desarrollo de User Stories, documentación del avance y preparación para la integración del backend |
+| Pingus Rodriguez, Carlos Daniel    | Arquitectura básica del sistema backend y planificación de la integración de sensores IoT                      |
+| Herrera Castillo, Victor Raul      | Modelado de la arquitectura del sistema y diagramas iniciales para la infraestructura del backend y la web     |
+
+
+
+![TP1](https://res.cloudinary.com/djia8bsvr/image/upload/v1750478127/Screenshot_2025-06-20_225513_xnathb.png)
+
+
+Este gráfico ilustra las contribuciones de cada miembro durante el desarrollo del TP1 de WaruSmart.
+
+La imagen proporciona una representación visual de las actividades registradas en nuestro repositorio y la interacción de los miembros a lo largo del proceso de trabajo.
+
+Estas evidencias reflejan una colaboración equilibrada y eficiente, donde cada miembro ha aportado significativamente al progreso y desarrollo de la solución.
+**TB2**
+
+En esta segunda entrega (TB2), el objetivo principal fue la implementación de funcionalidades clave de WaruSmart, nuestra solución para la automatización del riego agrícola. Durante este periodo, se presentaron nuevas versiones para el desarrollo web y las primeras implementaciones de sistemas IoT, como edge computing y el backend. Además, comenzamos con el desarrollo de la aplicación Android, utilizando herramientas especializadas como JetBrains y sus IDE para Python en el backend, Vite en el desarrollo web, WebStorm para el frontend, y Android Studio para el desarrollo nativo de la aplicación móvil.
+
+Todos los miembros del equipo participaron activamente en el avance del proyecto, utilizando herramientas colaborativas como GitHub, Mural, Jira, UXPressia y Miro. A continuación, se presentan los diagramas de flujo que muestran las tareas realizadas por cada miembro del equipo.
+
+| Integrante                         | Tareas Asignadas                                                                                              |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Anderson Walter Macedo Calsina     | Desarrollo de backend, implementación de APIs con Python, uso de JetBrains para la codificación del servidor  |
+| Cabrera Camizan, Jeferson Smith    | Diseño e implementación de los sistemas IoT (sensores), integración de Vite para optimización web             |
+| More Rondon, Christopher Sebastian | Desarrollo de interfaz frontend, integración con WebStorm, optimización de la experiencia de usuario          |
+| Quispe Condori, Fernando Daniel    | Implementación de sistemas de automatización, desarrollo de diagramas de flujo en el backend y edge computing |
+| Velasquez Pizarro, Jair            | Redacción y desarrollo de User Stories, integración con el backend y gestión de tareas del Product Backlog    |
+| Pingus Rodriguez, Carlos Daniel    | Desarrollo de la arquitectura del sistema IoT y optimización de los sensores y dispositivos de riego          |
+| Herrera Castillo, Victor Raul      | Modelado de la arquitectura, diagramas C4 y planificación de infraestructura para backend y IoT               |
+
+
+
+![TB2](https://res.cloudinary.com/djia8bsvr/image/upload/v1750477926/Screenshot_2025-06-20_225156_u7pj98.png)
+
+
+Este gráfico ilustra las contribuciones de cada miembro durante el desarrollo del TB2 de WaruSmart.
+
+La imagen proporciona una representación visual de las actividades registradas en nuestro repositorio y la interacción de los miembros a lo largo del proceso de trabajo.
+
+Estas evidencias reflejan una colaboración equilibrada y eficiente, donde cada miembro ha aportado significativamente al progreso y desarrollo de la solución.
 
 # Contenido
 
@@ -1456,7 +1528,9 @@ El siguiente diagrama muestra la estructura global de la solución.
 </p>
 
 #### 4.1.3.1 Software Architecture Context Level Diagrams
-El sigueinte diagrama de contexto muestra las relaciones y flujos de información entre los actores (usuarios y sistemas)
+<p>
+  Este diagrama muestra el contexto de Warusmart, incluyendo los actores externos y cómo interactúan con el sistema. Los actores incluyen agricultores, técnicos, administradores y sistemas externos como plataformas de pago y servicios de notificación.
+El siguiente diagrama de contexto muestra las relaciones y flujos de información entre los actores (usuarios y sistemas)
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContext_f7hfik.png">
 </p>
 
