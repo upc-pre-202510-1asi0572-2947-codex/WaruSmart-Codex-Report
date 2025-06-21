@@ -4572,9 +4572,9 @@ A continuacion se muetras las Validation Interviews son una etapa clave para nue
 
 **CARRERA**: Ingeniería de Software  
 **CURSO**: Desarrollo de Soluciones IoT  
-**SECCIÓN**: 1ASI057-2  
-**PROFESORES**: Todos  
-**AUDITOR**: Grupo Codex  
+**SECCIÓN**: 2947  
+**PROFESORES**: Angel Augusto Velazques Nuñes  
+**AUDITOR**: Codex  
 **CLIENTE(S)**: Agricultores individuales y representantes de cooperativas agrarias
 
 ---
