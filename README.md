@@ -4247,26 +4247,24 @@ Durante este segundo sprint, se logró el despliegue de nuevos componentes clave
 
 - 📱 **Mobile Application (React Native)**  
   Se desplegó una versión funcional para Android que permite a los agricultores registrar sus cultivos y consultar recomendaciones directamente desde el celular.  
-  👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) - https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication
+  👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication
 
 - 🌫️ **Fog Computing Node (WaruSmart-Fog-App)**  
   Se configuró un microservicio intermedio que gestiona la recepción de datos de sensores desde dispositivos Edge y reenvía al backend central.  
-  👉 Repositorio: [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) - https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App
+  👉 Repositorio: [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App
 
 - 📡 **Edge Devices (ESP32 - WaruSmart-Edge-App)**  
   Los dispositivos físicos de borde fueron integrados con la plataforma a través del microservicio Fog. Se probó correctamente la lectura de sensores y envío de datos.  
-  👉 Repositorio: [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) - https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App
+  👉 Repositorio: [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App
 
 ---
 
 - 🎬 **Video Navegación Web App:**  
-  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA) - 
-
-- 🎬 **Video de Navegación Backend:**  
-  👉 [Ver video Swagger API](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQlpEXxAcClMr5cN416gP3MBrcxVrPyk4-Wlq-elpjezyw?e=pWgMiN) - 
+  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp) https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp 
 
 - 🎬 **Video del Edge y flujo fisico:**  
-  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp) - 
+  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQXLK1ugUlNBuy9Mu03LpwkBZc_q3fNJvZHjc5lkZhUiYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4gQX0R)https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQXLK1ugUlNBuy9Mu03LpwkBZc_q3fNJvZHjc5lkZhUiYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4gQX0R
+
 
 ---
 
@@ -4279,19 +4277,19 @@ Durante este sprint, se consolidó la documentación de servicios de WaruSmart a
 
  **Evidencias visuales del backend**
 
-- ![Backend Swagger General](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
+![Backend Swagger General](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
   *Vista general de la interfaz Swagger mostrando los endpoints activos organizados por recurso: usuarios, cultivos, parcelas, dispositivos, sensores, recomendaciones.*
 
-- ![Backend Endpoint IoT](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)  
+![Backend Endpoint IoT](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)  
   *Detalle del endpoint `POST /iot-devices` que permite registrar un nuevo dispositivo IoT y asignarlo a un cultivo específico.*
 
-- ![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
+![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
   *Prueba del endpoint `GET /sowings/user` mostrando la respuesta exitosa con datos simulados de siembras asociadas al usuario autenticado.*
 
-- ![Backend Sowings by Phase](https://res.cloudinary.com/dydklnicb/image/upload/v1747400000/backend-sowing-by-phase.png)  
+![Backend Sowings by Phase](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.42.25_AM_yncr8e.jpg)  
   *Nuevo endpoint que permite actualizar o consultar la fase fenológica de un cultivo, facilitando el seguimiento agronómico.*
 
-- ![Backend Fog Endpoint](https://res.cloudinary.com/dydklnicb/image/upload/v1747400055/backend-fog-endpoint.png)  
+![Backend Fog Endpoint](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.47.11_AM_fbvart.jpg)  
   *Integración de endpoints de comunicación Fog-to-Cloud para el envío seguro de datos desde sensores de borde.*
 
 ---
@@ -4315,14 +4313,20 @@ Durante este sprint, se desplegaron exitosamente los principales componentes del
 - 📱 **Mobile Application**  
   La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
   👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.45.26_AM_hseemj.jpg)
+
 
 - 📶 **Edge Application**  
   Aplicación liviana diseñada para ejecutarse en dispositivos de borde (edge), encargada de recolectar datos desde sensores y enviarlos hacia la nube.  
   👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
+![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.46.48_AM_wedj1u.jpg)
+
 
 - 🌩️ **Fog Application**  
   Servicio intermedio desplegado entre los dispositivos y la nube, que gestiona el procesamiento local y asegura la disponibilidad en caso de desconexión.  
   👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
+![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.54.19_AM_uqmchk.jpg)
+
 
 Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (**frontend ↔ backend ↔ edge/fog ↔ mobile**), lo que confirma la viabilidad técnica de la solución WaruSmart.
 
@@ -4347,17 +4351,17 @@ Durante el presente sprint, se evidenció una colaboración activa entre los int
 
 **📱 Colaboración en el desarrollo de la Mobile Application**
 
-- ![Insight Mobile](https://res.cloudinary.com/dydklnicb/image/upload/v1747355200/mobile-collab-warusmart.png)  
+- ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104037_wrcxu4.png)  
   *El desarrollo de la app móvil mostró aportes continuos orientados a navegación, localización de cultivos y gestión offline. La colaboración se extendió a pruebas en emuladores y validación de flujos críticos en producción.*
 
 **🌐 Colaboración en el desarrollo del Edge App**
 
-- ![Insight Edge](https://res.cloudinary.com/dydklnicb/image/upload/v1747355200/edge-collab-warusmart.png)  
+- ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104117_mzhqak.png)  
   *El repositorio del componente edge evidencia el trabajo coordinado en funciones de lectura de sensores, envío de datos al fog y mecanismos de reconexión ante fallos. El desarrollo fue realizado considerando el entorno embebido.*
 
 **🌩️ Colaboración en el desarrollo del Fog App**
 
-- ![Insight Fog](https://res.cloudinary.com/dydklnicb/image/upload/v1747355200/fog-collab-warusmart.png)  
+- ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104155_pds5ir.png)  
   *El módulo fog recibió múltiples contribuciones que permitieron establecer su rol como intermediario entre el edge y la nube, enfocándose en almacenamiento local temporal y retransmisión de datos. Se configuró como contenedor independiente.*
 
 Estos insights reflejan una dinámica de trabajo colaborativo distribuido por capas tecnológicas, manteniendo sincronía entre los módulos y garantizando una evolución coherente de la solución WaruSmart durante este sprint.
@@ -4491,7 +4495,7 @@ Durante la navegación en el módulo de gestión de sensores IoT, el usuario no 
 Incluir un botón fijo de retorno al dashboard principal dentro del encabezado del módulo de sensores, para permitir una navegación más fluida sin afectar el flujo de datos ni perder el estado del sistema.
 
 **Evidencia visual:**  
-![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-sensores.png)
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524812/WhatsApp_Image_2025-06-21_at_11.02.00_AM_ejmeoy.jpg)
 
 ### PROBLEMA #2: Se repiten constantemente algunas opciones en el menú lateral
 
@@ -4505,7 +4509,7 @@ En el menú lateral de navegación de la plataforma WaruSmart, se muestran de fo
 Revisar la arquitectura de la información del menú lateral y consolidar opciones redundantes bajo una sola entrada con submenús claros, si es necesario. Esto facilitará la navegación y mantendrá la interfaz ordenada.
 
 **Evidencia visual:**  
-![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314726/ejemplo-captura-menu.png)
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_11.15.11_AM_dqpyxr.jpg)
 
 ### PROBLEMA #3: Imágenes sin atributo “alt” en vista de detalles del cultivo
 
@@ -4519,7 +4523,7 @@ En la vista de detalles del cultivo, las imágenes utilizadas (por ejemplo, icon
 Agregar descripciones significativas en el atributo `alt` para todas las imágenes y elementos visuales relevantes, siguiendo los estándares de accesibilidad web. Esto asegurará que todos los usuarios, incluyendo personas con discapacidades visuales, puedan comprender el contenido.
 
 **Evidencia visual:**  
-![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-imagenes.png)
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_11.20.51_AM_awu0zn.jpg)
 
 ### PROBLEMA #4: Incluye un botón “Ver más” en sección de alertas sin contenido adicional
 
@@ -4533,7 +4537,7 @@ En la sección de alertas dentro del panel de cultivos, aparece un botón “Ver
 Eliminar el botón si no hay contenido adicional, o en su defecto, vincularlo a una vista que explique más a detalle la alerta (como histórico, causas o recomendaciones). Esto mejorará la confianza del usuario en la interfaz y evitará interacciones innecesarias.
 
 **Evidencia visual:**  
-![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-vermas.png)
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750525098/WhatsApp_Image_2025-06-21_at_11.57.33_AM_q665ba.jpg)
 
 ### PROBLEMA #5: No se incluye información clara sobre los planes de uso del sistema o niveles de acceso
 
@@ -4547,7 +4551,7 @@ En ninguna sección visible de la plataforma se detalla si existen planes de uso
 Incluir una sección accesible desde la navegación principal donde se expliquen claramente los tipos de usuario, los niveles de acceso disponibles y las funciones asociadas a cada uno. Esto brindará mayor transparencia y mejorará la experiencia de incorporación al sistema.
 
 **Evidencia visual:**  
-![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-niveles.png)
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_10.49.58_AM_u5r8oi.jpg)
 
 ### PROBLEMA #6: No se encuentra fácilmente el historial de riego en la interfaz de cultivos
 
@@ -4561,7 +4565,7 @@ En la vista de detalle del cultivo, no hay una ruta clara o botón visible que l
 Añadir un botón visible y accesible desde el dashboard del cultivo que dirija directamente al historial de riego. También se recomienda implementar una sección dedicada a reportes históricos donde se agrupen este tipo de datos.
 
 **Evidencia visual:**  
-![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-historialriego.png)
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_11.12.15_AM_zwl6az.jpg)
 
 ### PROBLEMA #7: El sistema no notifica al usuario cuando un dispositivo IoT está desconectado
 
@@ -4575,7 +4579,7 @@ En el módulo de monitoreo de dispositivos IoT, no se muestra ninguna alerta cla
 Implementar un sistema de alertas visuales (íconos en rojo o mensajes emergentes) y notificaciones push en la versión móvil que indiquen cuándo un dispositivo deja de enviar datos por un tiempo determinado. Esto garantiza una respuesta oportuna por parte del usuario.
 
 **Evidencia visual:**  
-![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-alertaiot.png)
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_11.11.30_AM_ft7g3c.jpg)
 
 ### PROBLEMA #8: La aplicación móvil no adapta correctamente el contenido a pantallas pequeñas
 
@@ -4589,7 +4593,7 @@ Al acceder a WaruSmart desde dispositivos móviles, especialmente en pantallas d
 Aplicar principios de diseño responsive en todas las vistas, utilizando flexbox o grid adaptables, tamaños de fuente relativos y menús colapsables. También se recomienda realizar pruebas en diferentes tamaños de pantalla para validar la correcta experiencia de uso.
 
 **Evidencia visual:**  
-![Captura del problema](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/ejemplo-captura-responsive.png)
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524811/WhatsApp_Image_2025-06-21_at_11.09.40_AM_exofbm.jpg)
 
 
 ## 6.4.Video About-the-Product
@@ -4601,21 +4605,17 @@ Como parte de la estrategia de difusión del sistema **WaruSmart**, el equipo de
 
 El video adopta un tono cercano, claro y profesional, coherente con la identidad visual de WaruSmart. Se presenta una visión general del sistema, incluyendo su modelo de negocio, arquitectura modular (web, móvil, backend y edge), así como ejemplos reales de uso.
 
-📌 **Testimonio destacado**
-> *"Gracias a WaruSmart he podido monitorear mejor mis cultivos y ahora sé cuándo debo regar o ajustar la temperatura. Me ayudó a mejorar mi producción y ahorrar agua."*  
-> — Agricultor validado en entrevistas, sector Cieneguilla.
-
 📺 **Captura del video**  
-![Screenshot del Video](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747352229/imagen_2025-05-15_183706453_xkkjav.png)
+![Screenshot del Video](https://res.cloudinary.com/dr5v9tizc/image/upload/v1750513890/Captura-AboutTheProduct_fczua7.png)
 
 🔗 **Enlaces del video**
 - Versión publicada en **Microsoft Stream**:  
-  👉 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?e=GhkROp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?e=GhkROp)
+  👉 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - Versión publicada en **YouTube** (para incrustar en el Landing Page):  
-  👉 [https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=VIDEO_ID) <!-- Reemplaza con enlace real si aplica -->
+  👉 [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
 
-⏱️ **Duración del video**: 3 minutos y 20 segundos
+⏱️ **Duración del video**: 6 minutos y 59 segundos
 
 ---
 
@@ -4664,33 +4664,51 @@ En esta sección se presenta un resumen del contenido incluido en el video **Abo
 También se incluye un testimonio grupal final donde el equipo resalta la importancia del trabajo conjunto, la planificación ágil y el impacto esperado de WaruSmart en la agricultura rural.
 
 ### 📸 Captura del video:
-![Captura del equipo](https://res.cloudinary.com/ejemplo/image/upload/v1234567890/equipo-warusmart.jpg)
+![Captura del equipo](https://res.cloudinary.com/dr5v9tizc/image/upload/v1750526443/Captura_AboutTheTeam_stnuon.png)
 
 ### 🔗 Enlaces del video:
 
 - 📺 Versión en Microsoft Stream (entorno institucional):  
-  [https://web.microsoftstream.com/video/ejemplo-codex-warusmart](https://web.microsoftstream.com/video/ejemplo-codex-warusmart)
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeJW8_7VqChEsC3-pim2j6gBDNAUzd2r8Ew9AdhPQ2NcWQ?e=0MmFrL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeJW8_7VqChEsC3-pim2j6gBDNAUzd2r8Ew9AdhPQ2NcWQ?e=0MmFrL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - 📺 Versión pública en YouTube (para insertar en Landing Page):  
-  [https://youtube.com/watch?v=codex-warusmart-equipo](https://youtube.com/watch?v=codex-warusmart-equipo)
+  [https://youtu.be/S_ZQc5pirhE](https://youtu.be/S_ZQc5pirhE)
 
 ### ⏱️ Duración total del video:
-**3 minutos con 15 segundos**
+**8 minutos con 9 segundos**
 
 
 # Bibliografía
 
-# Anexos
-### Videos de Exposición
- 
- | Enlace                | Entregable |
- | --------------------- | ---------- |
- | https://goo.su/8Zz305 | TB1        |
- |                       | TB2        |
+# 📎 Anexos
 
+### 🎬 Videos de Exposición
 
-### Repositorio del Frontend
-https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform
+| Enlace                                             | Entregable |
+|----------------------------------------------------|------------|
+| https://goo.su/8Zz305                              | TB1        |
+| https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?e=GhkROp | TB2 – Video About-the-Product |
+| https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA | TB2 – Video Navegación Web |
 
-### Repositorio del Backend
-https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-web-services-backend
+---
+
+### 💻 Repositorios del Proyecto WaruSmart
+
+- **Landing Page**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage)
+
+- **Frontend Web App**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform)
+
+- **Backend Web Services**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices)
+
+- **Mobile Application (Android)**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+
+- **Edge Device App (IoT)**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
+
+- **Fog App (interfaz intermedia IoT)**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
+
