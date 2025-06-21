@@ -4394,15 +4394,15 @@ Durante este segundo sprint, se logró el despliegue de nuevos componentes clave
 
 - 📱 **Mobile Application (React Native)**  
   Se desplegó una versión funcional para Android que permite a los agricultores registrar sus cultivos y consultar recomendaciones directamente desde el celular.  
-  👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) - https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication
+  👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication
 
 - 🌫️ **Fog Computing Node (WaruSmart-Fog-App)**  
   Se configuró un microservicio intermedio que gestiona la recepción de datos de sensores desde dispositivos Edge y reenvía al backend central.  
-  👉 Repositorio: [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) - https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App
+  👉 Repositorio: [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App
 
 - 📡 **Edge Devices (ESP32 - WaruSmart-Edge-App)**  
   Los dispositivos físicos de borde fueron integrados con la plataforma a través del microservicio Fog. Se probó correctamente la lectura de sensores y envío de datos.  
-  👉 Repositorio: [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) - https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App
+  👉 Repositorio: [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App
 
 ---
 
@@ -4435,10 +4435,10 @@ Durante este sprint, se consolidó la documentación de servicios de WaruSmart a
 - ![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
   *Prueba del endpoint `GET /sowings/user` mostrando la respuesta exitosa con datos simulados de siembras asociadas al usuario autenticado.*
 
-- ![Backend Sowings by Phase](https://res.cloudinary.com/dydklnicb/image/upload/v1747400000/backend-sowing-by-phase.png)  
+- ![Backend Sowings by Phase](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.42.25_AM_yncr8e.jpg)  
   *Nuevo endpoint que permite actualizar o consultar la fase fenológica de un cultivo, facilitando el seguimiento agronómico.*
 
-- ![Backend Fog Endpoint](https://res.cloudinary.com/dydklnicb/image/upload/v1747400055/backend-fog-endpoint.png)  
+- ![Backend Fog Endpoint](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.47.11_AM_fbvart.jpg)  
   *Integración de endpoints de comunicación Fog-to-Cloud para el envío seguro de datos desde sensores de borde.*
 
 ---
@@ -4462,14 +4462,20 @@ Durante este sprint, se desplegaron exitosamente los principales componentes del
 - 📱 **Mobile Application**  
   La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
   👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.45.26_AM_hseemj.jpg)
+
 
 - 📶 **Edge Application**  
   Aplicación liviana diseñada para ejecutarse en dispositivos de borde (edge), encargada de recolectar datos desde sensores y enviarlos hacia la nube.  
   👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
+![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.46.48_AM_wedj1u.jpg)
+
 
 - 🌩️ **Fog Application**  
   Servicio intermedio desplegado entre los dispositivos y la nube, que gestiona el procesamiento local y asegura la disponibilidad en caso de desconexión.  
   👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
+![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.54.19_AM_uqmchk.jpg)
+
 
 Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (**frontend ↔ backend ↔ edge/fog ↔ mobile**), lo que confirma la viabilidad técnica de la solución WaruSmart.
 
