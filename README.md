@@ -551,7 +551,7 @@ Departamento: Moche, La Libertad
 
 ![Entrevista WaruSmart Walter](Assets/interviews/Entrevista-WaruSmart-Walter.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EfSCQqBucNNMpnczYwtjK2AB8iY3CavfgXVMY2675ielZw?e=c58mG1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/M1FgEG
 
 Resumen:
 Walter Cayrampoma, agricultor de 43 años natural de Moche, La Libertad, trabaja en el rubro agrícola desde hace varios años. Menciona que usa con frecuencia su celular, sobre todo para comunicarse y ver videos en YouTube sobre agricultura. Aunque al principio tuvo dificultades con la tecnología, actualmente se siente cómodo usándola, aunque a veces aún recurre a sus hijos para resolver dudas. Lleva el registro de riegos en un cuaderno, anotando datos como el momento del riego, el área trabajada y el consumo de agua. Considera que los datos más importantes para el cuidado de sus cultivos son el clima, el tipo de suelo, la frecuencia de riego y la presencia de plagas. Ha tenido problemas con el registro del riego, como olvidar regar ciertas partes o hacerlo dos veces, lo que genera desperdicio de agua o plantas mal cuidadas. También ha enfrentado dificultades técnicas, como baja presión de agua o fallas en la bomba. Al conocer la propuesta de WaruSmart, le pareció interesante porque le permitiría tener un mejor control, ahorrar agua y tiempo. Indicó que estaría dispuesto a pagar por el servicio si realmente le conviene, y cree que esta herramienta también podría facilitar el trabajo de otros agricultores que no llevan un control exacto.
@@ -597,7 +597,7 @@ Departamento: Juli, Puno
 
 (Assets/interviews/Entrevista-WaruSmart-Adela.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/Efdrr4fxqvFIpcdZQHXo-cwBal4KaEm_gcR8nz-guqqFAA?e=SYEZQ1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/PPE2q8
 
 Resumen:
 Adela Vilca, una mujer de 52 años que vive en Juli, Puno, es miembro de una cooperativa agraria. Usa tecnología de forma básica, principalmente el celular para comunicarse por WhatsApp y ver videos de agricultura, aunque presenta dificultades con algunas aplicaciones y suele recibir ayuda de sus hijos. En su cooperativa registran las necesidades de los cultivos en cuadernos y las discuten en reuniones. Mencionó que los miembros enfrentan problemas en la gestión, sobre todo cuando hay fenómenos climáticos como lluvias o sequías, ya que no siempre saben qué necesita cada cultivo. Para organizar la compra de materiales, se reúnen y hacen listas para comprar en grupo. Han tenido pérdidas por desorganización o retrasos en el cuidado de los cultivos. Usan herramientas básicas como bombas manuales y mangueras, pero no cuentan con tecnología avanzada. Al conocer la propuesta de WaruSmart, Adela expresó que le parecería útil, especialmente si el sistema brinda alertas para regar. Estaría dispuesta a pagar entre 50 y 100 soles, siempre que realmente les facilite el trabajo.
@@ -4110,8 +4110,8 @@ Estos insights reflejan una dinámica de trabajo distribuido por especialidades 
 
 #### 6.2.2.1 Sprint Planning 2
 
-Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
-<img src = "Assets/chapter-vi/sprint1_planning.png">
+Enlace al Trello: https://trello.com/b/yITmdUYn/warusmart-sprint-planning-2 <br>
+<img src = "https://res.cloudinary.com/dydklnicb/image/upload/v1750520336/Trello_Sprint2.png">
 
 | **Sprint #**                        | **Sprint 2**                                                                                                                                                                                                                                            |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -4122,10 +4122,10 @@ Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
 | **Prepared By**                     | Velasquez Pizarro, Jair                                                                                                                                                                                                                                 |
 | **Attendees (to planning meeting)** | Victor Herrera, Anderson Macedo, Jeferson Cabrera, Christopher More, Fernando Quispe, Jair Velazquez, Carlos Pingus                                                                                                                                     |
 | **Sprint 1 Review Summary**         | Se evaluaron los resultados del Sprint 1, identificando oportunidades de mejora en la integración de componentes y en la organización del trabajo.                                                                                                      |
-| **Sprint 1 Retrospective Summary**  | Se destacó la necesidad de una mejor sincronización al momento de integrar los bounded contex y una planificación más precisa de las tareas técnicas.                                                                                                   |
+| **Sprint 1 Retrospective Summary**  | Se destacó la necesidad de una mejor sincronización al momento de integrar los bounded contexts y una planificación más precisa de las tareas técnicas.                 |
 | **Sprint Goal and User Stories**    | En este sprint se buscará avanzar en la implementación de la web app, así como la integración con los servicios backend y dispositivos embebidos. Se espera validar el funcionamiento conjunto de los módulos y entregar una versión funcional inicial. |
-| **Sprint 2 Velocity**               | 18 puntos                                                                                                                                                                                                                                               |
-| **Suma de Story Points**            | 18 puntos                                                                                                                                                                                                                                               |
+| **Sprint 2 Velocity**               | 108 puntos                                                                                                                                                                                                                                               |
+| **Suma de Story Points**            | 108 puntos                                                                                                                                                                                                                                               |
 
 El Sprint 2 se llevó a cabo con una reunión virtual por Google Meet, donde se reunieron todos los integrantes del equipo. En la revisión del sprint anterior se resaltaron mejoras necesarias en la integración técnica y la gestión del tiempo. Como meta, se propuso avanzar en la conexión entre los diferentes módulos del sistema, incluyendo backend, frontend y dispositivos físicos. Se planificaron tareas más específicas para lograr una entrega funcional y coherente, trabajando sobre un total de 18 puntos de historia, con enfoque colaborativo y mejor coordinación.
 
@@ -4155,166 +4155,56 @@ Esta distribución permitió que cada módulo avanzara con claridad de objetivos
 
 En este segundo sprint, el grupo se enfocó en fortalecer las funcionalidades del sistema para brindar una experiencia más completa al agricultor. Se implementaron mejoras en el panel de gestión y monitoreo de cultivos, integrando dispositivos IoT para obtener datos en tiempo real. Además, se desarrollaron herramientas gráficas de visualización del estado del cultivo, ajustes de umbrales de alerta y nuevas opciones de interacción con parcelas y sensores, permitiendo al usuario tomar decisiones de manera más informada y precisa.
 
-<table>
-    <thead>
-        <tr>
-            <td>Sprint #:</td>
-            <td colspan="7">Sprint 2</td>
-        </tr>
-        <tr>
-            <td colspan="2">User Story</td>
-            <td colspan="6">Work-Item / Task</td>
-        </tr>
-        <tr>
-            <td>ID</td>
-            <td>Title</td>
-            <td>ID</td>
-            <td>Title</td>
-            <td>Description</td>
-            <td>Estimation (Hours)</td>
-            <td>Assigned to</td>
-            <td>Status</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>E1-US01</td>
-            <td>Navegación entre secciones</td>
-            <td>02</td>
-            <td>Implementar barra de navegación</td>
-            <td>Desarrollar una barra que permita navegar entre secciones de la landing (inicio, cómo funciona, beneficios, testimonios, contacto)</td>
-            <td>5</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>E1-US02</td>
-            <td>Conocer cómo funciona la solución</td>
-            <td>03</td>
-            <td>Sección "¿Cómo funciona?"</td>
-            <td>Crear una sección informativa que explique el funcionamiento del sistema (app + sensores)</td>
-            <td>4</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>E1-US03</td>
-            <td>Visualizar beneficios segmentados</td>
-            <td>04</td>
-            <td>Diseñar sección de beneficios</td>
-            <td>Mostrar beneficios diferenciados según el perfil del visitante (agricultor/cooperativa)</td>
-            <td>5</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>E1-US04</td>
-            <td>Sección testimonios de usuarios</td>
-            <td>05</td>
-            <td>Agregar testimonios reales</td>
-            <td>Diseñar una sección con al menos dos testimonios de agricultores/cooperativas con resultados medibles</td>
-            <td>3</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>E1-US05</td>
-            <td>Sección contactarse</td>
-            <td>06</td>
-            <td>Formulario de contacto</td>
-            <td>Crear sección para que el usuario pueda dejar sus datos y mensaje para ser contactado</td>
-            <td>4</td>
-            <td>Victor Herrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="3">E2-US08</td>
-            <td rowspan="3">Vista general del estado del cultivo</td>
-            <td>07</td>
-            <td>Panel con resumen de estado</td>
-            <td>Desarrollar un panel con resumen de condiciones del cultivo utilizando datos de sensores</td>
-            <td>6</td>
-            <td>Jeferson Cabrera - Carlos Pingus</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>08</td>
-            <td>Visualización por campo registrado</td>
-            <td>Permitir al usuario cambiar entre campos registrados y visualizar el estado de cada uno</td>
-            <td>4</td>
-            <td>Jeferson Cabrera - Cristopher More - Anderson Macedo</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>08</td>
-            <td>IoT Devices</td>
-            <td>Permitir al usuario registrar dispositivos IoT por cultivo.</td>
-            <td>4</td>
-            <td>Jeferson Cabrera - Fernando Quispe</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="3">E5-US23</td>
-            <td rowspan="3">Creación de parcelas agrícolas</td>
-            <td>09</td>
-            <td>Registrar nueva parcela</td>
-            <td>Formulario para registrar ubicación, tamaño y características. Validación de campos obligatorios.</td>
-            <td>5</td>
-            <td>Fernando Quispe</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>Editar parcela</td>
-            <td>Permitir modificar la información de una parcela ya registrada.</td>
-            <td>3</td>
-            <td>Equipo Frontend</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>Eliminar parcela</td>
-            <td>Permitir eliminar una parcela desde el panel de gestión con confirmación.</td>
-            <td>2</td>
-            <td>Fernando Quispe</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="4">E5-US24</td>
-            <td rowspan="4">Agregar cultivos a una parcela</td>
-            <td>12</td>
-            <td>Asignar cultivo a parcela</td>
-            <td>Permitir al usuario agregar uno o más cultivos a una parcela desde lista disponible.</td>
-            <td>4</td>
-            <td>Carlos Pingus</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>Mostrar cultivos por parcela</td>
-            <td>Listar los cultivos asociados a una parcela en su vista de detalle.</td>
-            <td>3</td>
-            <td>Jefferson Cabrera</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>14</td>
-            <td>Editar cultivo</td>
-            <td>Permitir editar los detalles del cultivo asignado (variedad, fecha, etc.).</td>
-            <td>2</td>
-            <td>Fernando Quispe</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>15</td>
-            <td>Cambiar fase fenológica</td>
-            <td>Permitir al usuario actualizar la fase fenológica del cultivo desde el panel.</td>
-            <td>3</td>
-            <td>Jefferson Cabrera</td>
-            <td>Done</td>
-        </tr>
-    </tbody>
-</table>
+| User Story - ID | User Story - Title                                                                                                                       | Status    | Work Item - ID | Work Item - Title                                  | Work Item - Description                                                  | Work Item - Estimation | Work Item - Assigned To |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :-------- | -------------: | :------------------------------------------------- | :----------------------------------------------------------------------- | ---------------------: | :---------------------- |
+| E2-US06         | Visualización de temperatura y humedad del suelo en web                                                                                  | To Review |             01 | Visualización de temperatura y humedad d...        | Tarea relacionada con visualización de temperatura y humedad del suelo e |                      3 | Fernando Quispe         |
+| E2-US07         | Visualización de humedad ambiental y temperatura del aire                                                                                | To Review |             02 | Visualización de humedad ambiental y tem...        | Tarea relacionada con visualización de humedad ambiental y temperatura d |                      3 | Victor Herrera          |
+| E2-US10         | Registro histórico de condiciones ambientales en la web                                                                                  | To Review |             03 | Registro histórico de condiciones ambien...        | Tarea relacionada con registro histórico de condiciones ambientales en l |                      4 | Fernando Quispe         |
+| E2-US35         | Visualización de temperatura y humedad del suelo en movil                                                                                | To Review |             04 | Visualización de temperatura y humedad d...        | Tarea relacionada con visualización de temperatura y humedad del suelo e |                      3 | Victor Herrera          |
+| E3 - MS10       | Configuracion en los dispositivos de los umbrales de riego                                                                               | To Review |             05 | Configuracion en los dispositivos de los...        | Tarea relacionada con configuracion en los dispositivos de los umbrales  |                      5 | Fernando Quispe         |
+| TS06 - T21      | Recepcion de datos de sensores a través de REST para actuar                                                                              | To Review |             06 | Recepcion de datos de sensores a través ...        | Tarea relacionada con recepcion de datos de sensores a través de rest pa |                      4 | Victor Herrera          |
+| TS08 - T19      | Lógica de almacenamiento en la Edge App de los datos.                                                                                    | To Review |             07 | Lógica de almacenamiento en la Edge App ...        | Tarea relacionada con lógica de almacenamiento en la edge app de los dat |                      6 | Jair Velasquez          |
+| TS09 - T18      | Exposicion de la data del Fog App para enviar al backend                                                                                 | To Review |             08 | Exposicion de la data del Fog App para e...        | Tarea relacionada con exposicion de la data del fog app para enviar al b |                      4 | Jair Velasquez          |
+| TS11 - T20      | Gestionar en la Fog APP todos los Edge que se conectarán                                                                                 | To Review |             09 | Gestionar en la Fog APP todos los Edge q...        | Tarea relacionada con gestionar en la fog app todos los edge que se cone |                      5 | Carlos Pingus           |
+| TS12 - T17      | En el Fog App realizar la implementación de las alertas bajo una alerta                                                                  | To Review |             10 | En el Fog App realizar la implementación...        | Tarea relacionada con en el fog app realizar la implementación de las al |                      6 | Jair Velasquez          |
+| TS27 - T14      | Elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad                                                      | To Review |             11 | Elaboración del endpoint para brindar po...        | Tarea relacionada con elaboración del endpoint para brindar por suelo de |                      5 | Fernando Quispe         |
+| TS27 - T15      | Elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa                                            | To Review |             12 | Elaboración del endpoint para ofrecer to...        | Tarea relacionada con elaboración del endpoint para ofrecer todas las al |                      5 | Victor Herrera          |
+| TS28 - T12      | Elaboración de la lógica para almacenar en el backend las lecturas atmosféricas                                                          | To Review |             13 | Elaboración de la lógica para almacenar ...        | Tarea relacionada con elaboración de la lógica para almacenar en el back |                      5 | Fernando Quispe         |
+| TS28 - T13      | Elaboración del endpoint para brindar la información general de las lecturas atmosféricas por cultivo                                    | To Review |             14 | Elaboración del endpoint para brindar la...        | Tarea relacionada con elaboración del endpoint para brindar la informaci |                      5 | Victor Herrera          |
+| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental del cultivo en la información general del cultivo web | To Review |             15 | Elaboración de la sección en la web para...        | Tarea relacionada con elaboración de la sección en la web para visualiza |                      3 | Christopher More        |
+| US10-TS25       | Mostrar reportes de humedad en la web                                                                                                    | To Review |             16 | Mostrar reportes de humedad en la web              | Tarea relacionada con mostrar reportes de humedad en la web              |                      3 | Christopher More        |
+| US13 - T11      | Elaboración de la visualización en información del cultivo (web) el riego automático por baja humedad del suelo.                         | To Review |             17 | Elaboración de la visualización en infor...        | Tarea relacionada con elaboración de la visualización en información del |                      3 | Fernando Quispe         |
+| US13 -T10       | Elaboración de la lógica de riego automático ante baja humedad del suelo                                                                 | To Review |             18 | Elaboración de la lógica de riego automá...        | Tarea relacionada con elaboración de la lógica de riego automático ante  |                      5 | Victor Herrera          |
+| US18-TS27       | Mostrar consumo de agua en la pagina web                                                                                                 | To Review |             19 | Mostrar consumo de agua en la pagina web           | Tarea relacionada con mostrar consumo de agua en la pagina web           |                      3 | Christopher More        |
+| US20 - T24      | Elaborar la sección para renderizar los reportes y el reporte de productividad por cultivo seleccionado en web                           | To Review |             20 | Elaborar la sección para renderizar los ...        | Tarea relacionada con elaborar la sección para renderizar los reportes y |                      3 | Victor Herrera          |
+| US27-TS28       | Visualizacion de reportes de productividad en movil                                                                                      | To Review |             21 | Visualizacion de reportes de productivid...        | Tarea relacionada con visualizacion de reportes de productividad en movi |                      4 | Fernando Quispe         |
+| US28-TS29       | Visualizar registros de riegos en movil                                                                                                  | To Review |             22 | Visualizar registros de riegos en movil            | Tarea relacionada con visualizar registros de riegos en movil            |                      4 | Anderson Macedo         |
+| US47 - T16      | En el Edge App realizar la implementación de preferencia de horario de riego                                                             | To Review |             23 | En el Edge App realizar la implementació...        | Tarea relacionada con en el edge app realizar la implementación de prefe |                      6 | Jair Velasquez          |
+| US49-T03        | Elaborar la activity para permitir a las cooperativas la data de los cultivos asociados que poseen.                                      | To Review |             24 | Elaborar la activity para permitir a las...        | Tarea relacionada con elaborar la activity para permitir a las cooperati |                      3 | Victor Herrera          |
+| TS27 - T14      | Elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad                                                      | To Review |             11 | Endpoint: temperatura y humedad por suelo          | Crear endpoint para consultar temperatura y humedad por tipo de suelo    |                      5 | Fernando Quispe         |
+| TS27 - T15      | Elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa                                            | To Review |             12 | Endpoint: alertas de cultivos por cooperativa      | Desarrollar API que liste alertas de cultivos por cooperativa            |                      5 | Victor Herrera          |
+| TS28 - T12      | Elaboración de la lógica para almacenar en el backend las lecturas atmosféricas                                                          | To Review |             13 | Lógica de almacenamiento de lecturas atmosféricas  | Programar almacenamiento backend para datos de sensores atmosféricos     |                      6 | Fernando Quispe         |
+| TS28 - T13      | Elaboración del endpoint para brindar la información general de las lecturas atmosféricas por cultivo                                    | To Review |             14 | Endpoint: lecturas atmosféricas por cultivo        | Crear endpoint para mostrar lecturas ambientales por cultivo             |                      5 | Victor Herrera          |
+| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental del cultivo                                           | To Review |             15 | Web: temperatura ambiental del cultivo             | Mostrar temperatura ambiental del cultivo en su vista principal          |                      3 | Christopher More        |
+| US10-TS25       | Mostrar reportes de humedad en la web                                                                                                    | To Review |             16 | Web: reportes de humedad                           | Diseñar componente web para visualizar reportes de humedad               |                      3 | Christopher More        |
+| US13 - T11      | Elaboración de la visualización en información del cultivo el riego automático por baja humedad del suelo                                | To Review |             17 | Visualización de riego automático por baja humedad | Mostrar estado de riego automático por baja humedad en cultivo           |                      4 | Fernando Quispe         |
+| US13 -T10       | Elaboración de la lógica de riego automático ante baja humedad del suelo                                                                 | To Review |             18 | Lógica de riego automático por humedad baja        | Implementar lógica de riego cuando humedad esté por debajo del umbral    |                      6 | Victor Herrera          |
+| US18-TS27       | Mostrar consumo de agua en la pagina web                                                                                                 | To Review |             19 | Web: consumo de agua                               | Implementar vista para mostrar consumo de agua del cultivo               |                      3 | Christopher More        |
+| US20 - T24      | Elaborar la sección para renderizar los reportes y el reporte de productividad por cultivo seleccionado                                  | To Review |             20 | Web: reporte de productividad por cultivo          | Crear módulo para visualizar reportes de productividad por cultivo       |                      4 | Christopher More        |
+| US27-TS28       | Visualización de reportes de productividad en movil                                                                                      | To Review |             21 | Móvil: reportes de productividad                   | Crear vista móvil para reportes de productividad por cultivo             |                      3 | Anderson Macedo         |
+| US28-TS29       | Visualizar registros de riegos en movil                                                                                                  | To Review |             22 | Móvil: registros de riegos                         | Implementar sección móvil para mostrar registros de riego                |                      3 | Anderson Macedo         |
+| US47 - T16      | En el Edge App realizar la implementación de preferencia de horario de riego                                                             | To Review |             23 | Edge App: preferencia de horario de riego          | Desarrollar lógica para configurar horarios de riego en Edge App         |                      6 | Jair Velasquez          |
+| US49-T03        | Elaborar la activity para permitir a las cooperativas la data de los cultivos asociados que poseen.                                      | To Review |             24 | Activity: cultivos asociados por cooperativa       | Crear activity para ver cultivos asociados a cooperativas en la app      |                      4 | Victor Herrera          |
+| TS03 - T22      | Elaborar la lógica del bounded context de analytics para brindar los reportes.                                                           | Done      |             25 | Lógica analytics: bounded context                  | Desarrollar lógica de contexto limitado para generación de reportes      |                      6 | Fernando Quispe         |
+| TS03 - T23      | Elaborar el endpoint para ofrecer información por cultivos para analítica                                                                | Done      |             26 | Endpoint analytics: datos por cultivo              | Crear endpoint que entregue datos de cultivo para análisis               |                      5 | Victor Herrera          |
+| TS30 - T08      | Elaboración de la lógica de umbrales estándar por cultivo                                                                                | Done      |             27 | Lógica: umbrales estándar por cultivo              | Programar lógica para definir umbrales por tipo de cultivo               |                      5 | Fernando Quispe         |
+| TS30 - T09      | Elaboración del endpoint para registrar umbrales de alerta por cultivo                                                                   | Done      |             28 | Endpoint: registro de umbrales                     | Implementar endpoint para guardar umbrales por cultivo                   |                      4 | Victor Herrera          |
+| TS31-T06        | Elaboración del endpoint GET para tener la data de los cultivos que pertenecen a los agricultores bajo las cooperativas.                 | Done      |             29 | Endpoint: cultivos por cooperativa                 | Crear endpoint GET para listar cultivos de agricultores en cooperativa   |                      4 | Fernando Quispe         |
+| TS31-T07        | Elaboración del rol en perfiles para gestionar Cooperativas y Agricultores                                                               | Done      |             30 | Gestión de roles: cooperativas y agricultores      | Añadir roles y permisos para gestión de usuarios según perfil            |                      5 | Victor Herrera          |
+| US06-T01        | Elaboración de la sección en la web para visualización de la temperatura del suelo                                                       | Done      |             31 | Web: temperatura del suelo                         | Mostrar temperatura del suelo en sección general del cultivo             |                      3 | Christopher More        |
+| US06-T02        | Elaboración de la sección en la web para visualización de la humedad del suelo                                                           | Done      |             32 | Web: humedad del suelo                             | Añadir visualización de humedad del suelo en pantalla principal          |                      3 | Christopher More        |
+| US07-T04        | Elaboración de la sección en la web para visualización de la humedad ambiental                                                           | Done      |             33 | Web: humedad ambiental                             | Diseñar vista web para mostrar humedad del ambiente                      |                      3 | Christopher More        |
+| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental                                                       | Done      |             34 | Web: temperatura ambiental                         | Crear componente para mostrar temperatura ambiental en cultivo           |                      3 | Christopher More        |
 
 #### 6.2.1.4 Development Evidence for Sprint Review
 
@@ -4407,12 +4297,10 @@ Durante este segundo sprint, se logró el despliegue de nuevos componentes clave
 ---
 
 - 🎬 **Video Navegación Web App:**  
-  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp) 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp 
+  👉 [Ver video](https://acortar.link/Xki4TX)  https://acortar.link/Xki4TX 
 
 - 🎬 **Video del Edge y flujo fisico:**  
-  👉 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQXLK1ugUlNBuy9Mu03LpwkBZc_q3fNJvZHjc5lkZhUiYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4gQX0R)
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQXLK1ugUlNBuy9Mu03LpwkBZc_q3fNJvZHjc5lkZhUiYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4gQX0R
+  👉 [Ver video](https://acortar.link/dm1vqp) https://acortar.link/dm1vqp 
 
 
 ---
@@ -4759,7 +4647,7 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 
 🔗 **Enlaces del video**
 - Versión publicada en **Microsoft Stream**:  
-  👉 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  👉 [https://acortar.link/oNthLL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - Versión publicada en **YouTube** (para incrustar en el Landing Page):  
   👉 [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
@@ -4818,7 +4706,7 @@ También se incluye un testimonio grupal final donde el equipo resalta la import
 ### 🔗 Enlaces del video:
 
 - 📺 Versión en Microsoft Stream (entorno institucional):  
-  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeJW8_7VqChEsC3-pim2j6gBDNAUzd2r8Ew9AdhPQ2NcWQ?e=0MmFrL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeJW8_7VqChEsC3-pim2j6gBDNAUzd2r8Ew9AdhPQ2NcWQ?e=0MmFrL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  [https://acortar.link/2zanpT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeJW8_7VqChEsC3-pim2j6gBDNAUzd2r8Ew9AdhPQ2NcWQ?e=0MmFrL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - 📺 Versión pública en YouTube (para insertar en Landing Page):  
   [https://youtu.be/S_ZQc5pirhE](https://youtu.be/S_ZQc5pirhE)
@@ -4836,8 +4724,8 @@ También se incluye un testimonio grupal final donde el equipo resalta la import
 | Enlace                                             | Entregable |
 |----------------------------------------------------|------------|
 | https://goo.su/8Zz305                              | TB1        |
-| https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?e=GhkROp | TB2 – Video About-the-Product |
-| https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA | TB2 – Video Navegación Web |
+| https://acortar.link/Rpte06 | TB2 – Video About-the-Product |
+| https://acortar.link/aNhkdk | TB2 – Video Navegación Web |
 
 ---
 
