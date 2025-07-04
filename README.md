@@ -42,6 +42,8 @@ NRC: 2947</h5>
   <h5>Ciclo 2025-10</h5>
 </div>
 
+<div style="page-break-after: always;"></div>
+
 ### Registro de Informe
 
 | Versión | Fecha    | Autor(es)                                                                                                                                                                                                                     | Descripción de modificación                                                                                                 |
@@ -4282,7 +4284,7 @@ Durante este segundo sprint, se logró el despliegue de nuevos componentes clave
   ![IoT Management](https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png)  
   *Gestión de dispositivos IoT por siembra.*
 
-- 📱 **Mobile Application (React Native)**  
+- 📱 **Mobile Application (Kotlin)**  
   Se desplegó una versión funcional para Android que permite a los agricultores registrar sus cultivos y consultar recomendaciones directamente desde el celular.  
   👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
 
@@ -4322,10 +4324,10 @@ Durante este sprint, se consolidó la documentación de servicios de WaruSmart a
   *Vista general de la interfaz Swagger mostrando los endpoints activos organizados por recurso: usuarios, cultivos, parcelas, dispositivos, sensores, recomendaciones.*
 
 ![Backend Endpoint IoT](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)  
-  *Detalle del endpoint `POST /iot-devices` que permite registrar un nuevo dispositivo IoT y asignarlo a un cultivo específico.*
+  *Detalle de los endpoints que permite registrar un nuevo dispositivo IoT y asignarlo a un cultivo específico.*
 
 ![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
-  *Prueba del endpoint `GET /sowings/user` mostrando la respuesta exitosa con datos simulados de siembras asociadas al usuario autenticado.*
+  *Prueba de los endpoints mostrando la respuesta exitosa con datos simulados de siembras asociadas al usuario autenticado.*
 
 ![Backend Sowings by Phase](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.42.25_AM_yncr8e.jpg)  
   *Nuevo endpoint que permite actualizar o consultar la fase fenológica de un cultivo, facilitando el seguimiento agronómico.*
@@ -4348,7 +4350,7 @@ Durante este sprint, se desplegaron exitosamente los principales componentes del
   👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
 - 💻 **Web Platform (Frontend)**  
-  Desarrollada en React, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
+  Desarrollada en Vue - Vite, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
   👉 [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
 
 - 📱 **Mobile Application**  
