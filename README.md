@@ -4436,11 +4436,44 @@ Enlace al Trello:  <br>
 
 #### 6.2.3.2 Aspect Leaders and Collaborators
 
+En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint actual. Esta matriz detalla los principales aspectos funcionales desarrollados, organizados según los Bounded Contexts definidos para la solución. Por cada aspecto, se indica quién asume el rol de líder (L) y quiénes participan como colaboradores (C), con el objetivo de lograr una comunicación clara, una distribución equitativa del trabajo y una mayor efectividad durante la ejecución del Sprint.
+
+La organización responde a la estructura interna del equipo, considerando las habilidades técnicas y experiencia previa de cada integrante en relación con los módulos del sistema. Esta asignación se refleja posteriormente en la selección y ejecución de tareas en el Sprint Backlog.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Suscription and Payments** | **IAM** | **Profile Preferences** | **Service Design & Planning** | **IoT Resource Management** | **Service Operation Monitoring (Crops)** | **Analytics Management** |
+| --------------------------------------- | ------------------- | ---------------------------- | ------- | ----------------------- | ----------------------------- | --------------------------- | ---------------------------------------- | ------------------------ |
+| **Quispe Condori, Fernando Daniel**     | `fdaniel13s`        | C                            | C       |                         | L                             | C                           | C                                        | C                        |
+| **Velasquez Pizarro, Jair**             | `Purak189`          |                              | C       |                         |                               | L                           | C                                        |                          |
+| **Cabrera Camizan, Jeferson Smith**     | `Jeferson11C`       |                              |         |                         | C                             | C                           | L                                        | C                        |
+| **Herrera Castillo, Victor Raul**       | `VictorHerrera10`   | C                            | C       | L                       |                               |                             |                                          |                          |
+| **Macedo Calsina, Anderson Walter**     | `AnderMacedo`       | L                            |         |                         |                               |                             |                                          |                          |
+| **More Rondon, Christopher Sebastian**  | `christopherMore1`  |                              |         |                         | C                             |                             | C                                        | L                        |
+| **Pingus Rodriguez, Carlos Daniel**     | `KazutoTR`          | C                            | L       |                         |                               |                             |                                          |                          |
+
 #### 6.2.3.3 Sprint Backlog 3
+
+| User Story - ID | User Story - Title                                                                                                                       | Status    | Work Item - ID | Work Item - Title                                  | Work Item - Description                                                  | Work Item - Estimation | Work Item - Assigned To |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :-------- | -------------: | :------------------------------------------------- | :----------------------------------------------------------------------- | ---------------------: | :---------------------- |
+|          |                                                                                 |  |              |         |  |                       |           |
+|          |                                                                                 |  |              |         |  |                       |           |
+|          |                                                                                 |  |              |         |  |                       |           |
+|          |                                                                                 |  |              |         |  |                       |           |
 
 #### 6.2.3.4 Development Evidence for Sprint Review
 
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|----------------------|---------------------|
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
 #### 6.2.3.5 Testing Suite Evidence for Sprint Review
+
+| Repositorio/Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
+|--------------------|------------|-----------------|-----------------------|----------------------|
+|  |  |  |    |  |
+|  |  |  |    |  |
+|  |  |  |    |  |
 
 #### 6.2.3.6 Execution Evidence for Sprint Review
 
@@ -4455,6 +4488,36 @@ Enlace al Trello:  <br>
 #### 6.2.3.8 Software Deployment Evidence for Sprint Review
 
 #### 6.2.3.9 Team Collaboration Insights during Sprint
+
+**🖥️ Colaboración en el desarrollo de la Landing Page**
+
+- ![Insight Landing Page]()  
+  *Se*
+
+**💻 Colaboración en el desarrollo del Frontend Web App**
+
+- ![Insight Frontend]()  
+  *El.*
+
+**⚙️ Colaboración en el desarrollo del Backend API**
+
+- ![Insight Backend]()  
+  *La*
+
+**📱 Colaboración en el desarrollo de la Mobile Application**
+
+- ![Insight Mobile]()  
+  *El*
+
+**🌐 Colaboración en el desarrollo del Edge App**
+
+- ![Insight Edge]()  
+  *El*
+
+**🌩️ Colaboración en el desarrollo del Fog App**
+
+- ![Insight Fog]()  
+  *El.*
 
 ## 6.3 Validation Interviews
 
