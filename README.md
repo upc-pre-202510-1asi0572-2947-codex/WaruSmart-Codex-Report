@@ -7,7 +7,8 @@
 
 <h5>Ingeniería de Software - 7mo ciclo</h5>
   <h5>Desarrollo de Soluciones IOT - 1ASI0572</h5>
-  <h5>NRC: 2947</h5>
+  <h5>
+NRC: 2947</h5>
   <h5>Docente: Angel Augusto Velasquez Nuñez</h5>
   <h5>Startup: Codex</h5>
   <h5>Producto: WaruSmart</h5>
@@ -41,398 +42,255 @@
   <h5>Ciclo 2025-10</h5>
 </div>
 
-### Registro de Informes
+<div style="page-break-after: always;"></div>
 
-| Versión | Fecha    | Autor(es)                                                                                                                                                                                                                     | Descripción de modificación                                                                                                |
-| -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| 0.1      | 04/04/25 | Anderson Walter Macedo Calsina                                                                                                                                                                                                | Redacción del Perfil Inicial                                                                                                |
-| 0.2      | 06/04/25 | Cabrera Camizan, Jeferson Smith                                                                                                                                                                                               | Proceso Lean UX, Mapeo de Eventos, Recolección de Testimonios, Contextos Delimitados                                        |
-| 0.3      | 09/04/25 | More Rondon, Christopher Sebastian                                                                                                                                                                                            | Modelo C4, Encuesta Inicial                                                                                                  |
-| 0.4      | 10/04/25 | Quispe Condori, Fernando Daniel                                                                                                                                                                                               | Perfil de Startup, Perfil de Solución, Entrevistas, Mapeo de Impacto, Cartografía de Contexto                              |
-| 0.5      | 11/04/25 | Velasquez Pizarro, Jair                                                                                                                                                                                                       | Precisión del Context Mapping, Reconocimiento de Ámbitos Delimitados                                                       |
-| 0.6      | 12/04/25 | Pingus Rodriguez, Carlos Daniel                                                                                                                                                                                               | Ajustes en el Impact Mapping, Primeros Casos de Uso                                                                          |
-| 0.7      | 14/04/25 | Herrera Castillo, Victor Raul                                                                                                                                                                                                 | Ajuste de Hipótesis UX, Preparación de Cuestionarios                                                                       |
-| 0.8      | 17/04/25 | Anderson Walter Macedo Calsina, More Rondon, Christopher Sebastian                                                                                                                                                            | Correcciones al Modelo C4, Creación de Perfiles de Usuario                                                                  |
-| 0.9      | 20/04/25 | Quispe Condori, Fernando Daniel, Velasquez Pizarro, Jair                                                                                                                                                                      | Escenario As-Is, Elaboración de Mapas de Empatía                                                                           |
-| 1.0      | 22/04/25 | Anderson Walter Macedo Calsina, Cabrera Camizan, Jeferson Smith, More Rondon, Christopher Sebastian, Quispe Condori, Fernando Daniel, Velasquez Pizarro, Jair, Pingus Rodriguez, Carlos Daniel, Herrera Castillo, Victor Raul | Versión final de TB1: Portada, Historial de Cambios, Introducción, Necesidades, Detalles Técnicos, Propuesta de Solución |
+### Registro de Informe
+
+| Versión | Fecha    | Autor(es)                                                                                                                                                                                                                     | Descripción de modificación                                                                                                 |
+|---------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| 0.1     | 04/04/25 | Anderson Walter Macedo Calsina                                                                                                                                                                                                | Redacción del Perfil Inicial                                                                                                 |
+| 0.2     | 06/04/25 | Jeferson Smith Cabrera Camizan                                                                                                                                                                                                | Proceso Lean UX, Mapeo de Eventos, Recolección de Testimonios, Contextos Delimitados                                       |
+| 0.3     | 09/04/25 | Christopher Sebastian More Rondon                                                                                                                                                                                             | Modelo C4, Encuesta Inicial                                                                                                  |
+| 0.4     | 10/04/25 | Fernando Daniel Quispe Condori                                                                                                                                                                                                | Perfil de Startup, Perfil de Solución, Entrevistas, Mapeo de Impacto, Cartografía de Contexto                              |
+| 0.5     | 11/04/25 | Jair Velasquez Pizarro                                                                                                                                                                                                         | Precisión del Context Mapping, Reconocimiento de Ámbitos Delimitados                                                       |
+| 0.6     | 12/04/25 | Carlos Daniel Pingus Rodriguez                                                                                                                                                                                                | Ajustes en el Impact Mapping, Primeros Casos de Uso                                                                         |
+| 0.7     | 14/04/25 | Victor Raul Herrera Castillo                                                                                                                                                                                                  | Ajuste de Hipótesis UX, Preparación de Cuestionarios                                                                        |
+| 0.8     | 17/04/25 | Anderson Walter Macedo Calsina, Christopher Sebastian More Rondon                                                                                                                                                             | Correcciones al Modelo C4, Creación de Perfiles de Usuario                                                                  |
+| 0.9     | 20/04/25 | Fernando Daniel Quispe Condori, Jair Velasquez Pizarro                                                                                                                                                                         | Escenario As-Is, Elaboración de Mapas de Empatía                                                                            |
+| 1.0     | 22/04/25 | Todos los miembros                                                                                                                                                                                                            | Versión final de TB1: Portada, Historial de Cambios, Introducción, Necesidades, Detalles Técnicos, Propuesta de Solución    |
+| 1.1     | 12/09/25 | Christopher Sebastian More Rondon, Fernando Daniel Quispe Condori                                                                                                                                                             | Elaboración de User Journey Mapping y actualización de User Task Matrix                                                     |
+| 1.2     | 15/09/25 | Jeferson Smith Cabrera Camizan, Victor Raul Herrera Castillo                                                                                                                                                                  | Sistematización y análisis de entrevistas, identificación de patrones de necesidad                                          |
+| 1.3     | 20/09/25 | Carlos Daniel Pingus Rodriguez, Jair Velasquez Pizarro                                                                                                                                                                         | Revisión y ajustes del Impact Mapping; construcción del escenario To-Be y validación con hallazgos previos                 |
+| 1.4     | 23/09/25 | Anderson Walter Macedo Calsina, Fernando Daniel Quispe Condori                                                                                                                                                                | Desarrollo de User Stories priorizadas con sus respectivos criterios de aceptación                                          |
+| 1.5     | 25/09/25 | Victor Raul Herrera Castillo, Jeferson Smith Cabrera Camizan                                                                                                                                                                  | Definición estructurada del Product Backlog y priorización mediante MoSCoW                                                  |
+| 2.0     | 28/09/25 | Todos los miembros                                                                                                                                                                                                            | Finalización de TP1: Consolidación de artefactos de diseño, implementación inicial de la Landing Page, planificación de Sprint 1 |
+| 2.1     | 02/10/24 | Cancho Coila Diego                                                                                                                                                                                                              | Sprint Planning 1: Preparación del entorno y gestión de tareas                                                             |
+| 2.2     | 08/10/24 | Arenas Conde José Anthony                                                                                                                                                                                                      | Implementación de Landing Page, secciones esenciales y pruebas de usabilidad                                               |
+| 2.3     | 11/10/24 | Lagos Aguilar, Luis Eduardo                                                                                                                                                                                                     | Configuración del entorno de desarrollo, gestión de código fuente                                                          |
+| 2.4     | 14/10/24 | Guerrero Castillo, Anthony Jeandet                                                                                                                                                                                              | Revisión del Sprint 1, evidencias y pruebas de accesibilidad                                                              |
+| 2.5     | 16/10/24 | Chamorro Torres, Samuel Rolando                                                                                                                                                                                                | Despliegue de Landing Page y preparación para Sprint 2                                                                     |
+| 2.6     | 20/10/24 | Cancho Coila Diego                                                                                                                                                                                                              | Sprint Planning 2: Definición de REST Endpoints y configuración UI                                                         |
+| 2.7     | 23/10/24 | Arenas Conde José Anthony                                                                                                                                                                                                      | Integración de componentes UI y gestión de grupos                                                                           |
+| 2.8     | 25/10/24 | Lagos Aguilar, Luis Eduardo                                                                                                                                                                                                     | Desarrollo de funcionalidades de cuenta y pruebas de integración                                                           |
+| 2.9     | 30/10/24 | Guerrero Castillo, Anthony Jeandet                                                                                                                                                                                              | Configuración de pruebas y validación de datos en tiempo real con esas nuevas actividades                                   |
+| 3.0     | 03/11/24 | Todos los miembros                                                                                                                                                                                                            | Finalización de TB2: Implementación de funcionalidades clave de gestión de usuarios y cuentas                              |
 
 ### Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto: https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Codex-Report/tree/develop
+**URL del repositorio para el reporte del proyecto:** https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Codex-Report/tree/develop
+**Link de los repositorios de la oraganización:** https://github.com/upc-pre-202510-1asi0572-2947-codex
 
-TB1
-Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma
-para cada integrante del equipo:
+**TB1**
+
+En esta primera entrega (TB1), el objetivo principal fue la creación de WaruSmart, nuestra solución para la automatización de riego agrícola. Todos los miembros del equipo participaron activamente en la elaboración del informe, utilizando herramientas colaborativas como GitHub, Mural, Jira, UXPressia y Miro. A continuación, se presentarán los diagramas de flujo que reflejan las contribuciones de cada miembro del equipo.
 
 | Integrante                         | Tareas Asignadas                                                                      |
-| ---------------------------------- | ------------------------------------------------------------------------------------- |
-| Anderson Walter Macedo Calcina     | analisis competitivo, estrategias y tacticas, registro de entrevistas                 |
+| ---------------------------------- |---------------------------------------------------------------------------------------|
+| Anderson Walter Macedo Calcina     | Analisis competitivo, estrategias y tacticas, registro de entrevistas                 |
 | Cabrera Camizan, Jeferson Smith    | EventStorming, Candidate Context Discovery, Bounded Context Canvases yContext Mapping |
-| More Rondon, Christopher Sebastian | Needfinding, diseño de entrevistas, estructura del informe                           |
+| More Rondon, Christopher Sebastian | Needfinding, diseño de entrevistas, estructura del informe                            |
 | Quispe Condori, Fernando Daniel    | Solutio Profile - Bounded context canvases - Diagram Flow MeSSAGES                    |
-| Velasquez Pizarro, Jair            | User Stories - Impact Mapping - Product Backlog                                                                                   |
-| Pingus Rodriguez, Carlos Daniel    | Definición de Bounded Contexts                                                       |
+| Velasquez Pizarro, Jair            | User Stories - Impact Mapping - Product Backlog                                       |
+| Pingus Rodriguez, Carlos Daniel    | Definición de Bounded Contexts                                                        |
 | Herrera Castillo, Victor Raul      | Diagramas C4                                                                          |
+
+![TB1](https://res.cloudinary.com/djia8bsvr/image/upload/v1750477314/Screenshot_2025-06-20_224058_an844o.png)
+
+
+Este gráfico muestra la cantidad de commits realizados por cada integrante durante el desarrollo del TB1 de WaruSmart.
+
+El gráfico ofrece una representación visual de las contribuciones registradas en nuestro repositorio y la cantidad de interacción de los miembros del equipo a lo largo del tiempo.
+
+Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada miembro aportando de manera significativa al avance y desarrollo de la solución.
+
+**TP1**
+
+En esta primera entrega de TP1, el objetivo principal fue la presentación de la versión final de la landing page, la primera versión de la aplicación web y los avances iniciales del backend de WaruSmart, nuestra solución para la automatización del riego agrícola. Durante este periodo, nos enfocamos en el desarrollo de la interfaz de usuario y la estructura básica del backend, con el fin de sentar las bases para futuras integraciones y mejoras. La landing page se completó con todos los elementos esenciales, y la primera versión de la aplicación web fue configurada con las funcionalidades iniciales.
+
+Todos los miembros del equipo participaron activamente en el avance del proyecto, utilizando herramientas colaborativas como GitHub, Mural, Jira, UXPressia y Miro. A continuación, se presentan los diagramas de flujo que muestran las tareas realizadas por cada miembro del equipo.
+
+| Integrante                         | Tareas Asignadas                                                                                               |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Anderson Walter Macedo Calsina     | Desarrollo de backend, configuración inicial del servidor y estructura de la base de datos                     |
+| Cabrera Camizan, Jeferson Smith    | Diseño e implementación de la landing page, optimización de la interfaz web y funciones básicas                |
+| More Rondon, Christopher Sebastian | Desarrollo de la interfaz frontend, integración de la primera versión web, pruebas de usabilidad               |
+| Quispe Condori, Fernando Daniel    | Implementación inicial de la automatización en el backend, conexión básica con la base de datos                |
+| Velasquez Pizarro, Jair            | Redacción y desarrollo de User Stories, documentación del avance y preparación para la integración del backend |
+| Pingus Rodriguez, Carlos Daniel    | Arquitectura básica del sistema backend y planificación de la integración de sensores IoT                      |
+| Herrera Castillo, Victor Raul      | Modelado de la arquitectura del sistema y diagramas iniciales para la infraestructura del backend y la web     |
+
+
+
+![TP1](https://res.cloudinary.com/djia8bsvr/image/upload/v1750478127/Screenshot_2025-06-20_225513_xnathb.png)
+
+
+Este gráfico ilustra las contribuciones de cada miembro durante el desarrollo del TP1 de WaruSmart.
+
+La imagen proporciona una representación visual de las actividades registradas en nuestro repositorio y la interacción de los miembros a lo largo del proceso de trabajo.
+
+Estas evidencias reflejan una colaboración equilibrada y eficiente, donde cada miembro ha aportado significativamente al progreso y desarrollo de la solución.
+**TB2**
+
+En esta segunda entrega (TB2), el objetivo principal fue la implementación de funcionalidades clave de WaruSmart, nuestra solución para la automatización del riego agrícola. Durante este periodo, se presentaron nuevas versiones para el desarrollo web y las primeras implementaciones de sistemas IoT, como edge computing y el backend. Además, comenzamos con el desarrollo de la aplicación Android, utilizando herramientas especializadas como JetBrains y sus IDE para Python en el backend, Vite en el desarrollo web, WebStorm para el frontend, y Android Studio para el desarrollo nativo de la aplicación móvil.
+
+Todos los miembros del equipo participaron activamente en el avance del proyecto, utilizando herramientas colaborativas como GitHub, Mural, Jira, UXPressia y Miro. A continuación, se presentan los diagramas de flujo que muestran las tareas realizadas por cada miembro del equipo.
+
+| Integrante                         | Tareas Asignadas                                                                                              |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Anderson Walter Macedo Calsina     | Desarrollo de backend, implementación de APIs con Python, uso de JetBrains para la codificación del servidor  |
+| Cabrera Camizan, Jeferson Smith    | Diseño e implementación de los sistemas IoT (sensores), integración de Vite para optimización web             |
+| More Rondon, Christopher Sebastian | Desarrollo de interfaz frontend, integración con WebStorm, optimización de la experiencia de usuario          |
+| Quispe Condori, Fernando Daniel    | Implementación de sistemas de automatización, desarrollo de diagramas de flujo en el backend y edge computing |
+| Velasquez Pizarro, Jair            | Redacción y desarrollo de User Stories, integración con el backend y gestión de tareas del Product Backlog    |
+| Pingus Rodriguez, Carlos Daniel    | Desarrollo de la arquitectura del sistema IoT y optimización de los sensores y dispositivos de riego          |
+| Herrera Castillo, Victor Raul      | Modelado de la arquitectura, diagramas C4 y planificación de infraestructura para backend y IoT               |
+
+
+
+![TB2](https://res.cloudinary.com/djia8bsvr/image/upload/v1750477926/Screenshot_2025-06-20_225156_u7pj98.png)
+
+
+Este gráfico ilustra las contribuciones de cada miembro durante el desarrollo del TB2 de WaruSmart.
+
+La imagen proporciona una representación visual de las actividades registradas en nuestro repositorio y la interacción de los miembros a lo largo del proceso de trabajo.
+
+Estas evidencias reflejan una colaboración equilibrada y eficiente, donde cada miembro ha aportado significativamente al progreso y desarrollo de la solución.
 
 # Contenido
 
-## Tabla de Contenidos
+## 📚 Tabla de Contenidos
 
-- [WaruSmart-Codex-Report](#warusmart-codex-report)
-  - [Team Members](#team-members)
-    - [Registro de Informes](#registro-de-informes)
-    - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-  - [Tabla de Contenidos](#tabla-de-contenidos)
-    - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-    - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
-  - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción.](#capítulo-i-introducción)
-  - [1.1 **Startup Profile.**](#11-startup-profile)
-    - [1.1.1   Descripción del startup](#111---descripción-del-startup)
-    - [1.1.2   Perfiles de integrantes del equipo](#112---perfiles-de-integrantes-del-equipo)
-  - [1.2 **Solution Profile.**](#12-solution-profile)
-    - [1.2.1   Antecedentes y problemática](#121---antecedentes-y-problemática)
-        - [Antecedentes](#antecedentes)
-        - [Problemática](#problemática)
-        - [Aplicación de las 5 W’s y 2 H’s](#aplicación-de-las-5-ws-y-2-hs)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [**Business Assumptions:**](#business-assumptions)
-        - [**User Assumptions**](#user-assumptions)
-        - [**Feature Assumptions**](#feature-assumptions)
-      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [Lean UX Hypothesis Statements](#lean-ux-hypothesis-statements)
-      - [1.2.2.4 Lean UX Canvas.](#1224-lean-ux-canvas)
-    - [1.3 **Segmentos Objetivos.**](#13-segmentos-objetivos)
-      - [Agricultores Individuales](#agricultores-individuales)
-      - [Cooperativas Agrarias](#cooperativas-agrarias)
-- [Capítulo II: Requirements Elicitation \& Analysis.](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1 **Competidores.**](#21-competidores)
-    - [2.1.1   Análisis competitivo.](#211---análisis-competitivo)
-    - [2.1.2   Estrategias y tácticas frente a competidores.](#212---estrategias-y-tácticas-frente-a-competidores)
-  - [2.2 **Entrevistas**](#22-entrevistas)
-    - [2.2.1   Diseño de entrevistas.](#221---diseño-de-entrevistas)
-    - [2.2.2   Registro de entrevistas.](#222---registro-de-entrevistas)
-    - [2.2.3   Análisis de entrevistas.](#223---análisis-de-entrevistas)
-  - [2.3 **Needfinding.**](#23-needfinding)
-    - [2.3.1   User Personas.](#231---user-personas)
-    - [2.3.2   User Task Matrix.](#232---user-task-matrix)
-    - [2.3.3   User Journey Mapping.](#233---user-journey-mapping)
-    - [2.3.4   Empathy Mapping.](#234---empathy-mapping)
-    - [2.3.5   As-Is Scenario Mapping.](#235---as-is-scenario-mapping)
-  - [2.4 **Ubiquitous Language.**](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification.](#capítulo-iii-requirements-specification)
-  - [3.1 **To-Be Scenario Mapping.**](#31-to-be-scenario-mapping)
-  - [3.2 **User Stories.**](#32-user-stories)
-  - [3.3 **Impact Mapping.**](#33-impact-mapping)
-  - [3.4 **Product Backlog.**](#34-product-backlog)
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-  - [4.1 StrategicLevel Domain-Driven Design](#41-strategiclevel-domain-driven-design)
-    - [4.1.1 EventStorming](#411-eventstorming)
-      - [4.1.1.1 Candidate Contex Discovery](#4111-candidate-contex-discovery)
-      - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-      - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
-    - [4.1.2 Context Mapping](#412-context-mapping)
-  - [Análisis de Alternativas de Diseño](#análisis-de-alternativas-de-diseño)
-    - [4.1.3 Software Architecture](#413-software-architecture)
-      - [4.1.3.1 Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-      - [4.1.3.2 Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-      - [4.1.3.2 Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
-      - [4.1.3.2 Software Architecture Deployment Diagrams](#4132-software-architecture-deployment-diagrams)
-  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.1. Bounded Context: IAM (Identity and Access Management)](#421-bounded-context-iam-identity-and-access-management)
-    - [Diccionario de Clases](#diccionario-de-clases)
-      - [Clase: `User`](#clase-user)
-        - [Atributos](#atributos)
-        - [Métodos](#métodos)
-      - [Clase: `Role`](#clase-role)
-        - [Atributos](#atributos-1)
-        - [Métodos](#métodos-1)
-      - [4.2.1.1 Domain Layer](#4211-domain-layer)
-    - [Aggregate Root](#aggregate-root)
-      - [Aggregate: `User`](#aggregate-user)
-        - [Atributos](#atributos-2)
-        - [Métodos](#métodos-2)
-    - [Entities](#entities)
-      - [Entidad: `Role`](#entidad-role)
-        - [Atributos](#atributos-3)
-        - [Métodos](#métodos-3)
-    - [Value Objects](#value-objects)
-      - [Value Object: `Permission`](#value-object-permission)
-        - [Atributos](#atributos-4)
-        - [Métodos](#métodos-4)
-    - [Domain Services](#domain-services)
-      - [Servicio de Dominio: `UserManagementService`](#servicio-de-dominio-usermanagementservice)
-        - [Métodos](#métodos-5)
-    - [Repositories](#repositories)
-      - [Repositorio: `UserRepository`](#repositorio-userrepository)
-        - [Métodos](#métodos-6)
-      - [4.2.1.2 Interface Layer](#4212-interface-layer)
-    - [Bounded Context: IAM](#bounded-context-iam)
-    - [UserController](#usercontroller)
-      - [4.2.1.3 Application Layer](#4213-application-layer)
-    - [Command Handlers](#command-handlers)
-      - [UserCreationCommandHandler](#usercreationcommandhandler)
-      - [PasswordUpdateCommandHandler](#passwordupdatecommandhandler)
-      - [RoleAssignmentCommandHandler](#roleassignmentcommandhandler)
-    - [Event Handlers](#event-handlers)
-      - [UserDeactivatedEventHandler](#userdeactivatedeventhandler)
-      - [4.2.1.4 Infraestructure Layer](#4214-infraestructure-layer)
-    - [Repositorios](#repositorios)
-      - [UserRepository](#userrepository)
-      - [RoleRepository](#rolerepository)
-      - [4.2.1.5 Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.1.6 Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
-        - [4.2.1.6.1 Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
-        - [4.2.1.6.2 Bounded Context Database Design Diagrams](#42162-bounded-context-database-design-diagrams)
-    - [4.2.2 Bounded Context: Subscriptions and Payments](#422-bounded-context-subscriptions-and-payments)
-    - [Diccionario de Clases](#diccionario-de-clases-1)
-      - [Clase: `Subscription`](#clase-subscription)
-        - [Atributos](#atributos-5)
-        - [Métodos](#métodos-7)
-      - [Clase: `SubscriptionTier`](#clase-subscriptiontier)
-        - [Atributos](#atributos-6)
-        - [Métodos](#métodos-8)
-      - [Clase: `SubscriptionStatus`](#clase-subscriptionstatus)
-        - [Atributos](#atributos-7)
-        - [Métodos](#métodos-9)
-      - [4.2.2.1 Domain Layer](#4221-domain-layer)
-    - [Aggregate Root](#aggregate-root-1)
-      - [Aggregate: `Subscription`](#aggregate-subscription)
-        - [Atributos](#atributos-8)
-        - [Métodos](#métodos-10)
-    - [Entities](#entities-1)
-      - [Entidad: `Account`](#entidad-account)
-        - [Atributos](#atributos-9)
-        - [Métodos](#métodos-11)
-    - [Value Objects](#value-objects-1)
-      - [Value Object: `SubscriptionTier`](#value-object-subscriptiontier)
-        - [Atributos](#atributos-10)
-        - [Métodos](#métodos-12)
-      - [Value Object: `SubscriptionStatus`](#value-object-subscriptionstatus)
-        - [Atributos](#atributos-11)
-        - [Métodos](#métodos-13)
-    - [Domain Services](#domain-services-1)
-      - [Servicio de Dominio: `AccountManagementService`](#servicio-de-dominio-accountmanagementservice)
-        - [Métodos](#métodos-14)
-    - [Repositories](#repositories-1)
-      - [Repositorio: `SubscriptionRepository`](#repositorio-subscriptionrepository)
-        - [Métodos](#métodos-15)
-      - [Repositorio: `AccountRepository`](#repositorio-accountrepository)
-        - [Métodos](#métodos-16)
-      - [4.2.2.2 Interface Layer](#4222-interface-layer)
-    - [Bounded Context: Subscriptions and Payments](#bounded-context-subscriptions-and-payments)
-    - [SubscriptionController](#subscriptioncontroller)
-    - [PaymentController](#paymentcontroller)
-      - [4.2.2.3 Application Layer](#4223-application-layer)
-    - [Command Handlers](#command-handlers-1)
-      - [SubscriptionCreationCommandHandler](#subscriptioncreationcommandhandler)
-      - [SubscriptionUpgradeCommandHandler](#subscriptionupgradecommandhandler)
-      - [SubscriptionCancellationCommandHandler](#subscriptioncancellationcommandhandler)
-      - [PaymentProcessingCommandHandler](#paymentprocessingcommandhandler)
-    - [Event Handlers](#event-handlers-1)
-      - [SubscriptionCreatedEventHandler](#subscriptioncreatedeventhandler)
-      - [PaymentSucceededEventHandler](#paymentsucceededeventhandler)
-      - [PaymentFailedEventHandler](#paymentfailedeventhandler)
-      - [4.2.2.4 Infraestructure Layer](#4224-infraestructure-layer)
-    - [Repositorios](#repositorios-1)
-      - [AccountRepository](#accountrepository)
-      - [SubscriptionRepository](#subscriptionrepository)
-      - [PaymentRepository](#paymentrepository)
-      - [4.2.2.5 Bounded Context Softwre Architecture Component Level Diagrams](#4225-bounded-context-softwre-architecture-component-level-diagrams)
-      - [4.2.2.6 Bounded Context Softwre Architecture Code Level Diagrams](#4226-bounded-context-softwre-architecture-code-level-diagrams)
-        - [4.2.2.6.1 Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
-        - [4.2.2.6.2 Bounded Context Database Design Diagrams](#42262-bounded-context-database-design-diagrams)
-    - [4.2.3 Bounded Context: Crops Management (Notification)](#423-bounded-context-crops-management-notification)
-      - [4.2.3.1 Domain Layer](#4231-domain-layer)
-    - [Aggregate Root](#aggregate-root-2)
-      - [Aggregate: `Crop`](#aggregate-crop)
-        - [Atributos](#atributos-12)
-        - [Métodos](#métodos-17)
-    - [Entities](#entities-2)
-      - [Entidad: `Field`](#entidad-field)
-        - [Atributos](#atributos-13)
-        - [Métodos](#métodos-18)
-    - [Value Objects](#value-objects-2)
-      - [Value Object: `CropType`](#value-object-croptype)
-        - [Atributos](#atributos-14)
-        - [Métodos](#métodos-19)
-    - [Domain Services](#domain-services-2)
-      - [Servicio de Dominio: `CropManagementService`](#servicio-de-dominio-cropmanagementservice)
-        - [Métodos](#métodos-20)
-    - [Repositories](#repositories-2)
-      - [Repositorio: `CropRepository`](#repositorio-croprepository)
-        - [Métodos](#métodos-21)
-      - [Repositorio: `FieldRepository`](#repositorio-fieldrepository)
-        - [Métodos](#métodos-22)
-      - [4.2.3.2 Interface Layer](#4232-interface-layer)
-    - [Bounded Context: Crops Management](#bounded-context-crops-management)
-    - [CropController](#cropcontroller)
-      - [4.2.3.3 Application Layer](#4233-application-layer)
-    - [Command Handlers](#command-handlers-2)
-      - [CropRegistrationCommandHandler](#cropregistrationcommandhandler)
-      - [CropStatusUpdateCommandHandler](#cropstatusupdatecommandhandler)
-      - [CropFieldReassignmentCommandHandler](#cropfieldreassignmentcommandhandler)
-    - [Event Handlers](#event-handlers-2)
-      - [CropStatusChangedEventHandler](#cropstatuschangedeventhandler)
-      - [4.2.3.4 Infraestructure Layer](#4234-infraestructure-layer)
-    - [Repositorios](#repositorios-2)
-      - [CropRepository](#croprepository)
-      - [FieldRepository](#fieldrepository)
-      - [4.2.3.5 Bounded Context Softwre Architecture Component Level Diagrams](#4235-bounded-context-softwre-architecture-component-level-diagrams)
-      - [4.2.3.6 Bounded Context Softwre Architecture Code Level Diagrams](#4236-bounded-context-softwre-architecture-code-level-diagrams)
-        - [4.2.3.6.1 Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
-        - [4.2.3.6.2 Bounded Context Database Design Diagrams](#42362-bounded-context-database-design-diagrams)
-    - [4.2.4 Bounded Context: Irrigation Management](#424-bounded-context-irrigation-management)
-      - [4.2.4.1 Domain Layer](#4241-domain-layer)
-    - [Aggregate Root](#aggregate-root-3)
-      - [Aggregate: `IrrigationPlan`](#aggregate-irrigationplan)
-        - [Atributos](#atributos-15)
-        - [Métodos](#métodos-23)
-    - [Entities](#entities-3)
-      - [Entidad: `IrrigationSchedule`](#entidad-irrigationschedule)
-        - [Atributos](#atributos-16)
-        - [Métodos](#métodos-24)
-      - [Entidad: `IrrigationEvent`](#entidad-irrigationevent)
-        - [Atributos](#atributos-17)
-        - [Métodos](#métodos-25)
-    - [Value Objects](#value-objects-3)
-    - [Domain Services](#domain-services-3)
-      - [Servicio de Dominio: `IrrigationManagementService`](#servicio-de-dominio-irrigationmanagementservice)
-        - [Métodos](#métodos-26)
-    - [Repositories](#repositories-3)
-      - [Repositorio: `IrrigationPlanRepository`](#repositorio-irrigationplanrepository)
-        - [Métodos](#métodos-27)
-      - [Repositorio: `IrrigationEventRepository`](#repositorio-irrigationeventrepository)
-        - [Métodos](#métodos-28)
-      - [4.2.4.2 Interface Layer](#4242-interface-layer)
-    - [Bounded Context: Irrigation Management](#bounded-context-irrigation-management)
-    - [IrrigationController](#irrigationcontroller)
-      - [4.2.4.3 Application Layer](#4243-application-layer)
-    - [Command Handlers](#command-handlers-3)
-      - [IrrigationPlanCreationCommandHandler](#irrigationplancreationcommandhandler)
-      - [IrrigationSchedulingCommandHandler](#irrigationschedulingcommandhandler)
-      - [IrrigationEventRecordingCommandHandler](#irrigationeventrecordingcommandhandler)
-    - [Event Handlers](#event-handlers-3)
-      - [IrrigationScheduleChangedEventHandler](#irrigationschedulechangedeventhandler)
-      - [4.2.4.4 Infraestructure Layer](#4244-infraestructure-layer)
-    - [Repositorios](#repositorios-3)
-      - [IrrigationPlanRepository](#irrigationplanrepository)
-      - [IrrigationScheduleRepository](#irrigationschedulerepository)
-      - [IrrigationEventRepository](#irrigationeventrepository)
-      - [4.2.4.5 Bounded Context Softwre Architecture Component Level Diagrams](#4245-bounded-context-softwre-architecture-component-level-diagrams)
-      - [4.2.4.6 Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
-        - [4.2.4.6.1 Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
-        - [4.2.4.6.2 Bounded Context Database Design Diagrams](#42462-bounded-context-database-design-diagrams)
-    - [4.2.5 Bounded Context: Crops Reports Management](#425-bounded-context-crops-reports-management)
-  - [Diccionario de Clases](#diccionario-de-clases-2)
-    - [Clase: `CropReport`](#clase-cropreport)
-        - [Atributos](#atributos-18)
-        - [Métodos](#métodos-29)
-    - [Clase: `HistoricalReport`](#clase-historicalreport)
-        - [Atributos](#atributos-19)
-        - [Métodos](#métodos-30)
-      - [4.2.5.1 Domain Layer](#4251-domain-layer)
-    - [Aggregate Root](#aggregate-root-4)
-      - [Aggregate: `CropReport`](#aggregate-cropreport)
-        - [Atributos](#atributos-20)
-        - [Métodos](#métodos-31)
-    - [Entities](#entities-4)
-      - [Entidad: `HistoricalReport`](#entidad-historicalreport)
-        - [Atributos](#atributos-21)
-        - [Métodos](#métodos-32)
-    - [Value Objects](#value-objects-4)
-    - [Domain Services](#domain-services-4)
-      - [Servicio de Dominio: `CropReportService`](#servicio-de-dominio-cropreportservice)
-        - [Métodos](#métodos-33)
-    - [Repositories](#repositories-4)
-      - [Repositorio: `CropReportRepository`](#repositorio-cropreportrepository)
-        - [Métodos](#métodos-34)
-      - [Repositorio: `HistoricalReportRepository`](#repositorio-historicalreportrepository)
-        - [Métodos](#métodos-35)
-      - [4.2.5.2 Interface Layer](#4252-interface-layer)
-    - [Bounded Context: Crops Reports Management](#bounded-context-crops-reports-management)
-    - [CropReportController](#cropreportcontroller)
-      - [4.2.5.3 Application Layer](#4253-application-layer)
-    - [Command Handlers](#command-handlers-4)
-      - [CropReportGenerationCommandHandler](#cropreportgenerationcommandhandler)
-      - [HistoricalReportGenerationCommandHandler](#historicalreportgenerationcommandhandler)
-      - [YieldEstimateUpdateCommandHandler](#yieldestimateupdatecommandhandler)
-    - [Event Handlers](#event-handlers-4)
-      - [CropStatusUpdatedEventHandler](#cropstatusupdatedeventhandler)
-      - [4.2.5.4 Infraestructure Layer](#4254-infraestructure-layer)
-    - [Repositorios](#repositorios-4)
-      - [CropReportRepository](#cropreportrepository)
-      - [HistoricalReportRepository](#historicalreportrepository)
-      - [4.2.5.5 Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.5.6 Bounded Context Softwre Architecture Code Level Diagrams](#4256-bounded-context-softwre-architecture-code-level-diagrams)
-      - [4.2.5.6.1 Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
-      - [4.2.5.6.2 Bounded Context Database Design Diagrams](#42562-bounded-context-database-design-diagrams)
-  - [Conclusiones](#conclusiones)
-  - [Recomendaciones](#recomendaciones)
+#### [Capítulo I: Introducción](#introducción)
+  - [1.1 Startup Profile](#startup-profile)
+    - [1.1.1 Descripción de la Startup](#descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#solution-profile)
+    - [1.2.1 Antecedentes y problemática](#antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#lean-ux-process)
+      - [1.2.2.1 Lean UX Problem Statements](#lean-ux-problem-statements)
+      - [1.2.2.2 Lean UX Assumptions](#lean-ux-assumptions)
+      - [1.2.2.3 Lean UX Hypothesis Statements](#lean-ux-hypothesis-statements)
+      - [1.2.2.4 Lean UX Canvas](#lean-ux-canvas)
+  - [1.3 Segmentos Objetivo](#segmentos-objetivo)
+
+#### [Capítulo II: Requirements Elicitation & Analysis](#requirements-elicitation--analysis)
+  - [2.1 Competidores](#competidores)
+    - [2.1.1 Análisis competitivo](#análisis-competitivo)
+    - [2.1.2 Estrategias y tácticas frente a competidores](#estrategias-y-tácticas-frente-a-competidores)
+  - [2.2 Entrevistas](#entrevistas)
+    - [2.2.1 Diseño de entrevistas](#diseño-de-entrevistas)
+    - [2.2.2 Registro de entrevistas](#registro-de-entrevistas)
+    - [2.2.3 Análisis de entrevistas](#análisis-de-entrevistas)
+  - [2.3 Needfinding](#needfinding)
+    - [2.3.1 User Personas](#user-personas)
+    - [2.3.2 User Task Matrix](#user-task-matrix)
+    - [2.3.3 User Journey Mapping](#user-journey-mapping)
+    - [2.3.4 Empathy Mapping](#empathy-mapping)
+    - [2.3.5 As-is Scenario Mapping](#as-is-scenario-mapping)
+  - [2.4 Ubiquitous Language](#ubiquitous-language)
+
+#### [Capítulo III: Requirements Specification](#requirements-specification)
+  - [3.1 To-Be Scenario Mapping](#to-be-scenario-mapping)
+  - [3.2 User Stories](#user-stories)
+  - [3.3 Impact Mapping](#impact-mapping)
+  - [3.4 Product Backlog](#product-backlog)
+
+#### [Capítulo IV: Solution Software Design](#solution-software-design)
+  - [4.1 Strategic-Level Domain-Driven Design](#strategic-level-domain-driven-design)
+    - [4.1.1 EventStorming](#eventstorming)
+      - [4.1.1.1 Candidate Context Discovery](#candidate-context-discovery)
+      - [4.1.1.2 Domain Message Flows Modeling](#domain-message-flows-modeling)
+      - [4.1.1.3 Bounded Context Canvases](#bounded-context-canvases)
+    - [4.1.2 Context Mapping](#context-mapping)
+    - [4.1.3 Software Architecture](#software-architecture)
+      - [4.1.3.1 System Landscape Diagram](#system-landscape-diagram)
+      - [4.1.3.2 Context Level Diagrams](#context-level-diagrams)
+      - [4.1.3.3 Container Level Diagrams](#container-level-diagrams)
+      - [4.1.3.4 Deployment Diagrams](#deployment-diagrams)
+  - [4.2 Tactical-Level Domain-Driven Design](#tactical-level-domain-driven-design)
+    - [4.2.X Bounded Context: Nombre del Contexto](#bounded-context-nombre-del-contexto)
+      - [4.2.X.1 Domain Layer](#domain-layer)
+      - [4.2.X.2 Interface Layer](#interface-layer)
+      - [4.2.X.3 Application Layer](#application-layer)
+      - [4.2.X.4 Infrastructure Layer](#infrastructure-layer)
+      - [4.2.X.5 Component Level Diagrams](#component-level-diagrams)
+      - [4.2.X.6 Code Level Diagrams](#code-level-diagrams)
+        - [4.2.X.6.1 Domain Layer Class Diagrams](#domain-layer-class-diagrams)
+        - [4.2.X.6.2 Database Design Diagram](#database-design-diagram)
+
+#### [Capítulo V: Solution UI/UX Design](#solution-uiux-design)
+  - [5.1 Style Guidelines](#style-guidelines)
+    - [5.1.1 General Style Guidelines](#general-style-guidelines)
+    - [5.1.2 Web, Mobile and IoT Style Guidelines](#web-mobile-and-iot-style-guidelines)
+  - [5.2 Information Architecture](#information-architecture)
+    - [5.2.1 Organization Systems](#organization-systems)
+    - [5.2.2 Labeling Systems](#labeling-systems)
+    - [5.2.3 SEO Tags and Meta Tags](#seo-tags-and-meta-tags)
+    - [5.2.4 Searching Systems](#searching-systems)
+    - [5.2.5 Navigation Systems](#navigation-systems)
+  - [5.3 Landing Page UI Design](#landing-page-ui-design)
+    - [5.3.1 Wireframe](#wireframe)
+    - [5.3.2 Mock-up](#mock-up)
+  - [5.4 Applications UX/UI Design](#applications-uxui-design)
+    - [5.4.1 Wireframes](#wireframes)
+    - [5.4.2 Wireflow Diagrams](#wireflow-diagrams)
+    - [5.4.3 Mock-ups](#mock-ups)
+    - [5.4.4 User Flow Diagrams](#user-flow-diagrams)
+  - [5.5 Applications Prototyping](#applications-prototyping)
+
+#### [Capítulo VI: Product Implementation, Validation & Deployment](#product-implementation-validation--deployment)
+  - [6.1 Software Configuration Management](#software-configuration-management)
+    - [6.1.1 Development Environment Configuration](#development-environment-configuration)
+    - [6.1.2 Source Code Management](#source-code-management)
+    - [6.1.3 Code Style Guide & Conventions](#code-style-guide--conventions)
+    - [6.1.4 Deployment Configuration](#deployment-configuration)
+  - [6.2 Landing Page, Services & Applications Implementation](#landing-page-services--applications-implementation)
+    - [6.2.1 Sprint 1](#sprint-1)
+      - [6.2.1.1 Sprint Planning 1](#sprint-planning-1)
+      - [6.2.1.2 Sprint Backlog 1](#sprint-backlog-1)
+      - [6.2.1.3 Development Evidence](#development-evidence)
+      - [6.2.1.4 Testing Suite Evidence](#testing-suite-evidence)
+      - [6.2.1.5 Execution Evidence](#execution-evidence)
+      - [6.2.1.6 Services Documentation Evidence](#services-documentation-evidence)
+      - [6.2.1.7 Software Deployment Evidence](#deployment-evidence)
+      - [6.2.1.8 Team Collaboration Insights](#team-collaboration-insights)
+    - [6.2.2 Sprint 2](#sprint-2)
+      - [6.2.2.1 Sprint Planning 2](#sprint-planning-2)
+      - [6.2.2.2 Sprint Backlog 2](#sprint-backlog-2)
+      - [6.2.2.3 Development Evidence](#development-evidence)
+      - [6.2.2.4 Testing Suite Evidence](#testing-suite-evidence)
+      - [6.2.2.5 Execution Evidence](#execution-evidence)
+      - [6.2.2.6 Services Documentation Evidence](#services-documentation-evidence)
+      - [6.2.2.7 Software Deployment Evidence](#deployment-evidence)
+      - [6.2.2.8 Team Collaboration Insights](#team-collaboration-insights)
+    - [6.2.3 Sprint 3](#sprint-3)
+      - [6.2.3.1 Sprint Planning 3](#sprint-planning-3)
+      - [6.2.3.2 Sprint Backlog 3](#sprint-backlog-3)
+      - [6.2.3.3 Development Evidence](#development-evidence)
+      - [6.2.3.4 Testing Suite Evidence](#testing-suite-evidence)
+      - [6.2.3.5 Execution Evidence](#execution-evidence)
+      - [6.2.3.6 Services Documentation Evidence](#services-documentation-evidence)
+      - [6.2.3.7 Software Deployment Evidence](#deployment-evidence)
+      - [6.2.3.8 Team Collaboration Insights](#team-collaboration-insights)
+  - [6.3 Validation Interviews](#validation-interviews)
+    - [6.3.1 Diseño de Entrevistas](#diseño-de-entrevistas)
+    - [6.3.2 Registro de Entrevistas](#registro-de-entrevistas)
+    - [6.3.3 Evaluaciones según heurísticas](#evaluaciones-según-heurísticas)
+  - [6.4 Video About-the-Product](#video-about-the-product)
+  - [6.5 Aspect Leaders and Collaborators](#aspect-leaders-and-collaborators)
+
+#### [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
+  - [Conclusiones del Proyecto](#conclusiones-del-proyecto)
+  - [Recomendaciones para trabajos futuros](#recomendaciones-para-trabajos-futuros)
   - [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
-    - [Videos de Exposición](#videos-de-exposición)
 
-### Capítulo V: Solution UI/UX Design
 
-- [5.1 Style Guidelines](#51-style-guidelines)
-  - [5.1.1 General Style Guidelines](#511-general-style-guidelines)
-  - [5.1.2 Web, Mobile and IoT Guidelines](#512-web-mobile-and-iot-guidelines)
-- [5.2 Information Architecture](#52-information-architecture)
-  - [5.2.1 Organization Systems](#521-organization-systems)
-  - [5.2.2 Labeling Systems](#522-labeling-systems)
-  - [5.2.3 SEO &amp; Meta Tags](#523-seo--meta-tags)
-  - [5.2.4 Searching Systems](#524-searching-systems)
-  - [5.2.5 Navigation Systems](#525-navigation-systems)
-- [5.3 Landing Page UI Design](#53-landing-page-ui-design)
-  - [5.3.1 Wireframe](#531-wireframe)
-  - [5.3.2 Mock-up](#532-mock-up)
-- [5.4 Applications UX/UI Design](#54-applications-uxui-design)
-  - [5.4.1 Wireframes](#541-wireframes)
-  - [5.4.2 Wireflow Diagrams](#542-wireflow-diagrams)
-  - [5.4.3 Mock-ups](#543-mock-ups)
-  - [5.4.4 User Flow Diagrams](#544-user-flow-diagrams)
-- [5.5 Applications Prototyping](#55-applications-prototyping)
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|-------------------------|--------------------------|------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Victor Herrera Castillo:**<br>**TB1:** Coordiné tareas asignadas sobre entrevistas y estrategias del sistema, organizando al equipo para que cada uno supiera qué hacer y asegurando que la información recogida nos ayudara a mejorar el enfoque del proyecto.<br>**TP1:** Lideré la definición de criterios de aceptación y el orden de prioridades en las User Stories, ayudando al equipo a entender mejor qué debía hacerse primero y cómo debía funcionar cada parte del sistema.<br>**TB2:** Coordiné la integración del frontend y backend, asegurándome de que ambos funcionen bien juntos y que la información se muestre correctamente para el usuario, manteniendo una estructura ordenada en todo el sistema.<br><br>**Anderson Walter Macedo Calsina:**<br>**TB1:** Apoyé en el análisis de competidores, revisando sus fortalezas y debilidades, y ayudé a coordinar las entrevistas para obtener información clave que nos permitiera mejorar nuestra propuesta.<br>**TP1:** Guié la creación del modelo C4 del sistema, explicando cómo se relacionan los componentes principales y ayudando al equipo a visualizar mejor la estructura general de la solución.<br>**TB2:** Supervisé la integración técnica de la landing page y los servicios durante el Sprint 2, asegurándome de que todo funcione correctamente y se conecte bien con el resto del sistema.<br><br>**Carlos Daniel Pingus Rodriguez:**<br>**TB1:** Me encargué de delimitar el alcance técnico del proyecto, definiendo hasta dónde llegarían las funciones del sistema y asegurando que el equipo tuviera claridad sobre lo que se debía desarrollar.<br>**TP1:** Realicé la revisión del Impact Mapping y de los escenarios To-Be, asegurándome de que los objetivos del sistema estén bien alineados con las necesidades del usuario y proponiendo mejoras en los pasos futuros del proyecto.<br>**TB2:** Apoyé en el despliegue de los servicios backend y en la ejecución de pruebas funcionales, verificando que todo funcione correctamente antes de la entrega del sistema.<br><br>**Fernando Daniel Quispe Condori:**<br>**TB1:** Organicé sesiones de avance con el equipo para revisar el progreso, resolver dudas y asegurar que todo el trabajo se mantuviera alineado y consistente con los objetivos del proyecto.<br>**TP1:** Coordiné la elaboración del User Journey Map, guiando al equipo para identificar cada paso que realiza el usuario dentro del sistema y así mejorar su experiencia de uso.<br>**TB2:** Conduje la validación de los prototipos funcionales, organizando sesiones de revisión con el equipo, y coordiné la grabación del video del producto para mostrar de forma clara su funcionamiento y beneficios.<br><br>**Christopher Sebastian More Rondon:**<br>**TB1:** Me encargué del proceso de Needfinding, recopilando necesidades clave de los usuarios, y revisé el informe del proyecto para asegurar que toda la información estuviera clara y bien estructurada.<br>**TP1:** Realicé la actualización de la User Task Matrix, detallando las tareas del usuario paso a paso para facilitar el diseño de una solución centrada en sus necesidades.<br>**TB2:** Integré funcionalidades clave en la aplicación web y realicé validaciones cruzadas usando datos reales, asegurando que el sistema respondiera correctamente a escenarios comunes y mejorando su confiabilidad.<br><br>**Jair Velasquez Pizarro:**<br>**TB1:** Me encargué de levantar los requerimientos funcionales iniciales del sistema, identificando las necesidades básicas de los usuarios y transformándolas en funcionalidades claras y alcanzables.<br>**TP1:** Propuse mejoras técnicas en los artefactos del proyecto y participé activamente en sesiones de retroalimentación, contribuyendo a optimizar el diseño y funcionalidad del sistema.<br>**TB2:** Implementé las validaciones finales en el backend para asegurar su correcto funcionamiento y coordiné con el equipo de desarrollo móvil para lograr una integración fluida entre ambas plataformas.<br><br>**Jeferson Smith Cabrera Camizan:**<br>**TB1:** Lideré el proceso de Event Storming para organizar las ideas del sistema, ayudando al equipo a entender mejor los eventos y cómo se relacionan entre sí.<br>**TP1:** Organicé la priorización del backlog junto al equipo, decidiendo qué tareas eran más importantes para avanzar de forma ordenada en el desarrollo.<br>**TB2:** Coordiné el control de versiones del proyecto y supervisé el merge final del código para asegurar que todo estuviera listo y funcional en la entrega. | **TB1:** El liderazgo conjunto fue clave para establecer una base sólida en el trabajo del equipo, permitiendo que cada integrante asumiera roles estratégicos desde las primeras actividades del proyecto. Esta distribución equitativa de responsabilidades fortaleció la comunicación y el compromiso grupal, haciendo posible la toma de decisiones informadas y compartidas.<br><br>**TP1:** Durante esta fase se profundizó la colaboración y el liderazgo distribuido. Los integrantes asumieron la guía de aspectos clave como la definición de arquitecturas, modelado de procesos y planificación, facilitando una visión compartida del proyecto. La confianza en las capacidades del equipo aumentó, mejorando la eficiencia en la ejecución.<br><br>**TB2:** En esta entrega, el liderazgo conjunto se manifestó con mayor madurez al coordinar la integración de componentes desarrollados en paralelo. La colaboración efectiva permitió detectar inconsistencias, tomar decisiones técnicas en conjunto y lograr una armonización en las funcionalidades del sistema. Este tipo de liderazgo fue esencial para enfrentar la complejidad del proyecto en etapas más avanzadas. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Victor Herrera Castillo:**<br>**TB1:** Definí funcionalidades del sistema junto al equipo, fomentando un ambiente de escucha activa donde todas las ideas fueran consideradas.<br>**TP1:** Organicé el backlog del proyecto estableciendo metas claras, lo que permitió al equipo trabajar con un enfoque definido y avanzar de manera ordenada.<br>**TB2:** Utilicé la herramienta Jira para dar seguimiento al avance del equipo y revisar los hitos importantes del proyecto, ayudando a mantenernos organizados y cumplir con los plazos establecidos.<br><br>**Anderson Walter Macedo Calsina:**<br>**TB1:** Coordiné el análisis de diferentes soluciones tecnológicas con el equipo, comparando sus ventajas y desventajas para elegir la más adecuada para nuestro proyecto.<br>**TP1:** Facilité sesiones de priorización con el equipo, ayudando a organizar las tareas según su importancia y asegurando que todos tuvieran claridad sobre el enfoque del sprint.<br>**TB2:** Asigné tareas grupales enfocándome en que cada integrante contribuyera al cumplimiento de las metas técnicas del proyecto, distribuyendo el trabajo de forma equilibrada y clara.<br><br>**Carlos Daniel Pingus Rodriguez:**<br>**TB1:** Trabajé junto al equipo en la delimitación colaborativa de los bounded contexts, definiendo claramente qué partes del sistema se encargarían de cada función para evitar confusiones y mejorar la organización del proyecto.<br>**TP1:** Participé en el planeamiento del escenario To-Be de manera colaborativa, proponiendo ideas y escuchando aportes del equipo para construir una visión clara y compartida del sistema ideal.<br>**TB2:** Gestioné las dependencias técnicas entre el backend y los dispositivos embebidos, asegurando que ambos se comunicaran correctamente y que el sistema funcionara de forma integrada.<br><br>**Fernando Daniel Quispe Condori:**<br>**TB1:** Realicé la planificación de tareas contando con el apoyo del equipo, organizando el trabajo de manera clara para avanzar juntos y cumplir los objetivos del proyecto.<br>**TP1:** Coordiné sesiones de ideación basadas en datos compartidos, donde el equipo propuso mejoras y soluciones a partir de la información recolectada, fomentando un trabajo colaborativo y enfocado.<br>**TB2:** Coordiné sesiones de mejora continua con el equipo para revisar avances, identificar problemas y ajustar tareas, asegurando que se cumplieran los entregables establecidos en cada sprint.<br><br>**Christopher Sebastian More Rondon:**<br>**TB1:** Participé en la identificación de funcionalidades necesarias para el sistema, analizando las necesidades del usuario y proponiendo soluciones junto al equipo.<br>**TP1:** Brindé apoyo en el diseño del flujo de experiencia de usuario, asegurando que cada paso fuera claro y fácil de seguir, y que reflejara las necesidades reales de los usuarios.<br>**TB2:** Colaboré activamente en la validación del diseño en múltiples dispositivos, verificando que la interfaz se adaptara correctamente y ofreciera una buena experiencia en cada plataforma.<br><br>**Jair Velasquez Pizarro:**<br>**TB1:** Coordiné con el equipo la definición de funcionalidades requeridas, asegurando que cada módulo cubriera las necesidades del usuario y se integrara adecuadamente en el sistema.<br>**TP1:** Contribuí en la construcción de artefactos de diseño técnico, como diagramas y estructuras del sistema, para guiar el desarrollo y facilitar la comprensión del equipo.<br>**TB2:** Realicé el monitoreo del progreso del equipo usando Trello y apliqué ajustes en las tareas cuando fue necesario, asegurando que el trabajo avanzara según lo planeado.<br><br>**Jeferson Smith Cabrera Camizan:**<br>**TB1:** Impulsé un flujo de trabajo colaborativo para definir eventos, comandos y contextos del sistema, permitiendo una construcción más ordenada y entendible entre todos los integrantes.<br>**TP1:** Participé en la planificación del backlog, organizando las tareas según prioridades y tiempos, y asegurando que el equipo tuviera claridad sobre qué debía desarrollarse en cada etapa.<br>**TB2:** Supervisé el cumplimiento de metas técnicas en cada módulo del sistema, asegurándome de que se avanzara según lo planificado y resolviendo dudas o dificultades técnicas con el equipo. | **TB1:** La planificación inicial estuvo marcada por una fuerte cohesión y un entorno inclusivo donde cada integrante tuvo espacio para aportar ideas y discutir propuestas. Esta apertura facilitó la identificación clara de metas y permitió una ejecución inicial organizada, con roles distribuidos de forma equitativa y responsable.<br><br>**TP1:** El equipo logró consolidar una estructura colaborativa efectiva. Se promovió la participación activa mediante el uso de herramientas de gestión y sesiones de planificación, logrando una ejecución que respetó tanto los tiempos como los entregables propuestos. La planificación conjunta generó sentido de pertenencia y compromiso grupal.<br><br>**TB2:** En esta etapa, la colaboración se evidenció en la implementación sinérgica de funcionalidades, uso de tableros para planificación compartida y reuniones de seguimiento. La definición clara de metas permitió afrontar retos técnicos complejos sin comprometer la cohesión. Se fortaleció el entorno inclusivo al valorar constantemente las opiniones técnicas y estratégicas de todos los miembros, resultando en un equipo eficiente, comprometido y coordinado. |
 
-### Capítulo VI: Product Implementation, Validation & Deployment
 
-- [6.1 Software Configuration Management](#61-software-configuration-management)
-
-  - [6.1.1 Environment Setup](#611-environment-setup)
-  - [6.1.2 Source Code Management](#612-source-code-management)
-  - [6.1.3 Style Guide &amp; Conventions](#613-style-guide--conventions)
-  - [6.1.4 Deployment Setup](#614-deployment-setup)
-- [6.2 Implementation: Sprints](#62-implementation-sprints)
-
-  - [6.2.X Sprint n](#62x-sprint-n)
-    - [Sprint Planning](#sprint-planning)
-    - [Sprint Backlog](#sprint-backlog)
-    - [Development Evidence](#development-evidence)
-    - [Testing Suite](#testing-suite)
-    - [Execution Evidence](#execution-evidence)
-    - [Documentation Evidence](#documentation-evidence)
-    - [Deployment Evidence](#deployment-evidence)
-    - [Team Collaboration Insights](#team-collaboration-insights)
-- [6.3 Validation Interviews](#63-validation-interviews)
-
-  - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
-  - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
-  - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-- [6.4 Video About-the-Product](#64-video-about-the-product)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video about the team](#video-about-the-team)
-- [Bibliografía](#bibliografia)
-- [Anexos](#anexos)
-
-## Student Outcome
-| **Criterio específico**                                                                  | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Victor Herrera Castillo:**<br>**TB1:** En esta entrega, trabajamos de manera colaborativa como equipo para definir los puntos a desarrollar, y yo cumplí con las actividades asignadas, que incluyeron el análisis de competidores, el registro de entrevistas y la elaboración de estrategias y tácticas a implementar.<br>**Anderson Walter Macedo Calsina:**<br>**TB1:** Para esta entrega, se coordinó como equipo los puntos a trabajar de forma colaborativa y cumplí con las actividades como el análisis de los competidores, el registro de entrevistas y las estrategias y tácticas a seguir.<br> **Carlos Daniel Pingus Rodriguez:**<br>**TB1:** En esta primera entrega coordiné con mi equipo los principales puntos a desarrollar para avanzar de la manera más evidente posible tomando en cuenta las fortalezas y debilidades de mis compañeros.<br> **Fernando Daniel Quispe Condori:**<br>**TB1:** En esta entrega el hecho de reunirnos colaborativamente, asignarnos tareas e ir revisando el avance que teníamos me permitió alcanzar el objetivo específico.<br> **Christopher Sebastian More Rondon:**<br>**TB1:** Para esta entrega coordiné con mi equipo la división de las tareas, encargándome de realizar el Needfinding y el diseño de las preguntas de entrevista, así como de monitorear la estructura del informe.<br> **Jair Velasquez Pizarro:**<br>**TB1:** En esta primera entrega coordiné con mi equipo para las asignaciones de tareas, donde se me encargó el capítulo de Requirements para el diseño de historias de usuarios.<br> **Jeferson Smith Cabrera Camizan:**<br>**TB1:** Para esta primera entrega, coordiné con mi equipo el desarrollo del Event Storming de nuestro sistema de riego inteligente Warusmart. Trabajé en la definición de eventos, generación de Timelines, identificación de Pain Points, Pivotal Points y la estructura de Commands y Policies. Propuse alternativas para la organización de los Bounded Contexts y participé en la elaboración de Context Mapping. Me aseguré de mantener una comunicación continua para integrar todos los aportes y llegar a una visión de sistema coherente. | En esta primera entrega, el trabajo en equipo fue fundamental para alcanzar los objetivos propuestos. Cada integrante coordinó de manera efectiva la división de tareas y contribuyó activamente en sus respectivas responsabilidades, desde el análisis de competidores, el registro de entrevistas y la definición de estrategias, hasta el diseño de preguntas de Needfinding, la elaboración de requisitos, el seguimiento del informe y la organización del Event Storming. La comunicación constante, la asignación colaborativa de actividades y el reconocimiento de las fortalezas y debilidades individuales permitieron que el equipo avance de manera ordenada y cumpla con los entregables planteados. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Victor Herrera Castillo:**<br>**TB1:** En esta entrega, colaboré con mi equipo en la identificación de las necesidades de los usuarios, lo que nos permitió definir las funcionalidades de nuestra solución.<br> **Anderson Walter Macedo Calsina:**<br>**TB1:** En esta entrega realicé el análisis de otras empresas con sus soluciones tecnológicas, comparándolas y afrontando las fortalezas y aprovechando las debilidades, además de identificar oportunidades y amenazas para la organización.<br> **Carlos Daniel Pingus Rodriguez:**<br>**TB1:** Para entregar el TB1 realicé el análisis de los bounded context junto con mi equipo para delimitar nuestro alcance en cuanto al proyecto.<br> **Fernando Daniel Quispe Condori:**<br>**TB1:** En esta entrega pude planificar y cumplir con las tareas asignadas y de la misma manera trabajar colaborativamente con mi equipo para lograr nuestro objetivo alcanzado.<br> **Christopher Sebastian More Rondon:**<br>**TB1:** En esta entrega ayudé a mi equipo a identificar las necesidades de los usuarios, con lo cual conseguimos identificar las funcionalidades de nuestra solución.<br> **Jair Velasquez Pizarro:**<br>**TB1:** En esta primera entrega me reuní con mi equipo para poder identificar las necesidades de nuestros segmentos objetivos y encontrar las funcionalidades que necesita nuestra solución.<br> **Jeferson Smith Cabrera Camizan:**<br>**TB1:** En esta entrega, planifiqué junto con mi equipo el flujo de trabajo para levantar toda la información de nuestro sistema Warusmart. Propuse dividir las tareas en fases: exploración no estructurada, identificación de eventos críticos, creación de Commands, definición de Policies, Read Models, External Systems y Aggregates. Además, coordiné la integración de las relaciones entre bounded contexts mediante Context Mapping, siguiendo los patrones de DDD como Shared Kernel, ACL, Customer/Supplier y Conformist. | Durante esta entrega, el equipo trabajó de manera coordinada para analizar el entorno y definir claramente el alcance del proyecto. Se realizaron comparaciones de soluciones tecnológicas de otras empresas, identificando oportunidades y amenazas para la organización, además de delimitar los bounded context necesarios para enfocar los esfuerzos. La planificación y cumplimiento de tareas asignadas, así como la colaboración constante, permitieron identificar correctamente las necesidades de los usuarios y establecer las funcionalidades esenciales para la solución planteada. El compromiso y la participación activa de todos los integrantes fueron claves para lograr los objetivos propuestos. |
 
 # Capítulo I: Introducción.
 
@@ -444,15 +302,15 @@ WaruSmart es una startup peruana creada por estudiantes de la Universidad Peruan
 
 ### 1.1.2   Perfiles de integrantes del equipo
 
-| Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Foto                                                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Nombre: Fernando Daniel Quispe Condori<br />Carrera: Ingeniería de Software<br />Código: U20221C628<br />Descripción: Soy Fernando Daniel Quispe Condori, tengo 20 años y curso la carrera de Ingeniería de Software. Cuento con las habilidades técnicas para apoyar a mi equipo en el desarrollo de nuestra solución IoT en el contexto actual, así mismo cuento cono habilidades para la gestión de equipos y colaborar efectivamente como un equipo.              | ![Fernando_Quispe](Assets/team/fernando-quispe.jpg)                                                                                                                                          |
-| Nombre: Anderson Walter Macedo Calsina<br />Carrera: Ingeniería de Software<br />Código: U20201C179<br />Descripción: Soy Anderson Walter Macedo Calsina, tengo 22 años y actualmente estoy estudiando Ingeniería de Software en la UPC. Me gusta colaborar con mis compañeros y contribuir en proyectos conjuntos. Estoy dispuesto a contribuir a mi equipo en el desarrollo del proyecto con los conocimientos que he ido adquiriendo.                                 | ![Anderson_Macedo](Assets/team/anderson-macedo.jpg)                                                                                                                                          |
-| Nombre: Christopher Sebastian More Rondon<br />Carrera Ingeniería de Software:<br />Código: U202212199<br />Descripción: Soy estudiante del septimo ciclo de Ingenieria de Software, actualmente tengo 20 años. Soy un estudiante que colabora constantemente en el desarrollo de los projectos, asi como dar soluciones creativas a los problemas que surgan durante la creacion de estos. Siempre me esfuerzo por entregar un buen trabajo.                              | ![Christopher More](Assets/team/christopher-more.jpg)                                                                                                                                        |
-| Nombre:Jair Velasquez Pizarro<br /> Carrera: Ingeniería de Software <br />Código: U202218114  <br />Descripción: Estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software. Manejo los lenguajes de TypeScript, Java, JavaScript a nivel intermedio, cuento con experiencia en desarrollo FullStack como tambien habilidades de trabajo en equipo para colaborar de forma efectiva.|   ![Jair Velasquez](Assets/team/jair-velasquez.jpeg)                                                                                                                                                                                           |
-| Nombre: Carlos Daniel Pingus Rodriguez `<brr />`Carrera: Ingenierría de Software<br />Código: U202113280<br /> Descripción: Soy estudiante de la carrera de ingeniería de Software. Me gusta la tecnología y como esta misma ha cambiado significativamente en mi tiempo de vida. Me considero alguien responsable y comprometido con los proyectos; Trato de estar a la par con mis compañeros y compartir con ellos mis conocimientos en ciertos temas específicos. |<img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745581562/foto_carlos.jpg">                                                                                              |
-| Nombre:Jeferson Smith Cabrera Camizan<br />Carrera: Ingeneria de Software<br />Código: U20211C211<br />Descripción: Estudiante universitario de la carrera de ingeniería de software. Me gusta trabajar en conjunto para el desarrollo del proyecto. cuento con conocimientos en lenguajes html, css, js, c++ y Agile Project Managment.                                                                                                                                  | <a href="https://ibb.co/55MPLJC"><img src="https://res.cloudinary.com/drkelnilg/image/upload/v1745628789/imagen_2025-04-25_195308443_hzznhf.png" alt="Foto-Jeferson" border="0"></a> |
-| Nombre:Victor Raul Herrera Castillo<br />Carrera: Ingeneria de Software<br />Código: U20201E188<br />Descripción: Soy un estudiante de la carrera de ingeniería de software, apasionado por la tecnología y sus oportunidades en el ámbito de la ciencia, me gusta leer y enseñar a otras personas los conocimientos que aprendí durante el desarrollo de mi carrera.                                                                                                | <a href="https://ibb.co/55MPLJC"><img src="https://res.cloudinary.com/djia8bsvr/image/upload/v1712333792/Name_pacjmt.jpg" alt="Foto-Victor" border="0"></a>                          |
+| Perfil | Foto |
+|--------|------|
+| Nombre: Fernando Daniel Quispe Condori<br />Carrera: Ingeniería de Software<br />Código: U20221C628<br />Descripción: Soy Fernando Daniel Quispe Condori, tengo 20 años y curso la carrera de Ingeniería de Software. Cuento con las habilidades técnicas para apoyar a mi equipo en el desarrollo de nuestra solución IoT en el contexto actual, así mismo cuento con habilidades para la gestión de equipos y colaborar efectivamente como un equipo. | <img src="Assets/team/fernando-quispe.jpg" width="300"/> |
+| Nombre: Anderson Walter Macedo Calsina<br />Carrera: Ingeniería de Software<br />Código: U20201C179<br />Descripción: Soy Anderson Walter Macedo Calsina, tengo 22 años y actualmente estoy estudiando Ingeniería de Software en la UPC. Me gusta colaborar con mis compañeros y contribuir en proyectos conjuntos. Estoy dispuesto a contribuir a mi equipo en el desarrollo del proyecto con los conocimientos que he ido adquiriendo. | <img src="Assets/team/anderson-macedo.jpg" width="300"/> |
+| Nombre: Christopher Sebastian More Rondon<br />Carrera: Ingeniería de Software<br />Código: U202212199<br />Descripción: Soy estudiante del séptimo ciclo de Ingeniería de Software, actualmente tengo 20 años. Soy un estudiante que colabora constantemente en el desarrollo de los proyectos, así como dar soluciones creativas a los problemas que surgen durante la creación de estos. Siempre me esfuerzo por entregar un buen trabajo. | <img src="Assets/team/christopher-more.jpg" width="300"/> |
+| Nombre: Jair Velasquez Pizarro<br />Carrera: Ingeniería de Software<br />Código: U202218114<br />Descripción: Estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software. Manejo los lenguajes de TypeScript, Java, JavaScript a nivel intermedio, cuento con experiencia en desarrollo FullStack como también habilidades de trabajo en equipo para colaborar de forma efectiva. | <img src="Assets/team/jair-velasquez.jpeg" width="300"/> |
+| Nombre: Carlos Daniel Pingus Rodriguez<br />Carrera: Ingeniería de Software<br />Código: U202113280<br />Descripción: Soy estudiante de la carrera de Ingeniería de Software. Me gusta la tecnología y cómo esta misma ha cambiado significativamente en mi tiempo de vida. Me considero alguien responsable y comprometido con los proyectos; trato de estar a la par con mis compañeros y compartir con ellos mis conocimientos en ciertos temas específicos. | <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745581562/foto_carlos.jpg" width="300"/> |
+| Nombre: Jeferson Smith Cabrera Camizan<br />Carrera: Ingeniería de Software<br />Código: U20211C211<br />Descripción: Estudiante universitario de la carrera de Ingeniería de Software. Me gusta trabajar en conjunto para el desarrollo del proyecto. Cuento con conocimientos en lenguajes HTML, CSS, JS, C++ y Agile Project Management. | <img src="https://res.cloudinary.com/drkelnilg/image/upload/v1745628789/imagen_2025-04-25_195308443_hzznhf.png" width="300"/> |
+| Nombre: Victor Raul Herrera Castillo<br />Carrera: Ingeniería de Software<br />Código: U20201E188<br />Descripción: Soy un estudiante de la carrera de Ingeniería de Software, apasionado por la tecnología y sus oportunidades en el ámbito de la ciencia. Me gusta leer y enseñar a otras personas los conocimientos que aprendí durante el desarrollo de mi carrera. | <img src="https://res.cloudinary.com/djia8bsvr/image/upload/v1712333792/Name_pacjmt.jpg" width="300"/> |
 
 ## 1.2 **Solution Profile.**
 
@@ -566,11 +424,13 @@ El sistema WaruSmart es un producto de confianza, respaldado por datos precisos.
 
 #### 1.2.2.4 Lean UX Canvas.
 
-A continuación se presenta el Lean UX Canvas realizado para nuestra solución:
+A continuación se presenta el Lean UX Canvas realizado para nuestra solución, dónde se visualiza la recopilación del proceso Lean UX realizado previamente:
 
-Lean UX Canvas:
+![Lean UX Canvas](https://res.cloudinary.com/ddexg0fk0/image/upload/v1747307889/LeanUXCanvas-WaruSmart_yh2voe.png)
 
-![Lean UX Canvas](Assets/lean-ux-canvas/lean-ux-canvas-warusmart.png)
+Enlace a herramienta Miro: https://miro.com/welcomeonboard/UWFFNVNNeFJxOGd3MEl5eCt6T3ZBQTNwckIvdkdGdEMrTmNPV2lDc3ZXMFBMVlUxL1ZwcW1ncVBIOTJRU1hicCtLUnMxaUhBaUZkZkdPaGUxaitTNjYyOCtJazNuTUdzMGFheCsrNFY2eHFsZ3JZakdXS1JYd2xYNFNRVFRRQ2p0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=648998225080 
+
+Lean UX Canvas:El Lean UX Canvas de WaruSmart resume los problemas, usuarios, soluciones y beneficios clave identificados durante el proceso de diseño. Plantea hipótesis centradas en mejorar la productividad agrícola mediante riego automatizado y decisiones basadas en datos, y propone validarlas a través de pruebas piloto y comparaciones con métodos tradicionales.
 
 ### 1.3 **Segmentos Objetivos.**
 
@@ -593,6 +453,8 @@ Lean UX Canvas:
 ## 2.1 **Competidores.**
 
 ### 2.1.1   Análisis competitivo.
+
+El análisis competitivo permite identificar las fortalezas, debilidades y estrategias clave de las principales soluciones similares en el mercado. Esta comparación proporciona una visión clara del posicionamiento de WaruSmart frente a otras propuestas tecnológicas de riego agrícola, considerando aspectos como perfil, propuesta de valor, estrategias de marketing, productos y análisis FODA. A través de esta evaluación se busca destacar las ventajas diferenciales de WaruSmart y detectar oportunidades de mejora en el entorno competitivo.
 
 |                                                         | WaruSmart                                                                                                                                                                                                                                   | Agrobit                                                                                                                                                                              | Netafirm                                                                                                                                                                                                                                                                | Irritec                                                                                                                                                                                                 |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -666,6 +528,8 @@ A continuacion se mostrara las preguntas que se le realizaron a los entrevistado
 
 ### 2.2.2   Registro de entrevistas.
 
+Con el objetivo de validar la necesidad de una solución tecnológica en el riego agrícola, se realizaron entrevistas cualitativas a agricultores individuales y representantes de cooperativas agrarias de distintas regiones del Perú. Estas entrevistas permitieron identificar comportamientos, problemas, expectativas y actitudes frente al uso de tecnología en el campo, así como el nivel de disposición hacia una solución como WaruSmart. A continuación, se presenta un resumen de los testimonios recogidos.
+
 **Segmento1: Agricultores individuales**
 
 Entrevista 1: Moisés Luque
@@ -689,7 +553,7 @@ Departamento: Moche, La Libertad
 
 ![Entrevista WaruSmart Walter](Assets/interviews/Entrevista-WaruSmart-Walter.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EfSCQqBucNNMpnczYwtjK2AB8iY3CavfgXVMY2675ielZw?e=c58mG1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/M1FgEG
 
 Resumen:
 Walter Cayrampoma, agricultor de 43 años natural de Moche, La Libertad, trabaja en el rubro agrícola desde hace varios años. Menciona que usa con frecuencia su celular, sobre todo para comunicarse y ver videos en YouTube sobre agricultura. Aunque al principio tuvo dificultades con la tecnología, actualmente se siente cómodo usándola, aunque a veces aún recurre a sus hijos para resolver dudas. Lleva el registro de riegos en un cuaderno, anotando datos como el momento del riego, el área trabajada y el consumo de agua. Considera que los datos más importantes para el cuidado de sus cultivos son el clima, el tipo de suelo, la frecuencia de riego y la presencia de plagas. Ha tenido problemas con el registro del riego, como olvidar regar ciertas partes o hacerlo dos veces, lo que genera desperdicio de agua o plantas mal cuidadas. También ha enfrentado dificultades técnicas, como baja presión de agua o fallas en la bomba. Al conocer la propuesta de WaruSmart, le pareció interesante porque le permitiría tener un mejor control, ahorrar agua y tiempo. Indicó que estaría dispuesto a pagar por el servicio si realmente le conviene, y cree que esta herramienta también podría facilitar el trabajo de otros agricultores que no llevan un control exacto.
@@ -735,7 +599,7 @@ Departamento: Juli, Puno
 
 (Assets/interviews/Entrevista-WaruSmart-Adela.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/Efdrr4fxqvFIpcdZQHXo-cwBal4KaEm_gcR8nz-guqqFAA?e=SYEZQ1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/PPE2q8
 
 Resumen:
 Adela Vilca, una mujer de 52 años que vive en Juli, Puno, es miembro de una cooperativa agraria. Usa tecnología de forma básica, principalmente el celular para comunicarse por WhatsApp y ver videos de agricultura, aunque presenta dificultades con algunas aplicaciones y suele recibir ayuda de sus hijos. En su cooperativa registran las necesidades de los cultivos en cuadernos y las discuten en reuniones. Mencionó que los miembros enfrentan problemas en la gestión, sobre todo cuando hay fenómenos climáticos como lluvias o sequías, ya que no siempre saben qué necesita cada cultivo. Para organizar la compra de materiales, se reúnen y hacen listas para comprar en grupo. Han tenido pérdidas por desorganización o retrasos en el cuidado de los cultivos. Usan herramientas básicas como bombas manuales y mangueras, pero no cuentan con tecnología avanzada. Al conocer la propuesta de WaruSmart, Adela expresó que le parecería útil, especialmente si el sistema brinda alertas para regar. Estaría dispuesta a pagar entre 50 y 100 soles, siempre que realmente les facilite el trabajo.
@@ -774,6 +638,8 @@ Representacion ficticia de un usuario perteneciente a cada segmento objetivo, la
 
 Podemos identificar que es un trabajador que ama su trabajo, por lo que desea encontrar su eficacia mediante diversas
 herramientas. A pesar de no tener mucho conocimiento en aparatos digitales, está dispuesto a usarlos para la agricultura.
+
+Enlace: https://uxpressia.com/w/laUMU/p/rVOfE
 <div></div>
 <img src="Assets/needfinding/user_persona_1_2.png">
 
@@ -782,6 +648,8 @@ herramientas. A pesar de no tener mucho conocimiento en aparatos digitales, est�
 
 Podemos observar como el usuario desea apoyar a los miembros de su cooperativa, por lo que busca convencer a todos de que
 una herramienta tecnológica puede ayudarlos a ser más eficases.
+
+Enlace: https://uxpressia.com/w/laUMU/p/XGV1z
 <div></div>
 <img src="Assets/needfinding/user_persona_2_2.png">
 
@@ -811,12 +679,16 @@ así como también muestra las necesidades que van surgiendo.
 
 Podemos identificar como el usuario va alegrandose conforme conoce más sobre nuestra solución, sin embargo, también muestra que necesita 
 de una landing page que lo mantenga bien informado sobre las funciones,
+
+Enlace: https://uxpressia.com/w/laUMU/m/xWrem
 <div></div>
 <img src="Assets/needfinding/journey_map_1_2.png">
 
 **SEGMENTO COOPERATIVAS:**
 
 Si bien el usuario agradece el usar la herramienta, también es necesario que nuestra solución sea fácil de usar para efitar frustraciones por parte del usuario
+
+Enlace: https://uxpressia.com/w/laUMU/m/l3kWu
 <div></div>
 <img src="Assets/needfinding/journey_map_2_2.png">
 
@@ -827,6 +699,8 @@ Grafico realizado para visualizar la problematica del usuario junto con lo que p
 **SEGMENTO AGRICULTORES:**
 
 El usuario se encuentra frustrado debido a que pierde dinero por las dificultades de cuidar a sus cultivos, al mismo tiempo que desea encontrar una solucion a este problema
+
+Enlace: https://uxpressia.com/w/laUMU/p/29x5e
 <div></div>
 <img src="Assets/needfinding/empathy_map_1_2.png">
 
@@ -834,6 +708,8 @@ El usuario se encuentra frustrado debido a que pierde dinero por las dificultade
 
 El usuario se encuentra frustrado por los cultivos perdios, al mismo tiempo que siente incertidumbre sobre como se  adaptaran sus companeros a esta nueva teconolgia
 <div></div>
+
+Enlace: https://uxpressia.com/w/laUMU/p/Mh4C4
 <img src="Assets/needfinding/empathy_map_2_2.png">
 
 ### 2.3.5   As-Is Scenario Mapping.
@@ -878,6 +754,8 @@ Tabla que muestra las principales actividades del usuario, junto con el como rea
 
 **SEGMENTO AGRICULTORES:**
 
+Se espera que los agricultores individuales puedan monitorear con mayor facilidad sus cultivos, lo que les permitirá sentirse mejor al mejorar su rentabilidad.
+
 <img src="Assets/needfinding/To-Be-agricultor.PNG">
 Herramienta: Miro
 
@@ -885,6 +763,8 @@ Herramienta: Miro
 <br>
 
 **SEGMENTO COOPERATIVAS:**
+
+Se espera que las cooperativas agrarias puedan llevar un mejor control de sus gastos, así como tener una mejor gestión de las condiciones de sus cultivos, lo que conlleva a que tengan mejores ganancias.
 
 <img src="Assets/needfinding/To-Be-cooperativa.PNG">
 Herramienta: Miro
@@ -894,49 +774,77 @@ Herramienta: Miro
 | Epic/Story ID                                                                                                                                                                                                                                                                                                           | Título                                                      | Descripción                                                                                                                                                                                                                                                      | Criterio de aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Epic ID |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----: |
 | <p>**Epic 1: Landing Page informativa** </p><p>**Como** visitante interesado (agricultor, cooperativa o público en general)<br>**Quiero** acceder a una página web informativa <br>**Para** conocer qué hace la solución, cómo me beneficia y cómo puedo acceder </p> |                                                              |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |        |
- | E1-US101                                                                                                                                                                                                                                                                                                                | Navegación entre secciones                                  | <p>**Como** visitante del sitio web </p><p>**Quiero** contar con una barra de navegación accesible </p><p>**Para** navegar rapidamente entre las secciones informativas de la landing page </p>                                | <p>**Escenario 1: Exploracion de la Landing** </p><p>**Dado que** el visitante está explorando la landing page <br>**Cuando** selecciona una opción de la barra de navegación </p><p>**Entonces** es llevado directamente a la sección correspondiente (cómo funciona, beneficios, testimonios, contacto) </p><p></p><p>**Escenario 2: Volver al Inicio** </p><p>**Dado que** el visitante desea volver al inicio </p><p>**Cuando** hace clic en el logotipo o en la opción "Inicio" de la barra </p><p>**Entonces** es redirigido a la parte superior de la página </p><p> </p>                                                               |    1    |
- | E1-US102                                                                                                                                                                                                                                                                                                                | Conocer cómo funciona la solución                          | <p>**Como** visitante interesado en optimizar el riego </p><p>**Quiero** acceder a una sección que explique cómo funciona la solución IoT </p><p>**Para** entender cómo puede ayudarme a gestionar mejor mis cultivos </p>  | <p>**Escenario 1: Información del funcionamiento general** </p><p>**Dado que** el visitante se encuentra en la landing page </p><p>**Cuando** accede a la sección de "¿Cómo funciona?"</p><p>**Entonces** se le muestra información clara sobre el funcionamiento general del sistema (aplicación + sensores)</p><p></p><p>**Escenario 2: Uso de la tecnología** </p><p>**Dado que** el visitante busca información sobre el uso de la tecnología </p><p>**Cuando** revisa la explicación </p><p>**Entonces** comprende que incluye sensores, monitoreo remoto y automatización del riego </p>                                                 |    1    |
- | E1-US103                                                                                                                                                                                                                                                                                                                | Visualizar beneficios segmentados                            | <p>**Como** visitante del segmento agricultor o cooperativa </p><p>**Quiero** conocer los beneficios específicos de la solución según mi perfil </p><p>**Para** evaluar si es útil para mi actividad agrícola </p>         | <p>**Escenario 1: Visualización beneficios agricultor** </p><p>**Dado que** un visitante del segmento agricultor explora la página </p><p>**Cuando** visualiza los beneficios </p><p>**Entonces** reconoce que puede reducir riesgos por riego ineficiente </p><p></p><p>**Escenario 2: Visualización beneficios cooperativa** </p><p>**Dado que** un visitante del segmento cooperativa explora la página </p><p>**Cuando** visualiza los beneficios </p><p>**Entonces** reconoce que puede reducir costos y aumentar su productividad </p><p></p>                                                                                                 |    1    |
- | E1-US104                                                                                                                                                                                                                                                                                                                | Sección testimonios de usuarios                             | <p>**Como** visitante del sitio web </p><p>**Quiero** leer testimonios de agricultores o cooperativas que usan la solución </p><p>**Para** tener confianza en su efectividad </p>                                              | <p>**Escenario 1: Visualización seccion de testimonios** </p><p>**Dado que** el visitante está explorando el sitio </p><p>**Cuando** accede a la sección de testimonios </p><p>**Entonces** puede leer al menos dos experiencias reales con resultados medibles </p>                                                                                                                                                                                                                                                                                                                                                                                                                             |    1    |
- | E1-US105                                                                                                                                                                                                                                                                                                                | Sección contactarse                                         | <p>**Como** visitante interesado en la solución </p><p>**Quiero** tener la opción de contactarme o solicitar acceso </p><p>**Para** obtener más información o comenzar a usar el sistema </p>                               | <p>**Escenario 1: Visualización de la seccion contacto** </p><p>**Dado que** el visitante quiere más detalles sobre precios o implementación </p><p>**Cuando** accede a la sección de contacto </p><p>**Entonces** puede enviar su información y mensaje para ser contactado </p>                                                                                                                                                                                                                                                                                                                                                                                                              |    1    |
+ | E1-US01                                                                                                                                                                                                                                                                                                                | Navegación entre secciones                                  | <p>**Como** visitante del sitio web </p><p>**Quiero** contar con una barra de navegación accesible </p><p>**Para** navegar rapidamente entre las secciones informativas de la landing page </p>                                | <p>**Escenario 1: Exploracion de la Landing** </p><p>**Dado que** el visitante está explorando la landing page <br>**Cuando** selecciona una opción de la barra de navegación </p><p>**Entonces** es llevado directamente a la sección correspondiente (cómo funciona, beneficios, testimonios, contacto) </p><p></p><p>**Escenario 2: Volver al Inicio** </p><p>**Dado que** el visitante desea volver al inicio </p><p>**Cuando** hace clic en el logotipo o en la opción "Inicio" de la barra </p><p>**Entonces** es redirigido a la parte superior de la página </p><p> </p>                                                               |    1    |
+ | E1-US02                                                                                                                                                                                                                                                                                                                | Conocer cómo funciona la solución                          | <p>**Como** visitante interesado en optimizar el riego </p><p>**Quiero** acceder a una sección que explique cómo funciona la solución IoT </p><p>**Para** entender cómo puede ayudarme a gestionar mejor mis cultivos </p>  | <p>**Escenario 1: Información del funcionamiento general** </p><p>**Dado que** el visitante se encuentra en la landing page </p><p>**Cuando** accede a la sección de "¿Cómo funciona?"</p><p>**Entonces** se le muestra información clara sobre el funcionamiento general del sistema (aplicación + sensores)</p><p></p><p>**Escenario 2: Uso de la tecnología** </p><p>**Dado que** el visitante busca información sobre el uso de la tecnología </p><p>**Cuando** revisa la explicación </p><p>**Entonces** comprende que incluye sensores, monitoreo remoto y automatización del riego </p>                                                 |    1    |
+ | E1-US03                                                                                                                                                                                                                                                                                                                | Visualizar beneficios segmentados                            | <p>**Como** visitante del segmento agricultor o cooperativa </p><p>**Quiero** conocer los beneficios específicos de la solución según mi perfil </p><p>**Para** evaluar si es útil para mi actividad agrícola </p>         | <p>**Escenario 1: Visualización beneficios agricultor** </p><p>**Dado que** un visitante del segmento agricultor explora la página </p><p>**Cuando** visualiza los beneficios </p><p>**Entonces** reconoce que puede reducir riesgos por riego ineficiente </p><p></p><p>**Escenario 2: Visualización beneficios cooperativa** </p><p>**Dado que** un visitante del segmento cooperativa explora la página </p><p>**Cuando** visualiza los beneficios </p><p>**Entonces** reconoce que puede reducir costos y aumentar su productividad </p><p></p>                                                                                                 |    1    |
+ | E1-US04                                                                                                                                                                                                                                                                                                                | Sección testimonios de usuarios                             | <p>**Como** visitante del sitio web </p><p>**Quiero** leer testimonios de agricultores o cooperativas que usan la solución </p><p>**Para** tener confianza en su efectividad </p>                                              | <p>**Escenario 1: Visualización seccion de testimonios** </p><p>**Dado que** el visitante está explorando el sitio </p><p>**Cuando** accede a la sección de testimonios </p><p>**Entonces** puede leer al menos dos experiencias reales con resultados medibles </p>                                                                                                                                                                                                                                                                                                                                                                                                                             |    1    |
+ | E1-US05                                                                                                                                                                                                                                                                                                                | Sección contactarse                                         | <p>**Como** visitante interesado en la solución </p><p>**Quiero** tener la opción de contactarme o solicitar acceso </p><p>**Para** obtener más información o comenzar a usar el sistema </p>                               | <p>**Escenario 1: Visualización de la seccion contacto** </p><p>**Dado que** el visitante quiere más detalles sobre precios o implementación </p><p>**Cuando** accede a la sección de contacto </p><p>**Entonces** puede enviar su información y mensaje para ser contactado </p>                                                                                                                                                                                                                                                                                                                                                                                                              |    1    |
  | <p>**Epic 2: Monitoreo en tiempo real de campos** </p><p>**Como** agricultor o cooperativa <br>**Quiero** visualizar el estado actual del cultivo y sus condiciones ambientales <br>**Para** tomar decisiones informadas y prevenir riesgos </p><p></p>                   |                                                              |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |        |
- | E2-US201                                                                                                                                                                                                                                                                                                                | Visualización de temperatura y humedad del suelo            | <p>**Como** agricultor </p><p>**Quiero** visualizar en tiempo real la temperatura y humedad del suelo </p><p>**Para** tomar decisiones sobre el riego y prevención de enfermedades </p>                                        | <p>**Escenario 1: Datos visibles** </p><p>**Dado que** el usuario accede al panel de monitoreo </p><p>**Cuando** hay conexión con los sensores </p><p>**Entonces** se muestran los valores actualizados de temperatura y humedad del suelo </p><p></p><p>**Escenario 2: Error en la visualización** </p><p>**Dado que** el usuario intenta ver los datos </p><p>**Cuando** ocurre un error de conexión con el sensor </p><p>**Entonces** se muestra un mensaje de alerta indicando que no hay datos disponibles </p><p></p><p></p><p></p><p></p>                                                                                               |    2    |
- | E2-US202                                                                                                                                                                                                                                                                                                                | Visualización de humedad ambiental y temperatura del aire   | <p>**Como** agricultor </p><p>**Quiero** consultar en tiempo real la humedad ambiental y la temperatura del aire </p><p>**Para** identificar condiciones climáticas que afectan el rendimiento del cultivo </p>                | <p>**Escenario 1: Datos climáticos en tiempo real** </p><p>**Dado que** el usuario está en el panel de monitoreo </p><p>**Cuando** el sistema recibe datos del sensor meteorológico </p><p>**Entonces** se actualizan los valores de humedad y temperatura del aire </p><p></p><p>**Escenario 2: Falta de datos climáticos** </p><p>**Dado que** el sensor meteorológico está inactivo </p><p>**Cuando** el usuario intenta ver los datos </p><p>**Entonces** se notifica al usuario que no se han recibido datos recientes </p>                                                                                                                    |    2    |
- | E2-US203                                                                                                                                                                                                                                                                                                                | Vista general del estado del cultivo                         | <p>**Como** agricultor </p><p>**Quiero** ver una vista general del estado del cultivo en un panel <br>**Para** tener una rápida evaluación del estado de mis campos </p>                                                      | <p>**Escenario 1: Panel con resumen de condiciones** </p><p>**Dado que** el usuario accede al panel principal </p><p>**Cuando** el sistema obtiene los datos de sensores </p><p>**Entonces** se muestra un resumen con los principales indicadores del cultivo </p><p></p><p>**Escenario 2: Visualización de múltiples campos** </p><p>**Dado que** el usuario tiene más de un campo registrado </p><p>**Cuando** accede al panel </p><p>**Entonces** puede cambiar entre los campos y ver el estado de cada uno </p><p></p><p></p>                                                                                                                |    2    |
- | E2-US204                                                                                                                                                                                                                                                                                                                | Alertas por condiciones anómalas                            | <p>**Como** agricultor </p><p>**Quiero** recibir alertas cuando los valores de humedad o temperatura estén fuera de rango </p><p>**Para** tomar acciones preventivas rápidamente </p>                                         | <p>**Escenario 1: Generación de alerta por exceso de temperatura** </p><p>**Dado que** la temperatura del aire supera el umbral configurado </p><p>**Cuando** el sensor detecta ese valor </p><p>**Entonces** el sistema genera una alerta en el panel y la envía por notificación </p><p></p><p>**Escenario 2: Generación de alerta por baja humedad del suelo** </p><p>**Dado que** la humedad del suelo está por debajo del límite mínimo </p><p>**Cuando** se detecta esa condición <br>**Entonces** se muestra una alerta con una recomendación de riego </p>                                                                               |    2    |
- | E2-US205                                                                                                                                                                                                                                                                                                                | Registro histórico de condiciones ambientales               | <p>**Como** agricultor </p><p>**Quiero** acceder al historial de condiciones climáticas y del suelo </p><p>**Para** analizar patrones y mejorar mi planificación agrícola </p>                                               | <p>**Escenario 1: Consulta de historial por fecha** </p><p>**Dado que** el usuario desea revisar datos anteriores </p><p>**Cuando** selecciona un rango de fechas </p><p>**Entonces** el sistema muestra los registros históricos del cultivo </p><p></p><p>**Escenario 2: Visualización gráfica de tendencias** </p><p>**Dado que** el usuario accede al historial de datos </p><p>**Cuando** se selecciona un parámetro (ej. humedad)</p><p>**Entonces** se muestra un gráfico con la evolución del parámetro en el tiempo </p>                                                                                                                  |    2    |
- | <p>**Epic 3: Automatización y control del riego** </p><p>**Como** agricultor <br>**Quiero** automatizar el riego en base a condiciones monitoreadas <br>**Para** optimizar el uso de agua y reducir el desperdicio </p>                                                    |                                                              |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |        |
- | E3-US301                                                                                                                                                                                                                                                                                                                | Activación automática del riego por baja humedad del suelo | <p>**Como** agricultor </p><p>**Quiero** que el sistema active automáticamente el riego cuando la humedad del suelo sea baja </p><p>**Para** asegurar que los cultivos reciban el agua necesaria sin intervención manual </p> | <p>**Escenario 1: Activación automática por humedad baja** </p><p>**Dado que** la humedad del suelo está por debajo del umbral definido </p><p>**Cuando** el sensor detecta dicha condición <br>**Entonces** el sistema activa el riego automáticamente </p><p></p><p>**Escenario 2: Verificación de activación automática** </p><p>**Dado que** el riego ha sido activado automáticamente </p><p>**Cuando** el agricultor revisa el historial de eventos </p><p>**Entonces** puede ver el registro de activación con fecha, hora y duración </p>                                                                                              |    3    |
- | E3-US302                                                                                                                                                                                                                                                                                                                | Configuración manual de umbrales para riego automático     | <p>**Como** agricultor </p><p>**Quiero** establecer umbrales personalizados para la humedad del suelo </p><p>**Para** adaptar el sistema de riego automático a las necesidades específicas de mis cultivos </p>               | <p>**Escenario 1: Guardado de umbrales personalizados** <br>**Dado que** el usuario ingresa nuevos valores de umbral <br>**Cuando** guarda la configuración <br>**Entonces** el sistema registra los valores y los aplica al monitoreo </p><p></p><p>**Escenario 2: Validación de umbrales ingresados** </p><p>**Dado que** el usuario establece umbrales fuera del rango permitido </p><p>**Cuando** intenta guardar la configuración <br>**Entonces** el sistema muestra un mensaje de error indicando los valores válidos </p>                                                                                                                     |    3    |
- | E3-US303                                                                                                                                                                                                                                                                                                                | Control manual del riego desde la plataforma                 | <p>**Como** agricultor </p><p>**Quiero** tener la opción de activar o desactivar manualmente el sistema de riego </p><p>**Para** responder a condiciones específicas no detectadas por los sensores </p>                      | <p>**Escenario 1: Activación manual del rieg**o </p><p>**Dado que** el usuario desea regar los cultivos </p><p>**Cuando** presiona el botón de activación manual </p><p>**Entonces** el sistema inicia el riego y registra la acción </p><p></p><p>**Escenario 2: Desactivación manual del riego** </p><p>**Dado que** el riego está en curso </p><p>**Cuando** el usuario presiona el botón de desactivación </p><p>**Entonces** el sistema detiene el riego y actualiza el estado del sistema </p>                                                                                                                                              |    3    |
- | E3-US304                                                                                                                                                                                                                                                                                                                | Visualización del estado actual del sistema de riego        | <p>**Como** agricultor </p><p>**Quiero** ver si el sistema de riego está activo o inactivo en tiempo real </p><p>**Para** tener claridad sobre el estado actual sin necesidad de ir al campo </p>                              | <p>**Escenario 1: Estado del riego actualizado en tiempo real** </p><p>**Dado que** el usuario accede al panel de riego </p><p>**Cuando** el sistema está activo o inactivo </p><p>**Entonces** se muestra el estado actual con una indicación clara </p><p></p><p>**Escenario 2: Actualización automática del estado** </p><p>**Dado que** el estado del sistema cambia por activación o desactivación </p><p>**Cuando** ocurre el cambio </p><p>**Entonces** el panel se actualiza sin necesidad de recargar la página </p>                                                                                                                      |    3    |
- | E3-US305                                                                                                                                                                                                                                                                                                                | Notificaciones de riego iniciado o detenido                  | <p>**Como** agricultor </p><p>**Quiero** recibir notificaciones cuando el sistema de riego se inicie o se detenga </p><p>**Para** estar informado de las acciones realizadas, incluso si no estoy conectado </p>                | <p>**Escenario 1: Notificación al iniciar riego automático** </p><p>**Dado que** el sistema activa el riego automáticamente </p><p>**Cuando** se inicia el proceso </p><p>**Entonces** el usuario recibe una notificación con los detalles del evento </p><p></p><p>**Escenario 2: Notificación al detener el riego** </p><p>**Dado que** el riego ha sido detenido (automática o manualmente)</p><p>**Cuando** ocurre la desactivación </p><p>**Entonces** el usuario recibe una notificación confirmando que el riego ha sido detenido </p>                                                                                                     |    3    |
+ | E2-US06                                                                                                                                                                                                                                                                                                                | Visualización de temperatura y humedad del suelo            | <p>**Como** agricultor o cooperativa </p><p>**Quiero** visualizar en tiempo real la temperatura y humedad del suelo </p><p>**Para** tomar decisiones sobre el riego y prevención de enfermedades </p>                                        | <p>**Escenario 1: Datos visibles** </p><p>**Dado que** el usuario accede al panel de monitoreo </p><p>**Cuando** hay conexión con los sensores </p><p>**Entonces** se muestran los valores actualizados de temperatura y humedad del suelo </p><p></p><p>**Escenario 2: Error en la visualización** </p><p>**Dado que** el usuario intenta ver los datos </p><p>**Cuando** ocurre un error de conexión con el sensor </p><p>**Entonces** se muestra un mensaje de alerta indicando que no hay datos disponibles </p><p></p><p></p><p></p><p></p>                                                                                               |    2    |
+ | E2-US07                                                                                                                                                                                                                                                                                                                | Visualización de humedad ambiental y temperatura del aire   | <p>**Como** agricultor o cooperativa </p><p>**Quiero** consultar en tiempo real la humedad ambiental y la temperatura del aire </p><p>**Para** identificar condiciones climáticas que afectan el rendimiento del cultivo </p>                | <p>**Escenario 1: Datos climáticos en tiempo real** </p><p>**Dado que** el usuario está en el panel de monitoreo </p><p>**Cuando** el sistema recibe datos del sensor meteorológico </p><p>**Entonces** se actualizan los valores de humedad y temperatura del aire </p><p></p><p>**Escenario 2: Falta de datos climáticos** </p><p>**Dado que** el sensor meteorológico está inactivo </p><p>**Cuando** el usuario intenta ver los datos </p><p>**Entonces** se notifica al usuario que no se han recibido datos recientes </p>                                                                                                                    |    2    |
+ | E2-US08                                                                                                                                                                                                                                                                                                                | Vista general del estado del cultivo                         | <p>**Como** agricultor </p><p>**Quiero** ver una vista general del estado del cultivo en un panel <br>**Para** tener una rápida evaluación del estado de mis campos </p>                                                      | <p>**Escenario 1: Panel con resumen de condiciones** </p><p>**Dado que** el usuario accede al panel principal </p><p>**Cuando** el sistema obtiene los datos de sensores </p><p>**Entonces** se muestra un resumen con los principales indicadores del cultivo </p><p></p><p>**Escenario 2: Visualización de múltiples campos** </p><p>**Dado que** el usuario tiene más de un campo registrado </p><p>**Cuando** accede al panel </p><p>**Entonces** puede cambiar entre los campos y ver el estado de cada uno </p><p></p><p></p>                                                                                                                |    2    |
+ | E2-US09                                                                                                                                                                                                                                                                                                                | Alertas por condiciones anómalas                            | <p>**Como** agricultor </p><p>**Quiero** recibir alertas cuando los valores de humedad o temperatura estén fuera de rango </p><p>**Para** tomar acciones preventivas rápidamente </p>                                         | <p>**Escenario 1: Generación de alerta por exceso de temperatura** </p><p>**Dado que** la temperatura del aire supera el umbral configurado </p><p>**Cuando** el sensor detecta ese valor </p><p>**Entonces** el sistema genera una alerta en el panel y la envía por notificación </p><p></p><p>**Escenario 2: Generación de alerta por baja humedad del suelo** </p><p>**Dado que** la humedad del suelo está por debajo del límite mínimo </p><p>**Cuando** se detecta esa condición <br>**Entonces** se muestra una alerta con una recomendación de riego </p>                                                                               |    2    |
+ | E2-US10                                                                                                                                                                                                                                                                                                               | Registro histórico de condiciones ambientales en la web      | <p>**Como** agricultor o cooperativa en la aplicacion web</p><p>**Quiero** acceder al historial de condiciones climáticas y del suelo </p><p>**Para** analizar patrones y mejorar mi planificación agrícola </p>                                               | <p>**Escenario 1: Consulta de historial por fecha** </p><p>**Dado que** el usuario desea revisar datos anteriores </p><p>**Cuando** selecciona un rango de fechas </p><p>**Entonces** el sistema muestra los registros históricos del cultivo </p><p></p><p>**Escenario 2: Visualización gráfica de tendencias** </p><p>**Dado que** el usuario accede al historial de datos </p><p>**Cuando** se selecciona un parámetro (ej. humedad)</p><p>**Entonces** se muestra un gráfico con la evolución del parámetro en el tiempo </p>                                                                                                                  |    2    |
+E2-US11                                                                                                                                                                                                                                                                                                                | Visualización consolidada de estado de cultivos para cooperativas          | <p>**Como** cooperativa que gestiona varios agricultores </p><p>**Quiero** visualizar en un panel el estado actual de los cultivos de todos los agricultores que gestiono </p><p>**Para** supervisar la salud general de los cultivos y detectar áreas que requieren intervención </p>                                        | <p>**Escenario 1: Panel consolidado con estado de todos los cultivos** </p><p>**Dado que** la cooperativa accede al panel de monitoreo </p><p>**Cuando** el sistema recibe datos en tiempo real de los sensores de todos los agricultores asociados </p><p>**Entonces** se muestra un resumen con indicadores (temperatura, humedad y alertas) agrupados por campo y agricultor. </p><p></p><p>**Escenario 2: Filtro y búsqueda por agricultor o campo** </p><p>**Dado que** la cooperativa quiere revisar un agricultor o campo específico </p><p>**Cuando** utiliza filtros o búsqueda en el panel </p><p>**Entonces** se actualiza la vista mostrando solo los cultivos seleccionados. </p><p></p><p></p><p></p><p></p>                                                                                               |    2    |
+E2-US12                                                                                                                                                                                                                                                                                                                | Gestión y revisión de alertas para cooperativas          | <p>**Como** cooperativa que gestiona varios agricultores </p><p>**Quiero** recibir y revisar alertas generadas en cualquiera de los cultivos bajo mi gestión </p><p>**Para** coordinar con los agricultores las acciones correctivas necesarias y prevenir daños mayores </p>                                        | <p>**Escenario 1: Recepción de alertas múltiples** </p><p>**Dado que** la cooperativa tiene varios campos asociados </p><p>**Cuando** uno o más sensores detectan condiciones anómalas en cualquiera de los campos </p><p>**Entonces** el sistema genera alertas visibles en un panel centralizado con detalle de ubicación, tipo de alerta y prioridad. </p><p></p><p>**Escenario 2: Confirmación y seguimiento de alertas** </p><p>**Dado que** que la cooperativa revisa una alerta recibida </p><p>**Cuando** marca la alerta como atendida o en seguimiento </p><p>**Entonces** el sistema registra el estado para seguimiento y reporte </p><p></p><p></p><p></p><p></p>                                                                                               |    2    |
+ | E2-US29                                                                                                                                                                                                                                                                                                               | Registro histórico de condiciones ambientales en movil      | <p>**Como** agricultor o cooperativa en la aplicacion movil</p><p>**Quiero** acceder al historial de condiciones climáticas y del suelo </p><p>**Para** analizar patrones y mejorar mi planificación agrícola </p>                                               | <p>**Escenario 1: Consulta de historial por fecha** </p><p>**Dado que** el usuario desea revisar datos anteriores </p><p>**Cuando** selecciona un rango de fechas </p><p>**Entonces** el sistema muestra los registros históricos del cultivo </p><p></p><p>**Escenario 2: Visualización gráfica de tendencias** </p><p>**Dado que** el usuario accede al historial de datos </p><p>**Cuando** se selecciona un parámetro (ej. humedad)</p><p>**Entonces** se muestra un gráfico con la evolución del parámetro en el tiempo </p>                                                                                                                  |    2    |
+ | <p>**Epic 3: Automatización y control del riego** </p><p>**Como** cooperativa o agicultor <br>**Quiero** automatizar el riego en base a condiciones monitoreadas <br>**Para** optimizar el uso de agua y reducir el desperdicio </p>                                                    |                                                              |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |        |
+ | E3-US13                                                                                                                                                                                                                                                                                                                | Activación automática del riego por baja humedad del suelo | <p>**Como** agricultor  </p><p>**Quiero** que el sistema active automáticamente el riego cuando la humedad del suelo sea baja </p><p>**Para** asegurar que los cultivos reciban el agua necesaria sin intervención manual </p> | <p>**Escenario 1: Activación automática por humedad baja** </p><p>**Dado que** la humedad del suelo está por debajo del umbral definido </p><p>**Cuando** el sensor detecta dicha condición <br>**Entonces** el sistema activa el riego automáticamente </p><p></p><p>**Escenario 2: Verificación de activación automática** </p><p>**Dado que** el riego ha sido activado automáticamente </p><p>**Cuando** el agricultor revisa el historial de eventos </p><p>**Entonces** puede ver el registro de activación con fecha, hora y duración </p>                                                                                              |    3    |
+ | E3-US14                                                                                                                                                                                                                                                                                                                | Configuración manual de umbrales para riego automático     | <p>**Como** agricultor o cooperativa </p><p>**Quiero** establecer umbrales personalizados para la humedad del suelo </p><p>**Para** adaptar el sistema de riego automático a las necesidades específicas de mis cultivos </p>               | <p>**Escenario 1: Guardado de umbrales personalizados** <br>**Dado que** el usuario ingresa nuevos valores de umbral <br>**Cuando** guarda la configuración <br>**Entonces** el sistema registra los valores y los aplica al monitoreo </p><p></p><p>**Escenario 2: Validación de umbrales ingresados** </p><p>**Dado que** el usuario establece umbrales fuera del rango permitido </p><p>**Cuando** intenta guardar la configuración <br>**Entonces** el sistema muestra un mensaje de error indicando los valores válidos </p>                                                                                                                     |    3    |
+ | E3-US15                                                                                                                                                                                                                                                                                                                | Control manual del riego desde la plataforma                 | <p>**Como** agricultor o cooperativa </p><p>**Quiero** tener la opción de activar o desactivar manualmente el sistema de riego </p><p>**Para** responder a condiciones específicas no detectadas por los sensores </p>                      | <p>**Escenario 1: Activación manual del rieg**o </p><p>**Dado que** el usuario desea regar los cultivos </p><p>**Cuando** presiona el botón de activación manual </p><p>**Entonces** el sistema inicia el riego y registra la acción </p><p></p><p>**Escenario 2: Desactivación manual del riego** </p><p>**Dado que** el riego está en curso </p><p>**Cuando** el usuario presiona el botón de desactivación </p><p>**Entonces** el sistema detiene el riego y actualiza el estado del sistema </p>                                                                                                                                              |    3    |
+ | E3-US16                                                                                                                                                                                                                                                                                                                | Visualización del estado actual del sistema de riego        | <p>**Como** agricultor o cooperativa </p><p>**Quiero** ver si el sistema de riego está activo o inactivo en tiempo real </p><p>**Para** tener claridad sobre el estado actual sin necesidad de ir al campo </p>                              | <p>**Escenario 1: Estado del riego actualizado en tiempo real** </p><p>**Dado que** el usuario accede al panel de riego </p><p>**Cuando** el sistema está activo o inactivo </p><p>**Entonces** se muestra el estado actual con una indicación clara </p><p></p><p>**Escenario 2: Actualización automática del estado** </p><p>**Dado que** el estado del sistema cambia por activación o desactivación </p><p>**Cuando** ocurre el cambio </p><p>**Entonces** el panel se actualiza sin necesidad de recargar la página </p>                                                                                                                      |    3    |
+ | E3-US17                                                                                                                                                                                                                                                                                                                | Notificaciones de riego iniciado o detenido                  | <p>**Como** agricultor </p><p>**Quiero** recibir notificaciones cuando el sistema de riego se inicie o se detenga </p><p>**Para** estar informado de las acciones realizadas, incluso si no estoy conectado </p>                | <p>**Escenario 1: Notificación al iniciar riego automático** </p><p>**Dado que** el sistema activa el riego automáticamente </p><p>**Cuando** se inicia el proceso </p><p>**Entonces** el usuario recibe una notificación con los detalles del evento </p><p></p><p>**Escenario 2: Notificación al detener el riego** </p><p>**Dado que** el riego ha sido detenido (automática o manualmente)</p><p>**Cuando** ocurre la desactivación </p><p>**Entonces** el usuario recibe una notificación confirmando que el riego ha sido detenido </p>                                                                                                     |    3    |
  | <p>**Epic 4: Panel de análisis y reportes** </p><p>**Como** agricultor o cooperativa <br>**Quiero** revisar reportes sobre consumo de agua, alertas y productividad <br>**Para** evaluar decisiones pasadas y planificar mejoras </p>                                      |                                                              |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |        |
- | E4-US401                                                                                                                                                                                                                                                                                                                | Visualización de reportes de consumo de agua                | <p>**Como** agricultor </p><p>**Quiero** acceder a reportes sobre el consumo de agua de mis cultivos </p><p>**Para** evaluar la eficiencia hídrica en diferentes periodos </p>                                                 | <p>**Escenario 1: Acceso al reporte mensual de consumo** </p><p>**Dado que** el usuario accede al panel de reportes </p><p>**Cuando** selecciona un mes específico </p><p>**Entonces** el sistema muestra el total de litros de agua utilizados por cultivo y por día </p><p>**Escenario 2: Comparación de consumo entre periodos** </p><p>**Dado que** el usuario selecciona dos periodos distintos </p><p>**Cuando** activa la opción de comparación </p><p>**Entonces** el sistema muestra la diferencia de consumo entre esos periodos </p>                                                                                                        |    4    |
- | E4-US402                                                                                                                                                                                                                                                                                                                | Visualización de alertas generadas en un periodo            | <p>**Como** agricultor </p><p>**Quiero** revisar las alertas registradas en el sistema </p><p>**Para** identificar eventos críticos que afectaron mis cultivos </p>                                                            | <p>**Escenario 1: Consulta de alertas por fecha** </p><p>**Dado que** el usuario selecciona un rango de fechas </p><p>**Cuando** solicita el reporte de alertas </p><p>**Entonces** el sistema muestra una lista con las alertas registradas y su tipo </p><p>**Escenario 2: Detalle de una alerta específica** </p><p>**Dado que** el usuario hace clic en una alerta </p><p>**Cuando** accede a su detalle </p><p>**Entonces** el sistema muestra la hora exacta, causa, y acción tomada (si la hubo)</p><p></p>                                                                                                                                      |    4    |
- | E4-US403                                                                                                                                                                                                                                                                                                                | Reporte de productividad por cultivo                         | <p>**Como** agricultor </p><p>**Quiero** ver un reporte que muestre el rendimiento de cada tipo de cultivo </p><p>**Para** tomar decisiones informadas sobre qué sembrar la próxima temporada </p>                            | <p>**Escenario 1: Rendimiento de cultivo por hectárea** </p><p>**Dado que** el usuario accede al reporte de productividad </p><p>**Cuando** visualiza los datos </p><p>**Entonces** el sistema muestra el rendimiento en toneladas por hectárea </p><p>**Escenario 2: Comparación de productividad histórica** </p><p>**Dado que** el usuario selecciona varias campañas anteriores </p><p>**Cuando** compara los rendimientos </p><p>**Entonces** el sistema muestra una gráfica comparativa por tipo de cultivo </p>                                                                                                                                |    4    |
- | E4-US404                                                                                                                                                                                                                                                                                                                | Exportación de reportes en formatos descargables            | <p>**Como** agricultor </p><p>**Quiero** descargar los reportes en formato PDF o Excel </p><p>**Para** archivarlos o compartirlos fácilmente con otros miembros de la cooperativa </p>                                         | <p>**Escenario 1: Descarga en formato PDF** </p><p>**Dado que** el usuario visualiza un reporte </p><p>**Cuando** selecciona la opción de exportar como PDF </p><p>**Entonces** el sistema genera y descarga el archivo en ese formato </p><p></p><p>**Escenario 2: Descarga en formato Excel** </p><p>**Dado que** el usuario visualiza un reporte </p><p>**Cuando** selecciona la opción de exportar como Excel </p><p>**Entonces** el sistema genera y descarga el archivo .xlsx con los datos estructurados </p>                                                                                                                                    |    4    |
- | E4-US405                                                                                                                                                                                                                                                                                                                | Visualización de tendencias y recomendaciones               | <p>**Como** agricultor </p><p>**Quiero** visualizar gráficas con tendencias históricas y recomendaciones automáticas </p><p>**Para** ajustar mis prácticas agrícolas basándome en datos reales </p>                       | <p>**Escenario 1: Gráfica de tendencia de consumo de agua** </p><p>**Dado que** el usuario accede al panel de tendencias </p><p>**Cuando** selecciona un rango de tiempo </p><p>**Entonces** el sistema muestra una gráfica con la tendencia del consumo diario </p><p>**Escenario 2: Recomendaciones automáticas según rendimiento** </p><p>**Dado que** el sistema ha analizado los datos de productividad </p><p>**Cuando** el usuario consulta recomendaciones </p><p>**Entonces** el sistema sugiere ajustes de cultivo o riego basados en el rendimiento observado </p>                                                                           |    4    |
- | <p>**Epic 5: Infraestructura técnica y APIs** </p><p>**Como** developer <br>**Quiero** construir servicios backend y APIs RESTful <br>**Para** permitir el funcionamiento de los dispositivos, apps y reportes del sistema </p>                                            |                                                              |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |        |
- | E5-US501                                                                                                                                                                                                                                                                                                                | Exponer API REST para obtener datos de sensores              | <p>**Como** developer </p><p>**Quiero** crear un endpoint REST para consultar los datos registrados por sensores </p><p>**Para** que las aplicaciones cliente puedan mostrar datos en tiempo real </p>                          | <p>**Escenario 1: Consulta exitosa de datos de sensores** </p><p>**Dado que** el cliente realiza una petición GET al endpoint /api/sensors/data con un token válido </p><p>**Cuando** la petición incluye parámetros válidos como fecha y tipo de sensor </p><p>**Entonces** la API devuelve un array de datos con timestamp, valor y unidad correspondiente </p><p></p><p>**Escenario 2: Petición con token inválido o expirado** </p><p>**Dado que** el cliente usa un token inválido </p><p>**Cuando** realiza la solicitud al endpoint </p><p>**Entonces** el sistema responde con un código 401 y un mensaje de autenticación fallida </p> |    5    |
- | E5-US502                                                                                                                                                                                                                                                                                                                | Servicio de almacenamiento de registros de sensores          | <p>**Como** developer </p><p>**Quiero** implementar un servicio que almacene periódicamente los datos enviados por sensores </p><p>**Para** asegurar que la información se persista correctamente en la base de datos </p>    | <p>**Escenario 1: Almacenamiento exitoso de datos** </p><p>**Dado que** un sensor envía datos a través del endpoint POST /api/sensors/data <br>**Cuando** los datos están bien formados y autenticados </p><p>**Entonces** el sistema guarda los registros correctamente en la base de datos y responde con 201 </p><p></p><p>**Escenario 2: Validación de estructura de datos inválida** </p><p>**Dado que** un sensor envía un JSON con campos faltantes </p><p>**Cuando** el backend valida la estructura </p><p>**Entonces** responde con un error 400 y detalla los campos que faltan o son incorrectos </p>                                   |    5    |
- | E5-US503                                                                                                                                                                                                                                                                                                                | Endpoint para reportes consolidados                          | <p>**Como** developer </p><p>**Quiero** construir un endpoint que devuelva un reporte consolidado de consumo, alertas y productividad </p><p>**Para** alimentar los paneles de análisis del frontend </p>                      | <p>**Escenario 1: Reporte consolidado por campo** </p><p>**Dado que** el frontend hace una petición GET a /api/reports/summary?fieldId=12 </p><p>**Cuando** el campo existe y hay datos disponibles </p><p>**Entonces** el backend responde con un objeto JSON que contiene estadísticas resumidas de consumo, alertas y producción </p><p></p><p>**Escenario 2: Solicitud de reporte con campo inexistente** </p><p>**Dado que** el parámetro fieldId no corresponde a un campo válido </p><p>**Cuando** se realiza la solicitud </p><p>**Entonces** el sistema devuelve un 404 con el mensaje “Campo no encontrado”</p>                          |    5    |
- | E5-US504                                                                                                                                                                                                                                                                                                                | Middleware para autenticacion y autorizacion de APIs         | <p>**Como** developer </p><p>**Quiero** implementar middleware para autenticar usuarios y validar permisos </p><p>**Para** asegurar que solo usuarios autorizados accedan a los endpoints </p>                                  | <p>**Escenario 1: Usuario autorizado accede al endpoint** </p><p>**Dado que** el middleware valida correctamente el token JWT del usuario </p><p>**Cuando** el usuario accede a un recurso privado </p><p>**Entonces** se le permite continuar con la ejecución del endpoint </p><p></p><p>**Escenario 2: Usuario sin permisos accede a un recurso restringido** </p><p>**Dado que** el token JWT pertenece a un usuario sin los permisos necesarios </p><p>**Cuando** intenta acceder a un endpoint restringido </p><p>**Entonces** el sistema responde con 403 “Acceso denegado”</p>                                                                 |    5    |
- | E5-US505                                                                                                                                                                                                                                                                                                                | Servicio de integracion con dispositivos IoT                 | <p>**Como** developer </p><p>**Quiero** crear un servicio que reciba datos desde dispositivos IoT vía MQTT y los procese </p><p>**Para** integrarlos con el sistema general y persistir su información </p>                   | <p>**Escenario 1: Recepción de datos MQTT exitos**a </p><p>**Dado que** un dispositivo IoT publica datos en un topic MQTT configurado </p><p>**Cuando** el servicio MQTT los recibe </p><p>**Entonces** procesa y guarda los datos correctamente en la base de datos </p><p></p><p>**Escenario 2: Error en el procesamiento de datos del dispositivo** </p><p>**Dado que** los datos recibidos por MQTT tienen formato inválido </p><p>**Cuando** el servicio intenta procesarlos </p><p>**Entonces** registra el error y envía una notificación al sistema de monitoreo </p><p></p>                                                                |    5    |
+ | E4-US18                                                                                                                                                                                                                                                                                                                | Visualización de reportes de consumo de agua en la web      | <p>**Como** agricultor o cooperativa en la aplicacion web </p><p>**Quiero** acceder a reportes sobre el consumo de agua de mis cultivos </p><p>**Para** evaluar la eficiencia hídrica en diferentes periodos </p>                                                 | <p>**Escenario 1: Acceso al reporte mensual de consumo** </p><p>**Dado que** el usuario accede al panel de reportes </p><p>**Cuando** selecciona un mes específico </p><p>**Entonces** el sistema muestra el total de litros de agua utilizados por cultivo y por día </p><p>**Escenario 2: Comparación de consumo entre periodos** </p><p>**Dado que** el usuario selecciona dos periodos distintos </p><p>**Cuando** activa la opción de comparación </p><p>**Entonces** el sistema muestra la diferencia de consumo entre esos periodos </p>                                                                                                        |    4    |
+ | E4-US19                                                                                                                                                                                                                                                                                                                | Visualización de alertas generadas en un periodo            | <p>**Como** agricultor o cooperativa </p><p>**Quiero** revisar las alertas registradas en el sistema </p><p>**Para** identificar eventos críticos que afectaron mis cultivos </p>                                                            | <p>**Escenario 1: Consulta de alertas por fecha** </p><p>**Dado que** el usuario selecciona un rango de fechas </p><p>**Cuando** solicita el reporte de alertas </p><p>**Entonces** el sistema muestra una lista con las alertas registradas y su tipo </p><p>**Escenario 2: Detalle de una alerta específica** </p><p>**Dado que** el usuario hace clic en una alerta </p><p>**Cuando** accede a su detalle </p><p>**Entonces** el sistema muestra la hora exacta, causa, y acción tomada (si la hubo)</p><p></p>                                                                                                                                      |    4    |
+ | E4-US20                                                                                                                                                                                                                                                                                                                | Reporte de productividad por cultivo en la web              | <p>**Como** agricultor o cooperativa en la aplicacion web</p><p>**Quiero** ver un reporte que muestre el rendimiento de cada tipo de cultivo </p><p>**Para** tomar decisiones informadas sobre qué sembrar la próxima temporada </p>                            | <p>**Escenario 1: Rendimiento de cultivo por hectárea** </p><p>**Dado que** el usuario accede al reporte de productividad </p><p>**Cuando** visualiza los datos </p><p>**Entonces** el sistema muestra el rendimiento en toneladas por hectárea </p><p>**Escenario 2: Comparación de productividad histórica** </p><p>**Dado que** el usuario selecciona varias campañas anteriores </p><p>**Cuando** compara los rendimientos </p><p>**Entonces** el sistema muestra una gráfica comparativa por tipo de cultivo </p>                                                                                                                                |    4    |
+ | E4-US21                                                                                                                                                                                                                                                                                                                | Exportación de reportes en formatos descargables en la web+         | <p>**Como** cooperativa </p><p>**Quiero** descargar los reportes en formato PDF o Excel </p><p>**Para** archivarlos o compartirlos fácilmente con otros miembros de la cooperativa </p>                                         | <p>**Escenario 1: Descarga en formato PDF** </p><p>**Dado que** el usuario visualiza un reporte </p><p>**Cuando** selecciona la opción de exportar como PDF </p><p>**Entonces** el sistema genera y descarga el archivo en ese formato </p><p></p><p>**Escenario 2: Descarga en formato Excel** </p><p>**Dado que** el usuario visualiza un reporte </p><p>**Cuando** selecciona la opción de exportar como Excel </p><p>**Entonces** el sistema genera y descarga el archivo .xlsx con los datos estructurados </p>                                                                                                                                    |    4    |
+ | E4-US22                                                                                                                                                                                                                                                                                                                | Visualización de tendencias y recomendaciones en la web             | <p>**Como** agricultor o cooperativa en la aplicacion web</p><p>**Quiero** visualizar gráficas con tendencias históricas y recomendaciones automáticas </p><p>**Para** ajustar mis prácticas agrícolas basándome en datos reales </p>                       | <p>**Escenario 1: Gráfica de tendencia de consumo de agua** </p><p>**Dado que** el usuario accede al panel de tendencias </p><p>**Cuando** selecciona un rango de tiempo </p><p>**Entonces** el sistema muestra una gráfica con la tendencia del consumo diario </p><p>**Escenario 2: Recomendaciones automáticas según rendimiento** </p><p>**Dado que** el sistema ha analizado los datos de productividad </p><p>**Cuando** el usuario consulta recomendaciones </p><p>**Entonces** el sistema sugiere ajustes de cultivo o riego basados en el rendimiento observado </p>                                                                           |    4    |
+  | E4-US27                                                                                                                                                                                                                                                                                                                | Reporte de productividad por cultivo en movil              | <p>**Como** agricultor o cooperativa en la aplicacion movil</p><p>**Quiero** ver un reporte que muestre el rendimiento de cada tipo de cultivo </p><p>**Para** tomar decisiones informadas sobre qué sembrar la próxima temporada </p>                            | <p>**Escenario 1: Rendimiento de cultivo por hectárea** </p><p>**Dado que** el usuario accede al reporte de productividad </p><p>**Cuando** visualiza los datos </p><p>**Entonces** el sistema muestra el rendimiento en toneladas por hectárea </p><p>**Escenario 2: Comparación de productividad histórica** </p><p>**Dado que** el usuario selecciona varias campañas anteriores </p><p>**Cuando** compara los rendimientos </p><p>**Entonces** el sistema muestra una gráfica comparativa por tipo de cultivo </p>                                                                                                                                |    4    |
+  | E4-US28                                                                                                                                                                                                                                                                                                                | Visualización de reportes de consumo de agua en movil      | <p>**Como** agricultor o cooperativa en la aplicacion movil </p><p>**Quiero** acceder a reportes sobre el consumo de agua de mis cultivos </p><p>**Para** evaluar la eficiencia hídrica en diferentes periodos </p>                                                 | <p>**Escenario 1: Acceso al reporte mensual de consumo** </p><p>**Dado que** el usuario accede al panel de reportes </p><p>**Cuando** selecciona un mes específico </p><p>**Entonces** el sistema muestra el total de litros de agua utilizados por cultivo y por día </p><p>**Escenario 2: Comparación de consumo entre periodos** </p><p>**Dado que** el usuario selecciona dos periodos distintos </p><p>**Cuando** activa la opción de comparación </p><p>**Entonces** el sistema muestra la diferencia de consumo entre esos periodos </p>                                                                                                        |    4    |
+  | E4-US30                                                                                                                                                                                                                                                                                                                | Visualización de tendencias y recomendaciones en movil             | <p>**Como** agricultor o cooperativa en la aplicacion movil</p><p>**Quiero** visualizar gráficas con tendencias históricas y recomendaciones automáticas </p><p>**Para** ajustar mis prácticas agrícolas basándome en datos reales </p>                       | <p>**Escenario 1: Gráfica de tendencia de consumo de agua** </p><p>**Dado que** el usuario accede al panel de tendencias </p><p>**Cuando** selecciona un rango de tiempo </p><p>**Entonces** el sistema muestra una gráfica con la tendencia del consumo diario </p><p>**Escenario 2: Recomendaciones automáticas según rendimiento** </p><p>**Dado que** el sistema ha analizado los datos de productividad </p><p>**Cuando** el usuario consulta recomendaciones </p><p>**Entonces** el sistema sugiere ajustes de cultivo o riego basados en el rendimiento observado </p>                                                                           |    4    |
+ | <p>**Epic 5: Gestión y creación de recursos agrícolas** </p><p>**Como** cooperativa o agicultor <br>**Quiero** poder crear y administrar parcelas, agregar cultivos a las parcelas y gestionar la incorporación de agricultores <br>**Para** organizar mejor la información y el control sobre los campos y usuarios a mi cargo </p>                                            |                                                              |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |        |
+ | E5-US23                                                                                                                                                                                                                                                                                                                | Creación de parcelas agrícolas              | <p>**Como** cooperativa o agricultor </p><p>**Quiero** registrar nuevas parcelas agrícolas con detalles como ubicación, tamaño y características </p><p>**Para** gestionar y monitorear adecuadamente cada parcela </p>                          | <p>**Escenario 1: Creación exitosa de parcela** </p><p>**Dado que** el usuario ingresa a la sección de gestión de parcelas </p><p>**Cuando** completa el formulario con la información requerida y confirma </p><p>**Entonces** se guarda la parcela y se muestra en el panel de gestión </p><p></p><p>**Escenario 2: Error por datos incompletos** </p><p>**Dado que** el usuario deja campos obligatorios vacíos </p><p>**Cuando** intenta guardar la parcela </p><p>**Entonces** el sistema muestra mensajes de validación indicando qué falta </p> |    5    |
+ | E5-US24                                                                                                                                                                                                                                                                                                                | Agregar cultivos a una parcela          | <p>**Como** cooperativa o agricultor </p><p>**Quiero** asignar uno o varios cultivos a una parcela registrada </p><p>**Para** hacer seguimiento específico del estado y crecimiento de cada cultivo </p>    | <p>**Escenario 1: Selección y asignación de cultivos** </p><p>**Dado que** el usuario accede a la parcela deseada <br>**Cuando** agrega un cultivo desde la lista disponible </p><p>**Entonces** el cultivo queda asociado a la parcela y puede monitorearse </p><p></p><p>**Escenario 2: Gestión de cultivos múltiples** </p><p>**Dado que** a parcela tiene varios cultivos </p><p>**Cuando** el usuario visualiza la parcela </p><p>**Entonces** puede ver el listado y estado de cada cultivo asociado </p>                                   |    5    |
+  | E5-US25                                                                                                                                                                                                                                                                                                                | Crear o invitar a agricultores a la cooperativa          | <p>**Como** cooperativa </p><p>**Quiero** registrar nuevos agricultores o enviarles invitaciones para que se unan a la cooperativa </p><p>**Para** ampliar el grupo y facilitar la gestión colaborativa de los cultivos </p>    | <p>**Escenario 1: Registro manual de agricultor** </p><p>**Dado que** la cooperativa ingresa los datos del agricultor <br>**Cuando** confirma el registro </p><p>**Entonces** el agricultor queda agregado y puede acceder a la plataforma </p><p></p><p>**Escenario 2: Invitación por correo electrónico** </p><p>**Dado que** la cooperativa desea invitar a un agricultor externo </p><p>**Cuando** envía una invitación por email con un enlace de acceso </p><p>**Entonces** el agricultor recibe la invitación y puede registrarse o unirse </p>                                   |    5    |
+ | <p>**Epic 6: Infraestructura técnica y APIs** </p><p>**Como** developer <br>**Quiero** implementar servicios backend y APIs RESTful <br>**Para** permitir el funcionamiento de los dispositivos, apps y reportes del sistema </p>                                            |                                                              |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |        |
+ | E6-TS01                                                                                                                                                                                                                                                                                                                | Exponer API REST para obtener datos de sensores              | <p>**Como** developer </p><p>**Quiero** implementar un endpoint REST para consultar los datos registrados por sensores </p><p>**Para** que las aplicaciones cliente puedan mostrar datos en tiempo real </p>                          | <p>**Escenario 1: Consulta exitosa de datos de sensores** </p><p>**Dado que** el cliente realiza una petición GET al endpoint /api/sensors/data con un token válido </p><p>**Cuando** la petición incluye parámetros válidos como fecha y tipo de sensor </p><p>**Entonces** la API devuelve un array de datos con timestamp, valor y unidad correspondiente </p><p></p><p>**Escenario 2: Petición con token inválido o expirado** </p><p>**Dado que** el cliente usa un token inválido </p><p>**Cuando** realiza la solicitud al endpoint </p><p>**Entonces** el sistema responde con un código 401 y un mensaje de autenticación fallida </p> |    5    |
+ | E6-TS02                                                                                                                                                                                                                                                                                                                | Servicio de almacenamiento de registros de sensores          | <p>**Como** developer </p><p>**Quiero** implementar un servicio que almacene periódicamente los datos enviados por sensores </p><p>**Para** asegurar que la información se persista correctamente en la base de datos </p>    | <p>**Escenario 1: Almacenamiento exitoso de datos** </p><p>**Dado que** un sensor envía datos a través del endpoint POST /api/sensors/data <br>**Cuando** los datos están bien formados y autenticados </p><p>**Entonces** el sistema guarda los registros correctamente en la base de datos y responde con 201 </p><p></p><p>**Escenario 2: Validación de estructura de datos inválida** </p><p>**Dado que** un sensor envía un JSON con campos faltantes </p><p>**Cuando** el backend valida la estructura </p><p>**Entonces** responde con un error 400 y detalla los campos que faltan o son incorrectos </p>                                   |    5    |
+ | E6-TS03                                                                                                                                                                                                                                                                                                                | Endpoint para reportes consolidados                          | <p>**Como** developer </p><p>**Quiero** implementar un endpoint que devuelva un reporte consolidado de consumo, alertas y productividad </p><p>**Para** alimentar los paneles de análisis del frontend </p>                      | <p>**Escenario 1: Reporte consolidado por campo** </p><p>**Dado que** el frontend hace una petición GET a /api/reports/summary?fieldId=12 </p><p>**Cuando** el campo existe y hay datos disponibles </p><p>**Entonces** el backend responde con un objeto JSON que contiene estadísticas resumidas de consumo, alertas y producción </p><p></p><p>**Escenario 2: Solicitud de reporte con campo inexistente** </p><p>**Dado que** el parámetro fieldId no corresponde a un campo válido </p><p>**Cuando** se realiza la solicitud </p><p>**Entonces** el sistema devuelve un 404 con el mensaje “Campo no encontrado”</p>                          |    5    |
+ | E6-TS04                                                                                                                                                                                                                                                                                                               | Middleware para autenticacion y autorizacion de APIs         | <p>**Como** developer </p><p>**Quiero** implementar middleware para autenticar usuarios y validar permisos </p><p>**Para** asegurar que solo usuarios autorizados accedan a los endpoints </p>                                  | <p>**Escenario 1: Usuario autorizado accede al endpoint** </p><p>**Dado que** el middleware valida correctamente el token JWT del usuario </p><p>**Cuando** el usuario accede a un recurso privado </p><p>**Entonces** se le permite continuar con la ejecución del endpoint </p><p></p><p>**Escenario 2: Usuario sin permisos accede a un recurso restringido** </p><p>**Dado que** el token JWT pertenece a un usuario sin los permisos necesarios </p><p>**Cuando** intenta acceder a un endpoint restringido </p><p>**Entonces** el sistema responde con 403 “Acceso denegado”</p>                                                                 |    5    |
+ | E6-TS05                                                                                                                                                                                                                                                                                                                | Servicio de integracion con dispositivos IoT                 | <p>**Como** developer </p><p>**Quiero** implementar un servicio que reciba datos desde dispositivos IoT vía MQTT y los procese </p><p>**Para** integrarlos con el sistema general y persistir su información </p>                   | <p>**Escenario 1: Recepción de datos MQTT exitos**a </p><p>**Dado que** un dispositivo IoT publica datos en un topic MQTT configurado </p><p>**Cuando** el servicio MQTT los recibe </p><p>**Entonces** procesa y guarda los datos correctamente en la base de datos </p><p></p><p>**Escenario 2: Error en el procesamiento de datos del dispositivo** </p><p>**Dado que** los datos recibidos por MQTT tienen formato inválido </p><p>**Cuando** el servicio intenta procesarlos </p><p>**Entonces** registra el error y envía una notificación al sistema de monitoreo </p><p></p>                                                                |    5    |                                                                           
+ | <p>**Epic 7: Gestión de Suscripciones y Pagos**</p><p>**Como** cooperativa o agricultor </p><p>**Quiero** acceder a planes de suscripción y gestionar pagos </p><p>**Para** obtener o cancelar funcionalidades premium según mis necesidades </p> | | | | |
+| E7-US31 | Registro y activación de suscripción | <p>**Como** cooperativa o agricultor </p><p>**Quiero** suscribirme a un plan (gratuito o de pago) </p><p>**Para** activar mi cuenta y comenzar a usar la plataforma </p> | <p>**Escenario 1: Selección de plan durante el registro** </p><p>**Dado que** el usuario se está registrando </p><p>**Cuando** selecciona un plan (gratuito o pago) </p><p>**Entonces** el sistema asocia el plan seleccionado al nuevo usuario </p><p></p><p>**Escenario 2: Redirección a pago para plan premium** </p><p>**Dado que** el usuario elige un plan de pago </p><p>**Cuando** confirma su elección </p><p>**Entonces** es redirigido al pago correspondiente </p> | 5 |
+| E7-US32 | Cancelación de suscripción | <p>**Como** cooperativa o agricultor </p><p>**Quiero** poder cancelar mi suscripción cuando lo desee </p><p>**Para** detener futuros cobros y uso de funciones premium </p> | <p>**Escenario 1: Acceso a la opción de cancelación** </p><p>**Dado que** el usuario tiene una suscripción activa </p><p>**Cuando** accede a la configuración de su cuenta </p><p>**Entonces** puede ver una opción para cancelar su suscripción </p><p></p><p>**Escenario 2: Cambio de estado tras cancelación** </p><p>**Dado que** el usuario confirma la cancelación </p><p>**Cuando** el proceso se completa </p><p>**Entonces** el sistema actualiza su estado a "plan gratuito" y muestra la fecha final de acceso premium </p> | 3 |
+
 
 ## 3.3 **Impact Mapping.**
 
-**Segmento agricultor**
+El Impact Mapping es una técnica de visualización estratégica que ayuda a alinear los objetivos del negocio con las funcionalidades del sistema, considerando los actores involucrados, sus acciones y los impactos esperados. En el caso de WaruSmart, se elaboraron mapas de impacto para los dos segmentos principales de usuarios: agricultores individuales y cooperativas agrarias. Estos mapas permiten identificar de manera clara cómo cada tipo de usuario puede beneficiarse del sistema, y qué funcionalidades deben priorizarse para lograr los resultados deseados.
 
-<img src="./assets/chapter-III/WaruSmart-impact-mapping-agricultor.png" alt="Impact map del segmento agricultor">
+**Segmento agricultor**
+<p>
+
+Los agricultores individuales contarán con la posibilidad de visualizar fácilmente la información de sus cultivos, lo que los llevará a cuidarlos de mejor manera. Al mismo tiempo, ahorrarán tiempo y energía al automatizar el riego de las plantas.
+  
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/WaruSmart-impact-mapping-agricultor_cbek9r.png">
+</p>
 
 **Segmento cooperativa**
+<p>
 
-<img src="./assets/chapter-III/Segmento Cooperativa.png" alt="Impact map del segmento cooperativa">
+Las cooperativas agrarias contarán con visualización de reportes que les permitan llevar un mejor registro de sus cultivos, así como de las condiciones en las que se encuentran. al mismo tiempo, contarán con la posibilidad de añadir sensores o exportar reportes, lo que permitirá que se mantengan lo más informados posible.
+  
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/Segmento_Cooperativa_flzule.png">
+</p>
 
 ## 3.4 **Product Backlog.**
 
-<img src="./assets/chapter-III/Product-backlog.PNG" alt="Product backlog de la aplicación WebMaster">
+El Product Backlog de WaruSmart reúne las funcionalidades priorizadas del sistema, organizadas en historias de usuario distribuidas por sprints. Este backlog refleja las necesidades tanto de agricultores individuales como de cooperativas, y ha sido estructurado para facilitar un desarrollo ágil e incremental, guiado por el valor entregado al usuario.
+
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747317857/Product-backlog_pxpakr.png">
+</p>
 
 Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
 
@@ -951,79 +859,97 @@ Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
   </thead>
   <tbody>
     <tr>
-      <td>E1-US101</td>
+      <td>E1-US01</td>
       <td>Navegación entre secciones</td>
-      <td>2</td>
+      <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>E1-US103</td>
+      <td>E1-US03</td>
       <td>Visualizar beneficios segmentados</td>
-      <td>2</td>
+      <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>E1-US102</td>
+      <td>E1-US02</td>
       <td>Conocer cómo funciona la solución</td>
       <td>2</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>E1-US105</td>
+      <td>E1-US05</td>
       <td>Sección contactarse</td>
-      <td>2</td>
+      <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>E1-US104</td>
+      <td>E1-US04</td>
       <td>Sección testimonios de usuarios</td>
       <td>2</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>E5-US501</td>
-      <td>Exponer API REST para obtener datos de sensores</td>
-      <td>5</td>
+      <td>E5-US23</td>
+      <td>Creación de parcelas agrícolas</td>
+      <td>3</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>E5-US502</td>
-      <td>Servicio de almacenamiento de registros de sensores</td>
-      <td>5</td>
+      <td>E5-US24</td>
+      <td>Agregar cultivos a una parcela</td>
+      <td>2</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>E2-US201</td>
-      <td>Visualización de temperatura y humedad del suelo</td>
+      <td>E5-US25</td>
+      <td>Crear o invitar a agricultores a la cooperativa</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E7-US31</td>
+      <td>Registro y activación de suscripción</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E7-US32</td>
+      <td>Cancelación de suscripción</td>
       <td>3</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>E2-US202</td>
+      <td>E2-US07</td>
       <td>Visualización de humedad ambiental y temperatura del aire</td>
       <td>3</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>E2-US204</td>
-      <td>Alertas por condiciones anómalas</td>
-      <td>8</td>
+      <td>E2-US06</td>
+      <td>Visualización de temperatura y humedad del suelo</td>
+      <td>3</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>E2-US205</td>
+      <td>E2-US10</td>
       <td>Registro histórico de condiciones ambientales</td>
       <td>5</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>E2-US203</td>
+      <td>E2-US08</td>
       <td>Vista general del estado del cultivo</td>
-      <td>8</td>
+      <td>3</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>E3-US303</td>
+      <td>E2-US11</td>
+      <td>Visualización consolidada de estado de cultivos para cooperativas</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E3-US15</td>
       <td>Control manual del riego desde la plataforma</td>
       <td>5</td>
       <td>2</td>
@@ -1031,72 +957,102 @@ Enlace al tablero de Trello: https://trello.com/b/K9h167PW/warusmart
     <tr>
       <td>E3-US301</td>
       <td>Activación automática del riego por baja humedad del suelo</td>
-      <td>8</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>E3-US302</td>
-      <td>Configuración manual de umbrales para riego automático</td>
       <td>5</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>E3-US305</td>
-      <td>Notificaciones de riego iniciado o detenido</td>
-      <td>5</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>E3-US304</td>
-      <td>Visualización del estado actual del sistema de riego</td>
-      <td>3</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>E5-US504</td>
-      <td>Middleware para autenticación y autorización de APIs</td>
-      <td>5</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>E5-US505</td>
-      <td>Servicio de integración con dispositivos IoT</td>
-      <td>8</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>E4-US401</td>
+      <td>E4-US18</td>
       <td>Visualización de reportes de consumo de agua</td>
+      <td>5</td>
       <td>3</td>
-      <td>4</td>
     </tr>
     <tr>
-      <td>E4-US402</td>
-      <td>Visualización de alertas generadas en un período</td>
+      <td>E4-US19</td>
+      <td>Visualización de alertas generadas en un periodo</td>
       <td>5</td>
-      <td>4</td>
+      <td>3</td>
     </tr>
     <tr>
-      <td>E5-US503</td>
+      <td>E6-TS01</td>
+      <td>Exponer API REST para obtener datos de sensores</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E6-TS02</td>
+      <td>Servicio de almacenamiento de registros de sensores</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E6-TS04</td>
+      <td>Middleware para autenticacion y autorizacion de APIs</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E6-TS03</td>
       <td>Endpoint para reportes consolidados</td>
-      <td>5</td>
-      <td>4</td>
+      <td>3</td>
+      <td>3</td>
     </tr>
-        <tr>
-      <td>E4-US403</td>
+    <tr>
+      <td>E4-US20</td>
       <td>Reporte de productividad por cultivo</td>
       <td>3</td>
-      <td>4</td>
+      <td>3</td>
     </tr>
-        <tr>
-      <td>E4-US405</td>
-      <td>Visualización de tendencias y recomendaciones</td>
-      <td>8</td>
-      <td>4</td>
-    </tr>
-        <tr>
-      <td>E4-US404</td>
+    <tr>
+      <td>E4-US21</td>
       <td>Exportación de reportes en formatos descargables</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E6-TS05</td>
+      <td>Servicio de integracion con dispositivos IoT</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>E3-US13</td>
+      <td>Activación automática del riego por baja humedad del suelo</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>E2-US09</td>
+      <td>Alertas por condiciones anómalas</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>E2-US12</td>
+      <td>Gestión y revisión de alertas para cooperativas</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>E4-US22</td>
+      <td>Visualización de tendencias y recomendaciones</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>E3-US14</td>
+      <td>Configuración manual de umbrales para riego automático</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+        <tr>
+      <td>E3-US16</td>
+      <td>Visualización del estado actual del sistema de riego</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+        <tr>
+      <td>E3-US17</td>
+      <td>Notificaciones de riego iniciado o detenido</td>
       <td>5</td>
       <td>4</td>
     </tr>
@@ -1277,12 +1233,18 @@ A partir de los eventos, comandos, políticas y agregados definidos en cada cont
 
 ## Análisis de Alternativas de Diseño
 
-- **¿Qué pasaría si movemos la funcionalidad de generación de recomendaciones de riego de Data Analytics Management a Irrigation Management?**Se evaluó que esta decisión podría simplificar la reacción inmediata del riego, pero aumentaría el acoplamiento y dificultaría mantener reglas de análisis independientes.
-- **¿Qué pasaría si descomponemos Crops Management (Notif) y movemos las alertas de sensores a un contexto aparte llamado Alert Management?**Se analizó la posibilidad, pero se descartó debido al incremento de complejidad en la integración entre sensores, cultivos y zonas de riego.
-- **¿Qué pasaría si partimos Data Analytics Management en dos bounded contexts: uno para la generación de gráficos históricos y otro para la emisión de recomendaciones?**Esta fragmentación fue desestimada en esta fase inicial, priorizando la cohesión de los análisis de datos en un solo contexto para reducir la complejidad operativa.
-- **¿Qué pasaría si tomamos la gestión de sincronización en la nube de Data Analytics Management y la usamos como un servicio compartido entre Crops Management y Data Analytics?**Se identificó que esto podría optimizar recursos en el futuro, pero para esta versión inicial se decidió mantener la sincronización dentro de Data Analytics para evitar una dependencia técnica innecesaria.
-- **¿Qué pasaría si duplicamos la lógica de asignación de sensores en Crops Management para permitir la lectura directa desde Data Analytics Management?**Esta opción fue rechazada, ya que aumentaría la redundancia y podría provocar inconsistencias en el mapeo de sensores y zonas de cultivo.
-- **¿Qué pasaría si creamos un shared service para el modelo de usuario que comparten Identification and Authentication Management y Subscriptions and Payments?**Se concluyó que, en lugar de crear un shared service separado, se aplicaría el patrón Shared Kernel, compartiendo de manera controlada la entidad Usuario entre estos contextos.
+- **¿Qué pasaría si movemos la funcionalidad de generación de recomendaciones de riego de Data Analytics Management a Irrigation Management?**
+  Se evaluó que esta decisión podría simplificar la reacción inmediata del riego, pero aumentaría el acoplamiento y dificultaría mantener reglas de análisis independientes.
+- **¿Qué pasaría si descomponemos Crops Management (Notif) y movemos las alertas de sensores a un contexto aparte llamado Alert Management?** 
+  Se analizó la posibilidad, pero se descartó debido al incremento de complejidad en la integración entre sensores, cultivos y zonas de riego.
+- **¿Qué pasaría si partimos Data Analytics Management en dos bounded contexts: uno para la generación de gráficos históricos y otro para la emisión de recomendaciones?** 
+  Esta fragmentación fue desestimada en esta fase inicial, priorizando la cohesión de los análisis de datos en un solo contexto para reducir la complejidad operativa.
+- **¿Qué pasaría si tomamos la gestión de sincronización en la nube de Data Analytics Management y la usamos como un servicio compartido entre Crops Management y Data Analytics?** 
+  Se identificó que esto podría optimizar recursos en el futuro, pero para esta versión inicial se decidió mantener la sincronización dentro de Data Analytics para evitar una dependencia técnica innecesaria.
+- **¿Qué pasaría si duplicamos la lógica de asignación de sensores en Crops Management para permitir la lectura directa desde Data Analytics Management?** 
+  Esta opción fue rechazada, ya que aumentaría la redundancia y podría provocar inconsistencias en el mapeo de sensores y zonas de cultivo.
+- **¿Qué pasaría si creamos un shared service para el modelo de usuario que comparten Identification and Authentication Management y Subscriptions and Payments?** 
+  Se concluyó que, en lugar de crear un shared service separado, se aplicaría el patrón Shared Kernel, compartiendo de manera controlada la entidad Usuario entre estos contextos.
 - **¿Qué pasaría si aislamos la gestión de zonas de riego de Irrigation Management y la movemos a Crops Management?**
   Se consideró que esta opción podría reducir la flexibilidad de configuración de riego, por lo que se mantuvo la gestión de zonas dentro del contexto de riego.
 
@@ -1300,18 +1262,35 @@ Es importante resaltar que durante este proceso el equipo aplicó los patrones d
 ### 4.1.3 Software Architecture
 Para la definición de nuestra arquitectura de software hicimos uso del Diagrama C4 model y la herramienta Structurizr.
 #### 4.1.3.1 Software Architecture System Landscape Diagram
-
-#### 4.1.3.2 Software Architecture Context Level Diagrams
+El siguiente diagrama muestra la estructura global de la solución.
 <p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747297902/systemlandscape-warusmart.png">
+</p>
+
+#### 4.1.3.1 Software Architecture Context Level Diagrams
+<p>
+  Este diagrama muestra el contexto de Warusmart, incluyendo los actores externos y cómo interactúan con el sistema. Los actores incluyen agricultores, técnicos, administradores y sistemas externos como plataformas de pago y servicios de notificación.
+El siguiente diagrama de contexto muestra las relaciones y flujos de información entre los actores (usuarios y sistemas)
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContext_f7hfik.png">
 </p>
 
 #### 4.1.3.2 Software Architecture Container Level Diagrams
+El siguiente diagrama ilustra cómo los diferentes contenedores del sistema interactúan entre sí y con los usuarios finales.
 <p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartContainers_d6yoda.png">
+  <img src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747351253/raazunegdyvsafdbbifj.png">
 </p>
 
-#### 4.1.3.2 Software Architecture Deployment Diagrams
+#### 4.1.3.3 Software Architecture Component Level Diagrams
+El siguiente diagrama ilustra cómo es nuestra API por dentro, con nuestros principales Bounded Contexts anclados a nuestra base de datos MySQL
+<p>
+  <img src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747351253/nq6axnhr9aagusfxvssz.png">
+</p>
+
+#### 4.1.3.4 Software Architecture Deployment Diagrams
+Este diagrama muestra cómo los diferentes elementos del sistema, como aplicaciones, servidores, bases de datos y dispositivos de usuario, se despliegan en nodos físicos o virtuales.
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747299819/deploymentdiagram-warusmart.png">
+</p>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
@@ -1488,7 +1467,6 @@ Dentro del dominio de **Identity and Access Management (IAM)**, se encuentran en
  
  ---
 #### 4.2.1.2 Interface Layer
-### Bounded Context: IAM
 
 En esta sección, se describe la capa de interfaz correspondiente al dominio de **Identity and Access Management (IAM)**, la cual expone los controladores necesarios para gestionar las interacciones de los usuarios con el sistema.
 
@@ -1598,15 +1576,24 @@ Los principales repositorios en este contexto son:
 ---
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
+En el siguiente diagrama de muestra el componente de IAM
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIAMComponents_grbjpl.png">
- </p>
+</p>
 
 #### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
+Este es el diagrama de clases del Bounded context IAM
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747311435/iambounded-classdiagram.png">
+</p>
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagrams
+Este es el diagrama de base de datos del Bounded context IAM
+<p>
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747309926/databasediagram-warusmart.png">
+</p>
 
 ### 4.2.2 Bounded Context: Subscriptions and Payments
 
@@ -1848,8 +1835,6 @@ Este contexto está enfocado en la gestión de las **suscripciones** de los usua
  ---
 
 #### 4.2.2.2 Interface Layer
-### Bounded Context: Subscriptions and Payments
-
 En esta sección, se presenta la capa de interfaz correspondiente al dominio de **Subscriptions and Payments**, encargada de gestionar las operaciones relacionadas con los planes de suscripción, sus cambios de estado, y el control de los pagos realizados por los usuarios.
 
 Los controladores de este contexto permiten visualizar el estado actual de una suscripción, realizar upgrades o downgrades entre planes, cancelar suscripciones, y procesar o validar pagos de acuerdo con las reglas definidas en la plataforma.
@@ -2009,18 +1994,27 @@ Los principales repositorios en este contexto son:
 | `deleteById(paymentId: int): void` | Elimina un registro de pago utilizando su identificador único. |
 
 ---
-#### 4.2.2.5 Bounded Context Softwre Architecture Component Level Diagrams
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams
+El siguiente diagrama muestra el componente Subscriptions & Payments
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674154/WaruSmartSubscriptionsPaymentsComponents_d1wzj6.png">
  </p>
 
-#### 4.2.2.6 Bounded Context Softwre Architecture Code Level Diagrams
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+Este es el diagrama de clases del Bounded context Subscriptions & Payments
+<p>
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747313475/subscription-classdiagram-warusmart.png">
+</p>
 
 ##### 4.2.2.6.2 Bounded Context Database Design Diagrams
+Este es el diagrama de base de datos del Bounded context Subscriptions & Payments
+<p>
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747310269/database-suscription-warusmart.png">
+</p>
 
-### 4.2.3 Bounded Context: Crops Management (Notification)
+### 4.2.3 Bounded Context: Crops Management
 
 #### 4.2.3.1 Domain Layer
  Dentro del dominio de **Crops Management**, se encuentran entidades y servicios clave que permiten gestionar los cultivos registrados por los usuarios dentro de la plataforma Warusmart. Este módulo es esencial para organizar toda la información agrícola, permitiendo llevar un control eficiente de qué cultivos están sembrados, en qué parcelas, con qué fechas de siembra y en qué estado de desarrollo se encuentran.
@@ -2055,6 +2049,31 @@ Los principales repositorios en este contexto son:
  - `updateArea()`
  - `reassignField()`
  
+
+ #### Aggregate: `Sowing`
+
+| Nombre | Sowing  |
+| ------ | ------- |
+| Descripción | Representa el agregado que gestiona toda la información de los sembríos en la plataforma |
+
+  ##### Atributos
+
+  - `id: String`
+  - `StartDate: DateTime`
+  - `EndDate: DateTime`
+  - `AreaLand: int`
+  - `Status: bool`
+  - `PhenologicalPhase: EPhenologicalPhase`
+  - `crop: Crop`
+  - `user: User`
+
+  ##### Métodos
+
+  - `updateSowing()`
+  - `CreateSowing()`
+  - `getAllSowingDevicesbyId()`
+  - `getGeneralInformation()`
+
  ---
  
  ### Entities
@@ -2151,7 +2170,6 @@ Los principales repositorios en este contexto son:
  ---
  
 #### 4.2.3.2 Interface Layer
-### Bounded Context: Crops Management
 
 En esta sección, se presenta la capa de interfaz correspondiente al dominio de **Crops Management**, responsable de gestionar todas las interacciones de los usuarios relacionadas con el registro, actualización y visualización de cultivos en la plataforma.
 
@@ -2260,18 +2278,24 @@ Los principales repositorios en este contexto son:
 | `deleteById(fieldId: int): void` | Elimina un campo agrícola de la base de datos utilizando su identificador. |
 
 ---
-#### 4.2.3.5 Bounded Context Softwre Architecture Component Level Diagrams
+#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams
+En el siguiente diagrama se muestra el componente Crops Management de la solución
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsManagementComponents_iyktxz.png">
  </p>
  
- #### 4.2.3.6 Bounded Context Softwre Architecture Code Level Diagrams
+ #### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
  
  ##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
- 
+ Este es el diagrama de clases del Bounded context Crops Management
+  <p>
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747314382/cropsmanagement-warusmart.png">
+ </p>
+
  ##### 4.2.3.6.2 Bounded Context Database Design Diagrams
+ Este es el diagrama de base de datos del Bounded context Crops Management
  <p>
-   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropManagement_vgvwwo.jpg">
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747350291/cropsmanagement-databasediagram.png">
  </p>
  
  ### 4.2.4 Bounded Context: Irrigation Management
@@ -2532,6 +2556,7 @@ Los principales repositorios en este contexto son:
 ---
 
 #### 4.2.4.5 Bounded Context Softwre Architecture Component Level Diagrams
+El siguiente diagrama muestra el componente Irrigation Management de la solución
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674156/WaruSmartIrrigationManagementComponents_nbo4c1.png">
  </p>
@@ -2539,13 +2564,18 @@ Los principales repositorios en este contexto son:
  #### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
  
  ##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
- 
+ Este es el diagrama de clases del Bounded context Irrigation Management
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747315010/irrigationmanagement-warusmart.png">
+</p>
+
  ##### 4.2.4.6.2 Bounded Context Database Design Diagrams
+ Este es el diagrama de clases del Bounded context Irrigation Management
  <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/IrrigationManagement_h8cwzv.jpg">
  </p>
  
- ### 4.2.5 Bounded Context: Crops Reports Management
+ ### 4.2.5 Bounded Context: Analytics Mangement
  ## Diccionario de Clases
  
  ### Clase: `CropReport`
@@ -2826,6 +2856,7 @@ Los principales repositorios en este contexto son:
  ---
 
 #### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
+El siguiente diagrama muestra el componente Crops Reports Management de la solución
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745674155/WaruSmartCropsReportsManagementComponents_uxvryf.png">
  </p>
@@ -2833,8 +2864,13 @@ Los principales repositorios en este contexto son:
 #### 4.2.5.6 Bounded Context Softwre Architecture Code Level Diagrams
 
 #### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+Este es el diagrama de clases del Bounded context Crops Reports Management
+<p>
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747315514/cropreportsmanagement-warusmart.png">
+ </p>
 
 #### 4.2.5.6.2 Bounded Context Database Design Diagrams
+Este es el diagrama de clases del Bounded context Crops Reports Management
 <p>
    <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1745677247/CropsReportsManagement_feeifk.jpg">
  </p>
@@ -2859,10 +2895,12 @@ Ofrecer soluciones tecnológicas accesibles y eficientes para automatizar el rie
 Ser reconocidos como la plataforma líder en soluciones de riego inteligente en el Perú, destacando por nuestra innovación, impacto social y contribución a la seguridad alimentaria mediante el uso responsable del agua y tecnologías de precisión.
 
 **Logotipo de la startup (Codex):**  
-<img src="/Assets/Style-Guidelines/logotipo-codex.png" alt="Logo Codex" width="50%"/>
+
+<img src="./Assets/Style-Guidelines/logotipo-codex.png" alt="Logo Codex" width="50%"/>
 
 **Logotipo del producto (WaruSmart):**  
-<img src="/Assets/Style-Guidelines/logotipo-warusmart.png" alt="Logo WaruSmart" width="50%"/>
+
+<img src="./Assets/Style-Guidelines/logotipo-warusmart.png" alt="Logo WaruSmart" width="50%"/>
 
 **Brand Name**  
 El nombre WaruSmart surge de la combinación entre la palabra "waru waru" —una técnica ancestral andina de cultivo— y el concepto de "smart", evocando modernidad y tecnología. Esta fusión refleja nuestra intención de integrar prácticas tradicionales con innovación digital, ofreciendo a los agricultores una herramienta confiable, eficiente y culturalmente cercana. WaruSmart representa el puente entre el conocimiento ancestral y la agricultura del futuro.
@@ -2872,7 +2910,7 @@ Los colores elegidos para WaruSmart se inspiran en la psicología del color, bus
 
 En los wireframes, se emplean tonos de gris que permiten una visualización preliminar clara y estructurada del diseño.
 
-![Paleta de colores](/Assets/Style-Guidelines/colores.png)
+<img src="./Assets/Style-Guidelines/colores-new.png">
 
 **Typography**  
 La tipografía juega un rol fundamental en la experiencia de usuario. Para WaruSmart, se eligió la fuente Poppins, ya que ofrece una estética moderna y minimalista. Se utilizan estilos Medium, Regular, SemiBold y Bold, asegurando jerarquías visuales claras y legibilidad en distintos dispositivos.
@@ -2988,21 +3026,419 @@ para fioltrar los resultados obtenidos.
 
 ## 5.3 Landing Page UI Design
 
-### 5.3.1 Wireframe
+### 5.3.1 Landing Page Wireframe
 
-### 5.3.2 Mock-up
+**Landing Page Wireframe Desktop Web Browser**
+
+A continuación, se presenta nuestra landing page vista desde el desktop web browser. Esta cuenta con secciones de gran relevancia para el usuario, las cuales ofrecen información sobre los beneficios que obtendrá a través del producto, los diferentes planes de pago disponibles, los perfiles de los miembros del equipo y las opiniones de nuestros clientes. Además, en esta sección encontrarán un formulario mediante el cual los usuarios podrán ponerse en contacto con los desarrolladores de la aplicación a través de un mensaje por correo electrónico.
+
+![Wireframe Desktop](./Assets/cap5/landingpage/LandinPageWireframe.png)
+
+**Landing Page Wireframe Mobile**
+
+A continuación, se presenta la landing page vista desde el mobile web browser. Esta incluye los mismos contenidos que el diseño desktop web browser, pero adaptados a las dimensiones del dispositivo móvil.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile1.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile2.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile3.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile4.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile5.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile6.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile7.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile8.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile9.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandinPageWireframe-Mobile10.png" style="width: 30%; height: auto;">
+</div>
+
+### 5.3.2 Landing Page Mock-up
+
+**Landing Page Mock-up Desktop Web Browser**
+A continuación, les mostramos el mockup actualizado de nuestra página de inicio. Este diseño se ha creado utilizando los wireframes previamente desarrollados y siguiendo las General Style Guidelines, asegurándonos de mantener todas las secciones pertinentes y optimizando la experiencia del usuario.
+
+![Mockup Desktop](./Assets/cap5/landingpage/LandingPageMockup.png)
+
+**Landing Page Mock-up Mobile**
+El mock-up para la landing page en la vista del navegador web móvil incorpora la misma estructura de los wireframes y las mismas secciones mencionados anteriormente.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup1.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup2.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup3.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup4.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup5.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup6.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup7.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup8.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup9.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/landingpage/LandingPageMockup10.png" style="width: 30%; height: auto;">
+</div>
 
 ## 5.4 Applications UX/UI Design
 
-### 5.4.1 Wireframes
+### 5.4.1 Applications Wireframes
+
+Enlace del Figma: https://www.figma.com/design/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=4-12&t=iZEQruVTNqlT2DZg-1
+
+**Web Applications Wireframe Desktop Web Browser**
+
+**Inicar Sesión**
+En el siguiente wireframe se muestra la sección "Iniciar sesión", donde nuestros usuarios podrán ingresar los datos necesarios para acceder a la aplicación, siempre y cuando cuenten con una cuenta previamente creada.
+
+<img src="./Assets/cap5/appweb/LogIn.png">
+
+**Crear Cuenta**
+El siguiente wireframe muestra la sección de "Registro de usuario", donde los agricultores podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por WaruSmart.
+
+<img src="./Assets/cap5/appweb/Register-Wireframe.png">
+
+**Elegir Suscripción**
+El siguiente wireframe presenta la sección “Elegir plan de pago”, la cual despliega las categorías de planes disponibles en la plataforma.
+
+<img src="./Assets/cap5/appweb/Suscripcion-Wireframe.png">
+
+**Pasarela de Pagos**
+El siguiente wireframe corresponde a la sección “Pasarela de pagos” donde los agricultores son dirigidas a un formulario para seleccionar y registrar su método de pago.
+
+<img src="./Assets/cap5/appweb/Pagar-Wireframe.png">
+
+**Mi Perfil**
+El siguiente wireframe presenta la sección "Mi perfil", donde se muestran los datos que el usuario proporcionó al registrarse en WaruSmart. Además, el usuario tendrá la capacidad de modificar esta información según sea necesario.
+
+<img src="./Assets/cap5/appweb/Mi-perfil.png">
+
+**Panel de control**
+En la sección "Panel de control", los usuarios podrán visualizar estadísticas de sus cultivos. Además, dispondrán de enlaces que los llevarán directamente a otras secciones de la aplicación.
+
+<img src="./Assets/cap5/appweb/Panel-Control.png">
+
+**Lista de Cultivos**
+En la sección "Lista de cultivos" los usuarios podran ver los cultivos que se encuntran en curso. Además, si seleciona un cultivo va a tener acceso a mas información del mismo y tambien podran añadir cultivos.
+
+<img src="./Assets/cap5/appweb/Lista-cultivos-curso.png">
+
+**Añadir Cultivo**
+En la sección "Añadir Cultivo" los usuarios tiene que llenar los parametros necesarios para poder añadir un cultivo.
+
+<img src="./Assets/cap5/appweb/Anadir-cultivo.png">
+
+**Información General**
+Esta sección forma parte de "Información del cultivo". Aquí se despliegan detalles como el nombre del cultivo, la fecha de inicio, el área plantada y una descripción del mismo.
+
+<img src="./Assets/cap5/appweb/Informacion-General.png">
+
+**Cuidado de Cultivos**
+Esta sección forma parte de "Información del cultivo". Aquí se muestra la fase fenológica del cultivo, la fecha de cambio de fase fenológica, recomendaciones para el cuidado del cultivo y un calendario que facilita la visualización de las fechas de los cuidados.
+
+<img src="./Assets/cap5/appweb/Cuidado-Wireframe.png">
+
+**Controles o Isumos**
+Las secciones de Controles e Insumos son parte integral de "Información del cultivo". En la sección de Controles, el usuario puede realizar un controles del estado de su cultivo en determinada fase fenologica, mientras que en la sección de Insumos puede registrar los insumos utilizados en el cultivo.
+
+<img src="./Assets/cap5/appweb/Controles-Wireframe.png">
+
+**Añadir Controles o Insumos**
+En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir un control o insumo.
+
+<img src="./Assets/cap5/appweb/Anadir-Control.png">
+
+**Enfermedades o Plagas**
+Esta sección es parte de "Información del cultivo". Aquí, el usuario podrá buscar información sobre enfermedades o plagas que estén afectando a su cultivo.
+
+<img src="./Assets/cap5/appweb/Enfermedades-Plagas.png">
+
+**Historico de Cultivos**
+En esta sección, los usuarios podrán visualizar los registros de los cultivos que hayan realizado dentro de la aplicación.
+
+<img src="./Assets/cap5/appweb/Historico-Cultivos.png">
+
+**Reporte Estadístico**
+La siguiente sección muestra los informes estadísticos que proporciona la aplicación ChaquiTaclla, en particular, los insumos utilizados por cultivo y el número de controles realizados por cultivo.
+
+<img src="./Assets/cap5/appweb/Reporte-estadístico.png">
+
+**Foro de Consulta**
+En la sección "Foro de Consulta", los usuarios podrán publicar, ver y responder preguntas presentes en el foro. Además, tendrán la opción de filtrar las preguntas.
+
+<img src="./Assets/cap5/appweb/Foro-Consulta.png">
+
+**Añadir consulta**
+En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir una pregunta al foro.
+
+<img src="./Assets/cap5/appweb/Anadir-consulta.png">
+
+**Respuestas de consultas**
+En esta sección los usuarios podran ver las respuestas a una pregunta.
+
+<img src="./Assets/cap5/appweb/Respuestas-consultas.png">
+
+**Web Applications Wireframe Mobile**
+A continuacion se prensenta los wireframes responsive, estos cuentan con las mismas secciones anteriormente mencionadas.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="./Assets/cap5/appweb/LogIn-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Register-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Suscripcion-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Pagar-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Mi-perfil-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Panel-Control-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Lista de cultivos en curso-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Anadir Cultivo-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Informacion-General-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Cuidado-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Controles-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Anadir-Control-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Enfermedades-Plagas-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Historico- Cultivos-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Reporte-estadístico-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Foro de Consulta-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Nueva-consulta-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Respuestas-consultas-Mobile-Wireframe.png" style="width: 30%; height: auto;">
+</div>
+
   
 ### 5.4.2 Wireflow Diagrams
-  
+
+**User Goal: Registrarse o iniciar sesión en la plataforma**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Para este diagrama de flujo el usuario sigue los pasos para entrar a la plataforma, si el usuario ya cuenta con una cuenta, solo hace click en el botón de login y entrar a la aplicación, en cambio, en caso el usuario no cuente con una cuenta en la plataforma y sea nuevo, tendrá que pasar por todo el proceso de registro desde comprando un plan de suscripción.
+
+<img src="./Assets/cap5/appweb/diagramflow-login.png">
+
+**User Goal: Añadir cultivo**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Para este diagrama de flujo, no importa el user persona, puesto que esta es una funcionalidad básica de nuestra aplicación y en sí el core de esta, el flujo inicia una vez el usuario se encuentre en el panel de control, siguiendo una sucesión de pasos hasta cuando agrega su cultivo y es redirigido a la sección sobre la información de este.
+
+<img src="./Assets/cap5/appweb/diagramflow-add-crop.png">
+
+
+**User Goal: Revisar el reporte estadistico de cultivos**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Este diagrama de flujo ofrece información de tablas estadísticas la cual pueden acceder desde el panel de control y eligiendo la opción de "Statistics" puede ser crucial para toma de decisiones importantes en relación a sus cultivos.
+
+<img src="./Assets/cap5/appweb/diagramflow-report.png">
+
+**User Goal: Realizar consultas a otros usuarios de la aplicación mediante el foro**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Para este diagrama de flujo somos conscientes que a veces no podemos resolver todas las dudas de nuestros usuarios así como posibles percances que ellos puedan presentar en relación en sus cultivos. Este user goal se enfoca en como un usuario puede ingresar al foro de la comunidad desde el panel de control y realizar preguntas sobre un tema en específico.
+
+<img src="./Assets/cap5/appweb/diagramflow-foro.png">
+
+
+Enalce LucidChart: https://lucid.app/lucidchart/9c7847da-4de3-488f-a4ca-b3ec8d902fac/edit?viewport_loc=-1741%2C-4731%2C3670%2C1738%2C0_0&invitationId=inv_6678fc32-61ab-4f16-8bd1-5e98388fa599 
+
 ### 5.4.3 Mock-ups
+
+Enlace para acceder al Figma: https://www.figma.com/design/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=4-12&t=iZEQruVTNqlT2DZg-1
+
+**Web Applications Mock-ups Desktop Web Browser**
+
+**Iniciar sesión**
+En el siguiente wireframe se muestra la sección "Iniciar sesión", donde nuestros usuarios podrán ingresar los datos necesarios para acceder a la aplicación, siempre y cuando cuenten con una cuenta previamente creada.
+
+<img src="./Assets/cap5/appweb/Sign In.png">
+
+**Crear cuenta**
+El siguiente wireframe muestra la sección de "Registro de usuario", donde los usuarios podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por WaruSmart. 
+
+<img src="./Assets/cap5/appweb/Register.png">
+
+**Elegir suscripción**
+El siguiente wireframe presenta la sección “Elegir plan de pago”, la cual despliega las categorías de planes disponibles en la plataforma. 
+
+<img src="./Assets/cap5/appweb/Suscripcion.png">
+
+**Pasarela de pagos**
+El siguiente mockup corresponde a la sección “Pasarela de pagos” donde los agricultores u horticultores son dirigidas a un formulario para seleccionar y registrar su método de pago. 
+
+<img src="./Assets/cap5/appweb/Pagar.png">
+
+**Mi Perfil**
+El siguiente mockup presenta la sección "Mi perfil", donde se muestran los datos que el usuario proporcionó al registrarse en WaruSmart. Además, el usuario tendrá la capacidad de modificar esta información según sea necesario. 
+
+<img src="./Assets/cap5/appweb/Mi perfil.png">
+
+**Panel de control**
+En la sección "Panel de control", los usuarios podrán visualizar estadísticas de sus cultivos. Además, dispondrán de enlaces que los llevarán directamente a otras secciones de la aplicación. 
+
+<img src="./Assets/cap5/appweb/Panel de Control.png">
+
+**Lista de Cultivos**
+En la sección "Lista de cultivos" los usuarios podran ver los cultivos que se encuentran en curso. Además, si selecciona un cultivo va a tener acceso a mas información del mismo y tambien podran añadir cultivos. 
+
+<img src="./Assets/cap5/appweb/Lista de cultivos en curso.png">
+
+**Añadir Cultivo**
+En la sección "Añadir Cultivo" los usuarios tiene que llenar los parametros necesarios para poder añadir un cultivo. 
+
+<img src="./Assets/cap5/appweb/Añadir Cultivo.png">
+
+**Informacion General**
+Esta sección forma parte de "Información del cultivo". Aquí se despliegan detalles como el nombre del cultivo, la fecha de inicio, el área plantada y una descripción del mismo. 
+
+<img src="./Assets/cap5/appweb/Informacion General.png">
+
+**Cuidado de cultivos**
+Esta sección forma parte de "Información del cultivo". Aquí se muestra la fase fenológica del cultivo, la fecha de cambio de fase fenológica, recomendaciones para el cuidado del cultivo y un calendario que facilita la visualización de las fechas de los cuidados. 
+
+<img src="./Assets/cap5/appweb/Cuidado.png">
+
+**Controles e insumos**
+Las secciones de Controles e Insumos son parte integral de "Información del cultivo". En la sección de Controles, el usuario puede realizar un controles del estado de su cultivo en determinada fase fenologica, mientras que en la sección de Insumos puede registrar los insumos utilizados en el cultivo. 
+
+<img src="./Assets/cap5/appweb/Controles.png">
+
+**Añadir Controles**
+En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir un control o insumo. 
+
+<img src="./Assets/cap5/appweb/Añadir Control.png">
+
+**Enfermedades o Plagas**
+Esta sección es parte de "Información del cultivo". Aquí, el usuario podrá buscar información sobre enfermedades o plagas que estén afectando a su cultivo. 
+
+<img src="./Assets/cap5/appweb/Enfermedades o Plagas.png">
+
+**Productos Consumidos**
+Esta sección que se encuentra dentro de "Información de cultivo", muestra al usuario los detalles de los productos que se registró su uso durante el uso de la aplicación; detallando la fecha del consumo, el tipo de producto utilizado, el nombre científico del producto y la cantidad registrada de uso 
+
+<img src="./Assets/cap5/appweb/Productos Consumidos.png">
+
+**Añadir Producto**
+Esta sección que es parte de la sección "Productos consumidos" muestra la ventana de Add Product, el cual permite registrar el tipo, nombre y cantidad del producto que desee añadir dentro de sus productos consumidos. A la ves, se muestra los de accion los cuáles confirman la adición del producto al registro de productos usados del usuario y la cancelación de añadir un nuevo producto; respectivamente. exportracion de controles 
+
+<img src="./Assets/cap5/appweb/Añadir Producto.png">
+
+**Historico de Cultivos**
+En esta sección, los usuarios podrán visualizar los registros de los cultivos que hayan realizado dentro de la aplicación. 
+
+<img src="./Assets/cap5/appweb/Historico de Cultivos.png">
+
+**Exportacion Controles**
+En esta sección se muestra la opción de exportar los controles registrados del usuario a lo largo de su uso en la aplicación mediante el botón "Export" 
+
+<img src="./Assets/cap5/appweb/Exportacion de Controles.png">
+
+**Exportacion Productos Consumidos**
+En esta sección se muestra la opción de exportar los productos registrados por el usuario mediante un botón "Export" 
+
+<img src="./Assets/cap5/appweb/Exportacion de Productos Consumidos.png">
+
+**Reporte estadístico**
+La siguiente sección muestra los informes estadísticos que proporciona la aplicación WaruSmart, en particular, los insumos utilizados por cultivo y el número de controles realizados por cultivo. 
+
+<img src="./Assets/cap5/appweb/Reporte estadístico.png">
+
+**Foro de Consulta**
+En la sección "Foro de Consulta", los usuarios podrán publicar, ver y responder preguntas presentes en el foro. Además, tendrán la opción de filtrar las preguntas. 
+
+<img src="./Assets/cap5/appweb/Foro de Consulta.png">
+
+**Añadir consulta**
+En la sección "Añadir Controle o Insumo" los usuarios tiene que llenar los parametros necesarios para poder añadir una pregunta al foro. 
+
+<img src="./Assets/cap5/appweb/Nueva consulta.png">
+
+**Mis Consultas**
+En esta sección se muestra todas las consultas que ha realizado cada usuario dentro de la aplicación, mostrando la información de la pregunta, la categoría asociada, el usuario que realizo la consulta y la fecha de publicación 
+
+<img src="./Assets/cap5/appweb/Mis Consultas.png">
+
+
+**Respuestas de consultas**
+En esta sección los usuarios podran ver las respuestas a una pregunta. 
+
+<img src="./Assets/cap5/appweb/Respuestas de consultas.png">
+
+**Web Applications Mock-ups Mobile**
+A continuacion se prensenta los Mock-ups responsive, estos cuentan con las mismas secciones anteriormente mencionadas.
+
+<h3>📱 Web Applications Mock-ups Mobile</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="./Assets/cap5/appweb/LogIn-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Register-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Suscripcion-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Pagar-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Mi perfil-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Panel de Control-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Lista de cultivos en curso-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Añadir Cultivo-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Informacion General-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Cuidado-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Controles-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Añadir Control-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Enfermedades o Plagas-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Productos Consumidos-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Añadir Producto-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Historico de Cultivos-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Exportacion de Controles-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Exportacion de Productos Consumidos-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Reporte estadístico-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Foro de Consulta-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Nueva consulta-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Mis Consultas-Mobile-Mock.png" style="width: 30%; height: auto;">
+  <img src="./Assets/cap5/appweb/Respuestas de consultas-Mobile-Mock.png" style="width: 30%; height: auto;">
+</div>
   
 ### 5.4.4 User Flow Diagrams
 
+**User Goal: Registrarse o iniciar sesión en la plataforma**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+El usario va a la pantalla iniciar sesión, donde tras ingresar su correo y contraseña selecciona su plan e ingresa sus datos. Finalmente, puede visualizar sus datos e ingresar al panel de control. En caso de que al iniciar sesión el usuario no fuera capaz de ver
+el panel debido a un error, visualizará un mensaje de "ERROR 404"
+
+<img src="./Assets/cap5/appweb/signup_flow.png">
+
+**User Goal: Añadir cultivo**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+Desde el panel, el usuario entra en la sección de de cultivos en progreso, donde al pulsar el botón de añadir cultivo, este puede ingresar sus datos para crearlo. Si funciona, el usuario será redirigido a una pantalla desde la que puede visualizar los datos del
+cultivo creado, si la aplicación falla, se  mostrará mensajes de error.
+
+<img src="./Assets/cap5/appweb/addcrop_flow.png">
+
+
+**User Goal: Revisar el reporte estadistico de cultivos**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+El usuario puede ver las estadísticas de sus cultivos mediante gráficos. Si la aplicación presenta fallos, no se mostrará ningún gráfico.
+
+<img src="./Assets/cap5/appweb/viewstatics_flow.png">
+
+**User Goal: Realizar consultas a otros usuarios de la aplicación mediante el foro**
+
+User Persona: Agricultores individuales / Cooperativa Agraria
+
+El usuario puede acceder a un foro de consultas, con preguntas de varios colaboradores. Una vez allí, puede elegir crear una consulta, tras lo cual podrá visualizarla en el apartado de "Mis consultas"
+
+<img src="./Assets/cap5/appweb/consultation_flow.png">
+
+
+Enalce LucidChart: https://lucid.app/lucidchart/e26e722e-1559-4de0-8a94-519b208fb2f1/edit?viewport_loc=-909%2C3363%2C2952%2C1447%2C0_0&invitationId=inv_e80d2f45-112d-4551-86a3-f75d86cd3677
+
+
 ## 5.5 Applications Prototyping
+
+El prototipo de nuestra aplicación web fue diseñado con el objetivo de reflejar la propuesta de valor de WaruSmart: ofrecer una solución eficiente para la gestión de riego, mediante una plataforma intuitiva y de uso sencillo. Para ello, se consideraron los siguientes aspectos:
+
+* Responsive Web Design
+* Funcionalidades relevantes
+* UI sencillo de entender
+
+<img src="./Assets/cap5/web-prototyping.png">
+
+Enlace: https://www.figma.com/proto/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=2079-4788&p=f&t=rt23Wk3uEQW1GPHL-1&scaling=min-zoom&content-scaling=fixed&page-id=2079%3A828 
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -3325,19 +3761,21 @@ En la siguiente captura se visualiza el Actions actualizado en nuestro repositor
 Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
 <img src = "Assets/chapter-vi/sprint1_planning.png">
 
-|Sprint # | Sprint 1|
-|---------|---------|
-**SprintPlanningBackground** 
-**Date** | 2025-05-01
-**Time** | 19:00PM–20:00PM
-**Location** | Virtual (Google Meet)
-**PreparedBy** | Fernando Daniel Quispe Condori
-**Attendees(to planning meeting)** | Victor Herrera / Anderson Macedo / Jeferson Cabrera / Christopher More / Fernando Quispe / Jair Velazquez / Carlos Pingus
-**Sprintn–0ReviewSummary** | Debido a que es el primer sprint, no hay reviews de un sprint anterior.
-**Sprintn–1RetrospectiveSummary** | Siendo el primer sprint, se mencionará la expectativa de los miembros del equipo: terminar las actividades designadas en el Sprint 1
-**SprintGoalandUserStories** | Nuestro enfoque está en ofrecer a nuestros clientes los agricultores la experiencia que les permita gestionar sus cultivos de manera eficiente. Creemos que la entrega impactará a los agricultores en la gestión de su cultivo. Esto se confirmará cuando accedan a nuestros artefactos.
-**Sprint1Velocity** | 14 puntos
-**SumofStoryPoints** | 14 puntos
+| **Sprint #**           | **Sprint 1**                                                                 |
+|------------------------|------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                      |
+| **Date**               | 2025-05-01                                                                   |
+| **Time**               | 19:00 PM – 20:00 PM                                                          |
+| **Location**           | Virtual (Google Meet)                                                       |
+| **Prepared By**        | Fernando Daniel Quispe Condori                                               |
+| **Attendees (to planning meeting)** | Victor Herrera, Anderson Macedo, Jeferson Cabrera, Christopher More, Fernando Quispe, Jair Velazquez, Carlos Pingus |
+| **Sprint -0 Review Summary** | Debido a que es el primer sprint, no hay reviews de un sprint anterior.     |
+| **Sprint -1 Retrospective Summary** | Siendo el primer sprint, se mencionaron las expectativas del equipo: completar las actividades asignadas en el Sprint 1. |
+| **Sprint Goal and User Stories** | Nuestro enfoque está en ofrecer a los agricultores una experiencia que les permita gestionar sus cultivos de manera eficiente. Creemos que esta entrega impactará positivamente en su organización. Esto se confirmará al acceder a nuestros artefactos. |
+| **Sprint 1 Velocity**  | 14 puntos                                                                    |
+| **Sum of Story Points**| 14 puntos                                                                    |
+
+El Sprint 1 se llevó a cabo el 1 de mayo de 2025 mediante una reunión virtual por Google Meet, donde participaron todos los integrantes del equipo. Al ser el primer sprint, no hubo revisión ni retrospectiva previa, pero se establecieron expectativas claras sobre cumplir las actividades planificadas. El objetivo principal fue desarrollar funcionalidades iniciales para que los agricultores gestionen sus cultivos de forma eficiente. Se trabajaron 14 puntos de historia, marcando el inicio del proyecto con enfoque colaborativo y metas definidas.
 
 #### 6.2.1.2 Aspect Leaders and Collaborators
 
@@ -3566,12 +4004,49 @@ Para el logro de este proyecto, se realizó el despliegue tanto de la **Landing 
 
   **Evidencia de frontend:**
 - ![Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/zuitbzbdhkycp0vp4aj8.jpg)  
-  *Vista general de la interfaz web, donde se muestran las métricas del cultivo, dispositivos IoT y recomendaciones específicas según el tipo de planta sembrada.*
+  *Vista general de la interfaz web, donde se mostrarán las métricas del cultivo, dispositivos IoT y recomendaciones específicas según el tipo de planta sembrada.*
 
+#### Home
+El dashboard muestra un diseño limpio y funcional con métricas clave, mapa de parcelas y menú lateral, usando colores orgánicos para transmitir una imagen de agricultura tecnológica moderna.
+<p>
+ <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349054/frontend-home-warusmart.png">
+</p>
 
-- **Flujo de navegación de la aplicación web**:  
+#### Sowings list
+La interfaz muestra un listado de cultivos organizado en tarjetas, con filtros superiores y datos clave (tipo de cultivo, ubicación y estado), usando un diseño minimalista con tonos verdes que refuerzan la identidad agrícola del sistema.
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349115/frontend-sowingslist-warusmart.png">
+</p>
+
+#### Sowings Management
+La pantalla presenta un formulario detallado para gestionar cultivos, con campos organizados en secciones (datos básicos, programación de riego y sensores), combinando inputs interactivos y un diseño visual intuitivo con iconografía agrícola funcional.
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349152/frontend-sowingmanagement-warusmart.png">
+</p>
+
+#### IoT Devices Management
+La pantalla muestra un listado de dispositivos IoT en las que se informa el estado (activo/inactivo), tipo de sensor y ubicación, destacando alertas con iconos de color para una identificación rápida de problemas.
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png">
+</p>
+
+- **Flujo de funcionamiento del landing page**:  
+  *Video del Flujo que muenstra la navegación entre las diferentes secciones del landing pageb, permitiendo al usuario interactuar e informarse de nuestros servicios*
+  
+- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp
+
+---
+
+- **Flujo de funcionamiento del backend**:  
+  *Video del Flujo que muestra la navegación entre las diferentes endpoints del backend*
+  
+- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQlpEXxAcClMr5cN416gP3MBrcxVrPyk4-Wlq-elpjezyw?e=pWgMiN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+---
+
+- **Flujo de funcionamiento de la aplicación web**:  
   ![Flujo de navegación](https://res.cloudinary.com/drkelnilg/image/upload/v1747352229/imagen_2025-05-15_183706453_xkkjav.png)  
-  *Diagrama de flujo que ilustra la navegación entre las diferentes secciones de la aplicación web, permitiendo al usuario interactuar con los datos de sus cultivos y dispositivos IoT.*
+  *Flujo que muestra la navegación entre las diferentes secciones de la aplicación web, permitiendo al usuario interactuar con los datos de sus cultivos y dispositivos IoT.*
   
 - link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA
 
@@ -3633,19 +4108,585 @@ Durante el presente sprint, se pudo evidenciar una colaboración activa entre lo
 
 Estos insights reflejan una dinámica de trabajo distribuido por especialidades técnicas, donde los miembros del equipo se enfocaron en áreas específicas pero alineadas al objetivo común del sprint, promoviendo la integración progresiva de todos los módulos del sistema.
 
+### 6.2.2 Sprint 2
+
+#### 6.2.2.1 Sprint Planning 2
+
+Enlace al Trello: https://trello.com/b/yITmdUYn/warusmart-sprint-planning-2 <br>
+<img src = "https://res.cloudinary.com/dydklnicb/image/upload/v1750520336/Trello_Sprint2.png">
+
+| **Sprint #**                        | **Sprint 2**                                                                                                                                                                                                                                            |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**      |                                                                                                                                                                                                                                                         |
+| **Date**                            | 2025-06-05                                                                                                                                                                                                                                              |
+| **Time**                            | 20:00 PM – 21:30 PM                                                                                                                                                                                                                                     |
+| **Location**                        | Virtual (Google Meet)                                                                                                                                                                                                                                   |
+| **Prepared By**                     | Velasquez Pizarro, Jair                                                                                                                                                                                                                                 |
+| **Attendees (to planning meeting)** | Victor Herrera, Anderson Macedo, Jeferson Cabrera, Christopher More, Fernando Quispe, Jair Velazquez, Carlos Pingus                                                                                                                                     |
+| **Sprint 1 Review Summary**         | Se evaluaron los resultados del Sprint 1, identificando oportunidades de mejora en la integración de componentes y en la organización del trabajo.                                                                                                      |
+| **Sprint 1 Retrospective Summary**  | Se destacó la necesidad de una mejor sincronización al momento de integrar los bounded contexts y una planificación más precisa de las tareas técnicas.                 |
+| **Sprint Goal and User Stories**    | En este sprint se buscará avanzar en la implementación de la web app, así como la integración con los servicios backend y dispositivos embebidos. Se espera validar el funcionamiento conjunto de los módulos y entregar una versión funcional inicial. |
+| **Sprint 2 Velocity**               | 108 puntos                                                                                                                                                                                                                                               |
+| **Suma de Story Points**            | 108 puntos                                                                                                                                                                                                                                               |
+
+El Sprint 2 se llevó a cabo con una reunión virtual por Google Meet, donde se reunieron todos los integrantes del equipo. En la revisión del sprint anterior se resaltaron mejoras necesarias en la integración técnica y la gestión del tiempo. Como meta, se propuso avanzar en la conexión entre los diferentes módulos del sistema, incluyendo backend, frontend y dispositivos físicos. Se planificaron tareas más específicas para lograr una entrega funcional y coherente, trabajando sobre un total de 18 puntos de historia, con enfoque colaborativo y mejor coordinación.
+
+#### 6.2.2.2 Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint actual. Esta matriz detalla los principales aspectos funcionales desarrollados, organizados según los Bounded Contexts definidos para la solución. Por cada aspecto, se indica quién asume el rol de líder (L) y quiénes participan como colaboradores (C), con el objetivo de lograr una comunicación clara, una distribución equitativa del trabajo y una mayor efectividad durante la ejecución del Sprint.
+
+La organización responde a la estructura interna del equipo, considerando las habilidades técnicas y experiencia previa de cada integrante en relación con los módulos del sistema. Esta asignación se refleja posteriormente en la selección y ejecución de tareas en el Sprint Backlog.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Suscription and Payments** | **IAM** | **Profile Preferences** | **Service Design & Planning** | **IoT Resource Management** | **Service Operation Monitoring (Crops)** | **Analytics Management** |
+| --------------------------------------- | ------------------- | ---------------------------- | ------- | ----------------------- | ----------------------------- | --------------------------- | ---------------------------------------- | ------------------------ |
+| **Quispe Condori, Fernando Daniel**     | `fdaniel13s`        | C                            | C       |                         | L                             | C                           | C                                        | C                        |
+| **Velasquez Pizarro, Jair**             | `Purak189`          |                              | C       |                         |                               | L                           | C                                        |                          |
+| **Cabrera Camizan, Jeferson Smith**     | `Jeferson11C`       |                              |         |                         | C                             | C                           | L                                        | C                        |
+| **Herrera Castillo, Victor Raul**       | `VictorHerrera10`   | C                            | C       | L                       |                               |                             |                                          |                          |
+| **Macedo Calsina, Anderson Walter**     | `AnderMacedo`       | L                            |         |                         |                               |                             |                                          |                          |
+| **More Rondon, Christopher Sebastian**  | `christopherMore1`  |                              |         |                         | C                             |                             | C                                        | L                        |
+| **Pingus Rodriguez, Carlos Daniel**     | `KazutoTR`          | C                            | L       |                         |                               |                             |                                          |                          |
+
+Durante este Sprint, cada integrante del equipo asumió un rol específico en función de los módulos del sistema a implementar. Por ejemplo, Anderson lideró el módulo de Suscripciones y Pagos, definiendo los flujos asociados a los planes disponibles. Carlos asumió el liderazgo del módulo IAM, implementando la lógica de autenticación y control de accesos. Victor tomó la iniciativa en el diseño de las preferencias de perfil, mientras que Fernando lideró el modelado del módulo de planificación del servicio.
+
+Jair y Jeferson se encargaron de los aspectos técnicos relacionados con los dispositivos IoT y la operación de cultivos, asegurando una correcta integración entre la lógica embebida y el backend. Finalmente, Christopher lideró el contexto de Analytics, proponiendo visualizaciones y consultas útiles para los usuarios finales.
+
+Esta distribución permitió que cada módulo avanzara con claridad de objetivos, aprovechando las fortalezas individuales y fomentando la colaboración transversal en cada fase del desarrollo.
+
+#### 6.2.2.3 Sprint Backlog 2
+
+En este segundo sprint, el grupo se enfocó en fortalecer las funcionalidades del sistema para brindar una experiencia más completa al agricultor. Se implementaron mejoras en el panel de gestión y monitoreo de cultivos, integrando dispositivos IoT para obtener datos en tiempo real. Además, se desarrollaron herramientas gráficas de visualización del estado del cultivo, ajustes de umbrales de alerta y nuevas opciones de interacción con parcelas y sensores, permitiendo al usuario tomar decisiones de manera más informada y precisa.
+
+| User Story - ID | User Story - Title                                                                                                                       | Status    | Work Item - ID | Work Item - Title                                  | Work Item - Description                                                  | Work Item - Estimation | Work Item - Assigned To |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :-------- | -------------: | :------------------------------------------------- | :----------------------------------------------------------------------- | ---------------------: | :---------------------- |
+| E2-US06         | Visualización de temperatura y humedad del suelo en web                                                                                  | To Review |             01 | Visualización de temperatura y humedad d...        | Tarea relacionada con visualización de temperatura y humedad del suelo e |                      3 | Fernando Quispe         |
+| E2-US07         | Visualización de humedad ambiental y temperatura del aire                                                                                | To Review |             02 | Visualización de humedad ambiental y tem...        | Tarea relacionada con visualización de humedad ambiental y temperatura d |                      3 | Victor Herrera          |
+| E2-US10         | Registro histórico de condiciones ambientales en la web                                                                                  | To Review |             03 | Registro histórico de condiciones ambien...        | Tarea relacionada con registro histórico de condiciones ambientales en l |                      4 | Fernando Quispe         |
+| E2-US35         | Visualización de temperatura y humedad del suelo en movil                                                                                | To Review |             04 | Visualización de temperatura y humedad d...        | Tarea relacionada con visualización de temperatura y humedad del suelo e |                      3 | Victor Herrera          |
+| E3 - MS10       | Configuracion en los dispositivos de los umbrales de riego                                                                               | To Review |             05 | Configuracion en los dispositivos de los...        | Tarea relacionada con configuracion en los dispositivos de los umbrales  |                      5 | Fernando Quispe         |
+| TS06 - T21      | Recepcion de datos de sensores a través de REST para actuar                                                                              | To Review |             06 | Recepcion de datos de sensores a través ...        | Tarea relacionada con recepcion de datos de sensores a través de rest pa |                      4 | Victor Herrera          |
+| TS08 - T19      | Lógica de almacenamiento en la Edge App de los datos.                                                                                    | To Review |             07 | Lógica de almacenamiento en la Edge App ...        | Tarea relacionada con lógica de almacenamiento en la edge app de los dat |                      6 | Jair Velasquez          |
+| TS09 - T18      | Exposicion de la data del Fog App para enviar al backend                                                                                 | To Review |             08 | Exposicion de la data del Fog App para e...        | Tarea relacionada con exposicion de la data del fog app para enviar al b |                      4 | Jair Velasquez          |
+| TS11 - T20      | Gestionar en la Fog APP todos los Edge que se conectarán                                                                                 | To Review |             09 | Gestionar en la Fog APP todos los Edge q...        | Tarea relacionada con gestionar en la fog app todos los edge que se cone |                      5 | Carlos Pingus           |
+| TS12 - T17      | En el Fog App realizar la implementación de las alertas bajo una alerta                                                                  | To Review |             10 | En el Fog App realizar la implementación...        | Tarea relacionada con en el fog app realizar la implementación de las al |                      6 | Jair Velasquez          |
+| TS27 - T14      | Elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad                                                      | To Review |             11 | Elaboración del endpoint para brindar po...        | Tarea relacionada con elaboración del endpoint para brindar por suelo de |                      5 | Fernando Quispe         |
+| TS27 - T15      | Elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa                                            | To Review |             12 | Elaboración del endpoint para ofrecer to...        | Tarea relacionada con elaboración del endpoint para ofrecer todas las al |                      5 | Victor Herrera          |
+| TS28 - T12      | Elaboración de la lógica para almacenar en el backend las lecturas atmosféricas                                                          | To Review |             13 | Elaboración de la lógica para almacenar ...        | Tarea relacionada con elaboración de la lógica para almacenar en el back |                      5 | Fernando Quispe         |
+| TS28 - T13      | Elaboración del endpoint para brindar la información general de las lecturas atmosféricas por cultivo                                    | To Review |             14 | Elaboración del endpoint para brindar la...        | Tarea relacionada con elaboración del endpoint para brindar la informaci |                      5 | Victor Herrera          |
+| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental del cultivo en la información general del cultivo web | To Review |             15 | Elaboración de la sección en la web para...        | Tarea relacionada con elaboración de la sección en la web para visualiza |                      3 | Christopher More        |
+| US10-TS25       | Mostrar reportes de humedad en la web                                                                                                    | To Review |             16 | Mostrar reportes de humedad en la web              | Tarea relacionada con mostrar reportes de humedad en la web              |                      3 | Christopher More        |
+| US13 - T11      | Elaboración de la visualización en información del cultivo (web) el riego automático por baja humedad del suelo.                         | To Review |             17 | Elaboración de la visualización en infor...        | Tarea relacionada con elaboración de la visualización en información del |                      3 | Fernando Quispe         |
+| US13 -T10       | Elaboración de la lógica de riego automático ante baja humedad del suelo                                                                 | To Review |             18 | Elaboración de la lógica de riego automá...        | Tarea relacionada con elaboración de la lógica de riego automático ante  |                      5 | Victor Herrera          |
+| US18-TS27       | Mostrar consumo de agua en la pagina web                                                                                                 | To Review |             19 | Mostrar consumo de agua en la pagina web           | Tarea relacionada con mostrar consumo de agua en la pagina web           |                      3 | Christopher More        |
+| US20 - T24      | Elaborar la sección para renderizar los reportes y el reporte de productividad por cultivo seleccionado en web                           | To Review |             20 | Elaborar la sección para renderizar los ...        | Tarea relacionada con elaborar la sección para renderizar los reportes y |                      3 | Victor Herrera          |
+| US27-TS28       | Visualizacion de reportes de productividad en movil                                                                                      | To Review |             21 | Visualizacion de reportes de productivid...        | Tarea relacionada con visualizacion de reportes de productividad en movi |                      4 | Fernando Quispe         |
+| US28-TS29       | Visualizar registros de riegos en movil                                                                                                  | To Review |             22 | Visualizar registros de riegos en movil            | Tarea relacionada con visualizar registros de riegos en movil            |                      4 | Anderson Macedo         |
+| US47 - T16      | En el Edge App realizar la implementación de preferencia de horario de riego                                                             | To Review |             23 | En el Edge App realizar la implementació...        | Tarea relacionada con en el edge app realizar la implementación de prefe |                      6 | Jair Velasquez          |
+| US49-T03        | Elaborar la activity para permitir a las cooperativas la data de los cultivos asociados que poseen.                                      | To Review |             24 | Elaborar la activity para permitir a las...        | Tarea relacionada con elaborar la activity para permitir a las cooperati |                      3 | Victor Herrera          |
+| TS27 - T14      | Elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad                                                      | To Review |             11 | Endpoint: temperatura y humedad por suelo          | Crear endpoint para consultar temperatura y humedad por tipo de suelo    |                      5 | Fernando Quispe         |
+| TS27 - T15      | Elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa                                            | To Review |             12 | Endpoint: alertas de cultivos por cooperativa      | Desarrollar API que liste alertas de cultivos por cooperativa            |                      5 | Victor Herrera          |
+| TS28 - T12      | Elaboración de la lógica para almacenar en el backend las lecturas atmosféricas                                                          | To Review |             13 | Lógica de almacenamiento de lecturas atmosféricas  | Programar almacenamiento backend para datos de sensores atmosféricos     |                      6 | Fernando Quispe         |
+| TS28 - T13      | Elaboración del endpoint para brindar la información general de las lecturas atmosféricas por cultivo                                    | To Review |             14 | Endpoint: lecturas atmosféricas por cultivo        | Crear endpoint para mostrar lecturas ambientales por cultivo             |                      5 | Victor Herrera          |
+| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental del cultivo                                           | To Review |             15 | Web: temperatura ambiental del cultivo             | Mostrar temperatura ambiental del cultivo en su vista principal          |                      3 | Christopher More        |
+| US10-TS25       | Mostrar reportes de humedad en la web                                                                                                    | To Review |             16 | Web: reportes de humedad                           | Diseñar componente web para visualizar reportes de humedad               |                      3 | Christopher More        |
+| US13 - T11      | Elaboración de la visualización en información del cultivo el riego automático por baja humedad del suelo                                | To Review |             17 | Visualización de riego automático por baja humedad | Mostrar estado de riego automático por baja humedad en cultivo           |                      4 | Fernando Quispe         |
+| US13 -T10       | Elaboración de la lógica de riego automático ante baja humedad del suelo                                                                 | To Review |             18 | Lógica de riego automático por humedad baja        | Implementar lógica de riego cuando humedad esté por debajo del umbral    |                      6 | Victor Herrera          |
+| US18-TS27       | Mostrar consumo de agua en la pagina web                                                                                                 | To Review |             19 | Web: consumo de agua                               | Implementar vista para mostrar consumo de agua del cultivo               |                      3 | Christopher More        |
+| US20 - T24      | Elaborar la sección para renderizar los reportes y el reporte de productividad por cultivo seleccionado                                  | To Review |             20 | Web: reporte de productividad por cultivo          | Crear módulo para visualizar reportes de productividad por cultivo       |                      4 | Christopher More        |
+| US27-TS28       | Visualización de reportes de productividad en movil                                                                                      | To Review |             21 | Móvil: reportes de productividad                   | Crear vista móvil para reportes de productividad por cultivo             |                      3 | Anderson Macedo         |
+| US28-TS29       | Visualizar registros de riegos en movil                                                                                                  | To Review |             22 | Móvil: registros de riegos                         | Implementar sección móvil para mostrar registros de riego                |                      3 | Anderson Macedo         |
+| US47 - T16      | En el Edge App realizar la implementación de preferencia de horario de riego                                                             | To Review |             23 | Edge App: preferencia de horario de riego          | Desarrollar lógica para configurar horarios de riego en Edge App         |                      6 | Jair Velasquez          |
+| US49-T03        | Elaborar la activity para permitir a las cooperativas la data de los cultivos asociados que poseen.                                      | To Review |             24 | Activity: cultivos asociados por cooperativa       | Crear activity para ver cultivos asociados a cooperativas en la app      |                      4 | Victor Herrera          |
+| TS03 - T22      | Elaborar la lógica del bounded context de analytics para brindar los reportes.                                                           | Done      |             25 | Lógica analytics: bounded context                  | Desarrollar lógica de contexto limitado para generación de reportes      |                      6 | Fernando Quispe         |
+| TS03 - T23      | Elaborar el endpoint para ofrecer información por cultivos para analítica                                                                | Done      |             26 | Endpoint analytics: datos por cultivo              | Crear endpoint que entregue datos de cultivo para análisis               |                      5 | Victor Herrera          |
+| TS30 - T08      | Elaboración de la lógica de umbrales estándar por cultivo                                                                                | Done      |             27 | Lógica: umbrales estándar por cultivo              | Programar lógica para definir umbrales por tipo de cultivo               |                      5 | Fernando Quispe         |
+| TS30 - T09      | Elaboración del endpoint para registrar umbrales de alerta por cultivo                                                                   | Done      |             28 | Endpoint: registro de umbrales                     | Implementar endpoint para guardar umbrales por cultivo                   |                      4 | Victor Herrera          |
+| TS31-T06        | Elaboración del endpoint GET para tener la data de los cultivos que pertenecen a los agricultores bajo las cooperativas.                 | Done      |             29 | Endpoint: cultivos por cooperativa                 | Crear endpoint GET para listar cultivos de agricultores en cooperativa   |                      4 | Fernando Quispe         |
+| TS31-T07        | Elaboración del rol en perfiles para gestionar Cooperativas y Agricultores                                                               | Done      |             30 | Gestión de roles: cooperativas y agricultores      | Añadir roles y permisos para gestión de usuarios según perfil            |                      5 | Victor Herrera          |
+| US06-T01        | Elaboración de la sección en la web para visualización de la temperatura del suelo                                                       | Done      |             31 | Web: temperatura del suelo                         | Mostrar temperatura del suelo en sección general del cultivo             |                      3 | Christopher More        |
+| US06-T02        | Elaboración de la sección en la web para visualización de la humedad del suelo                                                           | Done      |             32 | Web: humedad del suelo                             | Añadir visualización de humedad del suelo en pantalla principal          |                      3 | Christopher More        |
+| US07-T04        | Elaboración de la sección en la web para visualización de la humedad ambiental                                                           | Done      |             33 | Web: humedad ambiental                             | Diseñar vista web para mostrar humedad del ambiente                      |                      3 | Christopher More        |
+| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental                                                       | Done      |             34 | Web: temperatura ambiental                         | Crear componente para mostrar temperatura ambiental en cultivo           |                      3 | Christopher More        |
+
+#### 6.2.1.4 Development Evidence for Sprint Review
+
+En esta sección se detallan los avances clave en el desarrollo de los productos de la solución durante el Sprint 2, los cuales abarcan mejoras en la Web Application, la integración con dispositivos IoT, optimizaciones en los Web Services (API) y ajustes en la experiencia de usuario. A continuación, se muestra una tabla con los commits más representativos por repositorio, que evidencian el trabajo realizado por el equipo en función a las funcionalidades priorizadas para este sprint.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|----------------------|---------------------|
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 8e03a7b | fix: mejorar reconexión MQTT | Se ajustó la lógica de reconexión al broker MQTT para mayor estabilidad. | 06/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 4d7c99f | feat: agregar lectura continua de sensores | Se implementó la lectura periódica de humedad y temperatura desde sensores conectados. | 12/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 9f4cb2d | fix(ui): corrección en vista de parcelas | Se corrigió el scroll en la vista de detalle de parcelas para dispositivos pequeños. | 08/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 25a1e6e | feat: login con token del backend | Se integró autenticación usando JWT emitido por el backend. | 15/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/dashboard | a65fd12 | feat: integración de panel con sensores | Se enlazó el panel de control con datos recibidos desde los sensores vía backend. | 14/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/ui-enhancements | d23a9f1 | style: mejora en la experiencia del usuario | Se mejoró la navegación y estilos de botones para mayor accesibilidad. | 18/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | 57cdef1 | feat: procesamiento local de datos | Se añadió lógica para procesar datos de sensores y enviar solo datos relevantes al backend. | 13/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | b9e1a33 | fix: corrección en formateo de paquetes JSON | Se resolvió error al parsear paquetes de datos para envío a la nube. | 19/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/device-api | f730d4e | feat: nuevo endpoint para datos por dispositivo | Se implementó endpoint para consultar métricas por dispositivo registrado. | 05/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/alerts | 0a12e4b | feat: generación de alertas por umbral | Se habilitó lógica para generar alertas cuando los sensores superen valores críticos. | 20/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/iot-update | c139d04b | feat: endpoint para actualizar dispositivos IoT | Permite modificar configuración de sensores desde el frontend. | 09/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 23a97b9f | feat: nueva pantalla de detalle de cultivo | Se muestra información del cultivo y sensores asociados. | 10/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | 90fb5c2d | fix: sincronización con edge corregida | Mejoras en lógica de sincronización con dispositivos edge. | 11/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 7c06c3be | feat: alertas por humedad baja | Se configuró evento de alerta por humedad bajo umbral. | 12/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/user-tracking | e7dbf460 | feat: seguimiento de actividad del usuario | Registro de interacción y cambios en tiempo real. | 13/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/sensors-dashboard | a4b1e243 | feat: visualización de datos de sensores | Se implementaron gráficos de humedad y temperatura por cultivo. | 14/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | 2c86be88 | feat: procesamiento local de decisiones de riego | Algoritmo local para activar bomba de agua automáticamente. | 15/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | develop | e6a71ff5 | fix: validaciones de seguridad en API de sensores | Se mejoró la seguridad de endpoints del sistema IoT. | 16/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/iot-panel | 27d4e72a | feat: panel interactivo para sensores por parcela | Nueva vista que muestra estado en tiempo real de sensores activos por parcela. | 17/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 85b07f9c | feat: integración con bombas inteligentes | Se integró control automatizado de riego desde sensor local. | 17/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 2de91b03 | feat: notificaciones push por condición crítica | Se activan alertas móviles ante detección de riesgo climático. | 18/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | develop | 630e859b | feat: endpoint resumen de estado general por usuario | Se devuelve estado consolidado de todos los cultivos activos del usuario. | 18/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | b4f6ce72 | fix: mejora en el reintento de sincronización fallida | Se optimizó el proceso de reintentos en redes inestables. | 19/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/user-role-management | 738ddfb1 | feat: control de roles y permisos para vistas | Se añadieron restricciones de acceso por tipo de usuario (agricultor/cooperativa). | 19/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | ab1c547d | feat: control local de ventiladores por temperatura | Se activa ventilación automáticamente según valores umbral. | 20/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | d154f89a | fix: mejora de interfaz para gestión de parcelas | Se reorganizó diseño para facilidad de uso en pantallas pequeñas. | 21/06/2025 |
+
+A lo largo del trabajo comprendidos entre el 1 y el 21 de junio, se evidenció un avance sostenido y coordinado en todos los servicios de la solución WaruSmart. Se desarrollaron y refinaron funcionalidades en la landing page, la plataforma web, el backend, la aplicación móvil, el sistema fog y la app edge. Entre los principales logros destacan la autenticación por roles, gestión de cultivos y dispositivos IoT, visualización de datos en tiempo real, alertas móviles, control local desde el edge, y sincronización efectiva con el servidor. Este trabajo colaborativo permitió avanzar de forma integral hacia una plataforma robusta e interconectada.
+
+#### 6.2.1.5 Testing Suite Evidence for Sprint Review
+
+A continuación, se presenta la evidencia de la suite de pruebas automatizadas correspondiente al Sprint 2, la cual respalda el cumplimiento de las funcionalidades desarrolladas y validadas durante este ciclo de trabajo.
+
+| Repositorio/Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
+|--------------------|------------|-----------------|-----------------------|----------------------|
+| US01/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US01.feature | Herrera.Victor-feature-Sprint1-TU01 | 300d064 | add gherkin TU01 | 10/05/2025 |
+| US02/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US02.feature | Herrera.Victor-feature-Sprint1-TU02 | 300d064 | add gherkin TU02 | 10/05/2025 |
+| US03/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US03.feature | Herrera.Victor-feature-Sprint1-TU03 | 300d064 | add gherkin TU03 | 10/05/2025 |
+| US04/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US04.feature | Herrera.Victor-feature-Sprint1-TU04 | 300d064 | add gherkin TU04 | 10/05/2025 |
+| US05/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US05.feature | Herrera.Victor-feature-Sprint1-TU05 | 300d064 | add gherkin TU05 | 10/05/2025 |
+| US23/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US23.feature | Herrera.Victor-feature-Sprint1-TU23 | 300d064 | add gherkin TU23 | 10/05/2025 |
+| US24/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US24.feature | Herrera.Victor-feature-Sprint1-TU24 | 300d064 | add gherkin TU24 | 10/05/2025 |
+
+Durante el Sprint 2, el equipo de desarrollo de WaruSmart continuó fortaleciendo la validación técnica de las funcionalidades implementadas, ampliando la cobertura de escenarios de prueba automatizados mediante el lenguaje Gherkin. Se incorporaron nuevas historias de usuario relacionadas con la gestión de cultivos, dispositivos IoT, autenticación y visualización de datos, las cuales fueron expresadas en archivos .feature. Cada escenario siguió la estructura Given-When-Then, asegurando una clara trazabilidad con los criterios de aceptación definidos. Estos artefactos se gestionaron en el repositorio WaruSmart-Testing, garantizando el control de calidad y la coherencia funcional en esta nueva fase de desarrollo.
+
+#### 6.2.1.6 Execution Evidence for Sprint Review
+
+Durante este segundo sprint, se logró el despliegue de nuevos componentes clave del ecosistema WaruSmart, consolidando su arquitectura distribuida y su funcionalidad completa. Entre los avances se destacan las mejoras en el frontend, el despliegue del backend actualizado, la integración de la app móvil, el funcionamiento del Fog Computing y la conectividad de dispositivos Edge.
+
+- 🖥️ **Landing Page**  
+  Muestra la propuesta de valor del sistema y está desplegada en GitHub Pages. Se añadieron mejoras visuales y de navegación.  
+  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+
+- ⚙️ **Backend (Swagger - Azure App Service)**  
+  Se actualizó el backend con nuevos endpoints, validaciones y mejoras de seguridad para la gestión de usuarios, cultivos, siembras, sensores y dispositivos IoT.  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+- 💻 **Frontend Web App**  
+  Se implementaron nuevos componentes visuales para el panel de control, listado de dispositivos IoT, detalle de siembras y gestión de usuarios.  
+  👉 Evidencias gráficas del avance frontend:
+
+  ![Home](https://res.cloudinary.com/dydklnicb/image/upload/v1747349054/frontend-home-warusmart.png)  
+  *Vista del panel principal con métricas, menú y mapa.*
+
+  ![Sowings list](https://res.cloudinary.com/dydklnicb/image/upload/v1747349115/frontend-sowingslist-warusmart.png)  
+  *Listado de siembras con filtros y datos clave.*
+
+  ![IoT Management](https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png)  
+  *Gestión de dispositivos IoT por siembra.*
+
+- 📱 **Mobile Application (Kotlin)**  
+  Se desplegó una versión funcional para Android que permite a los agricultores registrar sus cultivos y consultar recomendaciones directamente desde el celular.  
+  👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+
+- 🌫️ **Fog Computing Node (WaruSmart-Fog-App)**  
+  Se configuró un microservicio intermedio que gestiona la recepción de datos de sensores desde dispositivos Edge y reenvía al backend central.  
+  👉 Repositorio: [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
+
+- 📡 **Edge Devices (WaruSmart-Edge-App)**  
+  Los dispositivos físicos de borde fueron integrados con la plataforma a través del microservicio Fog. Se probó correctamente la lectura de sensores y envío de datos.  
+  👉 Repositorio: [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
+
+- 🧠 **Embedded Application (ESP32 - Wokwi & Código físico)**  
+  Se incluyó un nuevo componente embebido que permite simular y probar localmente el funcionamiento de sensores a través del simulador Wokwi. También se encuentra disponible el código listo para ser cargado en dispositivos físicos ESP32, permitiendo su despliegue en campo.  
+  👉 Repositorio: [WaruSmart-Embedded-Application](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application)
+
+---
+
+- 🎬 **Video Navegación Web App:**  
+  👉 [Ver video](https://acortar.link/Xki4TX)  https://acortar.link/Xki4TX 
+
+- 🎬 **Video del Edge y flujo fisico:**  
+  👉 [Ver video](https://acortar.link/dm1vqp) https://acortar.link/dm1vqp 
+
+
+---
+
+#### 6.2.1.7 Services Documentation Evidence for Sprint Review
+
+Durante este sprint, se consolidó la documentación de servicios de WaruSmart a través del backend REST desplegado en Azure. El backend central permite gestionar múltiples entidades clave del sistema, como usuarios, parcelas, cultivos, dispositivos IoT y fases fenológicas. Gracias a Swagger UI, se puede explorar y probar cada uno de estos endpoints de forma estructurada y accesible para todo el equipo.
+
+- 📘 **Documentación del backend - Swagger UI**  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+ **Evidencias visuales del backend**
+
+![Backend Swagger General](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
+  *Vista general de la interfaz Swagger mostrando los endpoints activos organizados por recurso: usuarios, cultivos, parcelas, dispositivos, sensores, recomendaciones.*
+
+![Backend Endpoint IoT](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)  
+  *Detalle de los endpoints que permite registrar un nuevo dispositivo IoT y asignarlo a un cultivo específico.*
+
+![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
+  *Prueba de los endpoints mostrando la respuesta exitosa con datos simulados de siembras asociadas al usuario autenticado.*
+
+![Backend Sowings by Phase](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.42.25_AM_yncr8e.jpg)  
+  *Nuevo endpoint que permite actualizar o consultar la fase fenológica de un cultivo, facilitando el seguimiento agronómico.*
+
+![Backend Fog Endpoint](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.47.11_AM_fbvart.jpg)  
+  *Integración de endpoints de comunicación Fog-to-Cloud para el envío seguro de datos desde sensores de borde.*
+
+---
+
+#### 6.2.1.8 Software Deployment Evidence for Sprint Review
+
+Durante este sprint, se desplegaron exitosamente los principales componentes del sistema, lo que permite demostrar que se cuenta con una arquitectura modular y funcional:
+
+- 🖥️ **Landing Page**  
+  Esta página de presentación está alojada en GitHub Pages y representa el punto de entrada informativo del proyecto WaruSmart.  
+  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+
+- ⚙️ **Backend API REST**  
+  Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone todos los endpoints necesarios para las operaciones internas del sistema.  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+- 💻 **Web Platform (Frontend)**  
+  Desarrollada en Vue - Vite, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
+  👉 [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
+
+- 📱 **Mobile Application**  
+  La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
+  ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.45.26_AM_hseemj.jpg)
+
+- 📶 **Edge Application**  
+  Aplicación liviana diseñada para ejecutarse en dispositivos de borde (edge), encargada de recolectar datos desde sensores y enviarlos hacia la nube.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
+  ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.46.48_AM_wedj1u.jpg)
+
+- 🌩️ **Fog Application**  
+  Servicio intermedio desplegado entre los dispositivos y la nube, que gestiona el procesamiento local y asegura la disponibilidad en caso de desconexión.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
+  ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.54.19_AM_uqmchk.jpg)
+
+- 🧠 **Embedded Application**  
+  Componente crítico para el funcionamiento autónomo de los sensores y actuadores. Esta aplicación embebida se ejecuta directamente en los dispositivos físicos, permitiendo la lectura de datos ambientales y la ejecución de respuestas locales inmediatas.  
+  El repositorio incluye una simulación funcional en Wokwi, así como el código físico listo para ser configurado y desplegado en microcontroladores ESP32.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application)
+  ![Insight Wokwi](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.47.45_PM_dsopfd.jpg)
+  ![Insight Fisico](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.42.16_PM_kafxgt.jpg)
+
+Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (**frontend ↔ backend ↔ edge/fog ↔ mobile**), lo que confirma la viabilidad técnica de la solución WaruSmart.
+
+#### 6.2.1.9 Team Collaboration Insights during Sprint
+
+Durante el presente sprint, se evidenció una colaboración activa entre los integrantes del equipo en los distintos módulos del sistema WaruSmart: **Landing Page**, **Frontend Web App**, **Backend API**, **Mobile App**, **Edge App** y **Fog App**. A continuación, se presentan los insights obtenidos a partir de los repositorios del proyecto, los cuales reflejan el compromiso y la distribución del trabajo técnico entre los miembros.
+
+**🖥️ Colaboración en el desarrollo de la Landing Page**
+
+- ![Insight Landing Page](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314726/sknvodjw4eddrbsmatlu.jpg)  
+  *Se visualiza la evolución de commits en el repositorio del Landing Page, donde se implementaron ajustes visuales, mejoras de accesibilidad y contenido multilingüe. Los miembros a cargo realizaron despliegues progresivos en GitHub Pages.*
+
+**💻 Colaboración en el desarrollo del Frontend Web App**
+
+- ![Insight Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/iszfypdv193fbfkhzqyy.jpg)  
+  *El repositorio del frontend refleja una alta frecuencia de colaboraciones, enfocadas en la construcción de vistas como panel de control, módulos de siembras, visualización de dispositivos IoT y manejo de alertas. Se evidencia trabajo en equipo con revisión cruzada de código.*
+
+**⚙️ Colaboración en el desarrollo del Backend API**
+
+- ![Insight Backend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/sojaqz283ma9yvpkqsml.jpg)  
+  *Las contribuciones al backend se centraron en nuevos endpoints, ajustes en la arquitectura de dominio, integración de servicios REST para siembras y dispositivos, y documentación Swagger. El equipo mantuvo una dinámica de commits sostenida y progresiva.*
+
+**📱 Colaboración en el desarrollo de la Mobile Application**
+
+- ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104037_wrcxu4.png)  
+  *El desarrollo de la app móvil mostró aportes continuos orientados a navegación, localización de cultivos y gestión offline. La colaboración se extendió a pruebas en emuladores y validación de flujos críticos en producción.*
+
+**🌐 Colaboración en el desarrollo del Edge App**
+
+- ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104117_mzhqak.png)  
+  *El repositorio del componente edge evidencia el trabajo coordinado en funciones de lectura de sensores, envío de datos al fog y mecanismos de reconexión ante fallos. El desarrollo fue realizado considerando el entorno embebido.*
+
+**🌩️ Colaboración en el desarrollo del Fog App**
+
+- ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104155_pds5ir.png)  
+  *El módulo fog recibió múltiples contribuciones que permitieron establecer su rol como intermediario entre el edge y la nube, enfocándose en almacenamiento local temporal y retransmisión de datos. Se configuró como contenedor independiente.*
+
+Estos insights reflejan una dinámica de trabajo colaborativo distribuido por capas tecnológicas, manteniendo sincronía entre los módulos y garantizando una evolución coherente de la solución WaruSmart durante este sprint.
+
+## 6.3 Validation Interviews
+
+A continuacion se muetras las Validation Interviews son una etapa clave para nuestro equipo, ya que nos permitirán validar directamente con los usuarios reales como agricultores y técnicos del sector agro si el sistema WaruSmart responde adecuadamente a sus necesidades. A través de estas entrevistas, podremos recoger comentarios valiosos sobre la utilidad, usabilidad y relevancia de las funcionalidades implementadas. Esta retroalimentación nos servirá para realizar ajustes oportunos, reforzar aspectos positivos y garantizar que la solución tenga un verdadero impacto en la mejora de la gestión agrícola en campo.
+
+### 6.3.1. Diseño de Entrevistas
+
+### 👨‍🌾 Agricultores Individuales
+
+#### 🧩 Contexto de uso y tecnología
+- ¿Qué cultivos maneja actualmente y con qué frecuencia realiza el riego?
+- ¿Utiliza alguna tecnología actualmente para controlar la humedad o temperatura del suelo?
+- ¿Qué herramientas digitales (web o móvil) ha usado anteriormente en su trabajo agrícola?
+
+#### 💧 Necesidades de monitoreo y control
+- ¿Con qué problemas se encuentra cuando el clima cambia inesperadamente?
+- ¿Cómo sabría si su cultivo está recibiendo la cantidad adecuada de agua?
+- ¿Considera útil tener alertas en su celular sobre humedad o temperatura del suelo?
+
+#### 📱 Validación del sistema WaruSmart
+- ¿Qué le parece una app web o móvil donde pueda ver en tiempo real los niveles de humedad y temperatura de su cultivo?
+- ¿Le gustaría recibir recomendaciones automáticas para ajustar el riego según las condiciones?
+- ¿Qué tan fácil le resultaría usar un sistema que conecte sensores al suelo y le envíe alertas?
+
+#### 🛠️ Implementación y soporte
+- ¿Qué necesitaría para sentirse cómodo usando esta tecnología?
+- ¿Estaría dispuesto a instalar sensores IoT en su terreno si se le proporciona capacitación?
+- ¿Qué tipo de ayuda o acompañamiento le gustaría tener en el uso de esta plataforma?
+
+---
+
+### 🌱 Cooperativas Agrarias
+
+#### 🧩 Contexto organizacional
+- ¿Qué tipo de cultivos gestionan y en cuántas parcelas aproximadamente?
+- ¿Tienen algún sistema actual para hacer seguimiento al estado de los cultivos de la cooperativa?
+- ¿Qué canales usan para comunicar alertas o problemas a los agricultores?
+
+#### 💧 Necesidades colectivas de monitoreo
+- ¿Qué tan útil sería para ustedes tener un sistema centralizado donde se vea la humedad y temperatura de todos los terrenos?
+- ¿Cómo gestionan actualmente el uso del agua a nivel comunitario?
+- ¿Creen que las alertas automáticas por celular mejorarían la coordinación en la cooperativa?
+
+#### 📱 Validación del sistema WaruSmart
+- ¿Consideran útil una plataforma web y móvil para monitorear los cultivos de todos los asociados?
+- ¿Qué funcionalidades les parecerían clave en una app para tomar decisiones colectivas de riego?
+- ¿Qué tan viable ven la instalación de sensores en cada terreno asociado?
+
+#### 📢 Adopción comunitaria
+- ¿Cómo creen que esta tecnología puede ayudar a modernizar la producción en su comunidad?
+- ¿Estarían dispuestos a ser promotores de esta herramienta si los resultados son positivos?
+- ¿Qué barreras creen que existen para que sus miembros adopten una solución como WaruSmart?
+
+### 6.3.2. Registro de Entrevistas
+
+### 6.3.3. Evaluaciones segun heuristicas
+
+<p align="center">
+  <strong>## UX Heuristics & Principles Evaluation</strong><br>
+  <em>Usability – Inclusive Design – Information Architecture</em>
+</p>
+
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Desarrollo de Soluciones IoT  
+**SECCIÓN**: 2947  
+**PROFESORES**: Angel Augusto Velazques Nuñez  
+**AUDITOR**: Codex  
+**CLIENTE(S)**: Agricultores individuales y representantes de cooperativas agrarias
+
+---
+
+**SITE o APP A EVALUAR**: WaruSmart – Plataforma de gestión agrícola (Web, Mobile, IoT Edge y Backend)
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas en el sistema WaruSmart:
+
+1. Registro de un agricultor en la plataforma (Web y Mobile)
+2. Visualización del estado de humedad y temperatura de los cultivos
+3. Registro de una nueva parcela o campo agrícola
+4. Asignación de dispositivos IoT a una parcela específica
+5. Visualización de alertas generadas por sensores IoT
+6. Modificación de la fase fenológica del cultivo desde el panel web
+7. Generación de recomendaciones automáticas según datos de sensores
+8. Acceso a métricas de riego desde la app móvil
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración con módulos externos de analisis climática
+2. Reportes automatizados por correo electrónico
+3. Gestión avanzada de permisos por roles
+4. Configuración remota de dispositivos desde el panel web
+5. Visualización de analíticas comparativas entre campañas
+
+## ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que haya tiempo disponible. |
+| **2** | Problema menor: ocurre con algo más de frecuencia o es un poco más difícil de resolver para el usuario. Debería corregirse con baja prioridad en la siguiente versión. |
+| **3** | Problema mayor: ocurre con frecuencia o el usuario no puede resolverlo. Es importante corregirlo con alta prioridad. |
+| **4** | Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregirse antes del despliegue. |
+
+## TABLA RESUMEN DE PROBLEMAS DETECTADOS
+
+| #  | Problema                                                                                   | Escala de Severidad | Heurística / Principio Violado                                     |
+|----|--------------------------------------------------------------------------------------------|---------------------|---------------------------------------------------------------------|
+| 1  | No hay un control que permita regresar al panel principal desde la gestión de sensores    | 3                   | Usability: Libertad y control del usuario                          |
+| 2  | Se repiten constantemente algunas opciones en el menú lateral                             | 1                   | Usability: Consistencia y estándares                               |
+| 3  | Imágenes sin atributo “alt” en vista de detalles del cultivo                              | 3                   | Usability: Consistencia y estándares                               |
+| 4  | Incluye un botón “Ver más” en sección de alertas sin contenido adicional                  | 3                   | Inclusive Design: Proporciona experiencias comparables             |
+| 5  | No se incluye información clara sobre planes de uso del sistema o niveles de acceso       | 2                   | Information Architecture: ¿Is it usable?                          |
+| 6  | El sistema no permite buscar rápidamente una parcela por nombre                           | 2                   | Information Architecture: ¿Is it findable?                        |
+| 7  | Botón de cierre de sesión muy pequeño en versión móvil                                    | 2                   | Inclusive Design: Facilita el acceso físico                        |
+| 8  | Mensajes de error técnicos poco comprensibles para usuarios sin conocimientos técnicos    | 3                   | Usability: Ayuda y documentación                                   |
+
+### PROBLEMA #1: No hay un control que permita regresar al panel principal desde la gestión de sensores
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Libertad y control del usuario
+
+**Problema:**  
+Durante la navegación en el módulo de gestión de sensores IoT, el usuario no cuenta con un botón visible que le permita regresar fácilmente al panel principal del sistema. Esto provoca que tenga que cerrar sesión o usar el botón “atrás” del navegador, lo cual interrumpe la experiencia y genera una mayor carga cognitiva. Esta falta de control puede generar frustración y disminuir la eficiencia en tareas de gestión rápida.
+
+**Recomendación:**  
+Incluir un botón fijo de retorno al dashboard principal dentro del encabezado del módulo de sensores, para permitir una navegación más fluida sin afectar el flujo de datos ni perder el estado del sistema.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524812/WhatsApp_Image_2025-06-21_at_11.02.00_AM_ejmeoy.jpg)
+
+### PROBLEMA #2: Se repiten constantemente algunas opciones en el menú lateral
+
+**Severidad:** 1  
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema:**  
+En el menú lateral de navegación de la plataforma WaruSmart, se muestran de forma redundante ciertas opciones como “Gestión de parcelas” y “Ver parcelas”, lo que puede generar confusión en el usuario al no saber si son secciones distintas o duplicadas. Esta repetición afecta la claridad de la interfaz y contradice los principios de diseño limpio y eficiente.
+
+**Recomendación:**  
+Revisar la arquitectura de la información del menú lateral y consolidar opciones redundantes bajo una sola entrada con submenús claros, si es necesario. Esto facilitará la navegación y mantendrá la interfaz ordenada.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_11.15.11_AM_dqpyxr.jpg)
+
+### PROBLEMA #3: Imágenes sin atributo “alt” en vista de detalles del cultivo
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema:**  
+En la vista de detalles del cultivo, las imágenes utilizadas (por ejemplo, iconos de sensores o fotos referenciales del cultivo) no incluyen atributos `alt`. Esto perjudica la accesibilidad del sistema, ya que los lectores de pantalla no pueden interpretar su contenido, y en caso de errores de carga, el usuario no tiene referencia de qué representa la imagen.
+
+**Recomendación:**  
+Agregar descripciones significativas en el atributo `alt` para todas las imágenes y elementos visuales relevantes, siguiendo los estándares de accesibilidad web. Esto asegurará que todos los usuarios, incluyendo personas con discapacidades visuales, puedan comprender el contenido.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_11.20.51_AM_awu0zn.jpg)
+
+### PROBLEMA #4: Incluye un botón “Ver más” en sección de alertas sin contenido adicional
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**  
+En la sección de alertas dentro del panel de cultivos, aparece un botón “Ver más” que no conduce a ningún contenido adicional o detalle relevante. Esto genera confusión y una experiencia inconsistente, especialmente para usuarios con menor familiaridad con interfaces digitales, ya que esperan obtener más información crítica sobre sus cultivos.
+
+**Recomendación:**  
+Eliminar el botón si no hay contenido adicional, o en su defecto, vincularlo a una vista que explique más a detalle la alerta (como histórico, causas o recomendaciones). Esto mejorará la confianza del usuario en la interfaz y evitará interacciones innecesarias.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750525098/WhatsApp_Image_2025-06-21_at_11.57.33_AM_q665ba.jpg)
+
+### PROBLEMA #5: No se incluye información clara sobre los planes de uso del sistema o niveles de acceso
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – ¿Is it usable?
+
+**Problema:**  
+En ninguna sección visible de la plataforma se detalla si existen planes de uso diferenciados, niveles de acceso (para agricultores individuales o cooperativas), ni si algunas funciones requieren permisos especiales. Esta falta de información puede causar confusión y frustración en los usuarios al no saber qué funcionalidades están disponibles para su perfil.
+
+**Recomendación:**  
+Incluir una sección accesible desde la navegación principal donde se expliquen claramente los tipos de usuario, los niveles de acceso disponibles y las funciones asociadas a cada uno. Esto brindará mayor transparencia y mejorará la experiencia de incorporación al sistema.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_10.49.58_AM_u5r8oi.jpg)
+
+### PROBLEMA #6: No se encuentra fácilmente el historial de riego en la interfaz de cultivos
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – ¿Is it findable?
+
+**Problema:**  
+En la vista de detalle del cultivo, no hay una ruta clara o botón visible que lleve al historial de riego. Los usuarios deben explorar varias secciones o paneles antes de encontrar esta información esencial, lo que dificulta la toma de decisiones y reduce la eficiencia del sistema.
+
+**Recomendación:**  
+Añadir un botón visible y accesible desde el dashboard del cultivo que dirija directamente al historial de riego. También se recomienda implementar una sección dedicada a reportes históricos donde se agrupen este tipo de datos.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_11.12.15_AM_zwl6az.jpg)
+
+### PROBLEMA #7: El sistema no notifica al usuario cuando un dispositivo IoT está desconectado
+
+**Severidad:** 4  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema:**  
+En el módulo de monitoreo de dispositivos IoT, no se muestra ninguna alerta clara o mensaje cuando un sensor pierde conexión. Esto representa un riesgo crítico, ya que los usuarios pueden asumir que sus cultivos están siendo monitoreados cuando en realidad no hay datos en tiempo real, lo que afecta directamente la toma de decisiones en campo.
+
+**Recomendación:**  
+Implementar un sistema de alertas visuales (íconos en rojo o mensajes emergentes) y notificaciones push en la versión móvil que indiquen cuándo un dispositivo deja de enviar datos por un tiempo determinado. Esto garantiza una respuesta oportuna por parte del usuario.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524813/WhatsApp_Image_2025-06-21_at_11.11.30_AM_ft7g3c.jpg)
+
+### PROBLEMA #8: La aplicación móvil no adapta correctamente el contenido a pantallas pequeñas
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Considera distintas formas de interacción
+
+**Problema:**  
+Al acceder a WaruSmart desde dispositivos móviles, especialmente en pantallas de menor tamaño, algunos elementos de la interfaz como tablas de siembras, botones y textos se sobreponen o desbordan. Esto dificulta la navegación, sobre todo para usuarios con menor experiencia digital, reduciendo la accesibilidad del sistema.
+
+**Recomendación:**  
+Aplicar principios de diseño responsive en todas las vistas, utilizando flexbox o grid adaptables, tamaños de fuente relativos y menús colapsables. También se recomienda realizar pruebas en diferentes tamaños de pantalla para validar la correcta experiencia de uso.
+
+**Evidencia visual:**  
+![Captura del problema](https://res.cloudinary.com/djia8bsvr/image/upload/v1750524811/WhatsApp_Image_2025-06-21_at_11.09.40_AM_exofbm.jpg)
+
+
+## 6.4.Video About-the-Product
+
+Como parte de la estrategia de difusión del sistema **WaruSmart**, el equipo desarrolló un video explicativo orientado a dos públicos clave:
+
+- 🌱 **Visitantes del Landing Page**: usuarios interesados en conocer la propuesta de valor del sistema, sus beneficios, funcionamiento general y el impacto positivo que ofrece en la agricultura.
+- 📱 **Usuarios de las aplicaciones Web y Móvil**: agricultores y cooperativas que desean entender cómo utilizar las funcionalidades principales del sistema para gestionar sus cultivos, dispositivos IoT y obtener recomendaciones personalizadas.
+
+El video adopta un tono cercano, claro y profesional, coherente con la identidad visual de WaruSmart. Se presenta una visión general del sistema, incluyendo su modelo de negocio, arquitectura modular (web, móvil, backend y edge), así como ejemplos reales de uso.
+
+📺 **Captura del video**  
+![Screenshot del Video](https://res.cloudinary.com/dr5v9tizc/image/upload/v1750513890/Captura-AboutTheProduct_fczua7.png)
+
+🔗 **Enlaces del video**
+- Versión publicada en **Microsoft Stream**:  
+  👉 [https://acortar.link/oNthLL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+- Versión publicada en **YouTube** (para incrustar en el Landing Page):  
+  👉 [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
+
+⏱️ **Duración del video**: 6 minutos y 59 segundos
+
+---
+
+Este video permite a los usuarios y potenciales clientes tener una visión clara del sistema y sus beneficios, contribuyendo así a mejorar la adopción y entendimiento del ecosistema WaruSmart.
+
+
 ## Conclusiones
 
 - A partir del análisis realizado, se logró estructurar de manera inicial la solución **WaruSmart**, orientada a la gestión inteligente del riego mediante tecnologías IoT y plataformas web. La aplicación de técnicas como **Event Storming** y **Domain-Driven Design** permitió identificar los principales eventos, actores, comandos y políticas que formarán la base del sistema, asegurando una visión coherente de su funcionamiento.
 
 - La delimitación de **Bounded Contexts** y la elaboración de un **Context Mapping** permitieron organizar adecuadamente las distintas áreas funcionales del sistema, favoreciendo la modularidad, la escalabilidad futura y la claridad de responsabilidades. Este trabajo preliminar proporciona un marco sólido para el diseño posterior de la infraestructura técnica y el desarrollo de los microservicios correspondientes.
 
-- Durante el Sprint 1 se logró desplegar con éxito los tres pilares principales del sistema: **Landing Page**, **Frontend Web App** y **Backend API REST**. Esta entrega temprana permite validar la arquitectura distribuida y establecer la base para la integración continua entre los componentes del sistema.
+- Durante el Sprint 1 se logró desplegar con éxito los tres pilares principales del sistema: **Landing Page**, **Frontend Web App** y **Backend API REST**. Esta entrega temprana permitió validar la arquitectura distribuida y establecer la base para la integración continua entre los componentes del sistema.
+
+- En el Sprint 2 se fortaleció el ecosistema de WaruSmart con la incorporación de nuevas funcionalidades como la gestión de cultivos y parcelas, el monitoreo con dispositivos IoT, la autenticación de usuarios, el control de siembras por usuario y la visualización de datos en tiempo real. Estas funcionalidades han sido integradas tanto en el backend como en la aplicación web, permitiendo un flujo de trabajo más completo para los usuarios finales.
+
+- Además, se avanzó significativamente en la aplicación móvil y el módulo edge, sentando las bases para un monitoreo local de sensores IoT incluso en contextos sin conectividad estable. Esto amplía el alcance del sistema en zonas rurales.
 
 - Se evidenció una participación activa y distribuida del equipo de trabajo en los diferentes repositorios, con aportes significativos tanto en el diseño visual como en la lógica de negocio y la implementación técnica, lo cual refleja un enfoque colaborativo y disciplinado.
 
-- Las decisiones técnicas tomadas en este primer sprint permiten sentar una base estable para el desarrollo incremental del sistema en futuros sprints, minimizando riesgos de re-trabajo y alineando al equipo con buenas prácticas de ingeniería de software.
+- Las **entrevistas de validación** y las **pruebas heurísticas** que se ejecutarán en las siguientes fases permitirán retroalimentar el diseño actual con aportes reales de los usuarios y fortalecer la experiencia de uso.
 
----
+- Las decisiones técnicas tomadas hasta el momento, incluyendo el uso de Swagger para la documentación, control de versiones por ramas especializadas y despliegue continuo, permiten sentar una base estable para el desarrollo incremental del sistema en futuros sprints, minimizando riesgos de re-trabajo y alineando al equipo con buenas prácticas de ingeniería de software y diseño centrado en el usuario.
+
 
 ## Recomendaciones
 
@@ -3653,28 +4694,68 @@ Estos insights reflejan una dinámica de trabajo distribuido por especialidades 
 
 - Es importante establecer mecanismos tempranos de integración entre frontend y backend, mediante contratos de API bien definidos y pruebas de integración automatizadas, para evitar bloqueos en etapas posteriores del desarrollo.
 
-- Dado que el sistema está orientado a la interacción con dispositivos físicos IoT, se sugiere implementar desde el siguiente sprint una arquitectura de monitoreo y manejo de errores que contemple caídas de red, fallos de hardware o pérdida de sincronización con sensores.
+- Dado que el sistema está orientado a la interacción con dispositivos físicos IoT, se sugiere implementar desde el siguiente sprint una arquitectura de monitoreo y manejo de errores que contemple caídas de red, fallos de hardware o pérdida de sincronización con sensores, así como la posibilidad de operar en modo offline con sincronización posterior.
 
-- Documentar cada despliegue realizado, tanto en GitHub Pages como en Azure, asegurando que el equipo tenga visibilidad clara de las configuraciones empleadas y pueda reproducir el entorno en otras máquinas o entornos cloud.
+- Documentar cada despliegue realizado, tanto en GitHub Pages como en Azure y GitHub Actions, asegurando que el equipo tenga visibilidad clara de las configuraciones empleadas y pueda reproducir el entorno en otras máquinas o entornos cloud en caso de ser necesario.
 
-- Aprovechar los datos recopilados en los insights de colaboración para distribuir mejor las tareas en próximos sprints, fomentando el equilibrio de carga de trabajo y potenciando los perfiles técnicos de cada integrante.
+- Aprovechar los datos recopilados en los insights de colaboración para distribuir mejor las tareas en próximos sprints, fomentando el equilibrio de carga de trabajo, promoviendo sesiones de emparejamiento técnico (pair programming), y potenciando los perfiles individuales de cada integrante del equipo Codex.
+
+- Consolidar y versionar las pruebas automatizadas en un entorno común como `WaruSmart-Testing`, integrando Gherkin y BDD para mantener la trazabilidad entre funcionalidades y criterios de aceptación.
+
+- Iniciar la planificación de las sesiones de validación con usuarios mediante prototipos navegables o versiones demo, priorizando la experiencia móvil y la usabilidad en campo, que son críticas para el público objetivo agrícola.
 
 ## Video About-the-Team
 
+En esta sección se presenta un resumen del contenido incluido en el video **About-the-Team**, donde los integrantes del equipo **Codex** comparten su experiencia, motivaciones y aprendizajes durante el desarrollo del proyecto **WaruSmart**.
+
+También se incluye un testimonio grupal final donde el equipo resalta la importancia del trabajo conjunto, la planificación ágil y el impacto esperado de WaruSmart en la agricultura rural.
+
+### 📸 Captura del video:
+![Captura del equipo](https://res.cloudinary.com/dr5v9tizc/image/upload/v1750526443/Captura_AboutTheTeam_stnuon.png)
+
+### 🔗 Enlaces del video:
+
+- 📺 Versión en Microsoft Stream (entorno institucional):  
+  [https://acortar.link/2zanpT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeJW8_7VqChEsC3-pim2j6gBDNAUzd2r8Ew9AdhPQ2NcWQ?e=0MmFrL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+- 📺 Versión pública en YouTube (para insertar en Landing Page):  
+  [https://youtu.be/S_ZQc5pirhE](https://youtu.be/S_ZQc5pirhE)
+
+### ⏱️ Duración total del video:
+**8 minutos con 9 segundos**
+
+
 # Bibliografía
 
-# Anexos
-### Videos de Exposición
- 
- | Enlace                | Entregable |
- | --------------------- | ---------- |
- | https://goo.su/8Zz305 | TB1        |
- |                       | TP         |
- |                       | TB2        |
- |                       | TF         |
+# 📎 Anexos
 
-### Repositorio del Frontend
-https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform
+### 🎬 Videos de Exposición
 
-### Repositorio del Backend
-https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-web-services-backend
+| Enlace                                             | Entregable |
+|----------------------------------------------------|------------|
+| https://goo.su/8Zz305                              | TB1        |
+| https://acortar.link/Rpte06 | TB2 – Video About-the-Product |
+| https://acortar.link/aNhkdk | TB2 – Video Navegación Web |
+
+---
+
+### 💻 Repositorios del Proyecto WaruSmart
+
+- **Landing Page**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage)
+
+- **Frontend Web App**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Frontend-Vue](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Frontend-Vue)
+
+- **Backend Web Services**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Backend-ASP.NET](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Backend-ASP.NET)
+
+- **Mobile Application (Android)**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+
+- **Edge Device App (IoT)**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
+
+- **Fog App (interfaz intermedia IoT)**  
+  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
+
