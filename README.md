@@ -4208,7 +4208,7 @@ En este segundo sprint, el grupo se enfocó en fortalecer las funcionalidades de
 | US07-T04        | Elaboración de la sección en la web para visualización de la humedad ambiental                                                           | Done      |             33 | Web: humedad ambiental                             | Diseñar vista web para mostrar humedad del ambiente                      |                      3 | Christopher More        |
 | US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental                                                       | Done      |             34 | Web: temperatura ambiental                         | Crear componente para mostrar temperatura ambiental en cultivo           |                      3 | Christopher More        |
 
-#### 6.2.1.4 Development Evidence for Sprint Review
+#### 6.2.2.4 Development Evidence for Sprint Review
 
 En esta sección se detallan los avances clave en el desarrollo de los productos de la solución durante el Sprint 2, los cuales abarcan mejoras en la Web Application, la integración con dispositivos IoT, optimizaciones en los Web Services (API) y ajustes en la experiencia de usuario. A continuación, se muestra una tabla con los commits más representativos por repositorio, que evidencian el trabajo realizado por el equipo en función a las funcionalidades priorizadas para este sprint.
 
@@ -4243,7 +4243,7 @@ En esta sección se detallan los avances clave en el desarrollo de los productos
 
 A lo largo del trabajo comprendidos entre el 1 y el 21 de junio, se evidenció un avance sostenido y coordinado en todos los servicios de la solución WaruSmart. Se desarrollaron y refinaron funcionalidades en la landing page, la plataforma web, el backend, la aplicación móvil, el sistema fog y la app edge. Entre los principales logros destacan la autenticación por roles, gestión de cultivos y dispositivos IoT, visualización de datos en tiempo real, alertas móviles, control local desde el edge, y sincronización efectiva con el servidor. Este trabajo colaborativo permitió avanzar de forma integral hacia una plataforma robusta e interconectada.
 
-#### 6.2.1.5 Testing Suite Evidence for Sprint Review
+#### 6.2.2.5 Testing Suite Evidence for Sprint Review
 
 A continuación, se presenta la evidencia de la suite de pruebas automatizadas correspondiente al Sprint 2, la cual respalda el cumplimiento de las funcionalidades desarrolladas y validadas durante este ciclo de trabajo.
 
@@ -4259,7 +4259,7 @@ A continuación, se presenta la evidencia de la suite de pruebas automatizadas c
 
 Durante el Sprint 2, el equipo de desarrollo de WaruSmart continuó fortaleciendo la validación técnica de las funcionalidades implementadas, ampliando la cobertura de escenarios de prueba automatizados mediante el lenguaje Gherkin. Se incorporaron nuevas historias de usuario relacionadas con la gestión de cultivos, dispositivos IoT, autenticación y visualización de datos, las cuales fueron expresadas en archivos .feature. Cada escenario siguió la estructura Given-When-Then, asegurando una clara trazabilidad con los criterios de aceptación definidos. Estos artefactos se gestionaron en el repositorio WaruSmart-Testing, garantizando el control de calidad y la coherencia funcional en esta nueva fase de desarrollo.
 
-#### 6.2.1.6 Execution Evidence for Sprint Review
+#### 6.2.2.6 Execution Evidence for Sprint Review
 
 Durante este segundo sprint, se logró el despliegue de nuevos componentes clave del ecosistema WaruSmart, consolidando su arquitectura distribuida y su funcionalidad completa. Entre los avances se destacan las mejoras en el frontend, el despliegue del backend actualizado, la integración de la app móvil, el funcionamiento del Fog Computing y la conectividad de dispositivos Edge.
 
@@ -4311,7 +4311,7 @@ Durante este segundo sprint, se logró el despliegue de nuevos componentes clave
 
 ---
 
-#### 6.2.1.7 Services Documentation Evidence for Sprint Review
+#### 6.2.2.7 Services Documentation Evidence for Sprint Review
 
 Durante este sprint, se consolidó la documentación de servicios de WaruSmart a través del backend REST desplegado en Azure. El backend central permite gestionar múltiples entidades clave del sistema, como usuarios, parcelas, cultivos, dispositivos IoT y fases fenológicas. Gracias a Swagger UI, se puede explorar y probar cada uno de estos endpoints de forma estructurada y accesible para todo el equipo.
 
@@ -4337,7 +4337,7 @@ Durante este sprint, se consolidó la documentación de servicios de WaruSmart a
 
 ---
 
-#### 6.2.1.8 Software Deployment Evidence for Sprint Review
+#### 6.2.2.8 Software Deployment Evidence for Sprint Review
 
 Durante este sprint, se desplegaron exitosamente los principales componentes del sistema, lo que permite demostrar que se cuenta con una arquitectura modular y funcional:
 
@@ -4377,7 +4377,7 @@ Durante este sprint, se desplegaron exitosamente los principales componentes del
 
 Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (**frontend ↔ backend ↔ edge/fog ↔ mobile**), lo que confirma la viabilidad técnica de la solución WaruSmart.
 
-#### 6.2.1.9 Team Collaboration Insights during Sprint
+#### 6.2.2.9 Team Collaboration Insights during Sprint
 
 Durante el presente sprint, se evidenció una colaboración activa entre los integrantes del equipo en los distintos módulos del sistema WaruSmart: **Landing Page**, **Frontend Web App**, **Backend API**, **Mobile App**, **Edge App** y **Fog App**. A continuación, se presentan los insights obtenidos a partir de los repositorios del proyecto, los cuales reflejan el compromiso y la distribución del trabajo técnico entre los miembros.
 
@@ -4412,6 +4412,49 @@ Durante el presente sprint, se evidenció una colaboración activa entre los int
   *El módulo fog recibió múltiples contribuciones que permitieron establecer su rol como intermediario entre el edge y la nube, enfocándose en almacenamiento local temporal y retransmisión de datos. Se configuró como contenedor independiente.*
 
 Estos insights reflejan una dinámica de trabajo colaborativo distribuido por capas tecnológicas, manteniendo sincronía entre los módulos y garantizando una evolución coherente de la solución WaruSmart durante este sprint.
+
+### 6.2.3 Sprint 3
+
+#### 6.2.3.1 Sprint Planning 3
+
+Enlace al Trello:  <br>
+<img src = "">
+
+| **Sprint #**                        | **Sprint 2**                                                                                                                                                                                                                                            |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**      |                  |
+| **Date**                            |                 |
+| **Time**                            |                 |
+| **Location**                        | Virtual (Google Meet)             |
+| **Prepared By**                     |                                                                                                    |
+| **Attendees (to planning meeting)** | Victor Herrera, Anderson Macedo, Jeferson Cabrera, Christopher More, Fernando Quispe, Jair Velazquez, Carlos Pingus    |
+| **Sprint 2 Review Summary**         |                                          |
+| **Sprint 1 Retrospective Summary**  |                 |
+| **Sprint Goal and User Stories**    |   |
+| **Sprint 3 Velocity**               |                               |
+| **Suma de Story Points**            |                     |
+
+#### 6.2.3.2 Aspect Leaders and Collaborators
+
+#### 6.2.3.3 Sprint Backlog 3
+
+#### 6.2.3.4 Development Evidence for Sprint Review
+
+#### 6.2.3.5 Testing Suite Evidence for Sprint Review
+
+#### 6.2.3.6 Execution Evidence for Sprint Review
+
+- 📱 **Mobile Application (Kotlin)**  
+  Se desplegó una versión funcional para Android que permite a los agricultores visualizar la data de los sensores.  
+  👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+
+<img src="./Assets/Sprint3/mobile_execution1.jpg" style="width:200px">
+
+#### 6.2.3.7 Services Documentation Evidence for Sprint Review
+
+#### 6.2.3.8 Software Deployment Evidence for Sprint Review
+
+#### 6.2.3.9 Team Collaboration Insights during Sprint
 
 ## 6.3 Validation Interviews
 
