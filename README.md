@@ -1,6 +1,8 @@
-# WaruSmart-Codex-Report 
 
 <div align="center">
+
+# WaruSmart-Codex-Report 
+
   <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150" height="150">
@@ -46,39 +48,50 @@ NRC: 2947</h5>
 
 ### Registro de Informe
 
-| Versión | Fecha    | Autor(es)                                                                                                                                                                                                                     | Descripción de modificación                                                                                                 |
-|---------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| 0.1     | 04/04/25 | Anderson Walter Macedo Calsina                                                                                                                                                                                                | Redacción del Perfil Inicial                                                                                                 |
-| 0.2     | 06/04/25 | Jeferson Smith Cabrera Camizan                                                                                                                                                                                                | Proceso Lean UX, Mapeo de Eventos, Recolección de Testimonios, Contextos Delimitados                                       |
-| 0.3     | 09/04/25 | Christopher Sebastian More Rondon                                                                                                                                                                                             | Modelo C4, Encuesta Inicial                                                                                                  |
-| 0.4     | 10/04/25 | Fernando Daniel Quispe Condori                                                                                                                                                                                                | Perfil de Startup, Perfil de Solución, Entrevistas, Mapeo de Impacto, Cartografía de Contexto                              |
-| 0.5     | 11/04/25 | Jair Velasquez Pizarro                                                                                                                                                                                                         | Precisión del Context Mapping, Reconocimiento de Ámbitos Delimitados                                                       |
-| 0.6     | 12/04/25 | Carlos Daniel Pingus Rodriguez                                                                                                                                                                                                | Ajustes en el Impact Mapping, Primeros Casos de Uso                                                                         |
-| 0.7     | 14/04/25 | Victor Raul Herrera Castillo                                                                                                                                                                                                  | Ajuste de Hipótesis UX, Preparación de Cuestionarios                                                                        |
-| 0.8     | 17/04/25 | Anderson Walter Macedo Calsina, Christopher Sebastian More Rondon                                                                                                                                                             | Correcciones al Modelo C4, Creación de Perfiles de Usuario                                                                  |
-| 0.9     | 20/04/25 | Fernando Daniel Quispe Condori, Jair Velasquez Pizarro                                                                                                                                                                         | Escenario As-Is, Elaboración de Mapas de Empatía                                                                            |
-| 1.0     | 22/04/25 | Todos los miembros                                                                                                                                                                                                            | Versión final de TB1: Portada, Historial de Cambios, Introducción, Necesidades, Detalles Técnicos, Propuesta de Solución    |
-| 1.1     | 12/09/25 | Christopher Sebastian More Rondon, Fernando Daniel Quispe Condori                                                                                                                                                             | Elaboración de User Journey Mapping y actualización de User Task Matrix                                                     |
-| 1.2     | 15/09/25 | Jeferson Smith Cabrera Camizan, Victor Raul Herrera Castillo                                                                                                                                                                  | Sistematización y análisis de entrevistas, identificación de patrones de necesidad                                          |
-| 1.3     | 20/09/25 | Carlos Daniel Pingus Rodriguez, Jair Velasquez Pizarro                                                                                                                                                                         | Revisión y ajustes del Impact Mapping; construcción del escenario To-Be y validación con hallazgos previos                 |
-| 1.4     | 23/09/25 | Anderson Walter Macedo Calsina, Fernando Daniel Quispe Condori                                                                                                                                                                | Desarrollo de User Stories priorizadas con sus respectivos criterios de aceptación                                          |
-| 1.5     | 25/09/25 | Victor Raul Herrera Castillo, Jeferson Smith Cabrera Camizan                                                                                                                                                                  | Definición estructurada del Product Backlog y priorización mediante MoSCoW                                                  |
+| Versión | Fecha    | Autor(es)                                                                                                                                                                                                                     | Descripción de modificación                                                                                                      |
+|---------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| 0.1     | 04/04/25 | Anderson Walter Macedo Calsina                                                                                                                                                                                                | Redacción del Perfil Inicial                                                                                                     |
+| 0.2     | 06/04/25 | Jeferson Smith Cabrera Camizan                                                                                                                                                                                                | Proceso Lean UX, Mapeo de Eventos, Recolección de Testimonios, Contextos Delimitados                                             |
+| 0.3     | 09/04/25 | Christopher Sebastian More Rondon                                                                                                                                                                                             | Modelo C4, Encuesta Inicial                                                                                                      |
+| 0.4     | 10/04/25 | Fernando Daniel Quispe Condori                                                                                                                                                                                                | Perfil de Startup, Perfil de Solución, Entrevistas, Mapeo de Impacto, Cartografía de Contexto                                    |
+| 0.5     | 11/04/25 | Jair Velasquez Pizarro                                                                                                                                                                                                         | Precisión del Context Mapping, Reconocimiento de Ámbitos Delimitados                                                             |
+| 0.6     | 12/04/25 | Carlos Daniel Pingus Rodriguez                                                                                                                                                                                                | Ajustes en el Impact Mapping, Primeros Casos de Uso                                                                              |
+| 0.7     | 14/04/25 | Victor Raul Herrera Castillo                                                                                                                                                                                                  | Ajuste de Hipótesis UX, Preparación de Cuestionarios                                                                             |
+| 0.8     | 17/04/25 | Anderson Walter Macedo Calsina, Christopher Sebastian More Rondon                                                                                                                                                             | Correcciones al Modelo C4, Creación de Perfiles de Usuario                                                                       |
+| 0.9     | 20/04/25 | Fernando Daniel Quispe Condori, Jair Velasquez Pizarro                                                                                                                                                                         | Escenario As-Is, Elaboración de Mapas de Empatía                                                                                 |
+| 1.0     | 22/04/25 | Todos los miembros                                                                                                                                                                                                            | Versión final de TB1: Portada, Historial de Cambios, Introducción, Necesidades, Detalles Técnicos, Propuesta de Solución         |
+| 1.1     | 12/09/25 | Christopher Sebastian More Rondon, Fernando Daniel Quispe Condori                                                                                                                                                             | Elaboración de User Journey Mapping y actualización de User Task Matrix                                                          |
+| 1.2     | 15/09/25 | Jeferson Smith Cabrera Camizan, Victor Raul Herrera Castillo                                                                                                                                                                  | Sistematización y análisis de entrevistas, identificación de patrones de necesidad                                               |
+| 1.3     | 20/09/25 | Carlos Daniel Pingus Rodriguez, Jair Velasquez Pizarro                                                                                                                                                                         | Revisión y ajustes del Impact Mapping; construcción del escenario To-Be y validación con hallazgos previos                       |
+| 1.4     | 23/09/25 | Anderson Walter Macedo Calsina, Fernando Daniel Quispe Condori                                                                                                                                                                | Desarrollo de User Stories priorizadas con sus respectivos criterios de aceptación                                               |
+| 1.5     | 25/09/25 | Victor Raul Herrera Castillo, Jeferson Smith Cabrera Camizan                                                                                                                                                                  | Definición estructurada del Product Backlog y priorización mediante MoSCoW                                                       |
 | 2.0     | 28/09/25 | Todos los miembros                                                                                                                                                                                                            | Finalización de TP1: Consolidación de artefactos de diseño, implementación inicial de la Landing Page, planificación de Sprint 1 |
-| 2.1     | 02/10/24 | Cancho Coila Diego                                                                                                                                                                                                              | Sprint Planning 1: Preparación del entorno y gestión de tareas                                                             |
-| 2.2     | 08/10/24 | Arenas Conde José Anthony                                                                                                                                                                                                      | Implementación de Landing Page, secciones esenciales y pruebas de usabilidad                                               |
-| 2.3     | 11/10/24 | Lagos Aguilar, Luis Eduardo                                                                                                                                                                                                     | Configuración del entorno de desarrollo, gestión de código fuente                                                          |
-| 2.4     | 14/10/24 | Guerrero Castillo, Anthony Jeandet                                                                                                                                                                                              | Revisión del Sprint 1, evidencias y pruebas de accesibilidad                                                              |
-| 2.5     | 16/10/24 | Chamorro Torres, Samuel Rolando                                                                                                                                                                                                | Despliegue de Landing Page y preparación para Sprint 2                                                                     |
-| 2.6     | 20/10/24 | Cancho Coila Diego                                                                                                                                                                                                              | Sprint Planning 2: Definición de REST Endpoints y configuración UI                                                         |
-| 2.7     | 23/10/24 | Arenas Conde José Anthony                                                                                                                                                                                                      | Integración de componentes UI y gestión de grupos                                                                           |
-| 2.8     | 25/10/24 | Lagos Aguilar, Luis Eduardo                                                                                                                                                                                                     | Desarrollo de funcionalidades de cuenta y pruebas de integración                                                           |
-| 2.9     | 30/10/24 | Guerrero Castillo, Anthony Jeandet                                                                                                                                                                                              | Configuración de pruebas y validación de datos en tiempo real con esas nuevas actividades                                   |
-| 3.0     | 03/11/24 | Todos los miembros                                                                                                                                                                                                            | Finalización de TB2: Implementación de funcionalidades clave de gestión de usuarios y cuentas                              |
+| 2.1     | 02/10/24 | Cancho Coila Diego                                                                                                                                                                                                              | Sprint Planning 1: Preparación del entorno y gestión de tareas                                                                   |
+| 2.2     | 08/10/24 | Arenas Conde José Anthony                                                                                                                                                                                                      | Implementación de Landing Page, secciones esenciales y pruebas de usabilidad                                                     |
+| 2.3     | 11/10/24 | Lagos Aguilar, Luis Eduardo                                                                                                                                                                                                     | Configuración del entorno de desarrollo, gestión de código fuente                                                                |
+| 2.4     | 14/10/24 | Guerrero Castillo, Anthony Jeandet                                                                                                                                                                                              | Revisión del Sprint 1, evidencias y pruebas de accesibilidad                                                                     |
+| 2.5     | 16/10/24 | Chamorro Torres, Samuel Rolando                                                                                                                                                                                                | Despliegue de Landing Page y preparación para Sprint 2                                                                           |
+| 2.6     | 20/10/24 | Cancho Coila Diego                                                                                                                                                                                                              | Sprint Planning 2: Definición de REST Endpoints y configuración UI                                                               |
+| 2.7     | 23/10/24 | Arenas Conde José Anthony                                                                                                                                                                                                      | Integración de componentes UI y gestión de grupos                                                                                |
+| 2.8     | 25/10/24 | Lagos Aguilar, Luis Eduardo                                                                                                                                                                                                     | Desarrollo de funcionalidades de cuenta y pruebas de integración                                                                 |
+| 2.9     | 30/10/24 | Guerrero Castillo, Anthony Jeandet                                                                                                                                                                                              | Configuración de pruebas y validación de datos en tiempo real con esas nuevas actividades                                        |
+| 3.0     | 03/11/24 | Todos los miembros                                                                                                                                                                                                            | Finalización de TB2: Implementación de funcionalidades clave de gestión de usuarios y cuentas                                    |
+| 3.1     | 09/07/25  | Victor Raul Herrera Castillo, Jair Velasquez Pizarro       | Desarrollo del Sprint Planning 3 definición de objetivos del sprint, backlog y responsables técnicos                             |
+| 3.2     | 11/07/25  | Carlos Daniel Pingus Rodriguez, Jeferson Smith Cabrera     | Integración del sistema de sensores IoT es mediante Rest y microservicio Edge                                                    |
+| 3.3     | 13/07/25  | Anderson Walter Macedo Calsina                             | Desarrollo de lógica de alertas críticas y visualización de métricas ambientales                                                 |
+| 3.4     | 14/07/25  | Christopher Sebastian More Rondon                          | Implementación de gráficos interactivos y mejoras en la experiencia de usuario en frontend                                       |
+| 3.5     | 15/07/25  | Fernando Daniel Quispe Condori                             | Optimización de interfaz móvil, navegación fluida y vista de alertas                                                             |
+| 3.6     | 17/07/25  | Jair Velasquez Pizarro, Carlos Daniel Pingus Rodriguez     | Validación funcional de automatización en campo y retroalimentación técnica                                                      |
+| 3.7     | 18/07/25  | Victor Raul Herrera Castillo, Fernando Daniel Quispe       | Recopilación de feedback de agricultores reales y ajustes a funcionalidades clave                                                |
+| 3.8     | 20/07/25  | Jeferson Smith Cabrera Camizan, Anderson Walter Macedo     | Documentación técnica del sistema IoT, interfaz y despliegue web/móvil                                                           |
+| 3.9     | 22/07/25  | Christopher More, Jair Velasquez, Victor Herrera           | Pruebas finales, mejoras de rendimiento, evidencia de integración total                                                          |
+| 4.0     | 23/07/25  | Todos los miembros                                         | Finalización de TF: validación en campo, despliegue completo del sistema WaruSmart                                               |
+
 
 ### Project Report Collaboration Insights
 
-**URL del repositorio para el reporte del proyecto:** https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Codex-Report/tree/develop
-**Link de los repositorios de la oraganización:** https://github.com/upc-pre-202510-1asi0572-2947-codex
+**URL del repositorio para el reporte del proyecto:** https://acortar.link/CRGD3H
+**Link de los repositorios de la oraganización:** https://acortar.link/XId2ym
 
 **TB1**
 
@@ -129,6 +142,7 @@ Este gráfico ilustra las contribuciones de cada miembro durante el desarrollo d
 La imagen proporciona una representación visual de las actividades registradas en nuestro repositorio y la interacción de los miembros a lo largo del proceso de trabajo.
 
 Estas evidencias reflejan una colaboración equilibrada y eficiente, donde cada miembro ha aportado significativamente al progreso y desarrollo de la solución.
+
 **TB2**
 
 En esta segunda entrega (TB2), el objetivo principal fue la implementación de funcionalidades clave de WaruSmart, nuestra solución para la automatización del riego agrícola. Durante este periodo, se presentaron nuevas versiones para el desarrollo web y las primeras implementaciones de sistemas IoT, como edge computing y el backend. Además, comenzamos con el desarrollo de la aplicación Android, utilizando herramientas especializadas como JetBrains y sus IDE para Python en el backend, Vite en el desarrollo web, WebStorm para el frontend, y Android Studio para el desarrollo nativo de la aplicación móvil.
@@ -155,6 +169,33 @@ Este gráfico ilustra las contribuciones de cada miembro durante el desarrollo d
 La imagen proporciona una representación visual de las actividades registradas en nuestro repositorio y la interacción de los miembros a lo largo del proceso de trabajo.
 
 Estas evidencias reflejan una colaboración equilibrada y eficiente, donde cada miembro ha aportado significativamente al progreso y desarrollo de la solución.
+
+**TF – Trabajo Final**
+
+En esta entrega final (TF), el enfoque principal fue consolidar el desarrollo completo de WaruSmart, nuestra solución IoT para la automatización del riego agrícola. Este periodo se caracterizó por la integración definitiva entre los módulos web, móvil y sistemas embebidos (IoT), realizando validaciones funcionales en campo con agricultores reales, y mejorando el rendimiento y la experiencia de usuario en todas las plataformas.
+
+Además, se documentaron los procesos técnicos clave y se recolectaron evidencias de despliegue, validación de sensores, visualización de métricas y funcionamiento del sistema bajo condiciones reales. También se trabajó en la optimización de la interfaz móvil, la generación de alertas en tiempo real y el monitoreo visual histórico desde el frontend. Las herramientas empleadas incluyeron JetBrains para backend en C#, Vue-Vite y WebStorm para frontend, Android Studio para móvil, y Arduino Ide entre sensores y el sistema central.
+
+Todos los miembros del equipo participaron activamente en esta fase crítica, manteniendo una colaboración constante mediante herramientas como GitHub, Trello, UXPressia y Miro. A continuación, se detallan las tareas desarrolladas por cada integrante del equipo durante el cierre técnico del proyecto:
+
+| Integrante                         | Tareas Asignadas                                                                                                   |
+| ---------------------------------- |--------------------------------------------------------------------------------------------------------------------|
+| Anderson Walter Macedo Calsina     | Optimización de APIs en C#, pruebas de rendimiento y despliegue del backend                                        |
+| Cabrera Camizan, Jeferson Smith    | Integración final del sistema IoT con sensores físicos, validación en campo, ajustes en microservicios Edge        |
+| More Rondon, Christopher Sebastian | Mejoras en la interfaz web, implementación de gráficos históricos, pruebas de usabilidad en múltiples dispositivos |
+| Quispe Condori, Fernando Daniel    | Validación funcional con agricultores, mejoras en interfaz móvil y documentación de prototipos                     |
+| Velasquez Pizarro, Jair            | Ajuste de alertas, pruebas en tiempo real, coordinación técnica del Product Backlog final                          |
+| Pingus Rodriguez, Carlos Daniel    | Revisión de arquitectura IoT, verificación de flujo de datos desde sensores al dashboard                           |
+| Herrera Castillo, Victor Raul      | Actualización de diagramas C4, documentación de infraestructura, consolidación del sistema para cierre del TF      |
+
+![TF](https://res.cloudinary.com/djia8bsvr/image/upload/v1750477926/Screenshot_2025-06-20_225156_u7pj98.png)
+
+Este gráfico ilustra las contribuciones de cada miembro durante la culminación del TF de WaruSmart.
+
+La imagen proporciona una representación visual de las actividades registradas en nuestro repositorio y la interacción de los miembros a lo largo del proceso final de desarrollo.
+
+Estas evidencias reflejan una colaboración sólida, un alto grado de responsabilidad técnica y el cumplimiento de todos los objetivos planteados para el cierre del proyecto WaruSmart.
+
 
 # Contenido
 
@@ -4412,6 +4453,317 @@ Durante el presente sprint, se evidenció una colaboración activa entre los int
   *El módulo fog recibió múltiples contribuciones que permitieron establecer su rol como intermediario entre el edge y la nube, enfocándose en almacenamiento local temporal y retransmisión de datos. Se configuró como contenedor independiente.*
 
 Estos insights reflejan una dinámica de trabajo colaborativo distribuido por capas tecnológicas, manteniendo sincronía entre los módulos y garantizando una evolución coherente de la solución WaruSmart durante este sprint.
+
+### 6.2.3 Sprint 3
+
+#### 6.2.3.1 Sprint Planning 3
+
+Enlace al Trello: [https://trello.com/b/yITmdUYn/warusmart-sprint-planning-3](https://trello.com/b/yITmdUYn/warusmart-sprint-planning-3)  
+<img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750520336/Trello_Sprint2.png" alt="Tablero Trello Sprint 3">
+
+| **Sprint #**                        | **Sprint 3**                                                                                                                                                                                                              |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**      |                                                                                                                                                                                                                           |
+| **Date**                            | 2025-06-20                                                                                                                                                                                                                |
+| **Time**                            | 20:00 PM – 21:30 PM                                                                                                                                                                                                       |
+| **Location**                        | Virtual (Google Meet)                                                                                                                                                                                                     |
+| **Prepared By**                     | Victor Raul Herrera Castillo                                                                                                                                                                                              |
+| **Attendees (to planning meeting)** | Victor Herrera, Anderson Macedo, Jeferson Cabrera, Christopher More, Fernando Quispe, Jair Velazquez, Carlos Pingus                                                                                                       |
+| **Sprint 2 Review Summary**         | Se revisaron los avances del Sprint 2, validando los servicios principales del backend y la conexión inicial con sensores. Se identificaron mejoras en pruebas en tiempo real y documentación técnica.                    |
+| **Sprint 2 Retrospective Summary**  | Se resaltó la importancia de definir tareas más claras y específicas, así como mejorar la validación cruzada entre frontend y backend para evitar errores de sincronización y datos inconsistentes.                       |
+| **Sprint Goal and User Stories**    | En este sprint se consolidará la integración entre sensores IoT, backend y frontend. Se implementará la lógica de visualización de métricas históricas, y se realizarán pruebas funcionales con usuarios reales en campo. |
+| **Sprint 3 Velocity**               | 124 puntos                                                                                                                                                                                                                |
+| **Suma de Story Points**            | 124 puntos                                                                                                                                                                                                                |
+
+El Sprint 3 se planificó en una sesión virtual por Google Meet con la participación de todos los miembros del equipo. Se discutieron los aprendizajes del sprint anterior y se establecieron objetivos concretos centrados en la validación del sistema en campo, integración completa de sensores IoT con la interfaz, y documentación técnica. El equipo trabajará con una carga total de 124 puntos de historia, priorizando tareas críticas para el despliegue funcional del sistema WaruSmart.
+
+#### 6.2.3.2 Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz **Leadership-and-Collaboration Matrix (LACX)** correspondiente al Sprint 3. Esta matriz organiza los principales módulos funcionales de WaruSmart según los Bounded Contexts definidos, indicando qué miembros del equipo asumieron el liderazgo (**L**) y quiénes participaron como colaboradores (**C**). Esta estructura garantiza una ejecución efectiva, claridad de responsabilidades y un trabajo colaborativo basado en las competencias técnicas de cada integrante.
+
+La distribución se definió considerando la experiencia previa en backend, frontend, IoT y diseño de servicios, y fue clave para el cumplimiento de los objetivos técnicos establecidos en el Sprint Backlog 3.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Suscription and Payments** | **IAM** | **Profile Preferences** | **Service Design & Planning** | **IoT Resource Management** | **Service Operation Monitoring (Crops)** | **Analytics Management** |
+| --------------------------------------- | ------------------- | ---------------------------- | ------- | ----------------------- | ----------------------------- | --------------------------- | ---------------------------------------- | ------------------------ |
+| **Quispe Condori, Fernando Daniel**     | `fdaniel13s`        | C                            | C       |                         | L                             | C                           | C                                        | C                        |
+| **Velasquez Pizarro, Jair**             | `Purak189`          |                              | C       |                         |                               | L                           | C                                        |                          |
+| **Cabrera Camizan, Jeferson Smith**     | `Jeferson11C`       |                              |         |                         | C                             | C                           | L                                        | C                        |
+| **Herrera Castillo, Victor Raul**       | `VictorHerrera10`   | C                            | C       | L                       |                               |                             |                                          |                          |
+| **Macedo Calsina, Anderson Walter**     | `AnderMacedo`       | L                            |         |                         |                               |                             |                                          |                          |
+| **More Rondon, Christopher Sebastian**  | `christopherMore1`  |                              |         |                         | C                             |                             | C                                        | L                        |
+| **Pingus Rodriguez, Carlos Daniel**     | `KazutoTR`          | C                            | L       |                         |                               |                             |                                          |                          |
+
+Durante este Sprint, cada integrante asumió un rol técnico clave. Anderson lideró el módulo de **Suscripciones y Pagos**, estructurando los flujos de planes según niveles de acceso. Carlos lideró la implementación del módulo **IAM**, consolidando la autenticación y permisos del sistema. Victor estuvo a cargo de las **preferencias de perfil**, coordinando su integración con la experiencia del usuario.
+
+Fernando tomó el liderazgo en el diseño del módulo de **Planificación del Servicio**, organizando tareas de riego programado. Jair y Jeferson enfocaron sus esfuerzos en la integración técnica del módulo **IoT y Monitoreo de cultivos**, validando la comunicación con sensores reales. Finalmente, Christopher lideró la visualización de datos en el contexto de **Analytics**, implementando gráficos útiles y consultas clave para la toma de decisiones de los usuarios.
+
+Esta distribución estratégica permitió avanzar de manera coordinada, maximizando las fortalezas individuales y fomentando una colaboración efectiva durante el Sprint 3.
+
+#### 6.2.3.3 Sprint Backlog 3
+
+En este segundo sprint, el grupo se enfocó en fortalecer las funcionalidades del sistema para brindar una experiencia más completa al agricultor. Se implementaron mejoras en el panel de gestión y monitoreo de cultivos, integrando dispositivos IoT para obtener datos en tiempo real. Además, se desarrollaron herramientas gráficas de visualización del estado del cultivo, ajustes de umbrales de alerta y nuevas opciones de interacción con parcelas y sensores, permitiendo al usuario tomar decisiones de manera más informada y precisa.
+
+| User Story - ID | User Story - Title                                                                                                                       | Status    | Work Item - ID | Work Item - Title                                  | Work Item - Description                                                  | Work Item - Estimation | Work Item - Assigned To |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :-------- | -------------: | :------------------------------------------------- | :----------------------------------------------------------------------- | ---------------------: | :---------------------- |
+| E2-US06         | Visualización de temperatura y humedad del suelo en web                                                                                  | To Review |             01 | Visualización de temperatura y humedad d...        | Tarea relacionada con visualización de temperatura y humedad del suelo e |                      3 | Fernando Quispe         |
+| E2-US07         | Visualización de humedad ambiental y temperatura del aire                                                                                | To Review |             02 | Visualización de humedad ambiental y tem...        | Tarea relacionada con visualización de humedad ambiental y temperatura d |                      3 | Victor Herrera          |
+| E2-US10         | Registro histórico de condiciones ambientales en la web                                                                                  | To Review |             03 | Registro histórico de condiciones ambien...        | Tarea relacionada con registro histórico de condiciones ambientales en l |                      4 | Fernando Quispe         |
+| E2-US35         | Visualización de temperatura y humedad del suelo en movil                                                                                | To Review |             04 | Visualización de temperatura y humedad d...        | Tarea relacionada con visualización de temperatura y humedad del suelo e |                      3 | Victor Herrera          |
+| E3 - MS10       | Configuracion en los dispositivos de los umbrales de riego                                                                               | To Review |             05 | Configuracion en los dispositivos de los...        | Tarea relacionada con configuracion en los dispositivos de los umbrales  |                      5 | Fernando Quispe         |
+| TS06 - T21      | Recepcion de datos de sensores a través de REST para actuar                                                                              | To Review |             06 | Recepcion de datos de sensores a través ...        | Tarea relacionada con recepcion de datos de sensores a través de rest pa |                      4 | Victor Herrera          |
+| TS08 - T19      | Lógica de almacenamiento en la Edge App de los datos.                                                                                    | To Review |             07 | Lógica de almacenamiento en la Edge App ...        | Tarea relacionada con lógica de almacenamiento en la edge app de los dat |                      6 | Jair Velasquez          |
+| TS09 - T18      | Exposicion de la data del Fog App para enviar al backend                                                                                 | To Review |             08 | Exposicion de la data del Fog App para e...        | Tarea relacionada con exposicion de la data del fog app para enviar al b |                      4 | Jair Velasquez          |
+| TS11 - T20      | Gestionar en la Fog APP todos los Edge que se conectarán                                                                                 | To Review |             09 | Gestionar en la Fog APP todos los Edge q...        | Tarea relacionada con gestionar en la fog app todos los edge que se cone |                      5 | Carlos Pingus           |
+| TS12 - T17      | En el Fog App realizar la implementación de las alertas bajo una alerta                                                                  | To Review |             10 | En el Fog App realizar la implementación...        | Tarea relacionada con en el fog app realizar la implementación de las al |                      6 | Jair Velasquez          |
+| TS27 - T14      | Elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad                                                      | To Review |             11 | Elaboración del endpoint para brindar po...        | Tarea relacionada con elaboración del endpoint para brindar por suelo de |                      5 | Fernando Quispe         |
+| TS27 - T15      | Elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa                                            | To Review |             12 | Elaboración del endpoint para ofrecer to...        | Tarea relacionada con elaboración del endpoint para ofrecer todas las al |                      5 | Victor Herrera          |
+| TS28 - T12      | Elaboración de la lógica para almacenar en el backend las lecturas atmosféricas                                                          | To Review |             13 | Elaboración de la lógica para almacenar ...        | Tarea relacionada con elaboración de la lógica para almacenar en el back |                      5 | Fernando Quispe         |
+| TS28 - T13      | Elaboración del endpoint para brindar la información general de las lecturas atmosféricas por cultivo                                    | To Review |             14 | Elaboración del endpoint para brindar la...        | Tarea relacionada con elaboración del endpoint para brindar la informaci |                      5 | Victor Herrera          |
+| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental del cultivo en la información general del cultivo web | To Review |             15 | Elaboración de la sección en la web para...        | Tarea relacionada con elaboración de la sección en la web para visualiza |                      3 | Christopher More        |
+| US10-TS25       | Mostrar reportes de humedad en la web                                                                                                    | To Review |             16 | Mostrar reportes de humedad en la web              | Tarea relacionada con mostrar reportes de humedad en la web              |                      3 | Christopher More        |
+| US13 - T11      | Elaboración de la visualización en información del cultivo (web) el riego automático por baja humedad del suelo.                         | To Review |             17 | Elaboración de la visualización en infor...        | Tarea relacionada con elaboración de la visualización en información del |                      3 | Fernando Quispe         |
+| US13 -T10       | Elaboración de la lógica de riego automático ante baja humedad del suelo                                                                 | To Review |             18 | Elaboración de la lógica de riego automá...        | Tarea relacionada con elaboración de la lógica de riego automático ante  |                      5 | Victor Herrera          |
+| US18-TS27       | Mostrar consumo de agua en la pagina web                                                                                                 | To Review |             19 | Mostrar consumo de agua en la pagina web           | Tarea relacionada con mostrar consumo de agua en la pagina web           |                      3 | Christopher More        |
+| US20 - T24      | Elaborar la sección para renderizar los reportes y el reporte de productividad por cultivo seleccionado en web                           | To Review |             20 | Elaborar la sección para renderizar los ...        | Tarea relacionada con elaborar la sección para renderizar los reportes y |                      3 | Victor Herrera          |
+| US27-TS28       | Visualizacion de reportes de productividad en movil                                                                                      | To Review |             21 | Visualizacion de reportes de productivid...        | Tarea relacionada con visualizacion de reportes de productividad en movi |                      4 | Fernando Quispe         |
+| US28-TS29       | Visualizar registros de riegos en movil                                                                                                  | To Review |             22 | Visualizar registros de riegos en movil            | Tarea relacionada con visualizar registros de riegos en movil            |                      4 | Anderson Macedo         |
+| US47 - T16      | En el Edge App realizar la implementación de preferencia de horario de riego                                                             | To Review |             23 | En el Edge App realizar la implementació...        | Tarea relacionada con en el edge app realizar la implementación de prefe |                      6 | Jair Velasquez          |
+| US49-T03        | Elaborar la activity para permitir a las cooperativas la data de los cultivos asociados que poseen.                                      | To Review |             24 | Elaborar la activity para permitir a las...        | Tarea relacionada con elaborar la activity para permitir a las cooperati |                      3 | Victor Herrera          |
+| TS27 - T14      | Elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad                                                      | To Review |             11 | Endpoint: temperatura y humedad por suelo          | Crear endpoint para consultar temperatura y humedad por tipo de suelo    |                      5 | Fernando Quispe         |
+| TS27 - T15      | Elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa                                            | To Review |             12 | Endpoint: alertas de cultivos por cooperativa      | Desarrollar API que liste alertas de cultivos por cooperativa            |                      5 | Victor Herrera          |
+| TS28 - T12      | Elaboración de la lógica para almacenar en el backend las lecturas atmosféricas                                                          | To Review |             13 | Lógica de almacenamiento de lecturas atmosféricas  | Programar almacenamiento backend para datos de sensores atmosféricos     |                      6 | Fernando Quispe         |
+| TS28 - T13      | Elaboración del endpoint para brindar la información general de las lecturas atmosféricas por cultivo                                    | To Review |             14 | Endpoint: lecturas atmosféricas por cultivo        | Crear endpoint para mostrar lecturas ambientales por cultivo             |                      5 | Victor Herrera          |
+| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental del cultivo                                           | To Review |             15 | Web: temperatura ambiental del cultivo             | Mostrar temperatura ambiental del cultivo en su vista principal          |                      3 | Christopher More        |
+| US10-TS25       | Mostrar reportes de humedad en la web                                                                                                    | To Review |             16 | Web: reportes de humedad                           | Diseñar componente web para visualizar reportes de humedad               |                      3 | Christopher More        |
+| US13 - T11      | Elaboración de la visualización en información del cultivo el riego automático por baja humedad del suelo                                | To Review |             17 | Visualización de riego automático por baja humedad | Mostrar estado de riego automático por baja humedad en cultivo           |                      4 | Fernando Quispe         |
+| US13 -T10       | Elaboración de la lógica de riego automático ante baja humedad del suelo                                                                 | To Review |             18 | Lógica de riego automático por humedad baja        | Implementar lógica de riego cuando humedad esté por debajo del umbral    |                      6 | Victor Herrera          |
+| US18-TS27       | Mostrar consumo de agua en la pagina web                                                                                                 | To Review |             19 | Web: consumo de agua                               | Implementar vista para mostrar consumo de agua del cultivo               |                      3 | Christopher More        |
+| US20 - T24      | Elaborar la sección para renderizar los reportes y el reporte de productividad por cultivo seleccionado                                  | To Review |             20 | Web: reporte de productividad por cultivo          | Crear módulo para visualizar reportes de productividad por cultivo       |                      4 | Christopher More        |
+| US27-TS28       | Visualización de reportes de productividad en movil                                                                                      | To Review |             21 | Móvil: reportes de productividad                   | Crear vista móvil para reportes de productividad por cultivo             |                      3 | Anderson Macedo         |
+| US28-TS29       | Visualizar registros de riegos en movil                                                                                                  | To Review |             22 | Móvil: registros de riegos                         | Implementar sección móvil para mostrar registros de riego                |                      3 | Anderson Macedo         |
+| US47 - T16      | En el Edge App realizar la implementación de preferencia de horario de riego                                                             | To Review |             23 | Edge App: preferencia de horario de riego          | Desarrollar lógica para configurar horarios de riego en Edge App         |                      6 | Jair Velasquez          |
+| US49-T03        | Elaborar la activity para permitir a las cooperativas la data de los cultivos asociados que poseen.                                      | To Review |             24 | Activity: cultivos asociados por cooperativa       | Crear activity para ver cultivos asociados a cooperativas en la app      |                      4 | Victor Herrera          |
+| TS03 - T22      | Elaborar la lógica del bounded context de analytics para brindar los reportes.                                                           | Done      |             25 | Lógica analytics: bounded context                  | Desarrollar lógica de contexto limitado para generación de reportes      |                      6 | Fernando Quispe         |
+| TS03 - T23      | Elaborar el endpoint para ofrecer información por cultivos para analítica                                                                | Done      |             26 | Endpoint analytics: datos por cultivo              | Crear endpoint que entregue datos de cultivo para análisis               |                      5 | Victor Herrera          |
+| TS30 - T08      | Elaboración de la lógica de umbrales estándar por cultivo                                                                                | Done      |             27 | Lógica: umbrales estándar por cultivo              | Programar lógica para definir umbrales por tipo de cultivo               |                      5 | Fernando Quispe         |
+| TS30 - T09      | Elaboración del endpoint para registrar umbrales de alerta por cultivo                                                                   | Done      |             28 | Endpoint: registro de umbrales                     | Implementar endpoint para guardar umbrales por cultivo                   |                      4 | Victor Herrera          |
+| TS31-T06        | Elaboración del endpoint GET para tener la data de los cultivos que pertenecen a los agricultores bajo las cooperativas.                 | Done      |             29 | Endpoint: cultivos por cooperativa                 | Crear endpoint GET para listar cultivos de agricultores en cooperativa   |                      4 | Fernando Quispe         |
+| TS31-T07        | Elaboración del rol en perfiles para gestionar Cooperativas y Agricultores                                                               | Done      |             30 | Gestión de roles: cooperativas y agricultores      | Añadir roles y permisos para gestión de usuarios según perfil            |                      5 | Victor Herrera          |
+| US06-T01        | Elaboración de la sección en la web para visualización de la temperatura del suelo                                                       | Done      |             31 | Web: temperatura del suelo                         | Mostrar temperatura del suelo en sección general del cultivo             |                      3 | Christopher More        |
+| US06-T02        | Elaboración de la sección en la web para visualización de la humedad del suelo                                                           | Done      |             32 | Web: humedad del suelo                             | Añadir visualización de humedad del suelo en pantalla principal          |                      3 | Christopher More        |
+| US07-T04        | Elaboración de la sección en la web para visualización de la humedad ambiental                                                           | Done      |             33 | Web: humedad ambiental                             | Diseñar vista web para mostrar humedad del ambiente                      |                      3 | Christopher More        |
+| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental                                                       | Done      |             34 | Web: temperatura ambiental                         | Crear componente para mostrar temperatura ambiental en cultivo           |                      3 | Christopher More        |
+
+#### 6.2.3.4 Development Evidence for Sprint Review
+
+En esta sección se detallan los avances clave en el desarrollo de los productos de la solución durante el Sprint 2, los cuales abarcan mejoras en la Web Application, la integración con dispositivos IoT, optimizaciones en los Web Services (API) y ajustes en la experiencia de usuario. A continuación, se muestra una tabla con los commits más representativos por repositorio, que evidencian el trabajo realizado por el equipo en función a las funcionalidades priorizadas para este sprint.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|----------------------|---------------------|
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 8e03a7b | fix: mejorar reconexión MQTT | Se ajustó la lógica de reconexión al broker MQTT para mayor estabilidad. | 06/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 4d7c99f | feat: agregar lectura continua de sensores | Se implementó la lectura periódica de humedad y temperatura desde sensores conectados. | 12/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 9f4cb2d | fix(ui): corrección en vista de parcelas | Se corrigió el scroll en la vista de detalle de parcelas para dispositivos pequeños. | 08/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 25a1e6e | feat: login con token del backend | Se integró autenticación usando JWT emitido por el backend. | 15/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/dashboard | a65fd12 | feat: integración de panel con sensores | Se enlazó el panel de control con datos recibidos desde los sensores vía backend. | 14/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/ui-enhancements | d23a9f1 | style: mejora en la experiencia del usuario | Se mejoró la navegación y estilos de botones para mayor accesibilidad. | 18/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | 57cdef1 | feat: procesamiento local de datos | Se añadió lógica para procesar datos de sensores y enviar solo datos relevantes al backend. | 13/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | b9e1a33 | fix: corrección en formateo de paquetes JSON | Se resolvió error al parsear paquetes de datos para envío a la nube. | 19/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/device-api | f730d4e | feat: nuevo endpoint para datos por dispositivo | Se implementó endpoint para consultar métricas por dispositivo registrado. | 05/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/alerts | 0a12e4b | feat: generación de alertas por umbral | Se habilitó lógica para generar alertas cuando los sensores superen valores críticos. | 20/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | feature/iot-update | c139d04b | feat: endpoint para actualizar dispositivos IoT | Permite modificar configuración de sensores desde el frontend. | 09/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 23a97b9f | feat: nueva pantalla de detalle de cultivo | Se muestra información del cultivo y sensores asociados. | 10/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | 90fb5c2d | fix: sincronización con edge corregida | Mejoras en lógica de sincronización con dispositivos edge. | 11/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 7c06c3be | feat: alertas por humedad baja | Se configuró evento de alerta por humedad bajo umbral. | 12/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/user-tracking | e7dbf460 | feat: seguimiento de actividad del usuario | Registro de interacción y cambios en tiempo real. | 13/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/sensors-dashboard | a4b1e243 | feat: visualización de datos de sensores | Se implementaron gráficos de humedad y temperatura por cultivo. | 14/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | 2c86be88 | feat: procesamiento local de decisiones de riego | Algoritmo local para activar bomba de agua automáticamente. | 15/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | develop | e6a71ff5 | fix: validaciones de seguridad en API de sensores | Se mejoró la seguridad de endpoints del sistema IoT. | 16/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/iot-panel | 27d4e72a | feat: panel interactivo para sensores por parcela | Nueva vista que muestra estado en tiempo real de sensores activos por parcela. | 17/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | 85b07f9c | feat: integración con bombas inteligentes | Se integró control automatizado de riego desde sensor local. | 17/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | 2de91b03 | feat: notificaciones push por condición crítica | Se activan alertas móviles ante detección de riesgo climático. | 18/06/2025 |
+| [Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) | develop | 630e859b | feat: endpoint resumen de estado general por usuario | Se devuelve estado consolidado de todos los cultivos activos del usuario. | 18/06/2025 |
+| [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App) | develop | b4f6ce72 | fix: mejora en el reintento de sincronización fallida | Se optimizó el proceso de reintentos en redes inestables. | 19/06/2025 |
+| [WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) | feature/user-role-management | 738ddfb1 | feat: control de roles y permisos para vistas | Se añadieron restricciones de acceso por tipo de usuario (agricultor/cooperativa). | 19/06/2025 |
+| [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App) | develop | ab1c547d | feat: control local de ventiladores por temperatura | Se activa ventilación automáticamente según valores umbral. | 20/06/2025 |
+| [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) | develop | d154f89a | fix: mejora de interfaz para gestión de parcelas | Se reorganizó diseño para facilidad de uso en pantallas pequeñas. | 21/06/2025 |
+
+A lo largo del trabajo comprendidos entre el 1 y el 21 de junio, se evidenció un avance sostenido y coordinado en todos los servicios de la solución WaruSmart. Se desarrollaron y refinaron funcionalidades en la landing page, la plataforma web, el backend, la aplicación móvil, el sistema fog y la app edge. Entre los principales logros destacan la autenticación por roles, gestión de cultivos y dispositivos IoT, visualización de datos en tiempo real, alertas móviles, control local desde el edge, y sincronización efectiva con el servidor. Este trabajo colaborativo permitió avanzar de forma integral hacia una plataforma robusta e interconectada.
+
+#### 6.2.3.5 Testing Suite Evidence for Sprint Review
+
+A continuación, se presenta la evidencia de la suite de pruebas automatizadas correspondiente al Sprint 2, la cual respalda el cumplimiento de las funcionalidades desarrolladas y validadas durante este ciclo de trabajo.
+
+| Repositorio/Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
+|--------------------|------------|-----------------|-----------------------|----------------------|
+| US01/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US01.feature | Herrera.Victor-feature-Sprint1-TU01 | 300d064 | add gherkin TU01 | 10/05/2025 |
+| US02/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US02.feature | Herrera.Victor-feature-Sprint1-TU02 | 300d064 | add gherkin TU02 | 10/05/2025 |
+| US03/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US03.feature | Herrera.Victor-feature-Sprint1-TU03 | 300d064 | add gherkin TU03 | 10/05/2025 |
+| US04/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US04.feature | Herrera.Victor-feature-Sprint1-TU04 | 300d064 | add gherkin TU04 | 10/05/2025 |
+| US05/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US05.feature | Herrera.Victor-feature-Sprint1-TU05 | 300d064 | add gherkin TU05 | 10/05/2025 |
+| US23/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US23.feature | Herrera.Victor-feature-Sprint1-TU23 | 300d064 | add gherkin TU23 | 10/05/2025 |
+| US24/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US24.feature | Herrera.Victor-feature-Sprint1-TU24 | 300d064 | add gherkin TU24 | 10/05/2025 |
+
+Durante el Sprint 2, el equipo de desarrollo de WaruSmart continuó fortaleciendo la validación técnica de las funcionalidades implementadas, ampliando la cobertura de escenarios de prueba automatizados mediante el lenguaje Gherkin. Se incorporaron nuevas historias de usuario relacionadas con la gestión de cultivos, dispositivos IoT, autenticación y visualización de datos, las cuales fueron expresadas en archivos .feature. Cada escenario siguió la estructura Given-When-Then, asegurando una clara trazabilidad con los criterios de aceptación definidos. Estos artefactos se gestionaron en el repositorio WaruSmart-Testing, garantizando el control de calidad y la coherencia funcional en esta nueva fase de desarrollo.
+
+#### 6.2.1.6 Execution Evidence for Sprint Review
+
+Durante este segundo sprint, se logró el despliegue de nuevos componentes clave del ecosistema WaruSmart, consolidando su arquitectura distribuida y su funcionalidad completa. Entre los avances se destacan las mejoras en el frontend, el despliegue del backend actualizado, la integración de la app móvil, el funcionamiento del Fog Computing y la conectividad de dispositivos Edge.
+
+- 🖥️ **Landing Page**  
+  Muestra la propuesta de valor del sistema y está desplegada en GitHub Pages. Se añadieron mejoras visuales y de navegación.  
+  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+
+- ⚙️ **Backend (Swagger - Azure App Service)**  
+  Se actualizó el backend con nuevos endpoints, validaciones y mejoras de seguridad para la gestión de usuarios, cultivos, siembras, sensores y dispositivos IoT.  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+- 💻 **Frontend Web App**  
+  Se implementaron nuevos componentes visuales para el panel de control, listado de dispositivos IoT, detalle de siembras y gestión de usuarios.  
+  👉 Evidencias gráficas del avance frontend:
+
+  ![Home](https://res.cloudinary.com/dydklnicb/image/upload/v1747349054/frontend-home-warusmart.png)  
+  *Vista del panel principal con métricas, menú y mapa.*
+
+  ![Sowings list](https://res.cloudinary.com/dydklnicb/image/upload/v1747349115/frontend-sowingslist-warusmart.png)  
+  *Listado de siembras con filtros y datos clave.*
+
+  ![IoT Management](https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png)  
+  *Gestión de dispositivos IoT por siembra.*
+
+- 📱 **Mobile Application (Kotlin)**  
+  Se desplegó una versión funcional para Android que permite a los agricultores registrar sus cultivos y consultar recomendaciones directamente desde el celular.  
+  👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+
+- 🌫️ **Fog Computing Node (WaruSmart-Fog-App)**  
+  Se configuró un microservicio intermedio que gestiona la recepción de datos de sensores desde dispositivos Edge y reenvía al backend central.  
+  👉 Repositorio: [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
+
+- 📡 **Edge Devices (WaruSmart-Edge-App)**  
+  Los dispositivos físicos de borde fueron integrados con la plataforma a través del microservicio Fog. Se probó correctamente la lectura de sensores y envío de datos.  
+  👉 Repositorio: [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
+
+- 🧠 **Embedded Application (ESP32 - Wokwi & Código físico)**  
+  Se incluyó un nuevo componente embebido que permite simular y probar localmente el funcionamiento de sensores a través del simulador Wokwi. También se encuentra disponible el código listo para ser cargado en dispositivos físicos ESP32, permitiendo su despliegue en campo.  
+  👉 Repositorio: [WaruSmart-Embedded-Application](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application)
+
+---
+
+- 🎬 **Video Navegación Web App:**  
+  👉 [Ver video](https://acortar.link/Xki4TX)  https://acortar.link/Xki4TX
+
+- 🎬 **Video del Edge y flujo fisico:**  
+  👉 [Ver video](https://acortar.link/dm1vqp) https://acortar.link/dm1vqp
+
+
+---
+
+#### 6.2.1.7 Services Documentation Evidence for Sprint Review
+
+Durante este sprint, se consolidó la documentación de servicios de WaruSmart a través del backend REST desplegado en Azure. El backend central permite gestionar múltiples entidades clave del sistema, como usuarios, parcelas, cultivos, dispositivos IoT y fases fenológicas. Gracias a Swagger UI, se puede explorar y probar cada uno de estos endpoints de forma estructurada y accesible para todo el equipo.
+
+- 📘 **Documentación del backend - Swagger UI**  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+**Evidencias visuales del backend**
+
+![Backend Swagger General](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
+*Vista general de la interfaz Swagger mostrando los endpoints activos organizados por recurso: usuarios, cultivos, parcelas, dispositivos, sensores, recomendaciones.*
+
+![Backend Endpoint IoT](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/exugpq5fnrf5p7rjtrqb.jpg)  
+*Detalle de los endpoints que permite registrar un nuevo dispositivo IoT y asignarlo a un cultivo específico.*
+
+![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
+*Prueba de los endpoints mostrando la respuesta exitosa con datos simulados de siembras asociadas al usuario autenticado.*
+
+![Backend Sowings by Phase](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.42.25_AM_yncr8e.jpg)  
+*Nuevo endpoint que permite actualizar o consultar la fase fenológica de un cultivo, facilitando el seguimiento agronómico.*
+
+![Backend Fog Endpoint](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.47.11_AM_fbvart.jpg)  
+*Integración de endpoints de comunicación Fog-to-Cloud para el envío seguro de datos desde sensores de borde.*
+
+---
+
+#### 6.2.1.8 Software Deployment Evidence for Sprint Review
+
+Durante este sprint, se desplegaron exitosamente los principales componentes del sistema, lo que permite demostrar que se cuenta con una arquitectura modular y funcional:
+
+- 🖥️ **Landing Page**  
+  Esta página de presentación está alojada en GitHub Pages y representa el punto de entrada informativo del proyecto WaruSmart.  
+  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+
+- ⚙️ **Backend API REST**  
+  Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone todos los endpoints necesarios para las operaciones internas del sistema.  
+  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+
+- 💻 **Web Platform (Frontend)**  
+  Desarrollada en Vue - Vite, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
+  👉 [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
+
+- 📱 **Mobile Application**  
+  La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
+  ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.45.26_AM_hseemj.jpg)
+
+- 📶 **Edge Application**  
+  Aplicación liviana diseñada para ejecutarse en dispositivos de borde (edge), encargada de recolectar datos desde sensores y enviarlos hacia la nube.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
+  ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.46.48_AM_wedj1u.jpg)
+
+- 🌩️ **Fog Application**  
+  Servicio intermedio desplegado entre los dispositivos y la nube, que gestiona el procesamiento local y asegura la disponibilidad en caso de desconexión.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
+  ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.54.19_AM_uqmchk.jpg)
+
+- 🧠 **Embedded Application**  
+  Componente crítico para el funcionamiento autónomo de los sensores y actuadores. Esta aplicación embebida se ejecuta directamente en los dispositivos físicos, permitiendo la lectura de datos ambientales y la ejecución de respuestas locales inmediatas.  
+  El repositorio incluye una simulación funcional en Wokwi, así como el código físico listo para ser configurado y desplegado en microcontroladores ESP32.  
+  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application)
+  ![Insight Wokwi](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.47.45_PM_dsopfd.jpg)
+  ![Insight Fisico](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.42.16_PM_kafxgt.jpg)
+
+Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (**frontend ↔ backend ↔ edge/fog ↔ mobile**), lo que confirma la viabilidad técnica de la solución WaruSmart.
+
+#### 6.2.1.9 Team Collaboration Insights during Sprint
+
+Durante el presente sprint, se evidenció una colaboración activa entre los integrantes del equipo en los distintos módulos del sistema WaruSmart: **Landing Page**, **Frontend Web App**, **Backend API**, **Mobile App**, **Edge App** y **Fog App**. A continuación, se presentan los insights obtenidos a partir de los repositorios del proyecto, los cuales reflejan el compromiso y la distribución del trabajo técnico entre los miembros.
+
+**🖥️ Colaboración en el desarrollo de la Landing Page**
+
+- ![Insight Landing Page](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314726/sknvodjw4eddrbsmatlu.jpg)  
+  *Se visualiza la evolución de commits en el repositorio del Landing Page, donde se implementaron ajustes visuales, mejoras de accesibilidad y contenido multilingüe. Los miembros a cargo realizaron despliegues progresivos en GitHub Pages.*
+
+**💻 Colaboración en el desarrollo del Frontend Web App**
+
+- ![Insight Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/iszfypdv193fbfkhzqyy.jpg)  
+  *El repositorio del frontend refleja una alta frecuencia de colaboraciones, enfocadas en la construcción de vistas como panel de control, módulos de siembras, visualización de dispositivos IoT y manejo de alertas. Se evidencia trabajo en equipo con revisión cruzada de código.*
+
+**⚙️ Colaboración en el desarrollo del Backend API**
+
+- ![Insight Backend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/sojaqz283ma9yvpkqsml.jpg)  
+  *Las contribuciones al backend se centraron en nuevos endpoints, ajustes en la arquitectura de dominio, integración de servicios REST para siembras y dispositivos, y documentación Swagger. El equipo mantuvo una dinámica de commits sostenida y progresiva.*
+
+**📱 Colaboración en el desarrollo de la Mobile Application**
+
+- ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104037_wrcxu4.png)  
+  *El desarrollo de la app móvil mostró aportes continuos orientados a navegación, localización de cultivos y gestión offline. La colaboración se extendió a pruebas en emuladores y validación de flujos críticos en producción.*
+
+**🌐 Colaboración en el desarrollo del Edge App**
+
+- ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104117_mzhqak.png)  
+  *El repositorio del componente edge evidencia el trabajo coordinado en funciones de lectura de sensores, envío de datos al fog y mecanismos de reconexión ante fallos. El desarrollo fue realizado considerando el entorno embebido.*
+
+**🌩️ Colaboración en el desarrollo del Fog App**
+
+- ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104155_pds5ir.png)  
+  *El módulo fog recibió múltiples contribuciones que permitieron establecer su rol como intermediario entre el edge y la nube, enfocándose en almacenamiento local temporal y retransmisión de datos. Se configuró como contenedor independiente.*
+
+Estos insights reflejan una dinámica de trabajo colaborativo distribuido por capas tecnológicas, manteniendo sincronía entre los módulos y garantizando una evolución coherente de la solución WaruSmart durante este sprint.
+
+
+
+
+
+
 
 ## 6.3 Validation Interviews
 
