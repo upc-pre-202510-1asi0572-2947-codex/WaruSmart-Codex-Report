@@ -4841,18 +4841,18 @@ A continuación se presentan los registros de las entrevistas realizadas a agric
 
 **Segmento1: Agricultores individuales**
 
-Entrevista 1: Moisés Luque
+Entrevista 1: Luis Moreno
 
-Edad: 47
+Edad: 28
 
-Departamento: Aucallama, Huaral
+Departamento: Pacaraos, Huaral
 
-![Entrevista WaruSmart Moises](Assets/interviews/Entrevista-WaruSmart-Moises.png)
+![Entrevista WaruSmart Moises](https://res.cloudinary.com/dydklnicb/image/upload/v1752230520/entrevista-validaci%C3%B3n.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EXuW4XXkLIhItSs9_jN5i7MBJRmzug7Giqo9J9O6CYVrsA?e=r5ytuc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/oE3tjw
 
 Resumen:
-Moisés Luque, agricultor de 47 años residente en Aucallama, comenta que utiliza su celular a diario, aunque en ocasiones tiene dificultades para manejarlo. Para llevar el registro de los riegos de sus cultivos, solía anotar las fechas y horas en un cuaderno, aunque reconoce que no siempre era constante con este hábito. Considera que los datos más importantes para el cuidado de sus cultivos son la cantidad de agua, el clima, el tipo de cultivo y el estado de la tierra. Ha tenido problemas en el pasado por no registrar adecuadamente los riegos, lo que le llevaba a regar de más o de menos, afectando el cultivo. También ha enfrentado dificultades técnicas, como la falta de agua o fallas en el sistema de riego, obligándolo a regar manualmente con ayuda, lo cual era más lento y menos eficiente. Al conocer la propuesta de WaruSmart, expresó interés, especialmente porque le permitiría organizar mejor los datos y recibir alertas sobre cuándo y cuánto regar. Afirmó que estaría dispuesto a pagar por el servicio si el precio es accesible y el sistema funciona bien, sugiriendo incluso una cuota mensual mínima. Finalmente, cree que esta herramienta también sería de gran ayuda para otros agricultores, ya que muchos aún trabajan de manera manual y tienen dificultades con el uso de tecnología.
+Luis Moreno, agricultor independiente de 28 años y residente en Pacaraos, Huaral, nos compartió su experiencia como productor agrícola. Mencionó que utiliza con frecuencia su celular, principalmente para comunicarse y revisar el clima, aunque reconoce que no está muy familiarizado con aplicaciones más complejas. Para gestionar sus cultivos, no lleva un registro sistemático del riego; en ocasiones simplemente se guía “por costumbre” o “viendo la tierra”, lo que ha derivado en riegos desbalanceados y afectaciones en sus cultivos. Considera que los datos más relevantes para su trabajo son la humedad del suelo, la temperatura, la época del año y el tipo de cultivo. Ha enfrentado dificultades, como la apertura tardía o descoordinada de válvulas de riego, y en algunas temporadas tuvo que depender exclusivamente de la observación manual, lo que le demandaba más tiempo y esfuerzo. Al conocer WaruSmart, se mostró entusiasta con la idea de tener un sistema automatizado que le indique cuándo y cuánto regar, además de visualizar el estado de su cultivo desde el celular. Le interesó especialmente la función de alertas y reportes automáticos. Comentó que, si el sistema es fácil de usar y tiene un costo accesible, estaría dispuesto a pagar una suscripción mensual. También señaló que una solución como esta podría beneficiar a muchos otros agricultores jóvenes de su zona, que están comenzando a digitalizar algunos procesos, pero aún dependen del trabajo manual.
 
 Entrevista 2: Walter Cayrampoma
 
