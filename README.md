@@ -4459,7 +4459,7 @@ Estos insights reflejan una dinámica de trabajo colaborativo distribuido por ca
 #### 6.2.3.1 Sprint Planning 3
 
 Enlace al Trello: [https://trello.com/b/yITmdUYn/warusmart-sprint-planning-3](https://trello.com/b/yITmdUYn/warusmart-sprint-planning-3)  
-<img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750520336/Trello_Sprint2.png" alt="Tablero Trello Sprint 3">
+<img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752226104/WaruSmart-SprintPlanning3.png" alt="Tablero Trello Sprint 3">
 
 | **Sprint #**                        | **Sprint 3**                                                                                                                                                                                                              |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -4469,8 +4469,8 @@ Enlace al Trello: [https://trello.com/b/yITmdUYn/warusmart-sprint-planning-3](ht
 | **Location**                        | Virtual (Google Meet)                                                                                                                                                                                                     |
 | **Prepared By**                     | Victor Raul Herrera Castillo                                                                                                                                                                                              |
 | **Attendees (to planning meeting)** | Victor Herrera, Anderson Macedo, Jeferson Cabrera, Christopher More, Fernando Quispe, Jair Velazquez, Carlos Pingus                                                                                                       |
-| **Sprint 2 Review Summary**         | Se revisaron los avances del Sprint 2, validando los servicios principales del backend y la conexión inicial con sensores. Se identificaron mejoras en pruebas en tiempo real y documentación técnica.                    |
-| **Sprint 2 Retrospective Summary**  | Se resaltó la importancia de definir tareas más claras y específicas, así como mejorar la validación cruzada entre frontend y backend para evitar errores de sincronización y datos inconsistentes.                       |
+| **Sprint 3 Review Summary**         | Se revisaron los avances del Sprint 2, validando los servicios principales del backend y la conexión inicial con sensores. Se identificaron mejoras en pruebas en tiempo real y documentación técnica.                    |
+| **Sprint 3 Retrospective Summary**  | Se resaltó la importancia de definir tareas más claras y específicas, así como mejorar la validación cruzada entre frontend y backend para evitar errores de sincronización y datos inconsistentes.                       |
 | **Sprint Goal and User Stories**    | En este sprint se consolidará la integración entre sensores IoT, backend y frontend. Se implementará la lógica de visualización de métricas históricas, y se realizarán pruebas funcionales con usuarios reales en campo. |
 | **Sprint 3 Velocity**               | 124 puntos                                                                                                                                                                                                                |
 | **Suma de Story Points**            | 124 puntos                                                                                                                                                                                                                |
