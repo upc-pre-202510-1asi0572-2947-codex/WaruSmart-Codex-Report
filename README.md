@@ -4505,33 +4505,33 @@ En este tercer sprint, el equipo se centró en consolidar las funcionalidades cl
 
 Además, se perfeccionaron las herramientas gráficas para visualizar el estado de los cultivos, se habilitó la configuración dinámica y se integraron nuevas opciones de interacción con las parcelas y sensores conectados. Estas mejoras permiten al agricultor tomar decisiones de manera más informada, precisa y oportuna, cumpliendo con el objetivo de brindar una experiencia tecnológica accesible, eficiente y confiable.
 
-| User Story - ID | User Story - Title                                                                                                                       | Status | Work Item - ID | Work Item - Title                                            | Work Item - Description                                                                                                                                        | Work Item - Estimation | Work Item - Assigned To |
-| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :----- | -------------: | :----------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------- | :---------------------- |
-| E2              | US06 Visualización de temperatura y humedad del suelo en web                                                                             | Done   |             35 | US06 Visualización de temperatura y humedad del suelo en web | Tarea relacionada con us06 visualización de temperatura y humedad del suelo en web                                                                             |                        | Christopher More        |
-| E2              | US07 Visualización de humedad ambiental y temperatura del aire                                                                           | Done   |             36 | US07 Visualización de humedad ambiental y temperatura del ai | Tarea relacionada con us07 visualización de humedad ambiental y temperatura del aire                                                                           |                        | Victor Herrera          |
-| E2              | US10 Registro histórico de condiciones ambientales en la web                                                                             | Done   |             37 | US10 Registro histórico de condiciones ambientales en la web | Tarea relacionada con us10 registro histórico de condiciones ambientales en la web                                                                             |                        | Christopher More        |
-| E2              | US35 Visualización de temperatura y humedad del suelo en movil                                                                           | Done   |             38 | US35 Visualización de temperatura y humedad del suelo en mov | Tarea relacionada con us35 visualización de temperatura y humedad del suelo en movil                                                                           |                        | Victor Herrera          |
-| E2              | US42 Vista general del estado del cultivo vía app móvil                                                                                  | Done   |             39 | US42 Vista general del estado del cultivo vía app móvil      | Tarea relacionada con us42 vista general del estado del cultivo vía app móvil                                                                                  |                        | Anderson Macedo         |
-| E3              | MS10 Configuracion en los dispositivos de los umbrales de riego                                                                          | Done   |             40 | MS10 Configuracion en los dispositivos de los umbrales de ri | Tarea relacionada con ms10 configuracion en los dispositivos de los umbrales de riego                                                                          |                        | Victor Herrera          |
-| TS06            | T21 Recepcion de datos de sensores a través de REST para actuar                                                                          | Done   |             41 | T21 Recepcion de datos de sensores a través de REST para act | Tarea relacionada con t21 recepcion de datos de sensores a través de rest para actuar                                                                          |                        | Fernando Quispe         |
-| TS08            | T19 Lógica de almacenamiento en la Edge App de los datos.                                                                                | Done   |             42 | T19 Lógica de almacenamiento en la Edge App de los datos.    | Tarea relacionada con t19 lógica de almacenamiento en la edge app de los datos.                                                                                |                        | Jeferson Cabrera        |
-| TS09            | T18 Exposicion de la data del Fog App para enviar al backend                                                                             | Done   |             43 | T18 Exposicion de la data del Fog App para enviar al backend | Tarea relacionada con t18 exposicion de la data del fog app para enviar al backend                                                                             |                        | Carlos Pingus           |
-| TS11            | T20 Gestionar en la Fog APP todos los Edge que se conectarán                                                                             | Done   |             44 | T20 Gestionar en la Fog APP todos los Edge que se conectarán | Tarea relacionada con t20 gestionar en la fog app todos los edge que se conectarán                                                                             |                        | Jair Velasquez          |
-| TS12            | T17 En el Fog App realizar la implementación de las alertas bajo una alerta                                                              | Done   |             45 | T17 En el Fog App realizar la implementación de las alertas  | Tarea relacionada con t17 en el fog app realizar la implementación de las alertas bajo una alerta                                                              |                        | Carlos Pingus           |
-| TS27            | T14 Elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad                                                  | Done   |             46 | T14 Elaboración del endpoint para brindar por suelo de culti | Tarea relacionada con t14 elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad                                                  |                        | Victor Herrera          |
-| TS27            | T15 Elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa                                        | Done   |             47 | T15 Elaboración del endpoint para ofrecer todas las alertas  | Tarea relacionada con t15 elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa                                        |                        | Fernando Quispe         |
-| TS28            | T12 Elaboración de la lógica para almacenar en el backend las lecturas atmosféricas                                                      | Done   |             48 | T12 Elaboración de la lógica para almacenar en el backend la | Tarea relacionada con t12 elaboración de la lógica para almacenar en el backend las lecturas atmosféricas                                                      |                        | Victor Herrera          |
-| TS28            | T13 Elaboración del endpoint para brindar la información general de las lecturas atmosféricas por cultivo                                | Done   |             49 | T13 Elaboración del endpoint para brindar la información gen | Tarea relacionada con t13 elaboración del endpoint para brindar la información general de las lecturas atmosféricas por cultivo                                |                        | Fernando Quispe         |
-| US07-T05        | Elaboración de la sección en la web para visualización de la temperatura ambiental del cultivo en la información general del cultivo web | Done   |             50 | Elaboración de la sección en la web para visualización de la | Tarea relacionada con elaboración de la sección en la web para visualización de la temperatura ambiental del cultivo en la información general del cultivo web |                        | Christopher More        |
-| US10            | TS25 Mostrar reportes de humedad en la web                                                                                               | Done   |             51 | TS25 Mostrar reportes de humedad en la web                   | Tarea relacionada con ts25 mostrar reportes de humedad en la web                                                                                               |                        | Christopher More        |
-| US13            | T11 Elaboración de la visualización en información del cultivo (web) el riego automático por baja humedad del suelo.                     | Done   |             52 | T11 Elaboración de la visualización en información del culti | Tarea relacionada con t11 elaboración de la visualización en información del cultivo (web) el riego automático por baja humedad del suelo.                     |                        | Victor Herrera          |
-| US13            | T10 Elaboración de la lógica de riego automático ante baja humedad del suelo                                                             | Done   |             53 | T10 Elaboración de la lógica de riego automático ante baja h | Tarea relacionada con t10 elaboración de la lógica de riego automático ante baja humedad del suelo                                                             |                        | Fernando Quispe         |
-| US18            | TS27 Mostrar consumo de agua en la pagina web                                                                                            | Done   |             54 | TS27 Mostrar consumo de agua en la pagina web                | Tarea relacionada con ts27 mostrar consumo de agua en la pagina web                                                                                            |                        | Christopher More        |
-| US20            | T24 Elaborar la sección para renderizar los reportes y el reporte de productividad por cultivo seleccionado en web                       | Done   |             55 | T24 Elaborar la sección para renderizar los reportes y el re | Tarea relacionada con t24 elaborar la sección para renderizar los reportes y el reporte de productividad por cultivo seleccionado en web                       |                        | Fernando Quispe         |
-| US27            | TS28 Visualizacion de reportes de productividad en movil                                                                                 | Done   |             56 | TS28 Visualizacion de reportes de productividad en movil     | Tarea relacionada con ts28 visualizacion de reportes de productividad en movil                                                                                 |                        | Anderson Macedo         |
-| US28            | TS29 Visualizar registros de riegos en movil                                                                                             | Done   |             57 | TS29 Visualizar registros de riegos en movil                 | Tarea relacionada con ts29 visualizar registros de riegos en movil                                                                                             |                        | Anderson Macedo         |
-| US47            | T16 En el Edge App realizar la implementación de preferencia de horario de riego                                                         | Done   |             58 | T16 En el Edge App realizar la implementación de preferencia | Tarea relacionada con t16 en el edge app realizar la implementación de preferencia de horario de riego                                                         |                        | Jeferson Cabrera        |
-| US49-T03        | Elaborar la activity para permitir a las cooperativas la data de los cultivos asociados que poseen.                                      | Done   |             59 | Elaborar la activity para permitir a las cooperativas la dat | Tarea relacionada con elaborar la activity para permitir a las cooperativas la data de los cultivos asociados que poseen.                                      |                        | Fernando Quispe         |
+| User Story - ID | User Story - Title                                          | Status | Work Item - ID | Work Item - Title                                           | Work Item - Description                                                           | Work Item - Estimation | Work Item - Assigned To |
+| --------------- | ----------------------------------------------------------- | ------ | -------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------- | ----------------------- |
+| E2-US06         | Visualización de temperatura y humedad del suelo en web     | Done   | 01             | Visualización de temperatura y humedad del suelo en web     | Tarea relacionada con visualización de temperatura y humedad del suelo en web     | 3                      | Christopher More        |
+| E2-US07         | Visualización de humedad ambiental y temperatura del aire   | Done   | 02             | Visualización de humedad ambiental y temperatura del aire   | Tarea relacionada con visualización de humedad ambiental y temperatura del aire   | 3                      | Christopher More        |
+| E2-US10         | Registro histórico de condiciones ambientales en la web     | Done   | 03             | Registro histórico de condiciones ambientales en la web     | Tarea relacionada con registro histórico de condiciones ambientales en la web     | 3                      | Christopher More        |
+| E2-US35         | Visualización de temperatura y humedad del suelo en movil   | Done   | 04             | Visualización de temperatura y humedad del suelo en movil   | Tarea relacionada con visualización de temperatura y humedad del suelo en movil   | 3                      | Anderson Macedo         |
+| E2-US42         | Vista general del estado del cultivo vía app móvil          | Done   | 05             | Vista general del estado del cultivo vía app móvil          | Tarea relacionada con vista general del estado del cultivo vía app móvil          | 3                      | Anderson Macedo         |
+| E3 - MS10       | Configuracion en los dispositivos de los umbrales de riego  | Done   | 06             | Configuracion en los dispositivos de los umbrales de riego  | Tarea relacionada con configuracion en los dispositivos de los umbrales de riego  | 5                      | Fernando Quispe         |
+| TS06 - T21      | Recepcion de datos de sensores a través de REST para actuar | Done   | 07             | Recepcion de datos de sensores a través de REST para actuar | Tarea relacionada con recepcion de datos de sensores a través de REST para actuar | 5                      | Victor Herrera          |
+| TS08 - T19      | Lógica de almacenamiento en la Edge App de los datos.       | Done   | 08             | Lógica de almacenamiento en la Edge App de los datos.       | Tarea relacionada con lógica de almacenamiento en la edge app de los datos.       | 6                      | Jair Velasquez          |
+| TS09 - T18      | Exposicion de la data del Fog App para enviar al backend    | Done   | 09             | Exposicion de la data del Fog App para enviar al backend    | Tarea relacionada con exposicion de la data del fog app para enviar al backend    | 6                      | Carlos Pingus           |
+| TS11 - T20      | Gestionar en la Fog APP todos los Edge que se conectarán    | Done   | 10             | Gestionar en la Fog APP todos los Edge que se conectarán    | Tarea relacionada con gestionar en la fog app todos los edge que se conectarán    | 6                      | Jair Velasquez          |
+| TS12 - T17       | En el Fog App realizar la implementación de las alertas bajo una alerta                                    | Done   | 11               | En el Fog App realizar la implementación de las alertas bajo una alerta | Tarea relacionada con en el fog app realizar la implementación de las alertas | 6                        | Carlos Pingus             |
+| TS27 - T14       | Elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad                        | Done   | 12               | Elaboración del endpoint para brindar por suelo de cultivo la temperatura y humedad | Tarea relacionada con elaboración del endpoint para brindar por suelo de cultivo | 4                        | Victor Herrera            |
+| TS27 - T15       | Elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa              | Done   | 13               | Elaboración del endpoint para ofrecer todas las alertas de cultivos que tiene una cooperativa | Tarea relacionada con elaboración del endpoint para ofrecer alertas de cultivos | 4                        | Fernando Quispe           |
+| TS28 - T12       | Elaboración de la lógica para almacenar en el backend las lecturas atmosféricas                            | Done   | 14               | Elaboración de la lógica para almacenar en el backend las lecturas atmosféricas | Tarea relacionada con lógica para almacenar lecturas atmosféricas en backend | 6                        | Victor Herrera            |
+| TS28 - T13       | Elaboración del endpoint para brindar la información general de las lecturas atmosféricas por cultivo      | Done   | 15               | Elaboración del endpoint para brindar información general de lecturas atmosféricas | Tarea relacionada con endpoint para info general de lecturas atmosféricas | 4                        | Fernando Quispe           |
+| US07-T05         | Elaboración de la sección en la web para visualización de la temperatura ambiental del cultivo             | Done   | 16               | Elaboración de la sección web para temperatura ambiental del cultivo | Tarea relacionada con visualización de temperatura ambiental en cultivo web | 3                        | Christopher More          |
+| US10-TS25        | Mostrar reportes de humedad en la web                                                                       | Done   | 17               | Mostrar reportes de humedad en la web                             | Tarea relacionada con mostrar reportes de humedad en la web              | 3                        | Christopher More          |
+| US13 - T11       | Elaboración de la visualización del riego automático por baja humedad del suelo                            | Done   | 18               | Visualización del riego automático por baja humedad del suelo     | Tarea relacionada con visualización de riego automático por baja humedad | 4                        | Christopher More          |
+| US13 - T10       | Elaboración de la lógica de riego automático ante baja humedad del suelo                                   | Done   | 19               | Lógica de riego automático ante baja humedad del suelo            | Tarea relacionada con lógica de riego automático por baja humedad        | 5                        | Fernando Quispe           |
+| US18-TS27        | Mostrar consumo de agua en la página web                                                                    | Done   |20               | Mostrar consumo de agua en la página web                          | Tarea relacionada con visualización del consumo de agua en la web        | 3                        | Christopher More          |
+| US20 - T24       | Renderizar reportes y productividad por cultivo en web                                                     | Done   | 21               | Renderizar reportes de productividad en web                       | Tarea relacionada con reportes de productividad en sección web           | 4                        | Christopher More          |
+| US27-TS28        | Visualización de reportes de productividad en movil                                                        | Done   | 22               | Visualización de reportes de productividad en móvil               | Tarea relacionada con mostrar productividad en app móvil                 | 3                        | Anderson Macedo           |
+| US28-TS29        | Visualizar registros de riegos en movil                                                                     | Done   | 23               | Visualizar registros de riegos en móvil                           | Tarea relacionada con registros de riegos desde app móvil                | 3                        | Anderson Macedo           |
+| US47 - T16       | En el Edge App implementar preferencia de horario de riego                                                 | Done   | 24               | Preferencia de horario de riego en Edge App                       | Tarea relacionada con configurar horarios preferidos en Edge App         | 5                        | Jeferson Cabrera          |
+| US49-T03         | Activity para mostrar cultivos asociados a cooperativas                                                    | Done   | 25               | Mostrar cultivos asociados a cooperativas                         | Tarea relacionada con visualización de cultivos en activity              | 4                        | Victor Herrera            |
 
 #### 6.2.3.4 Development Evidence for Sprint Review
 
@@ -4703,38 +4703,40 @@ La calidad y organización de esta documentación facilitaron no solo el desarro
 
 Durante este sprint, se desplegaron exitosamente los principales componentes del sistema, lo que permite demostrar que se cuenta con una arquitectura modular y funcional:
 
-- 🖥️ **Landing Page**  
+- **Landing Page**  
   Esta página de presentación está alojada en GitHub Pages y representa el punto de entrada informativo del proyecto WaruSmart.  
-  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+   [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
 
-- ⚙️ **Backend API REST**  
+-  **Backend API REST**  
   Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone todos los endpoints necesarios para las operaciones internas del sistema.  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+   [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
-- 💻 **Web Platform (Frontend)**  
+- **Web Platform (Frontend)**  
   Desarrollada en Vue - Vite, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
-  👉 [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
+   [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
 
 - 📱 **Mobile Application**  
   La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
+   [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
   ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.45.26_AM_hseemj.jpg)
 
-- 📶 **Edge Application**  
+-  **Edge Application**  
   Aplicación liviana diseñada para ejecutarse en dispositivos de borde (edge), encargada de recolectar datos desde sensores y enviarlos hacia la nube.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
+   [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
   ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.46.48_AM_wedj1u.jpg)
 
-- 🌩️ **Fog Application**  
+-  **Fog Application**  
   Servicio intermedio desplegado entre los dispositivos y la nube, que gestiona el procesamiento local y asegura la disponibilidad en caso de desconexión.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
+   [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
   ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.54.19_AM_uqmchk.jpg)
 
-- 🧠 **Embedded Application**  
+-  **Embedded Application**  
   Componente crítico para el funcionamiento autónomo de los sensores y actuadores. Esta aplicación embebida se ejecuta directamente en los dispositivos físicos, permitiendo la lectura de datos ambientales y la ejecución de respuestas locales inmediatas.  
-  El repositorio incluye una simulación funcional en Wokwi, así como el código físico listo para ser configurado y desplegado en microcontroladores ESP32.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application)  
+  El repositorio incluye una simulación funcional en Wokwi, así como el código físico listo para ser configurado y desplegado en microcontroladores ESP32.
+  A continación se muestran evidencias de código:  
+   https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-EmbeddedApp-IrrigationController-Simulated  
   ![Insight Wokwi](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.47.45_PM_dsopfd.jpg)  
+  https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-EmbeddedApp-IrrigationController-Physical
   ![Insight Fisico](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.42.16_PM_kafxgt.jpg)
 
 Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (**frontend ↔ backend ↔ edge/fog ↔ mobile**), lo que confirma la viabilidad técnica de la solución WaruSmart.
@@ -4782,48 +4784,48 @@ A continuacion se muetras las Validation Interviews son una etapa clave para nue
 
 ### 6.3.1. Diseño de Entrevistas
 
-### 👨‍🌾 Agricultores Individuales
+###  Agricultores Individuales
 
-#### 🧩 Contexto de uso y tecnología
+#### Contexto de uso y tecnología
 - ¿Qué cultivos maneja actualmente y con qué frecuencia realiza el riego?
 - ¿Utiliza alguna tecnología actualmente para controlar la humedad o temperatura del suelo?
 - ¿Qué herramientas digitales (web o móvil) ha usado anteriormente en su trabajo agrícola?
 
-#### 💧 Necesidades de monitoreo y control
+#### Necesidades de monitoreo y control
 - ¿Con qué problemas se encuentra cuando el clima cambia inesperadamente?
 - ¿Cómo sabría si su cultivo está recibiendo la cantidad adecuada de agua?
 - ¿Considera útil tener alertas en su celular sobre humedad o temperatura del suelo?
 
-#### 📱 Validación del sistema WaruSmart
+#### Validación del sistema WaruSmart
 - ¿Qué le parece una app web o móvil donde pueda ver en tiempo real los niveles de humedad y temperatura de su cultivo?
 - ¿Le gustaría recibir recomendaciones automáticas para ajustar el riego según las condiciones?
 - ¿Qué tan fácil le resultaría usar un sistema que conecte sensores al suelo y le envíe alertas?
 
-#### 🛠️ Implementación y soporte
+#### Implementación y soporte
 - ¿Qué necesitaría para sentirse cómodo usando esta tecnología?
 - ¿Estaría dispuesto a instalar sensores IoT en su terreno si se le proporciona capacitación?
 - ¿Qué tipo de ayuda o acompañamiento le gustaría tener en el uso de esta plataforma?
 
 ---
 
-### 🌱 Cooperativas Agrarias
+### Cooperativas Agrarias
 
-#### 🧩 Contexto organizacional
+#### Contexto organizacional
 - ¿Qué tipo de cultivos gestionan y en cuántas parcelas aproximadamente?
 - ¿Tienen algún sistema actual para hacer seguimiento al estado de los cultivos de la cooperativa?
 - ¿Qué canales usan para comunicar alertas o problemas a los agricultores?
 
-#### 💧 Necesidades colectivas de monitoreo
+#### Necesidades colectivas de monitoreo
 - ¿Qué tan útil sería para ustedes tener un sistema centralizado donde se vea la humedad y temperatura de todos los terrenos?
 - ¿Cómo gestionan actualmente el uso del agua a nivel comunitario?
 - ¿Creen que las alertas automáticas por celular mejorarían la coordinación en la cooperativa?
 
-#### 📱 Validación del sistema WaruSmart
+#### Validación del sistema WaruSmart
 - ¿Consideran útil una plataforma web y móvil para monitorear los cultivos de todos los asociados?
 - ¿Qué funcionalidades les parecerían clave en una app para tomar decisiones colectivas de riego?
 - ¿Qué tan viable ven la instalación de sensores en cada terreno asociado?
 
-#### 📢 Adopción comunitaria
+#### Adopción comunitaria
 - ¿Cómo creen que esta tecnología puede ayudar a modernizar la producción en su comunidad?
 - ¿Estarían dispuestos a ser promotores de esta herramienta si los resultados son positivos?
 - ¿Qué barreras creen que existen para que sus miembros adopten una solución como WaruSmart?
@@ -4923,7 +4925,7 @@ Fabrizio Mori comenta que utiliza tecnología, aunque no de forma diaria, y reco
 ### 6.3.3. Evaluaciones segun heuristicas
 
 <p align="center">
-  <strong>## UX Heuristics & Principles Evaluation</strong><br>
+  <strong>UX Heuristics & Principles Evaluation</strong><br>
   <em>Usability – Inclusive Design – Information Architecture</em>
 </p>
 
@@ -5100,8 +5102,8 @@ Aplicar principios de diseño responsive en todas las vistas, utilizando flexbox
 
 Como parte de la estrategia de difusión del sistema **WaruSmart**, el equipo desarrolló un video explicativo orientado a dos públicos clave:
 
-- 🌱 **Visitantes del Landing Page**: usuarios interesados en conocer la propuesta de valor del sistema, sus beneficios, funcionamiento general y el impacto positivo que ofrece en la agricultura.
-- 📱 **Usuarios de las aplicaciones Web y Móvil**: agricultores y cooperativas que desean entender cómo utilizar las funcionalidades principales del sistema para gestionar sus cultivos, dispositivos IoT y obtener recomendaciones personalizadas.
+-  **Visitantes del Landing Page**: usuarios interesados en conocer la propuesta de valor del sistema, sus beneficios, funcionamiento general y el impacto positivo que ofrece en la agricultura.
+- **Usuarios de las aplicaciones Web y Móvil**: agricultores y cooperativas que desean entender cómo utilizar las funcionalidades principales del sistema para gestionar sus cultivos, dispositivos IoT y obtener recomendaciones personalizadas.
 
 El video adopta un tono cercano, claro y profesional, coherente con la identidad visual de WaruSmart. Se presenta una visión general del sistema, incluyendo su modelo de negocio, arquitectura modular (web, móvil, backend y edge), así como ejemplos reales de uso.
 
@@ -5110,10 +5112,10 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 
 🔗 **Enlaces del video**
 - Versión publicada en **Microsoft Stream**:  
-  👉 [https://acortar.link/oNthLL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  [https://acortar.link/oNthLL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - Versión publicada en **YouTube** (para incrustar en el Landing Page):  
-  👉 [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
+  [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
 
 ⏱️ **Duración del video**: 6 minutos y 59 segundos
 
