@@ -4752,36 +4752,35 @@ Durante el presente sprint, se evidenció una colaboración activa entre los int
 
 **Colaboración en el desarrollo de la Landing Page**
 
-- ![Insight Landing Page](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314726/sknvodjw4eddrbsmatlu.jpg)  
+- ![Insight Landing Page](https://res.cloudinary.com/dr5v9tizc/image/upload/v1752234074/warusmart-commits-landing_liueq9.png)  
   *Se visualiza la evolución de commits en el repositorio del Landing Page, donde se implementaron ajustes visuales, mejoras de accesibilidad y contenido multilingüe. Los miembros a cargo realizaron despliegues progresivos en GitHub Pages.*
 
 **Colaboración en el desarrollo del Frontend Web App**
 
-- ![Insight Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/iszfypdv193fbfkhzqyy.jpg)  
+- ![Insight Frontend](https://res.cloudinary.com/dr5v9tizc/image/upload/v1752234074/warusmart-commits-frontend_r9w1ob.png)  
   *El repositorio del frontend refleja una alta frecuencia de colaboraciones, enfocadas en la construcción de vistas como panel de control, módulos de siembras, visualización de dispositivos IoT y manejo de alertas. Se evidencia trabajo en equipo con revisión cruzada de código.*
 
 **Colaboración en el desarrollo del Backend API**
 
-- ![Insight Backend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/sojaqz283ma9yvpkqsml.jpg)  
+- ![Insight Backend](https://res.cloudinary.com/dr5v9tizc/image/upload/v1752234074/warusmart-commits-backend_lje5lh.png)  
   *Las contribuciones al backend se centraron en nuevos endpoints, ajustes en la arquitectura de dominio, integración de servicios REST para siembras y dispositivos, y documentación Swagger. El equipo mantuvo una dinámica de commits sostenida y progresiva.*
 
 **Colaboración en el desarrollo de la Mobile Application**
 
-- ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104037_wrcxu4.png)  
+- ![Insight Mobile](https://res.cloudinary.com/dr5v9tizc/image/upload/v1752234074/warusmart-commits-mobile_sviv0n.png)  
   *El desarrollo de la app móvil mostró aportes continuos orientados a navegación, localización de cultivos y gestión offline. La colaboración se extendió a pruebas en emuladores y validación de flujos críticos en producción.*
 
 **Colaboración en el desarrollo del Edge App**
 
-- ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104117_mzhqak.png)  
+- ![Insight Edge](https://res.cloudinary.com/dr5v9tizc/image/upload/v1752234074/warusmart-commits-edge_gextty.png)  
   *El repositorio del componente edge evidencia el trabajo coordinado en funciones de lectura de sensores, envío de datos al fog y mecanismos de reconexión ante fallos. El desarrollo fue realizado considerando el entorno embebido.*
 
 **Colaboración en el desarrollo del Fog App**
 
-- ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104155_pds5ir.png)  
+- ![Insight Fog](https://res.cloudinary.com/dr5v9tizc/image/upload/v1752234074/warusmart-commits-fog_hckdf2.png)  
   *El módulo fog recibió múltiples contribuciones que permitieron establecer su rol como intermediario entre el edge y la nube, enfocándose en almacenamiento local temporal y retransmisión de datos. Se configuró como contenedor independiente.*
 
 Estos insights reflejan una dinámica de trabajo colaborativo distribuido por capas tecnológicas, manteniendo sincronía entre los módulos y garantizando una evolución coherente de la solución WaruSmart durante este sprint.
-
 
 ## 6.3 Validation Interviews
 
