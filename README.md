@@ -5117,12 +5117,12 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 
 🔗 **Enlaces del video**
 - Versión publicada en **Microsoft Stream**:  
-  [https://acortar.link/oNthLL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  [https://acortar.link/PwRE2x](https://acortar.link/PwRE2x)
 
 - Versión publicada en **YouTube** (para incrustar en el Landing Page):  
-  [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
+  [https://www.youtube.com/watch?v=fYHt7Ylf2pE](https://www.youtube.com/watch?v=fYHt7Ylf2pE)
 
-⏱️ **Duración del video**: 6 minutos y 59 segundos
+⏱️ **Duración del video**: 9 minutos y 56 segundos
 
 ---
 
