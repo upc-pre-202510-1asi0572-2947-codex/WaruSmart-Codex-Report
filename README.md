@@ -4596,17 +4596,19 @@ Durante el Sprint 3, el equipo amplió considerablemente la cobertura de escenar
 
 Durante este tercer sprint, se consolidó la integración completa del ecosistema WaruSmart, con la entrega funcional de todos los componentes distribuidos de la arquitectura: backend, frontend, aplicaciones móviles, microservicios fog, dispositivos edge y software embebido. Este despliegue refuerza la propuesta de valor del sistema, brindando una experiencia conectada, trazable y en tiempo real para los agricultores.
 
-- 🖥️ **Landing Page**  
+- **Landing Page**  
   Se actualizaron textos, enlaces, estilos visuales y navegación responsive para presentar la solución WaruSmart.  
-  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+  [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/index.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/index.html)
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752230345/landing-warusmart.png">
 
-- ⚙️ **Backend (ASP.NET - Azure Swagger)**  
+- **Backend (ASP.NET - Render Swagger)**  
   Se incorporaron endpoints para autenticación JWT, gestión de dispositivos IoT, alertas por umbrales, sincronización fog-edge y control de riego automático.  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+  [https://waru-smart-backend-asp-net.onrender.com/swagger/index.html](https://waru-smart-backend-asp-net.onrender.com/swagger/index.html)
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752230662/backend-execute.png">
 
-- 💻 **Frontend Web App (Vue)**  
+- **Frontend Web App (Vue)**  
   Se desplegó un panel interactivo con mapas, sensores, alertas visuales y control de cultivos. Permite a los usuarios monitorear y tomar decisiones desde la web.  
-  👉 Repositorio: [Waru-Smart-Frontend-Vue](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Frontend-Vue)
+  Repositorio: [Waru-Smart-Frontend-Vue](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Frontend-Vue)
 
   ![Dashboard](https://res.cloudinary.com/dydklnicb/image/upload/v1747349054/frontend-home-warusmart.png)  
   *Vista del dashboard con sensores activos.*
@@ -4614,19 +4616,19 @@ Durante este tercer sprint, se consolidó la integración completa del ecosistem
   ![IoT View](https://res.cloudinary.com/dydklnicb/image/upload/v1747349192/frontend-iotdevices-warusmart.png)  
   *Vista del módulo de dispositivos conectados.*
 
-- 📱 **Mobile Application (Kotlin)**  
+- **Mobile Application (Kotlin)**  
   Se habilitó login por token, acceso a cultivos registrados, envío de datos ambientales desde el celular y notificaciones push por condiciones críticas.  
-  👉 Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+  Repositorio: [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
 
-- 🌫️ **Fog Computing Node (Java - WaruSmart-Fog-App)**  
+- **Fog Computing Node (Java - WaruSmart-Fog-App)**  
   Se validó la recepción de datos desde dispositivos edge, preprocesamiento local y reenvío al backend solo cuando los umbrales críticos son superados.  
-  👉 Repositorio: [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
+  Repositorio: [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
 
-- 📡 **Edge Devices (Python - Waru-Smart-Edge-App)**  
+- **Edge Devices (Python - Waru-Smart-Edge-App)**  
   Se probaron eventos de lectura de humedad y temperatura, control de bomba de agua y activación de ventiladores. Se confirmó conexión con el nodo Fog vía MQTT.  
-  👉 Repositorio: [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
+  Repositorio: [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
 
-- 🧠 **Embedded Application (ESP32 - físico y simulado)**  
+- **Embedded Application (ESP32 - físico y simulado)**  
   Se desplegaron los programas embebidos de simulación y control físico:
     - Sensores ambientales (temperatura/humedad del suelo)
     - Control de riego (valvula de agua)
@@ -4641,14 +4643,14 @@ Durante este tercer sprint, se consolidó la integración completa del ecosistem
 
 ---
 
-- 🎬 **Video: Navegación Web App**  
-  👉 [Ver video](https://acortar.link/Xki4TX)
+- **Video: Navegación Web App**  
+  [Ver video](https://acortar.link/Xki4TX)
 
-- 🎬 **Video: Dispositivos físicos y flujo completo Edge - Fog - Cloud**  
-  👉 [Ver video](https://acortar.link/dm1vqp)
+- **Video: Dispositivos físicos y flujo completo Edge - Fog - Cloud**  
+  [Ver video](https://acortar.link/dm1vqp)
 
-- 🎬 **Video: App Móvil en funcionamiento**  
-  👉 [Ver video](https://acortar.link/tjZ93z)
+- **Video: App Móvil en funcionamiento**  
+  [Ver video](https://acortar.link/tjZ93z)
 
 ---
 
@@ -4665,12 +4667,12 @@ Los servicios documentados abarcan funcionalidades como:
 - Consultas y actualizaciones fenológicas
 - Comunicación segura entre Edge, Fog y Cloud
 
-- 📘 **Documentación del backend - Swagger UI**  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+- **Documentación del backend - Swagger UI**  
+  [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
 ---
 
-**🖼️ Evidencias visuales del backend documentado con Swagger UI**
+**Evidencias visuales del backend documentado con Swagger UI**
 
 ![Backend Swagger General](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
 *Vista general de Swagger mostrando los recursos: usuarios, cultivos, parcelas, dispositivos, sensores, alertas.*
@@ -4713,9 +4715,10 @@ Durante este sprint, se desplegaron exitosamente los principales componentes del
 
 - **Web Platform (Frontend)**  
   Desarrollada en Vue - Vite, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
-   [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
+   [https://warusmart.netlify.app/](https://warusmart.netlify.app/)
+   <img src="https://res.cloudinary.com/drkelnilg/image/upload/v1752228132/imagen_2025-07-11_050209180_ontboy.png">
 
-- 📱 **Mobile Application**  
+- **Mobile Application**  
   La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
    [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
   ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.45.26_AM_hseemj.jpg)
@@ -4745,32 +4748,32 @@ Estos despliegues validan el correcto funcionamiento de los entornos de desarrol
 
 Durante el presente sprint, se evidenció una colaboración activa entre los integrantes del equipo en los distintos módulos del sistema WaruSmart: **Landing Page**, **Frontend Web App**, **Backend API**, **Mobile App**, **Edge App** y **Fog App**. A continuación, se presentan los insights obtenidos a partir de los repositorios del proyecto, los cuales reflejan el compromiso y la distribución del trabajo técnico entre los miembros.
 
-**🖥️ Colaboración en el desarrollo de la Landing Page**
+**Colaboración en el desarrollo de la Landing Page**
 
 - ![Insight Landing Page](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314726/sknvodjw4eddrbsmatlu.jpg)  
   *Se visualiza la evolución de commits en el repositorio del Landing Page, donde se implementaron ajustes visuales, mejoras de accesibilidad y contenido multilingüe. Los miembros a cargo realizaron despliegues progresivos en GitHub Pages.*
 
-**💻 Colaboración en el desarrollo del Frontend Web App**
+**Colaboración en el desarrollo del Frontend Web App**
 
 - ![Insight Frontend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/iszfypdv193fbfkhzqyy.jpg)  
   *El repositorio del frontend refleja una alta frecuencia de colaboraciones, enfocadas en la construcción de vistas como panel de control, módulos de siembras, visualización de dispositivos IoT y manejo de alertas. Se evidencia trabajo en equipo con revisión cruzada de código.*
 
-**⚙️ Colaboración en el desarrollo del Backend API**
+**Colaboración en el desarrollo del Backend API**
 
 - ![Insight Backend](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747314727/sojaqz283ma9yvpkqsml.jpg)  
   *Las contribuciones al backend se centraron en nuevos endpoints, ajustes en la arquitectura de dominio, integración de servicios REST para siembras y dispositivos, y documentación Swagger. El equipo mantuvo una dinámica de commits sostenida y progresiva.*
 
-**📱 Colaboración en el desarrollo de la Mobile Application**
+**Colaboración en el desarrollo de la Mobile Application**
 
 - ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104037_wrcxu4.png)  
   *El desarrollo de la app móvil mostró aportes continuos orientados a navegación, localización de cultivos y gestión offline. La colaboración se extendió a pruebas en emuladores y validación de flujos críticos en producción.*
 
-**🌐 Colaboración en el desarrollo del Edge App**
+**Colaboración en el desarrollo del Edge App**
 
 - ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104117_mzhqak.png)  
   *El repositorio del componente edge evidencia el trabajo coordinado en funciones de lectura de sensores, envío de datos al fog y mecanismos de reconexión ante fallos. El desarrollo fue realizado considerando el entorno embebido.*
 
-**🌩️ Colaboración en el desarrollo del Fog App**
+**Colaboración en el desarrollo del Fog App**
 
 - ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750520625/Screenshot_2025-06-21_104155_pds5ir.png)  
   *El módulo fog recibió múltiples contribuciones que permitieron establecer su rol como intermediario entre el edge y la nube, enfocándose en almacenamiento local temporal y retransmisión de datos. Se configuró como contenedor independiente.*
