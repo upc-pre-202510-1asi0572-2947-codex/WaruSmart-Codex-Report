@@ -4782,48 +4782,48 @@ A continuacion se muetras las Validation Interviews son una etapa clave para nue
 
 ### 6.3.1. Diseño de Entrevistas
 
-### 👨‍🌾 Agricultores Individuales
+###  Agricultores Individuales
 
-#### 🧩 Contexto de uso y tecnología
+#### Contexto de uso y tecnología
 - ¿Qué cultivos maneja actualmente y con qué frecuencia realiza el riego?
 - ¿Utiliza alguna tecnología actualmente para controlar la humedad o temperatura del suelo?
 - ¿Qué herramientas digitales (web o móvil) ha usado anteriormente en su trabajo agrícola?
 
-#### 💧 Necesidades de monitoreo y control
+#### Necesidades de monitoreo y control
 - ¿Con qué problemas se encuentra cuando el clima cambia inesperadamente?
 - ¿Cómo sabría si su cultivo está recibiendo la cantidad adecuada de agua?
 - ¿Considera útil tener alertas en su celular sobre humedad o temperatura del suelo?
 
-#### 📱 Validación del sistema WaruSmart
+#### Validación del sistema WaruSmart
 - ¿Qué le parece una app web o móvil donde pueda ver en tiempo real los niveles de humedad y temperatura de su cultivo?
 - ¿Le gustaría recibir recomendaciones automáticas para ajustar el riego según las condiciones?
 - ¿Qué tan fácil le resultaría usar un sistema que conecte sensores al suelo y le envíe alertas?
 
-#### 🛠️ Implementación y soporte
+#### Implementación y soporte
 - ¿Qué necesitaría para sentirse cómodo usando esta tecnología?
 - ¿Estaría dispuesto a instalar sensores IoT en su terreno si se le proporciona capacitación?
 - ¿Qué tipo de ayuda o acompañamiento le gustaría tener en el uso de esta plataforma?
 
 ---
 
-### 🌱 Cooperativas Agrarias
+### Cooperativas Agrarias
 
-#### 🧩 Contexto organizacional
+#### Contexto organizacional
 - ¿Qué tipo de cultivos gestionan y en cuántas parcelas aproximadamente?
 - ¿Tienen algún sistema actual para hacer seguimiento al estado de los cultivos de la cooperativa?
 - ¿Qué canales usan para comunicar alertas o problemas a los agricultores?
 
-#### 💧 Necesidades colectivas de monitoreo
+#### Necesidades colectivas de monitoreo
 - ¿Qué tan útil sería para ustedes tener un sistema centralizado donde se vea la humedad y temperatura de todos los terrenos?
 - ¿Cómo gestionan actualmente el uso del agua a nivel comunitario?
 - ¿Creen que las alertas automáticas por celular mejorarían la coordinación en la cooperativa?
 
-#### 📱 Validación del sistema WaruSmart
+#### Validación del sistema WaruSmart
 - ¿Consideran útil una plataforma web y móvil para monitorear los cultivos de todos los asociados?
 - ¿Qué funcionalidades les parecerían clave en una app para tomar decisiones colectivas de riego?
 - ¿Qué tan viable ven la instalación de sensores en cada terreno asociado?
 
-#### 📢 Adopción comunitaria
+#### Adopción comunitaria
 - ¿Cómo creen que esta tecnología puede ayudar a modernizar la producción en su comunidad?
 - ¿Estarían dispuestos a ser promotores de esta herramienta si los resultados son positivos?
 - ¿Qué barreras creen que existen para que sus miembros adopten una solución como WaruSmart?
@@ -4923,7 +4923,7 @@ Fabrizio Mori comenta que utiliza tecnología, aunque no de forma diaria, y reco
 ### 6.3.3. Evaluaciones segun heuristicas
 
 <p align="center">
-  <strong>## UX Heuristics & Principles Evaluation</strong><br>
+  <strong>UX Heuristics & Principles Evaluation</strong><br>
   <em>Usability – Inclusive Design – Information Architecture</em>
 </p>
 
@@ -5100,8 +5100,8 @@ Aplicar principios de diseño responsive en todas las vistas, utilizando flexbox
 
 Como parte de la estrategia de difusión del sistema **WaruSmart**, el equipo desarrolló un video explicativo orientado a dos públicos clave:
 
-- 🌱 **Visitantes del Landing Page**: usuarios interesados en conocer la propuesta de valor del sistema, sus beneficios, funcionamiento general y el impacto positivo que ofrece en la agricultura.
-- 📱 **Usuarios de las aplicaciones Web y Móvil**: agricultores y cooperativas que desean entender cómo utilizar las funcionalidades principales del sistema para gestionar sus cultivos, dispositivos IoT y obtener recomendaciones personalizadas.
+-  **Visitantes del Landing Page**: usuarios interesados en conocer la propuesta de valor del sistema, sus beneficios, funcionamiento general y el impacto positivo que ofrece en la agricultura.
+- **Usuarios de las aplicaciones Web y Móvil**: agricultores y cooperativas que desean entender cómo utilizar las funcionalidades principales del sistema para gestionar sus cultivos, dispositivos IoT y obtener recomendaciones personalizadas.
 
 El video adopta un tono cercano, claro y profesional, coherente con la identidad visual de WaruSmart. Se presenta una visión general del sistema, incluyendo su modelo de negocio, arquitectura modular (web, móvil, backend y edge), así como ejemplos reales de uso.
 
@@ -5110,10 +5110,10 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 
 🔗 **Enlaces del video**
 - Versión publicada en **Microsoft Stream**:  
-  👉 [https://acortar.link/oNthLL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  [https://acortar.link/oNthLL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - Versión publicada en **YouTube** (para incrustar en el Landing Page):  
-  👉 [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
+  [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
 
 ⏱️ **Duración del video**: 6 minutos y 59 segundos
 
