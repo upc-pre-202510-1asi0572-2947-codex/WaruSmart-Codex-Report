@@ -4598,12 +4598,12 @@ Durante este tercer sprint, se consolidó la integración completa del ecosistem
 
 - **Landing Page**  
   Se actualizaron textos, enlaces, estilos visuales y navegación responsive para presentar la solución WaruSmart.  
-  [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/index.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/index.html)
+  Repositorio: [WaruSmart-LandingPage](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage)
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752230345/landing-warusmart.png">
 
 - **Backend (ASP.NET - Render Swagger)**  
   Se incorporaron endpoints para autenticación JWT, gestión de dispositivos IoT, alertas por umbrales, sincronización fog-edge y control de riego automático.  
-  [https://waru-smart-backend-asp-net.onrender.com/swagger/index.html](https://waru-smart-backend-asp-net.onrender.com/swagger/index.html)
+  Repositorio: [Waru-Smart-Backend-ASP.NET](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Backend-ASP.NET)
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752230662/backend-execute.png">
 
 - **Frontend Web App (Vue)**  
@@ -4668,14 +4668,14 @@ Los servicios documentados abarcan funcionalidades como:
 - Comunicación segura entre Edge, Fog y Cloud
 
 - **Documentación del backend - Swagger UI**  
-  [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+  [https://waru-smart-backend-asp-net.onrender.com/swagger/index.html](https://waru-smart-backend-asp-net.onrender.com/swagger/index.html)
 
 ---
 
 **Evidencias visuales del backend documentado con Swagger UI**
 
-![Backend Swagger General](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/cl34imrayj78zpkqgjcd.jpg)  
-*Vista general de Swagger mostrando los recursos: usuarios, cultivos, parcelas, dispositivos, sensores, alertas.*
+![Backend Swagger General](https://res.cloudinary.com/dydklnicb/image/upload/v1752231615/backend-documentation-evidence.png)  
+*Vista general de Swagger mostrando los recursos: Analíticas, Autenticación, Categorías, Cultivos, IoT Devices, Perfiles.*
 
 ---
 
@@ -4684,13 +4684,13 @@ Los servicios documentados abarcan funcionalidades como:
 
 ---
 
-![Backend Get Sowings](https://res.cloudinary.com/dpnl22ssb/image/upload/v1747313698/e7rio9tekjnfurby419f.jpg)  
-*Prueba del endpoint `/api/sowings/user`, que retorna siembras activas del usuario autenticado con JWT.*
+![Backend Get Sowings](https://res.cloudinary.com/dydklnicb/image/upload/v1752231977/backend-IoTDevice.png)  
+*Prueba del endpoint GET de `/api/v1/crops-management/sowings/`, que retorna siembras activas del usuario autenticado con JWT.*
 
 ---
 
 ![Backend Sowings by Phase](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.42.25_AM_yncr8e.jpg)  
-*GET `/api/sowings/phase` permite consultar la etapa fenológica actual de cada cultivo registrado.*
+*GET `/api/v1/crops-management/sowings/{sowing-Id}/phenological-phase` permite consultar la etapa fenológica actual de cada cultivo registrado.*
 
 ---
 
@@ -4707,39 +4707,41 @@ Durante este sprint, se desplegaron exitosamente los principales componentes del
 
 - **Landing Page**  
   Esta página de presentación está alojada en GitHub Pages y representa el punto de entrada informativo del proyecto WaruSmart.  
-   [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+   [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/index.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/index.html)
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752230345/landing-warusmart.png">
 
 -  **Backend API REST**  
   Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone todos los endpoints necesarios para las operaciones internas del sistema.  
-   [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+   [https://waru-smart-backend-asp-net.onrender.com/swagger/index.html](https://waru-smart-backend-asp-net.onrender.com/swagger/index.html)
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752230662/backend-execute.png">
 
 - **Web Platform (Frontend)**  
   Desarrollada en Vue - Vite, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
    [https://warusmart.netlify.app/](https://warusmart.netlify.app/)
-   <img src="https://res.cloudinary.com/drkelnilg/image/upload/v1752228132/imagen_2025-07-11_050209180_ontboy.png">
+   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752232489/warusmart-deploy-frontend.png">
 
 - **Mobile Application**  
   La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
-   [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
+   [WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
   ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.45.26_AM_hseemj.jpg)
 
 -  **Edge Application**  
   Aplicación liviana diseñada para ejecutarse en dispositivos de borde (edge), encargada de recolectar datos desde sensores y enviarlos hacia la nube.  
-   [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
+   [Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
   ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.46.48_AM_wedj1u.jpg)
 
 -  **Fog Application**  
   Servicio intermedio desplegado entre los dispositivos y la nube, que gestiona el procesamiento local y asegura la disponibilidad en caso de desconexión.  
-   [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
+   [WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
   ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.54.19_AM_uqmchk.jpg)
 
 -  **Embedded Application**  
   Componente crítico para el funcionamiento autónomo de los sensores y actuadores. Esta aplicación embebida se ejecuta directamente en los dispositivos físicos, permitiendo la lectura de datos ambientales y la ejecución de respuestas locales inmediatas.  
   El repositorio incluye una simulación funcional en Wokwi, así como el código físico listo para ser configurado y desplegado en microcontroladores ESP32.
   A continación se muestran evidencias de código:  
-   https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-EmbeddedApp-IrrigationController-Simulated  
+   [WaruSmart-EmbeddedApp-IrrigationController-Simulated](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-EmbeddedApp-IrrigationController-Simulated) 
   ![Insight Wokwi](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.47.45_PM_dsopfd.jpg)  
-  https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-EmbeddedApp-IrrigationController-Physical
+  [WaruSmart-EmbeddedApp-IrrigationController-Physical](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-EmbeddedApp-IrrigationController-Physical)
   ![Insight Fisico](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.42.16_PM_kafxgt.jpg)
 
 Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (**frontend ↔ backend ↔ edge/fog ↔ mobile**), lo que confirma la viabilidad técnica de la solución WaruSmart.
