@@ -4703,38 +4703,40 @@ La calidad y organización de esta documentación facilitaron no solo el desarro
 
 Durante este sprint, se desplegaron exitosamente los principales componentes del sistema, lo que permite demostrar que se cuenta con una arquitectura modular y funcional:
 
-- 🖥️ **Landing Page**  
+- **Landing Page**  
   Esta página de presentación está alojada en GitHub Pages y representa el punto de entrada informativo del proyecto WaruSmart.  
-  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+   [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
 
-- ⚙️ **Backend API REST**  
+-  **Backend API REST**  
   Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone todos los endpoints necesarios para las operaciones internas del sistema.  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+   [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
-- 💻 **Web Platform (Frontend)**  
+- **Web Platform (Frontend)**  
   Desarrollada en Vue - Vite, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
-  👉 [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
+   [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
 
 - 📱 **Mobile Application**  
   La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
+   [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
   ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.45.26_AM_hseemj.jpg)
 
-- 📶 **Edge Application**  
+-  **Edge Application**  
   Aplicación liviana diseñada para ejecutarse en dispositivos de borde (edge), encargada de recolectar datos desde sensores y enviarlos hacia la nube.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
+   [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
   ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.46.48_AM_wedj1u.jpg)
 
-- 🌩️ **Fog Application**  
+-  **Fog Application**  
   Servicio intermedio desplegado entre los dispositivos y la nube, que gestiona el procesamiento local y asegura la disponibilidad en caso de desconexión.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
+   [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
   ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.54.19_AM_uqmchk.jpg)
 
-- 🧠 **Embedded Application**  
+-  **Embedded Application**  
   Componente crítico para el funcionamiento autónomo de los sensores y actuadores. Esta aplicación embebida se ejecuta directamente en los dispositivos físicos, permitiendo la lectura de datos ambientales y la ejecución de respuestas locales inmediatas.  
-  El repositorio incluye una simulación funcional en Wokwi, así como el código físico listo para ser configurado y desplegado en microcontroladores ESP32.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application)  
+  El repositorio incluye una simulación funcional en Wokwi, así como el código físico listo para ser configurado y desplegado en microcontroladores ESP32.
+  A continación se muestran evidencias de código:  
+   https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-EmbeddedApp-IrrigationController-Simulated  
   ![Insight Wokwi](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.47.45_PM_dsopfd.jpg)  
+  https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-EmbeddedApp-IrrigationController-Physical
   ![Insight Fisico](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.42.16_PM_kafxgt.jpg)
 
 Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (**frontend ↔ backend ↔ edge/fog ↔ mobile**), lo que confirma la viabilidad técnica de la solución WaruSmart.
