@@ -77,8 +77,8 @@ NRC: 2947</h5>
 
 ### Project Report Collaboration Insights
 
-**URL del repositorio para el reporte del proyecto:** https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Codex-Report/tree/develop
-**Link de los repositorios de la oraganización:** https://github.com/upc-pre-202510-1asi0572-2947-codex
+**URL del repositorio para el reporte del proyecto:** https://acortar.link/us2XHI
+**Link de los repositorios de la oraganización:** https://acortar.link/CRGD3H
 
 **TB1**
 
@@ -326,9 +326,9 @@ La problemática principal radica en la falta de herramientas accesibles y efect
 
 ##### Aplicación de las 5 W’s y 2 H’s
 
--**Who**: Los actores clave involucrados son los agricultores individuales, y los pertenecientes a cooperativas agrarias. Estos grupos han sido identificados en estudios del Ministerio de Agricultura de Perú y del Instituto Nacional de Innovación Agraria como pilares fundamentales para la adopción de tecnologías que impulsen la transformación digital y la eficiencia en el manejo de recursos hídricos. https://www.gob.pe/institucion/midagri/noticias/815784-midagri-inicia-la-transformacion-digital-de-la-agricultura-familiar
+-**Who**: Los actores clave involucrados son los agricultores individuales, y los pertenecientes a cooperativas agrarias. Estos grupos han sido identificados en estudios del Ministerio de Agricultura de Perú y del Instituto Nacional de Innovación Agraria como pilares fundamentales para la adopción de tecnologías que impulsen la transformación digital y la eficiencia en el manejo de recursos hídricos. https://acortar.link/mJ8WiD
 
--**What**: La propuesta se centra en la optimización del riego a través de una solución IoT accesible y eficiente. Investigaciones publicadas por la FAO y estudios sobre agricultura inteligente en América Latina resaltan la capacidad de estas tecnologías para transformar prácticas tradicionales en métodos de riego más precisos, contribuyendo a una gestión sostenible y a una mayor productividad. https://www.fao.org/family-farming/detail/es/c/1612596/
+-**What**: La propuesta se centra en la optimización del riego a través de una solución IoT accesible y eficiente. Investigaciones publicadas por la FAO y estudios sobre agricultura inteligente en América Latina resaltan la capacidad de estas tecnologías para transformar prácticas tradicionales en métodos de riego más precisos, contribuyendo a una gestión sostenible y a una mayor productividad. https://acortar.link/waDaB4
 
 -**Where**: La implementación se orienta hacia campos de cultivo en Perú, particularmente en zonas rurales donde el acceso a tecnologías avanzadas es limitado. Informes del Banco Mundial y análisis de desarrollo regional destacan que estas áreas requieren intervención tecnológica para mejorar la eficiencia en el uso de recursos y enfrentar desafíos climáticos.
 
@@ -428,7 +428,7 @@ A continuación se presenta el Lean UX Canvas realizado para nuestra solución, 
 
 ![Lean UX Canvas](https://res.cloudinary.com/ddexg0fk0/image/upload/v1747307889/LeanUXCanvas-WaruSmart_yh2voe.png)
 
-Enlace a herramienta Miro: https://miro.com/welcomeonboard/UWFFNVNNeFJxOGd3MEl5eCt6T3ZBQTNwckIvdkdGdEMrTmNPV2lDc3ZXMFBMVlUxL1ZwcW1ncVBIOTJRU1hicCtLUnMxaUhBaUZkZkdPaGUxaitTNjYyOCtJazNuTUdzMGFheCsrNFY2eHFsZ3JZakdXS1JYd2xYNFNRVFRRQ2p0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=648998225080 
+Enlace a herramienta Miro: https://acortar.link/dStDu3 
 
 Lean UX Canvas:El Lean UX Canvas de WaruSmart resume los problemas, usuarios, soluciones y beneficios clave identificados durante el proceso de diseño. Plantea hipótesis centradas en mejorar la productividad agrícola mediante riego automatizado y decisiones basadas en datos, y propone validarlas a través de pruebas piloto y comparaciones con métodos tradicionales.
 
@@ -540,7 +540,7 @@ Departamento: Aucallama, Huaral
 
 ![Entrevista WaruSmart Moises](Assets/interviews/Entrevista-WaruSmart-Moises.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EXuW4XXkLIhItSs9_jN5i7MBJRmzug7Giqo9J9O6CYVrsA?e=r5ytuc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/gcr8v5
 
 Resumen:
 Moisés Luque, agricultor de 47 años residente en Aucallama, comenta que utiliza su celular a diario, aunque en ocasiones tiene dificultades para manejarlo. Para llevar el registro de los riegos de sus cultivos, solía anotar las fechas y horas en un cuaderno, aunque reconoce que no siempre era constante con este hábito. Considera que los datos más importantes para el cuidado de sus cultivos son la cantidad de agua, el clima, el tipo de cultivo y el estado de la tierra. Ha tenido problemas en el pasado por no registrar adecuadamente los riegos, lo que le llevaba a regar de más o de menos, afectando el cultivo. También ha enfrentado dificultades técnicas, como la falta de agua o fallas en el sistema de riego, obligándolo a regar manualmente con ayuda, lo cual era más lento y menos eficiente. Al conocer la propuesta de WaruSmart, expresó interés, especialmente porque le permitiría organizar mejor los datos y recibir alertas sobre cuándo y cuánto regar. Afirmó que estaría dispuesto a pagar por el servicio si el precio es accesible y el sistema funciona bien, sugiriendo incluso una cuota mensual mínima. Finalmente, cree que esta herramienta también sería de gran ayuda para otros agricultores, ya que muchos aún trabajan de manera manual y tienen dificultades con el uso de tecnología.
@@ -567,7 +567,7 @@ Departamento: La Joya, Arequipa
 
 ![Entrevista WaruSmart Aldair](Assets/interviews/Entrevista-WaruSmart-Aldair.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e188_upc_edu_pe/EaHsj5gxkQtIupivm2DdogABfLdsQrgF3KhtgPVz9f-5zg?e=PU45Ar&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/kwPXHQ
 
 Resumen: Aldair, de 27 años, nos comenta que usa su celular para mirar redes sociales en su dia a dia, no tiene dificultades para manejarlo. Menciona que lleva sus registros de los riegos de manera manual en su propio terreno, desde un cuaderno, hasta un celular para tomar los apuntes necesarios. Considera que los datos mas importantes es ver los ciclos de los riegos el clima y el suelo, dependiendo que pueden haber. A veces ha tenido problemas con sus cultivos, y a veces se le olvida regar o dar mantenimiento a sus cultivos, emplea mucho tiempo en dichas actividades. Tiene problemas de agua en su comunidad, y le es complicado a el y sus vecinos, porque es necesario este recurso para los cultivos. Le interesaria los beneficios que puede ofrecer WaruSmart, que le puedo agilizar y facilitar el riego en su campo, y estaria dispuesto a pagar si le resulta verdaderamente util. Ademas señala que esta herramienta puede ser muy util para los demas agricultores menos experiementados que necesitan esta ayuda, e incluso a los mas experimentados a agilizar su trabajo.
 
@@ -584,7 +584,7 @@ Departamento: Tumán, Chiclayo
 ![Entrevista WaruSmart Alexis](Assets/interviews/Entrevista-WaruSmart-Alexis.png)
 
 Enlace a la entrevista:
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/Eew00ixSHLFDvgsPnLMhqOcBbEDKzovC0kNLTlTFV6ShiA?e=yB1bfC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://acortar.link/Mz1z6d
 
 Resumen:
 Alexis Patazca, de 26 años, trabaja en zonas agrícolas de Tumán, Chiclayo. Usa tecnología diariamente sin dificultad. Representa a una cooperativa agraria donde aún predomina la gestión manual por falta de conocimientos tecnológicos entre otros miembros. La cooperativa no tiene una plataforma centralizada, lo que genera errores de coordinación y pérdidas. Él se encarga de ciertas gestiones y comenta que organizan la compra de materiales de forma periódica con proveedores comunes, cada miembro tiene un rol específico. Utilizan algunas apps para el clima, pero no cuentan con un sistema integral. Al conocer la propuesta de WaruSmart, se mostró interesado, destacando que ayudaría a reducir pérdidas, optimizar el riego y centralizar la información. Considera que los miembros de la cooperativa también estarían interesados si se les capacita adecuadamente. Sobre el precio, sugiere que podría contemplarse una cuota mensual entre 100 y 300 soles, dependiendo de la organización y roles internos.
@@ -612,7 +612,7 @@ Edad: 24 años
 
 ![Interview2](Assets/interviews/screenshot_fabrizio_mori.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212199_upc_edu_pe/EQJ9VAEAlDRKtV-VMyun3isBah1thfQJ_2VMx9JMb9Ac4g?e=ScuGHq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/OAlrEE
 
 Resumen:
 Fabrizio Mori comenta que utiliza tecnología, aunque no de forma diaria, y reconoce que algunos dispositivos le resultan complejos. En su comunidad, cada agricultor gestiona sus cultivos manualmente, lo que a veces dificulta la organización y puede llevar a pérdidas. Para adquirir materiales, cada uno calcula lo necesario y comparten los gastos. Ha enfrentado pérdidas debido a la falta de coordinación y menciona que sí usa herramientas y técnicas para facilitar el trabajo. Al conocer la propuesta de WaruSmart para detectar la humedad y condiciones del suelo y así optimizar el riego, expresó interés, indicando que sería de gran ayuda si funciona correctamente. Además, estaría dispuesto a pagar por este sistema si contribuye al cuidado eficiente de los cultivos.
@@ -639,7 +639,7 @@ Representacion ficticia de un usuario perteneciente a cada segmento objetivo, la
 Podemos identificar que es un trabajador que ama su trabajo, por lo que desea encontrar su eficacia mediante diversas
 herramientas. A pesar de no tener mucho conocimiento en aparatos digitales, está dispuesto a usarlos para la agricultura.
 
-Enlace: https://uxpressia.com/w/laUMU/p/rVOfE
+Enlace: https://acortar.link/xAxoGX
 <div></div>
 <img src="Assets/needfinding/user_persona_1_2.png">
 
@@ -649,7 +649,7 @@ Enlace: https://uxpressia.com/w/laUMU/p/rVOfE
 Podemos observar como el usuario desea apoyar a los miembros de su cooperativa, por lo que busca convencer a todos de que
 una herramienta tecnológica puede ayudarlos a ser más eficases.
 
-Enlace: https://uxpressia.com/w/laUMU/p/XGV1z
+Enlace: https://acortar.link/ykhEs0
 <div></div>
 <img src="Assets/needfinding/user_persona_2_2.png">
 
@@ -680,7 +680,7 @@ así como también muestra las necesidades que van surgiendo.
 Podemos identificar como el usuario va alegrandose conforme conoce más sobre nuestra solución, sin embargo, también muestra que necesita 
 de una landing page que lo mantenga bien informado sobre las funciones,
 
-Enlace: https://uxpressia.com/w/laUMU/m/xWrem
+Enlace: https://acortar.link/oof7R2
 <div></div>
 <img src="Assets/needfinding/journey_map_1_2.png">
 
@@ -688,7 +688,7 @@ Enlace: https://uxpressia.com/w/laUMU/m/xWrem
 
 Si bien el usuario agradece el usar la herramienta, también es necesario que nuestra solución sea fácil de usar para efitar frustraciones por parte del usuario
 
-Enlace: https://uxpressia.com/w/laUMU/m/l3kWu
+Enlace: https://acortar.link/3NjJiA
 <div></div>
 <img src="Assets/needfinding/journey_map_2_2.png">
 
@@ -700,7 +700,7 @@ Grafico realizado para visualizar la problematica del usuario junto con lo que p
 
 El usuario se encuentra frustrado debido a que pierde dinero por las dificultades de cuidar a sus cultivos, al mismo tiempo que desea encontrar una solucion a este problema
 
-Enlace: https://uxpressia.com/w/laUMU/p/29x5e
+Enlace: https://acortar.link/PwP9qC
 <div></div>
 <img src="Assets/needfinding/empathy_map_1_2.png">
 
@@ -709,7 +709,7 @@ Enlace: https://uxpressia.com/w/laUMU/p/29x5e
 El usuario se encuentra frustrado por los cultivos perdios, al mismo tiempo que siente incertidumbre sobre como se  adaptaran sus companeros a esta nueva teconolgia
 <div></div>
 
-Enlace: https://uxpressia.com/w/laUMU/p/Mh4C4
+Enlace: https://acortar.link/TPuqof
 <img src="Assets/needfinding/empathy_map_2_2.png">
 
 ### 2.3.5   As-Is Scenario Mapping.
@@ -1069,7 +1069,7 @@ EventStorming es una técnica colaborativa e iterativa de modelado que permite e
 
 ![Image](https://res.cloudinary.com/drkelnilg/image/upload/v1745652955/imagen_2025-04-26_023555063_odbatw.png "Bounden Contexts")
 
-**Enlace del miro:** https://miro.com/app/board/uXjVI9vdzpc=/
+**Enlace del miro:** https://acortar.link/adJHEg
 
 #### 4.1.1.1 Candidate Contex Discovery
 
@@ -1217,7 +1217,7 @@ Irrigation Management es esencial para la gestión automatizada de riego en los 
 
 Aqui se define el contexto de Data Analytics Management como el encargado de procesar y transformar los datos provenientes de los módulos de riego y gestión de cultivos para generar información útil y reportes precisos para los usuarios. Gestiona comunicaciones entrantes que reflejan eventos como la visualización de paneles de datos y la generación de reportes diarios, y comunicaciones salientes que entregan reportes e indicadores de bajo rendimiento a los agricultores.
 
-**Enlace del miro:** https://miro.com/app/board/uXjVI9vdzpc=/
+**Enlace del miro:** https://acortar.link/adJHEg
 
 ### 4.1.2 Context Mapping
 
@@ -3078,7 +3078,7 @@ El mock-up para la landing page en la vista del navegador web móvil incorpora l
 
 ### 5.4.1 Applications Wireframes
 
-Enlace del Figma: https://www.figma.com/design/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=4-12&t=iZEQruVTNqlT2DZg-1
+Enlace del Figma: https://acortar.link/ZPlYZB
 
 **Web Applications Wireframe Desktop Web Browser**
 
@@ -3233,11 +3233,11 @@ Para este diagrama de flujo somos conscientes que a veces no podemos resolver to
 <img src="./Assets/cap5/appweb/diagramflow-foro.png">
 
 
-Enalce LucidChart: https://lucid.app/lucidchart/9c7847da-4de3-488f-a4ca-b3ec8d902fac/edit?viewport_loc=-1741%2C-4731%2C3670%2C1738%2C0_0&invitationId=inv_6678fc32-61ab-4f16-8bd1-5e98388fa599 
+Enalce LucidChart: https://acortar.link/eeMiuf 
 
 ### 5.4.3 Mock-ups
 
-Enlace para acceder al Figma: https://www.figma.com/design/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=4-12&t=iZEQruVTNqlT2DZg-1
+Enlace para acceder al Figma: https://acortar.link/ZPlYZB
 
 **Web Applications Mock-ups Desktop Web Browser**
 
@@ -3425,7 +3425,7 @@ El usuario puede acceder a un foro de consultas, con preguntas de varios colabor
 <img src="./Assets/cap5/appweb/consultation_flow.png">
 
 
-Enalce LucidChart: https://lucid.app/lucidchart/e26e722e-1559-4de0-8a94-519b208fb2f1/edit?viewport_loc=-909%2C3363%2C2952%2C1447%2C0_0&invitationId=inv_e80d2f45-112d-4551-86a3-f75d86cd3677
+Enlace LucidChart: https://acortar.link/zFCEZp
 
 
 ## 5.5 Applications Prototyping
@@ -3438,7 +3438,7 @@ El prototipo de nuestra aplicación web fue diseñado con el objetivo de refleja
 
 <img src="./Assets/cap5/web-prototyping.png">
 
-Enlace: https://www.figma.com/proto/uNnC90ibRIybrHQz8UvCuF/WaruSmart-AplicacionesWeb?node-id=2079-4788&p=f&t=rt23Wk3uEQW1GPHL-1&scaling=min-zoom&content-scaling=fixed&page-id=2079%3A828 
+Enlace: https://acortar.link/iLuvSE 
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -3546,10 +3546,10 @@ Markdown es un lenguaje de marcado ligero que permite formatear texto de manera 
 
 |  |  |
 |--------------------|-----|
-| Link Landing Page            | [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage) |
-| Link Web Services              | [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) |
-| Link Front Web Application              | [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) |
-| Link Mobile Applications             | [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) |
+| Link Landing Page            | [https://acortar.link/OaGvDJ](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage) |
+| Link Web Services              | [https://acortar.link/GfjsxV](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-WebServices) |
+| Link Front Web Application              | [https://acortar.link/3yR9ZK](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-WebPlatform) |
+| Link Mobile Applications             | [https://acortar.link/5KfNvp](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication) |
 
 #### Flujo de trabajo GitFlow
 <img src="./Assets/chapter-vi/Gitflow.png" width="100%" alt="Ejemplo flujo de Gitflow"/>
@@ -3573,7 +3573,7 @@ TYPE: Solo pueden ser 3 tipos, sea BREAKING que se relaciona con X, luego FEAT q
 
 ### 6.1.3 Source Code Style Guide & Conventions
 
-**HTML:** https://www.w3schools.com/html/html5_syntax.asp
+**HTML:** https://acortar.link/Asd6Ow
 
 **Index.html**
 
@@ -3649,7 +3649,7 @@ Los nombres de métodos deben ser verbos y usar PascalCase.
 - Para los comentarios de una sola línea debe usar “ // ” y para bloques de comentario se debe usar  “ /* */ ”.
 Se debe incluir un punto y coma al final de cada instrucción.
 
-**.NET Core**: [https://learn.microsoft.com/en-us/dotnet/core/](https://learn.microsoft.com/en-us/dotnet/core/)
+**.NET Core**: [https://acortar.link/qBfANP](https://learn.microsoft.com/en-us/dotnet/core/)
 
 **Convenciones de .NET Core**:
 
@@ -3676,7 +3676,7 @@ Se debe incluir un punto y coma al final de cada instrucción.
 - Importar vistas en rutas usando `() => import(...)` para lazy loading.
 - Agrupar componentes por funcionalidad en carpetas (`components/`, `views/`, etc.).
 
-**Kotlin con Android Nativo**: [https://developer.android.com/kotlin](https://developer.android.com/kotlin)
+**Kotlin con Android Nativo**: [https://acortar.link/rhJuYV](https://developer.android.com/kotlin)
 
 **Convenciones de Kotlin con Android Nativo**:
 
@@ -3695,7 +3695,7 @@ En esta seccion abordaremos el despliegue de nuestro Landing Page, Aplicacion We
 
 **1. Landing Page**
 
-Para el despliegue de la Landing Page se utilizara Netlify https://app.netlify.com/
+Para el despliegue de la Landing Page se utilizara Netlify https://acortar.link/snFZJa
 
 <img src="./Assets/chapter-vi/netlify-new-project.png">
 
@@ -3715,7 +3715,7 @@ Luego de unos segundos se completará el builde y se te brindará un URL para po
 
 **2. Aplicación Web**
 
-De igual forma que la Landing Page se utilizo Netlify para el despliegue de la aplicación web, teniendo que iniciar sesion en la plataforma https://app.netlify.com/
+De igual forma que la Landing Page se utilizo Netlify para el despliegue de la aplicación web, teniendo que iniciar sesion en la plataforma https://acortar.link/snFZJa
 
 <img src="./Assets/chapter-vi/netlify-new-project.png">
 
@@ -3758,7 +3758,7 @@ En la siguiente captura se visualiza el Actions actualizado en nuestro repositor
 
 #### 6.2.1.1 Sprint Planning 1
 
-Enlace al Trello: https://trello.com/b/pUI7XW9G/warusmart-sprint-planning <br>
+Enlace al Trello: https://acortar.link/7L6CbQ <br>
 <img src = "Assets/chapter-vi/sprint1_planning.png">
 
 | **Sprint #**           | **Sprint 1**                                                                 |
@@ -3979,13 +3979,13 @@ En esta sección se presentan los principales avances en la implementación de l
 
 | Repositorio/Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
 |--------------------|------------|-----------------|-----------------------|----------------------|
-| US01/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US01.feature | Herrera.Victor-feature-Sprint1-TU01 | 300d064 | add gherkin TU01 | 10/05/2025 |
-| US02/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US02.feature | Herrera.Victor-feature-Sprint1-TU02 | 300d064 | add gherkin TU02 | 10/05/2025 |
-| US03/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US03.feature | Herrera.Victor-feature-Sprint1-TU03 | 300d064 | add gherkin TU03 | 10/05/2025 |
-| US04/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US04.feature | Herrera.Victor-feature-Sprint1-TU04 | 300d064 | add gherkin TU04 | 10/05/2025 |
-| US05/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US05.feature | Herrera.Victor-feature-Sprint1-TU05 | 300d064 | add gherkin TU05 | 10/05/2025 |
-| US23/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US23.feature | Herrera.Victor-feature-Sprint1-TU23 | 300d064 | add gherkin TU23 | 10/05/2025 |
-| US24/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US24.feature | Herrera.Victor-feature-Sprint1-TU24 | 300d064 | add gherkin TU24 | 10/05/2025 |
+| US01/ https://acortar.link/5XxudG | Herrera.Victor-feature-Sprint1-TU01 | 300d064 | add gherkin TU01 | 10/05/2025 |
+| US02/ https://acortar.link/G9KUNd | Herrera.Victor-feature-Sprint1-TU02 | 300d064 | add gherkin TU02 | 10/05/2025 |
+| US03/ https://acortar.link/VtMFP9 | Herrera.Victor-feature-Sprint1-TU03 | 300d064 | add gherkin TU03 | 10/05/2025 |
+| US04/ https://acortar.link/QOzfYz | Herrera.Victor-feature-Sprint1-TU04 | 300d064 | add gherkin TU04 | 10/05/2025 |
+| US05/ https://acortar.link/DLN46q | Herrera.Victor-feature-Sprint1-TU05 | 300d064 | add gherkin TU05 | 10/05/2025 |
+| US23/ https://acortar.link/lpqd7N | Herrera.Victor-feature-Sprint1-TU23 | 300d064 | add gherkin TU23 | 10/05/2025 |
+| US24/ https://acortar.link/mAzNIK | Herrera.Victor-feature-Sprint1-TU24 | 300d064 | add gherkin TU24 | 10/05/2025 |
 
 Durante el Sprint 1, como parte del equipo de desarrollo de WaruSmart, implementamos los escenarios de prueba automatizados para múltiples Historias de Usuario utilizando el lenguaje Gherkin, asegurando así la trazabilidad entre los requerimientos funcionales y su validación técnica. Cada archivo `.feature` fue diseñado bajo el enfoque BDD (Behavior-Driven Development), siguiendo la estructura Given-When-Then para definir claramente los criterios de aceptación. Estos artefactos fueron versionados en el repositorio `WaruSmart-Testing` y vinculados a las US correspondientes, permitiendo mantener un control riguroso sobre la calidad del producto desde las etapas iniciales. La consolidación de estas pruebas refleja nuestro compromiso por garantizar que cada funcionalidad desarrollada cumpla con el comportamiento esperado por el usuario final.
 
@@ -3995,10 +3995,10 @@ Durante el Sprint 1, como parte del equipo de desarrollo de WaruSmart, implement
 Para el logro de este proyecto, se realizó el despliegue tanto de la **Landing Page**, como de la primera versión del **backend** y la **interfaz web**, los cuales conforman el ecosistema de WaruSmart.
 
 - 🖥️ **Landing Page**: muestra la propuesta de valor del sistema y está desplegada en GitHub Pages. Desde aquí, los usuarios pueden conocer la funcionalidad de WaruSmart y su impacto en la agricultura inteligente.  
-  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+  👉 [https://acortar.link/yLjeMp](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
 
 - ⚙️ **Backend (Swagger - Azure App Service)**: proporciona los servicios REST de la aplicación, documentados con Swagger. La API permite gestionar usuarios, cultivos, dispositivos IoT y recomendaciones.  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+  👉 [https://acortar.link/6V4JkN](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
 - 💻 **Frontend Web App**: interfaz visual diseñada para agricultores, donde se muestra el estado de las siembras, dispositivos conectados y sugerencias de cultivo. Permite acceder a los datos sincronizados desde el backend.
 
@@ -4033,14 +4033,14 @@ La pantalla muestra un listado de dispositivos IoT en las que se informa el esta
 - **Flujo de funcionamiento del landing page**:  
   *Video del Flujo que muenstra la navegación entre las diferentes secciones del landing pageb, permitiendo al usuario interactuar e informarse de nuestros servicios*
   
-- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp
+- link del video: https://acortar.link/Xki4TX
 
 ---
 
 - **Flujo de funcionamiento del backend**:  
   *Video del Flujo que muestra la navegación entre las diferentes endpoints del backend*
   
-- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQlpEXxAcClMr5cN416gP3MBrcxVrPyk4-Wlq-elpjezyw?e=pWgMiN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+- link del video: https://acortar.link/sdDpAJ 
 
 ---
 
@@ -4048,7 +4048,7 @@ La pantalla muestra un listado de dispositivos IoT en las que se informa el esta
   ![Flujo de navegación](https://res.cloudinary.com/drkelnilg/image/upload/v1747352229/imagen_2025-05-15_183706453_xkkjav.png)  
   *Flujo que muestra la navegación entre las diferentes secciones de la aplicación web, permitiendo al usuario interactuar con los datos de sus cultivos y dispositivos IoT.*
   
-- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA
+- link del video: https://acortar.link/aNhkdk
 
 ---
 
@@ -4058,7 +4058,7 @@ La pantalla muestra un listado de dispositivos IoT en las que se informa el esta
 El proyecto ya cuenta con un backend funcional desplegado en Azure App Services. Este servicio gestiona las entidades principales del sistema (usuarios, cultivos, dispositivos, recomendaciones, etc.) y expone su API mediante Swagger para facilitar la documentación y pruebas.
 
 - 📘 **Documentación del backend - Swagger UI**:  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+  👉 [https://acortar.link/6V4JkN](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
 #### Evidencias visuales del backend:
 
@@ -4079,11 +4079,11 @@ Durante este sprint, se desplegaron exitosamente los principales componentes del
 
 - 🖥️ **Landing Page**  
   Esta página de presentación está alojada en GitHub Pages y representa el punto de entrada informativo del proyecto WaruSmart.  
-  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+  👉 [https://acortar.link/yLjeMp](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
 
 - ⚙️ **Backend API REST**  
   Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone todos los endpoints necesarios para las operaciones internas del sistema.  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+  👉 [https://acortar.link/6V4JkN](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
 Estos despliegues validan el correcto funcionamiento de los entornos de desarrollo, así como la comunicación entre los componentes del sistema (frontend ↔ backend).
 
@@ -4112,7 +4112,7 @@ Estos insights reflejan una dinámica de trabajo distribuido por especialidades 
 
 #### 6.2.2.1 Sprint Planning 2
 
-Enlace al Trello: https://trello.com/b/yITmdUYn/warusmart-sprint-planning-2 <br>
+Enlace al Trello: https://acortar.link/dLYqrV <br>
 <img src = "https://res.cloudinary.com/dydklnicb/image/upload/v1750520336/Trello_Sprint2.png">
 
 | **Sprint #**                        | **Sprint 2**                                                                                                                                                                                                                                            |
@@ -4249,13 +4249,13 @@ A continuación, se presenta la evidencia de la suite de pruebas automatizadas c
 
 | Repositorio/Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
 |--------------------|------------|-----------------|-----------------------|----------------------|
-| US01/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US01.feature | Herrera.Victor-feature-Sprint1-TU01 | 300d064 | add gherkin TU01 | 10/05/2025 |
-| US02/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US02.feature | Herrera.Victor-feature-Sprint1-TU02 | 300d064 | add gherkin TU02 | 10/05/2025 |
-| US03/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US03.feature | Herrera.Victor-feature-Sprint1-TU03 | 300d064 | add gherkin TU03 | 10/05/2025 |
-| US04/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US04.feature | Herrera.Victor-feature-Sprint1-TU04 | 300d064 | add gherkin TU04 | 10/05/2025 |
-| US05/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US05.feature | Herrera.Victor-feature-Sprint1-TU05 | 300d064 | add gherkin TU05 | 10/05/2025 |
-| US23/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US23.feature | Herrera.Victor-feature-Sprint1-TU23 | 300d064 | add gherkin TU23 | 10/05/2025 |
-| US24/ https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Testing/blob/main/US24.feature | Herrera.Victor-feature-Sprint1-TU24 | 300d064 | add gherkin TU24 | 10/05/2025 |
+| US01/ https://acortar.link/5XxudG | Herrera.Victor-feature-Sprint1-TU01 | 300d064 | add gherkin TU01 | 10/05/2025 |
+| US02/ https://acortar.link/G9KUNd | Herrera.Victor-feature-Sprint1-TU02 | 300d064 | add gherkin TU02 | 10/05/2025 |
+| US03/ https://acortar.link/VtMFP9 | Herrera.Victor-feature-Sprint1-TU03 | 300d064 | add gherkin TU03 | 10/05/2025 |
+| US04/ https://acortar.link/QOzfYz | Herrera.Victor-feature-Sprint1-TU04 | 300d064 | add gherkin TU04 | 10/05/2025 |
+| US05/ https://acortar.link/DLN46q | Herrera.Victor-feature-Sprint1-TU05 | 300d064 | add gherkin TU05 | 10/05/2025 |
+| US23/ https://acortar.link/lpqd7N | Herrera.Victor-feature-Sprint1-TU23 | 300d064 | add gherkin TU23 | 10/05/2025 |
+| US24/ https://acortar.link/mAzNIK | Herrera.Victor-feature-Sprint1-TU24 | 300d064 | add gherkin TU24 | 10/05/2025 |
 
 Durante el Sprint 2, el equipo de desarrollo de WaruSmart continuó fortaleciendo la validación técnica de las funcionalidades implementadas, ampliando la cobertura de escenarios de prueba automatizados mediante el lenguaje Gherkin. Se incorporaron nuevas historias de usuario relacionadas con la gestión de cultivos, dispositivos IoT, autenticación y visualización de datos, las cuales fueron expresadas en archivos .feature. Cada escenario siguió la estructura Given-When-Then, asegurando una clara trazabilidad con los criterios de aceptación definidos. Estos artefactos se gestionaron en el repositorio WaruSmart-Testing, garantizando el control de calidad y la coherencia funcional en esta nueva fase de desarrollo.
 
@@ -4265,11 +4265,11 @@ Durante este segundo sprint, se logró el despliegue de nuevos componentes clave
 
 - 🖥️ **Landing Page**  
   Muestra la propuesta de valor del sistema y está desplegada en GitHub Pages. Se añadieron mejoras visuales y de navegación.  
-  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+  👉 [https://acortar.link/yLjeMp](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
 
 - ⚙️ **Backend (Swagger - Azure App Service)**  
   Se actualizó el backend con nuevos endpoints, validaciones y mejoras de seguridad para la gestión de usuarios, cultivos, siembras, sensores y dispositivos IoT.  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+  👉 [https://acortar.link/6V4JkN](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
 - 💻 **Frontend Web App**  
   Se implementaron nuevos componentes visuales para el panel de control, listado de dispositivos IoT, detalle de siembras y gestión de usuarios.  
@@ -4316,7 +4316,7 @@ Durante este segundo sprint, se logró el despliegue de nuevos componentes clave
 Durante este sprint, se consolidó la documentación de servicios de WaruSmart a través del backend REST desplegado en Azure. El backend central permite gestionar múltiples entidades clave del sistema, como usuarios, parcelas, cultivos, dispositivos IoT y fases fenológicas. Gracias a Swagger UI, se puede explorar y probar cada uno de estos endpoints de forma estructurada y accesible para todo el equipo.
 
 - 📘 **Documentación del backend - Swagger UI**  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+  👉 [https://acortar.link/6V4JkN](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
  **Evidencias visuales del backend**
 
@@ -4343,35 +4343,35 @@ Durante este sprint, se desplegaron exitosamente los principales componentes del
 
 - 🖥️ **Landing Page**  
   Esta página de presentación está alojada en GitHub Pages y representa el punto de entrada informativo del proyecto WaruSmart.  
-  👉 [https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
+  👉 [https://acortar.link/yLjeMp](https://upc-pre-202510-1asi0572-2947-codex.github.io/WaruSmart-LandingPage/es.html)
 
 - ⚙️ **Backend API REST**  
   Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone todos los endpoints necesarios para las operaciones internas del sistema.  
-  👉 [https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
+  👉 [https://acortar.link/6V4JkN](https://waru-smart-fzg6c7htcadxb9g5.canadacentral-01.azurewebsites.net/swagger/index.html)
 
 - 💻 **Web Platform (Frontend)**  
   Desarrollada en Vue - Vite, esta interfaz gráfica permite a los agricultores gestionar parcelas, registrar dispositivos y visualizar recomendaciones agrícolas en tiempo real.  
-  👉 [https://warusmart-webplatform.vercel.app/](https://warusmart-webplatform.vercel.app/)
+  👉 [https://acortar.link/vE1JHh](https://warusmart-webplatform.vercel.app/)
 
 - 📱 **Mobile Application**  
   La aplicación móvil permite a los agricultores acceder a las funcionalidades esenciales desde cualquier lugar, con una interfaz optimizada para dispositivos Android.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
+  👉 [https://acortar.link/5KfNvp](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)  
   ![Insight Mobile](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.45.26_AM_hseemj.jpg)
 
 - 📶 **Edge Application**  
   Aplicación liviana diseñada para ejecutarse en dispositivos de borde (edge), encargada de recolectar datos desde sensores y enviarlos hacia la nube.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
+  👉 [https://acortar.link/UGEk8z](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)  
   ![Insight Edge](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.46.48_AM_wedj1u.jpg)
 
 - 🌩️ **Fog Application**  
   Servicio intermedio desplegado entre los dispositivos y la nube, que gestiona el procesamiento local y asegura la disponibilidad en caso de desconexión.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
+  👉 [https://acortar.link/GRM0S8](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)  
   ![Insight Fog](https://res.cloudinary.com/djia8bsvr/image/upload/v1750526017/WhatsApp_Image_2025-06-21_at_10.54.19_AM_uqmchk.jpg)
 
 - 🧠 **Embedded Application**  
   Componente crítico para el funcionamiento autónomo de los sensores y actuadores. Esta aplicación embebida se ejecuta directamente en los dispositivos físicos, permitiendo la lectura de datos ambientales y la ejecución de respuestas locales inmediatas.  
   El repositorio incluye una simulación funcional en Wokwi, así como el código físico listo para ser configurado y desplegado en microcontroladores ESP32.  
-  👉 [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application)
+  👉 [https://acortar.link/gSGVkZ](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Embedded-Application)
   ![Insight Wokwi](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.47.45_PM_dsopfd.jpg)
   ![Insight Fisico](https://res.cloudinary.com/dpnl22ssb/image/upload/v1750960338/WhatsApp_Image_2025-06-26_at_12.42.16_PM_kafxgt.jpg)
 
@@ -4469,11 +4469,17 @@ La organización responde a la estructura interna del equipo, considerando las h
 
 #### 6.2.3.5 Testing Suite Evidence for Sprint Review
 
+A continuación, se presenta la evidencia de la suite de pruebas automatizadas correspondiente al Sprint 2, la cual respalda el cumplimiento de las funcionalidades desarrolladas y validadas durante este ciclo de trabajo.
+
 | Repositorio/Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
 |--------------------|------------|-----------------|-----------------------|----------------------|
-|  |  |  |    |  |
-|  |  |  |    |  |
-|  |  |  |    |  |
+| US01/ https://acortar.link/5XxudG | Herrera.Victor-feature-Sprint1-TU01 | 300d064 | add gherkin TU01 | 10/05/2025 |
+| US02/ https://acortar.link/G9KUNd | Herrera.Victor-feature-Sprint1-TU02 | 300d064 | add gherkin TU02 | 10/05/2025 |
+| US03/ https://acortar.link/VtMFP9 | Herrera.Victor-feature-Sprint1-TU03 | 300d064 | add gherkin TU03 | 10/05/2025 |
+| US04/ https://acortar.link/QOzfYz | Herrera.Victor-feature-Sprint1-TU04 | 300d064 | add gherkin TU04 | 10/05/2025 |
+| US05/ https://acortar.link/DLN46q | Herrera.Victor-feature-Sprint1-TU05 | 300d064 | add gherkin TU05 | 10/05/2025 |
+| US23/ https://acortar.link/lpqd7N | Herrera.Victor-feature-Sprint1-TU23 | 300d064 | add gherkin TU23 | 10/05/2025 |
+| US24/ https://acortar.link/mAzNIK | Herrera.Victor-feature-Sprint1-TU24 | 300d064 | add gherkin TU24 | 10/05/2025 |
 
 #### 6.2.3.6 Execution Evidence for Sprint Review
 
@@ -4766,7 +4772,7 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
   👉 [https://acortar.link/oNthLL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EVxKIWK0eYBLoW8i1dOAeG4Bmjp0sYJM_3RlIx6az1k1rw?e=NxeG2f&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - Versión publicada en **YouTube** (para incrustar en el Landing Page):  
-  👉 [http://youtube.com/watch?v=1cdC5ohVbqQ](http://youtube.com/watch?v=1cdC5ohVbqQ)
+  👉 [https://acortar.link/rFO825](http://youtube.com/watch?v=1cdC5ohVbqQ)
 
 ⏱️ **Duración del video**: 6 minutos y 59 segundos
 
@@ -4825,7 +4831,7 @@ También se incluye un testimonio grupal final donde el equipo resalta la import
   [https://acortar.link/2zanpT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeJW8_7VqChEsC3-pim2j6gBDNAUzd2r8Ew9AdhPQ2NcWQ?e=0MmFrL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - 📺 Versión pública en YouTube (para insertar en Landing Page):  
-  [https://youtu.be/S_ZQc5pirhE](https://youtu.be/S_ZQc5pirhE)
+  [https://acortar.link/JiTR1Q](https://youtu.be/S_ZQc5pirhE)
 
 ### ⏱️ Duración total del video:
 **8 minutos con 9 segundos**
@@ -4848,20 +4854,20 @@ También se incluye un testimonio grupal final donde el equipo resalta la import
 ### 💻 Repositorios del Proyecto WaruSmart
 
 - **Landing Page**  
-  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage)
+  [https://acortar.link/OaGvDJ](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-LandingPage)
 
 - **Frontend Web App**  
-  [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Frontend-Vue](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Frontend-Vue)
+  [https://acortar.link/02T2us](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Frontend-Vue)
 
 - **Backend Web Services**  
-  [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Backend-ASP.NET](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Backend-ASP.NET)
+  [https://acortar.link/ESMcqk](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Backend-ASP.NET)
 
 - **Mobile Application (Android)**  
-  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
+  [https://acortar.link/ESMcqk](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-MobileApplication)
 
 - **Edge Device App (IoT)**  
-  [https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
+  [https://acortar.link/UGEk8z](https://github.com/upc-pre-202510-1asi0572-2947-codex/Waru-Smart-Edge-App)
 
 - **Fog App (interfaz intermedia IoT)**  
-  [https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
+  [https://acortar.link/GRM0S8](https://github.com/upc-pre-202510-1asi0572-2947-codex/WaruSmart-Fog-App)
 
