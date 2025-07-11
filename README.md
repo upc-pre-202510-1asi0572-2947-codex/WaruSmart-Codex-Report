@@ -3594,7 +3594,7 @@ Es la página por defecto dentro de los directorios de los servidores de cualqui
 - Se debe usar el atributo lang para declarar el idioma de la página web: `<html lang="en-us">`
 - Se debe utilizar el atributo meta para una interpretación adecuada e indexación correcta en los motores de búsqueda: `<meta charset="UTF-8">`
 
-**CSS:** https://google.github.io/styleguide/htmlcssguide.html
+**CSS:** https://acortar.link/mXyjM7
 
 **Style.css**
 
@@ -3612,7 +3612,7 @@ El estilo de cascada (CSS) se puede usar para estilos de texto, por ejemplo, cam
 - Se debe usar un espacio entre el último sector y la llave “{ “ que comienza el bloque de declaración:. vídeo {.....}
 - Se debe usar las comillas simples (‘ ‘) para los atributos y valores de propiedad: `familia de fuentes : ' open sans' , arial , sans - serif ;`
 
-**Gherkin**: https://cucumber.io/docs/gherkin/reference/
+**Gherkin**: https://acortar.link/kGIfty
 
 **`<usertStoryID>`.featrue** :
 
@@ -3625,7 +3625,7 @@ En este archivo de formato feature estarán las historias de usuario como caract
 - Se utiliza Given para describir el contexto inicial, When para describir un evento y Then para describir un resultado esperado y And para adicionar información. Given,When,Then y And se usan para describir un escenario
 - El carácter “|” sirve para formar una tabla datos, las cuales son útiles para pasar una lista de valores a una definición de paso.
 
-**C#:** https://learn.microsoft.com/en-us/dotnet/csharp/
+**C#:** https://acortar.link/AEiaqs
 
 **Convenciones de C#:**
 
@@ -3638,7 +3638,7 @@ Los nombres de métodos deben ser verbos y usar PascalCase.
 - Las propiedades deben usar PascalCase.
 - Los nombres de los espacios de nombres (namespaces) deben ser sustantivos en PascalCase.
 
-**JavaScript**: https://google.github.io/styleguide/jsguide.html. 
+**JavaScript**: https://acortar.link/Wu8dRW 
 
 **Convenciones de JavaScript**:
 
@@ -3660,7 +3660,7 @@ Se debe incluir un punto y coma al final de cada instrucción.
 - Los nombres de las clases y espacios de nombres deben ser descriptivos y reflejar claramente la funcionalidad que proporcionan los componentes.
 
 
-**Vue.js**: https://vuejs.org/v2/style-guide/
+**Vue.js**: https://acortar.link/lEiSO6
 
 **Convenciones de Vue.js**:
 - Usar PascalCase para nombrar componentes (`UserCard.vue`).
