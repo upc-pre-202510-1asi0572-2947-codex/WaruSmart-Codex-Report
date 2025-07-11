@@ -581,7 +581,7 @@ Departamento: Aucallama, Huaral
 
 ![Entrevista WaruSmart Moises](Assets/interviews/Entrevista-WaruSmart-Moises.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EXuW4XXkLIhItSs9_jN5i7MBJRmzug7Giqo9J9O6CYVrsA?e=r5ytuc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/gcr8v5
 
 Resumen:
 Moisés Luque, agricultor de 47 años residente en Aucallama, comenta que utiliza su celular a diario, aunque en ocasiones tiene dificultades para manejarlo. Para llevar el registro de los riegos de sus cultivos, solía anotar las fechas y horas en un cuaderno, aunque reconoce que no siempre era constante con este hábito. Considera que los datos más importantes para el cuidado de sus cultivos son la cantidad de agua, el clima, el tipo de cultivo y el estado de la tierra. Ha tenido problemas en el pasado por no registrar adecuadamente los riegos, lo que le llevaba a regar de más o de menos, afectando el cultivo. También ha enfrentado dificultades técnicas, como la falta de agua o fallas en el sistema de riego, obligándolo a regar manualmente con ayuda, lo cual era más lento y menos eficiente. Al conocer la propuesta de WaruSmart, expresó interés, especialmente porque le permitiría organizar mejor los datos y recibir alertas sobre cuándo y cuánto regar. Afirmó que estaría dispuesto a pagar por el servicio si el precio es accesible y el sistema funciona bien, sugiriendo incluso una cuota mensual mínima. Finalmente, cree que esta herramienta también sería de gran ayuda para otros agricultores, ya que muchos aún trabajan de manera manual y tienen dificultades con el uso de tecnología.
@@ -608,7 +608,7 @@ Departamento: La Joya, Arequipa
 
 ![Entrevista WaruSmart Aldair](Assets/interviews/Entrevista-WaruSmart-Aldair.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e188_upc_edu_pe/EaHsj5gxkQtIupivm2DdogABfLdsQrgF3KhtgPVz9f-5zg?e=PU45Ar&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/kwPXHQ
 
 Resumen: Aldair, de 27 años, nos comenta que usa su celular para mirar redes sociales en su dia a dia, no tiene dificultades para manejarlo. Menciona que lleva sus registros de los riegos de manera manual en su propio terreno, desde un cuaderno, hasta un celular para tomar los apuntes necesarios. Considera que los datos mas importantes es ver los ciclos de los riegos el clima y el suelo, dependiendo que pueden haber. A veces ha tenido problemas con sus cultivos, y a veces se le olvida regar o dar mantenimiento a sus cultivos, emplea mucho tiempo en dichas actividades. Tiene problemas de agua en su comunidad, y le es complicado a el y sus vecinos, porque es necesario este recurso para los cultivos. Le interesaria los beneficios que puede ofrecer WaruSmart, que le puedo agilizar y facilitar el riego en su campo, y estaria dispuesto a pagar si le resulta verdaderamente util. Ademas señala que esta herramienta puede ser muy util para los demas agricultores menos experiementados que necesitan esta ayuda, e incluso a los mas experimentados a agilizar su trabajo.
 
@@ -625,7 +625,7 @@ Departamento: Tumán, Chiclayo
 ![Entrevista WaruSmart Alexis](Assets/interviews/Entrevista-WaruSmart-Alexis.png)
 
 Enlace a la entrevista:
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/Eew00ixSHLFDvgsPnLMhqOcBbEDKzovC0kNLTlTFV6ShiA?e=yB1bfC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://acortar.link/Mz1z6d
 
 Resumen:
 Alexis Patazca, de 26 años, trabaja en zonas agrícolas de Tumán, Chiclayo. Usa tecnología diariamente sin dificultad. Representa a una cooperativa agraria donde aún predomina la gestión manual por falta de conocimientos tecnológicos entre otros miembros. La cooperativa no tiene una plataforma centralizada, lo que genera errores de coordinación y pérdidas. Él se encarga de ciertas gestiones y comenta que organizan la compra de materiales de forma periódica con proveedores comunes, cada miembro tiene un rol específico. Utilizan algunas apps para el clima, pero no cuentan con un sistema integral. Al conocer la propuesta de WaruSmart, se mostró interesado, destacando que ayudaría a reducir pérdidas, optimizar el riego y centralizar la información. Considera que los miembros de la cooperativa también estarían interesados si se les capacita adecuadamente. Sobre el precio, sugiere que podría contemplarse una cuota mensual entre 100 y 300 soles, dependiendo de la organización y roles internos.
@@ -653,7 +653,7 @@ Edad: 24 años
 
 ![Interview2](Assets/interviews/screenshot_fabrizio_mori.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212199_upc_edu_pe/EQJ9VAEAlDRKtV-VMyun3isBah1thfQJ_2VMx9JMb9Ac4g?e=ScuGHq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/OAlrEE
 
 Resumen:
 Fabrizio Mori comenta que utiliza tecnología, aunque no de forma diaria, y reconoce que algunos dispositivos le resultan complejos. En su comunidad, cada agricultor gestiona sus cultivos manualmente, lo que a veces dificulta la organización y puede llevar a pérdidas. Para adquirir materiales, cada uno calcula lo necesario y comparten los gastos. Ha enfrentado pérdidas debido a la falta de coordinación y menciona que sí usa herramientas y técnicas para facilitar el trabajo. Al conocer la propuesta de WaruSmart para detectar la humedad y condiciones del suelo y así optimizar el riego, expresó interés, indicando que sería de gran ayuda si funciona correctamente. Además, estaría dispuesto a pagar por este sistema si contribuye al cuidado eficiente de los cultivos.
@@ -4074,14 +4074,14 @@ La pantalla muestra un listado de dispositivos IoT en las que se informa el esta
 - **Flujo de funcionamiento del landing page**:  
   *Video del Flujo que muenstra la navegación entre las diferentes secciones del landing pageb, permitiendo al usuario interactuar e informarse de nuestros servicios*
   
-- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ET_XU0yUsENLtJNpU2s3j-0Bc07V2N-nq0wfMdhY0S0onQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GhkROp
+- link del video: https://acortar.link/Xki4TX
 
 ---
 
 - **Flujo de funcionamiento del backend**:  
   *Video del Flujo que muestra la navegación entre las diferentes endpoints del backend*
   
-- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/EQlpEXxAcClMr5cN416gP3MBrcxVrPyk4-Wlq-elpjezyw?e=pWgMiN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+- link del video: https://acortar.link/sdDpAJ
 
 ---
 
@@ -4089,7 +4089,7 @@ La pantalla muestra un listado de dispositivos IoT en las que se informa el esta
   ![Flujo de navegación](https://res.cloudinary.com/drkelnilg/image/upload/v1747352229/imagen_2025-05-15_183706453_xkkjav.png)  
   *Flujo que muestra la navegación entre las diferentes secciones de la aplicación web, permitiendo al usuario interactuar con los datos de sus cultivos y dispositivos IoT.*
   
-- link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c211_upc_edu_pe/EZscjhb3RcNNs2nbSINGSJUBh8Di8COAiso-ATb8HhCPwA
+- link del video: https://acortar.link/aNhkdk
 
 ---
 
@@ -4874,7 +4874,7 @@ Departamento: La Joya, Arequipa
 
 ![Entrevista WaruSmart Aldair](Assets/interviews/Entrevista-WaruSmart-Aldair.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e188_upc_edu_pe/EaHsj5gxkQtIupivm2DdogABfLdsQrgF3KhtgPVz9f-5zg?e=PU45Ar&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/kwPXHQ
 
 Resumen: Aldair, de 27 años, nos comenta que usa su celular para mirar redes sociales en su dia a dia, no tiene dificultades para manejarlo. Menciona que lleva sus registros de los riegos de manera manual en su propio terreno, desde un cuaderno, hasta un celular para tomar los apuntes necesarios. Considera que los datos mas importantes es ver los ciclos de los riegos el clima y el suelo, dependiendo que pueden haber. A veces ha tenido problemas con sus cultivos, y a veces se le olvida regar o dar mantenimiento a sus cultivos, emplea mucho tiempo en dichas actividades. Tiene problemas de agua en su comunidad, y le es complicado a el y sus vecinos, porque es necesario este recurso para los cultivos. Le interesaria los beneficios que puede ofrecer WaruSmart, que le puedo agilizar y facilitar el riego en su campo, y estaria dispuesto a pagar si le resulta verdaderamente util. Ademas señala que esta herramienta puede ser muy util para los demas agricultores menos experiementados que necesitan esta ayuda, e incluso a los mas experimentados a agilizar su trabajo.
 
