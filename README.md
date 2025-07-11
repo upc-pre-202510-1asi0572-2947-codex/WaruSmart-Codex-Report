@@ -4893,7 +4893,7 @@ Departamento: Tumán, Chiclayo
 ![Entrevista WaruSmart Alexis](Assets/interviews/Entrevista-WaruSmart-Alexis.png)
 
 Enlace a la entrevista:
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/Eew00ixSHLFDvgsPnLMhqOcBbEDKzovC0kNLTlTFV6ShiA?e=yB1bfC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://acortar.link/Mz1z6d
 
 Resumen:
 Alexis Patazca, de 26 años, trabaja en zonas agrícolas de Tumán, Chiclayo. Usa tecnología diariamente sin dificultad. Representa a una cooperativa agraria donde aún predomina la gestión manual por falta de conocimientos tecnológicos entre otros miembros. La cooperativa no tiene una plataforma centralizada, lo que genera errores de coordinación y pérdidas. Él se encarga de ciertas gestiones y comenta que organizan la compra de materiales de forma periódica con proveedores comunes, cada miembro tiene un rol específico. Utilizan algunas apps para el clima, pero no cuentan con un sistema integral. Al conocer la propuesta de WaruSmart, se mostró interesado, destacando que ayudaría a reducir pérdidas, optimizar el riego y centralizar la información. Considera que los miembros de la cooperativa también estarían interesados si se les capacita adecuadamente. Sobre el precio, sugiere que podría contemplarse una cuota mensual entre 100 y 300 soles, dependiendo de la organización y roles internos.
@@ -4921,7 +4921,7 @@ Edad: 24 años
 
 ![Interview2](Assets/interviews/screenshot_fabrizio_mori.png)
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212199_upc_edu_pe/EQJ9VAEAlDRKtV-VMyun3isBah1thfQJ_2VMx9JMb9Ac4g?e=ScuGHq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace: https://acortar.link/OAlrEE
 
 Resumen:
 Fabrizio Mori comenta que utiliza tecnología, aunque no de forma diaria, y reconoce que algunos dispositivos le resultan complejos. En su comunidad, cada agricultor gestiona sus cultivos manualmente, lo que a veces dificulta la organización y puede llevar a pérdidas. Para adquirir materiales, cada uno calcula lo necesario y comparten los gastos. Ha enfrentado pérdidas debido a la falta de coordinación y menciona que sí usa herramientas y técnicas para facilitar el trabajo. Al conocer la propuesta de WaruSmart para detectar la humedad y condiciones del suelo y así optimizar el riego, expresó interés, indicando que sería de gran ayuda si funciona correctamente. Además, estaría dispuesto a pagar por este sistema si contribuye al cuidado eficiente de los cultivos.
