@@ -188,7 +188,7 @@ Todos los miembros del equipo participaron activamente en esta fase crítica, ma
 | Pingus Rodriguez, Carlos Daniel    | Revisión de arquitectura IoT, verificación de flujo de datos desde sensores al dashboard                           |
 | Herrera Castillo, Victor Raul      | Actualización de diagramas C4, documentación de infraestructura, consolidación del sistema para cierre del TF      |
 
-![TF](https://res.cloudinary.com/djia8bsvr/image/upload/v1750477926/Screenshot_2025-06-20_225156_u7pj98.png)
+![TF](https://res.cloudinary.com/dr5v9tizc/image/upload/v1752232428/commits-report_x1klvy.png)
 
 Este gráfico ilustra las contribuciones de cada miembro durante la culminación del TF de WaruSmart.
 
